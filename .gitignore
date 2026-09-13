@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.env
+datasets/ISLES2022/raw/*
+datasets/ISLES2022/nnUNet_raw/*
+datasets/ISLES2022/processed/*
+outputs/**
+!outputs/**/
+!outputs/**/.gitkeep
+*.part

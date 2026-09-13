@@ -1,0 +1,219 @@
+{
+  "moves": [
+    {
+      "old": "outputs/metrics/conversion.log",
+      "new": "outputs/metrics/data/conversion.log",
+      "sha256_at_move": "d684ff443f900a153013024af983e68e8981dfea3b7aa6ff445f172938dfb676"
+    },
+    {
+      "old": "outputs/metrics/fold0_console.log",
+      "new": "outputs/metrics/training_fold0/fold0_console.log",
+      "sha256_at_move": "de8a9876e1f4a83e74567225bb4d3d41d9c7b7576c1e5789970236c0d44552d5"
+    },
+    {
+      "old": "outputs/metrics/fold0_evaluation.log",
+      "new": "outputs/metrics/training_fold0/fold0_evaluation.log",
+      "sha256_at_move": "a65affe1ed42e57b5eebaa51555e3079fe7bfcb75a40af61fb5ec15a9d1fe26a"
+    },
+    {
+      "old": "outputs/metrics/fold0_evaluation_status.json",
+      "new": "outputs/metrics/training_fold0/fold0_evaluation_status.json",
+      "sha256_at_move": "07724dbe318016d8969bfaba8332acccb4f92912197d8788c7e1958f3f54f1dc"
+    },
+    {
+      "old": "outputs/metrics/fold0_final_audit.json",
+      "new": "outputs/metrics/training_fold0/fold0_final_audit.json",
+      "sha256_at_move": "0f59d5e49b429eb4dfb26ee33708ad648da46eb8249c0799d2d13a47af096161"
+    },
+    {
+      "old": "outputs/metrics/fold0_health.json",
+      "new": "outputs/metrics/training_fold0/fold0_health.json",
+      "sha256_at_move": "ae0062a9a41620ff14afdffa99747b7500d5300d41e4687f901d4beaf38b6833"
+    },
+    {
+      "old": "outputs/metrics/fold0_initial_observation_notified.txt",
+      "new": "outputs/metrics/training_fold0/fold0_initial_observation_notified.txt",
+      "sha256_at_move": "365238d97179dac407b75ad98eb00f60624927afe3c661a4a1c5de23201de302"
+    },
+    {
+      "old": "outputs/metrics/fold0_status.json",
+      "new": "outputs/metrics/training_fold0/fold0_status.json",
+      "sha256_at_move": "ce69879c4fad67779c9230a2f6274ca718f7eb9063f62ad6fb621fb1e759c83f"
+    },
+    {
+      "old": "outputs/metrics/fold0_validation_cases.csv",
+      "new": "outputs/metrics/training_fold0/fold0_validation_cases.csv",
+      "sha256_at_move": "29bc962327a0734a0758722fdde9263024e2661cfcf609a11bd1929dbd1f638d"
+    },
+    {
+      "old": "outputs/metrics/fold0_validation_summary.json",
+      "new": "outputs/metrics/training_fold0/fold0_validation_summary.json",
+      "sha256_at_move": "dd4ad21f62fa6c3a583622c97edf7a97eddc112fc3c1f5fbc7a72d0eedb46320"
+    },
+    {
+      "old": "outputs/metrics/inspection-summary.log",
+      "new": "outputs/metrics/data/inspection-summary.log",
+      "sha256_at_move": "7d369b5c31e1f275a84568659e5e42c059f276242ac769ba4a2c2de005d70d85"
+    },
+    {
+      "old": "outputs/metrics/isles2022_inspection.csv",
+      "new": "outputs/metrics/data/isles2022_inspection.csv",
+      "sha256_at_move": "bcb4e02b49f4e87d1559b82ae1e7638eed3bf36de88ac49d794e59fca0263132"
+    },
+    {
+      "old": "outputs/metrics/isles2022_inspection.json",
+      "new": "outputs/metrics/data/isles2022_inspection.json",
+      "sha256_at_move": "d294ebc4e49eaa754edbcd2454aa10ee15caa0798d7e0f5642d5f5397724250c"
+    },
+    {
+      "old": "outputs/metrics/nnunet_integrity.log",
+      "new": "outputs/metrics/data/nnunet_integrity.log",
+      "sha256_at_move": "4d945cdfe602a38c0b94a5b21fe71a0319a2edc3bb482196f0fddbb1e5ea398c"
+    },
+    {
+      "old": "outputs/metrics/preprocessing-exit-code.txt",
+      "new": "outputs/metrics/preprocessing/preprocessing-exit-code.txt",
+      "sha256_at_move": "13bf7b3039c63bf5a50491fa3cfd8eb4e699d1ba1436315aef9cbe5711530354"
+    },
+    {
+      "old": "outputs/metrics/preprocessing-input-preservation.json",
+      "new": "outputs/metrics/preprocessing/preprocessing-input-preservation.json",
+      "sha256_at_move": "e116e44400133e4817163a727f635488716eb975a87d760bb83a592af78522f3"
+    },
+    {
+      "old": "outputs/metrics/preprocessing.log",
+      "new": "outputs/metrics/preprocessing/preprocessing.log",
+      "sha256_at_move": "7787532ba41b9c122e7d7972b4da004a51a42fdca57d8ab1430db9cc346fb503"
+    },
+    {
+      "old": "outputs/metrics/preprocessing_qa.json",
+      "new": "outputs/metrics/preprocessing/preprocessing_qa.json",
+      "sha256_at_move": "b7d8aa40bd7de3906e570a943af1f431542518fa105a357e78cead37a29d8083"
+    },
+    {
+      "old": "outputs/metrics/preprocessing_qa.log",
+      "new": "outputs/metrics/preprocessing/preprocessing_qa.log",
+      "sha256_at_move": "30350b1eb8da6348967e4a689bc2e69fd31e8629704c480830d4b5a0aa27cd07"
+    },
+    {
+      "old": "outputs/metrics/training_preflight.json",
+      "new": "outputs/metrics/training_fold0/training_preflight.json",
+      "sha256_at_move": "67b4dbf49424f2a57f340530793b16b278c29c1ae10363c5f84cb08400ad6bfa"
+    },
+    {
+      "old": "docs/data-check-tests.txt",
+      "new": "docs/logs/data-check-tests.txt",
+      "sha256_at_move": "5eb4cd336e32f0e61e68ece462afcfce75e7b3fff1591f1277332541ef55eddf"
+    },
+    {
+      "old": "docs/directory-tree.txt",
+      "new": "docs/reference/directory-tree.txt",
+      "sha256_at_move": "b9101931c08c542c72111e278aa0a82e425e1425a4e198e8b68277eccd454d94"
+    },
+    {
+      "old": "docs/download.log",
+      "new": "docs/logs/download.log",
+      "sha256_at_move": "89746dd4931b0d880d3c94e717ca653598b157b8e8ec747f1a618eb47d0d748a"
+    },
+    {
+      "old": "docs/environment-decisions.md",
+      "new": "docs/environment/environment-decisions.md",
+      "sha256_at_move": "c03944f311947ea66e1df5f70440553929b1ed3c8d092d839e3801699e55aed7"
+    },
+    {
+      "old": "docs/extraction.log",
+      "new": "docs/logs/extraction.log",
+      "sha256_at_move": "864ebb2c0cdb55b741b2e278c55b22337458b4eead86259e38c158f347954fe2"
+    },
+    {
+      "old": "docs/install-nnunet.log",
+      "new": "docs/logs/install-nnunet.log",
+      "sha256_at_move": "b8b03be5c686bb7f15a1364bf676c7e565c11384870237052c0f6b1f5ad0221e"
+    },
+    {
+      "old": "docs/install-torch.log",
+      "new": "docs/logs/install-torch.log",
+      "sha256_at_move": "0ad317067f1f3c83d633c8f269f356ce8447f355f6a1a25ef0ce26c5e9f20829"
+    },
+    {
+      "old": "docs/nnunet-installation.md",
+      "new": "docs/environment/nnunet-installation.md",
+      "sha256_at_move": "d8afd164ec0aba32fab4182d8726cdb11b89c889c31cf4eb8d652efd6ed9b166"
+    },
+    {
+      "old": "docs/nnunet-pypi.json",
+      "new": "docs/reference/nnunet-pypi.json",
+      "sha256_at_move": "b7cfe7b44c93cf9f28dc6c866d3a1e9855b114c430053d2109e0b7059f68821e"
+    },
+    {
+      "old": "docs/nnunet-pyproject.toml",
+      "new": "docs/reference/nnunet-pyproject.toml",
+      "sha256_at_move": "11520c9dcb4861fae8813ec1184f630f1d45a0ffe0bca20c36d5be275d72fd1f"
+    },
+    {
+      "old": "docs/official-plan-and-preprocess-entrypoints.py",
+      "new": "docs/reference/official-plan-and-preprocess-entrypoints.py",
+      "sha256_at_move": "a0a0c5d15fa759108444038d23de592053ac47369a666d464721d4c89c9a2f76"
+    },
+    {
+      "old": "docs/official-verify-dataset-integrity.py",
+      "new": "docs/reference/official-verify-dataset-integrity.py",
+      "sha256_at_move": "1a6539853717e4cf90f2830893326b87a56bee61bbd6e84b275fd68019b425ad"
+    },
+    {
+      "old": "docs/pip-check.txt",
+      "new": "docs/environment/pip-check.txt",
+      "sha256_at_move": "672aec65a45bed50e70229c70934a7eebf0462595c459b83023027645d57cccf"
+    },
+    {
+      "old": "docs/plan-and-preprocess-help.txt",
+      "new": "docs/reference/plan-and-preprocess-help.txt",
+      "sha256_at_move": "2c7923f3e8348e4fce0d89ec6965146606ae4276ef3d774efc4d492eb93799f1"
+    },
+    {
+      "old": "docs/runtime-versions.json",
+      "new": "docs/environment/runtime-versions.json",
+      "sha256_at_move": "eb3143de89ca35741c5db651ab6cc8b862c6954d69f458a8879be4e83a60b62c"
+    },
+    {
+      "old": "outputs/figures/sub-strokecase0074_ses-0001_qc.png",
+      "new": "outputs/figures/data/sub-strokecase0074_ses-0001_qc.png",
+      "sha256_at_move": "63f53c051d6d3d5f985fe44bd5600afc80f2f61130a8b6e1bb3d92bcde642b46"
+    },
+    {
+      "old": "outputs/figures/sub-strokecase0080_ses-0001_qc.png",
+      "new": "outputs/figures/data/sub-strokecase0080_ses-0001_qc.png",
+      "sha256_at_move": "441e50eb5b97322335fed5940ecff836ad2924a034fd1a8fda038e6ccd11c8b2"
+    },
+    {
+      "old": "outputs/figures/sub-strokecase0114_ses-0001_qc.png",
+      "new": "outputs/figures/data/sub-strokecase0114_ses-0001_qc.png",
+      "sha256_at_move": "6a347ac9f4f41c438f4b0931df99ba375dba768e847ac3291d9a0dac7750551b"
+    },
+    {
+      "old": "outputs/figures/sub-strokecase0137_ses-0001_qc.png",
+      "new": "outputs/figures/data/sub-strokecase0137_ses-0001_qc.png",
+      "sha256_at_move": "19736581dd30c41bbb9a8e2668b6da7cd401bc3c664fe85930d725049bb6bc91"
+    },
+    {
+      "old": "outputs/figures/sub-strokecase0140_ses-0001_qc.png",
+      "new": "outputs/figures/data/sub-strokecase0140_ses-0001_qc.png",
+      "sha256_at_move": "696969e5cb3a87c9010e1e93fbe420503d3d4ace2183d97481d3e82a7614a1a9"
+    }
+  ],
+  "updated_files": [
+    "README.md",
+    "scripts/evaluate_fold0.py",
+    "scripts/report_phase1.py",
+    "scripts/report_preprocessing.py",
+    "scripts/start_fold0.py",
+    "scripts/watch_fold0.py",
+    "src/data/inspect_isles2022.py",
+    "src/data/visualize_samples.py",
+    "src/preprocessing/check_preprocessed_cases.py",
+    "docs/phase1_report.md",
+    "docs/preprocessing_report.md",
+    "docs/training_report.md"
+  ],
+  "note": "Historical logs and JSON evidence retain paths valid when recorded; use this mapping to locate moved files."
+}

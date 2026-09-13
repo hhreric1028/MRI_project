@@ -1,0 +1,8 @@
+{
+  "python": "3.11.16",
+  "pytorch": "2.8.0+cu128",
+  "cuda_runtime": "12.8",
+  "nnunetv2": "2.8.1",
+  "gpu": "NVIDIA GeForce RTX 5080",
+  "conda_environment": "MRI_DWI"
+}
