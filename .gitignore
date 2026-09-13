@@ -9,3 +9,15 @@ outputs/**
 !outputs/**/
 !outputs/**/.gitkeep
 *.part
+datasets/
+outputs/models/
+outputs/predictions/
+nnUNet_results/
+*.pth
+*.npz
+*.npy
+*.nii
+*.nii.gz
+experiments/**/preprocessed/
+experiments/**/results/
+experiments/**/predictions/
