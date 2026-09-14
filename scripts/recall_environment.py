@@ -6,7 +6,7 @@ from recall_common import ROOT, SUITE, save, provenance, protect_baseline
 from run_recall_experiment import make_trainer
 
 def main():
-    out=SUITE/'environment_audit';out.mkdir(exist_ok=False)
+    out=SUITE/'environment_audit_supplement';out.mkdir(exist_ok=False)
     protect_baseline();os.environ['nnUNet_results']=str(out/'inspection_only')
     current=provenance();trainer=make_trainer('B0-R2022','cpu');tr,va=trainer.raw_loaders()
     debug=json.loads((ROOT/'outputs/models/Dataset001_ISLES2022_DWI/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_0/debug.json').read_text())

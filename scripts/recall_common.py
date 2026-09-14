@@ -34,10 +34,10 @@ def provenance():
     package = Path(nnunetv2.__file__).parent
     paths += list((package/'training').rglob('*.py'))
     import batchgeneratorsv2
-    paths += list(Path(batchgeneratorsv2.__file__).parent.rglob('*.py'))
+    paths += [p for directory in batchgeneratorsv2.__path__ for p in Path(directory).rglob('*.py')]
     import batchgenerators, dynamic_network_architectures
     paths += list((Path(batchgenerators.__file__).parent/'dataloading').rglob('*.py'))
-    paths += list(Path(dynamic_network_architectures.__file__).parent.rglob('*.py'))
+    paths += [p for directory in dynamic_network_architectures.__path__ for p in Path(directory).rglob('*.py')]
     return dict(time=now(), git_commit=git('rev-parse','HEAD'), branch=git('branch','--show-current'),
                 git_status=git('status','--short'), python=sys.version, executable=sys.executable,
                 packages={d.metadata['Name']:d.version for d in importlib.metadata.distributions()},

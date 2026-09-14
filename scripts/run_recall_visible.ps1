@@ -1,4 +1,4 @@
-param([ValidateSet('preflight','baseline','candidates')][string]$Phase='preflight')
+param([ValidateSet('preflight','preflight_remaining','baseline','candidates')][string]$Phase='preflight')
 $ErrorActionPreference='Stop'
 $projectRoot='C:\Users\User\Desktop\MRI_project_v1'
 Set-Location -LiteralPath $projectRoot

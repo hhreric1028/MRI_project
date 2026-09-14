@@ -24,7 +24,9 @@ def stage(name,script,*args):
     if code:raise RuntimeError(f'{name} failed ({code}); retained, no automatic retry')
 
 def check_frozen():
-    manifest=json.loads((SUITE/'source_manifest.json').read_text())
+    path=SUITE/'source_manifest_supplement.json'
+    if not path.exists():path=SUITE/'source_manifest.json'
+    manifest=json.loads(path.read_text())
     changed=[p for p,h in manifest.items() if digest(p)!=h]
     if changed:raise RuntimeError('Frozen sources changed: '+repr(changed))
 
@@ -39,7 +41,7 @@ def train_and_evaluate(name):
     verify_baseline(SUITE/name/'baseline_after_evaluation.json')
 
 def main():
-    p=argparse.ArgumentParser();p.add_argument('--phase',choices=['preflight','baseline','candidates'],required=True);a=p.parse_args()
+    p=argparse.ArgumentParser();p.add_argument('--phase',choices=['preflight','preflight_remaining','baseline','candidates'],required=True);a=p.parse_args()
     SUITE.mkdir(parents=True,exist_ok=True)
     # OS-backed lock survives process crashes without a stale lock that needs deletion.
     with (SUITE/'pipeline.lock').open('a+b') as lock:
@@ -57,8 +59,18 @@ def main():
                 stage('p1_failure_analysis','recall_analysis.py','--failure','--output',SUITE/'P1_failure_analysis')
                 verify_baseline(SUITE/'baseline_after_failure_analysis.json')
                 print('Preflight complete. Review failure panels before the baseline phase.',flush=True)
+            elif a.phase=='preflight_remaining':
+                # Continue only unfinished checks after metadata-only namespace-package failure.
+                assert json.loads((SUITE/'baseline_initial.json').read_text())['passed']
+                for name in ['protocol_tests','evaluation_tests']:
+                    assert json.loads((SUITE/'logs'/(name+'.exit.json')).read_text())['exit_code']==0
+                paths=list((ROOT/'scripts').glob('*recall*.py'))+[ROOT/'scripts/evaluate_experiment.py',ROOT/'scripts/train_spacing_experiment.py']
+                save(SUITE/'source_manifest_supplement.json',{str(p):digest(p) for p in paths})
+                stage('environment_audit_supplement','recall_environment.py')
+                stage('p1_failure_analysis','recall_analysis.py','--failure','--output',SUITE/'P1_failure_analysis')
+                verify_baseline(SUITE/'baseline_after_failure_analysis.json')
             elif a.phase=='baseline':
-                assert (SUITE/'preflight_completed.json').exists()
+                assert (SUITE/'preflight_completed.json').exists() or (SUITE/'preflight_remaining_completed.json').exists()
                 assert (SUITE/'failure_visual_review.md').exists(), 'Visual review required before B0-R2022'
                 train_and_evaluate('B0-R2022')
                 check_frozen()
