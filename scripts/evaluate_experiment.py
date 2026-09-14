@@ -39,6 +39,8 @@ def metrics(gt, pred, affine, voxel_ml):
         hd_status = 'finite'
     signed = (npred-ng)*voxel_ml
     return dict(dice=2*inter/(ng+npred) if ng+npred else None,
+                voxel_tp=inter, voxel_fn=ng-inter, voxel_fp=npred-inter,
+                voxel_recall=inter/ng if ng else None, voxel_precision=inter/npred if npred else None,
                 gt_ml=ng*voxel_ml, pred_ml=npred*voxel_ml,
                 signed_volume_error_ml=signed, absolute_volume_error_ml=abs(signed),
                 signed_percentage_error=100*(npred-ng)/ng if ng else None,
@@ -63,6 +65,9 @@ def summarize(rows):
     tp=sum(r['lesion_tp'] for r in rows); fn=sum(r['lesion_fn'] for r in rows); fp=sum(r['lesion_fp'] for r in rows)
     d=[r['dice'] for r in rows if r['dice'] is not None]
     return dict(cases=len(rows),dice=distribution(d),
+                voxel_recall=distribution([r.get('voxel_recall') for r in rows]),
+                voxel_precision=distribution([r.get('voxel_precision') for r in rows]),
+                fp_lesions_per_case=fp/len(rows) if rows else None,
                 distributions={k:distribution([r[k] for r in rows]) for k in ['absolute_volume_error_ml','signed_volume_error_ml','signed_percentage_error','absolute_percentage_error','hd95_mm']},
                 hd95_single_empty=sum(r['hd95_status']=='infinite_single_empty' for r in rows),
                 hd95_both_empty=sum(r['hd95_status']=='both_empty' for r in rows),

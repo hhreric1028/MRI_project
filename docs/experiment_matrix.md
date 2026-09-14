@@ -38,3 +38,17 @@ S1a/S1b分別nnUNetTrainer_FG050／FG075；S2=nnUNetTrainer_SmallCase2x；L1a/L1
 Baseline保護→evaluation v2→各primary可行性試跑→各primary完整1000epochs→secondary→單因子支持後逐步組合→paired seed確認／其餘folds→M0/M1→FLAIR registration QA後M2。
 短程只驗證可執行，不用早期validation排名。所有執行開啟可見Terminal並保存獨立log；本次只完成文件與audit。
 每列輸出相同Dice分布、HD95、volume errors、robustness counts、lesion metrics及五組case-volume分層；依catastrophic miss/severe under、small-lesion recall、overall Dice順序比較，FP增加標明tradeoff。Fold0是development validation，不是獨立測試。
+# Active override — 2026-09-15
+
+The historical matrix below is retained as planning history, not the current queue. Current protocol: [2 mm recall addendum](recall_2mm_protocol.md).
+
+| Experiment | Current status | Trainer |
+|---|---|---|
+| Historical B0 | complete, read-only reference | original nnUNetTrainer |
+| P1 | training/final evaluation complete; paired failure review being prepared | nnUNetTrainer_SeededPreserve |
+| B0-R2022 | implementation and preflight; not yet training | nnUNetTrainer_B0R2022 |
+| Sampling audit | after B0-R2022; actual exposure review required | existing loader, synchronous diagnostic |
+| S1a | conditional on substantive exposure review | nnUNetTrainer_S1a |
+| L2a | implemented; queued only after sampling/S1a decision | nnUNetTrainer_L2a |
+| P2 | preprocessing retained; full training paused | not queued |
+| P3 / other losses / multimodal / combinations / additional seeds | deferred, not queued | — |

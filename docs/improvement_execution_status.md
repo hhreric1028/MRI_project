@@ -12,3 +12,10 @@ Started 2026-09-14 (Asia/Taipei). Baseline source commit 0aac38b remains unchang
 - Remaining: P1 full 1000 epochs and final evaluation, P2 GPU trial/full run, P3/S1/L1/L2 implementation and trials, paired comparison, then evidence-supported combinations. Secondary candidates and multimodal stages have not started.
 
 Ground truth for live progress: each run's completion.json/failure.json and official training log. This document is a milestone record, not a claim that remaining stages have completed.
+# 2026-09-15 active update
+
+The older status below is retained as history. P1 training and 50-case final evaluation are complete. The active order is now P1 failure analysis → B0-R2022 → sampling audit → S1a decision → L2a → paired comparison. P2 training and all other candidates are paused.
+
+The 2 mm pipeline and additive protocol are implemented in independent files; at this checkpoint no new formal GPU run has been launched. CPU loss/sampling-separation tests passed. Follow `experiments/recall_2mm_seed2022/*_started.json`, `*_completed.json`, `*_failure.json` and per-run completion/failure logs for current status. Existing jobs/checkpoints/results must not be interrupted or overwritten to add protocol fields.
+
+See [active protocol](recall_2mm_protocol.md) for exact formula, reproducibility limitations, paired case bootstrap and the post-audit substantive-exposure decision gate.
