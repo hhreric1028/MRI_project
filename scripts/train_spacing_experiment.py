@@ -17,6 +17,7 @@ ROOT=Path(__file__).resolve().parents[1]
 for key,rel in [('nnUNet_raw','datasets/ISLES2022/nnUNet_raw'),('nnUNet_preprocessed','datasets/ISLES2022/processed')]: os.environ[key]=str(ROOT/rel)
 os.environ['nnUNet_n_proc_DA']='4'
 os.environ['nnUNet_compile']='false'
+os.environ['MPLCONFIGDIR']=str(ROOT/'outputs/.matplotlib')
 os.environ['nnUNet_results']=str(ROOT/'experiments/unused_results_guard')
 import nnunetv2.training.nnUNetTrainer.nnUNetTrainer as trainer_module
 from nnunetv2.training.nnUNetTrainer.nnUNetTrainer import nnUNetTrainer
@@ -59,10 +60,12 @@ def save(path,data):
 
 def main():
     ap=argparse.ArgumentParser();ap.add_argument('--id',type=int,choices=[11,12],required=True)
-    ap.add_argument('--mode',choices=['smoke','train'],required=True);args=ap.parse_args()
+    ap.add_argument('--mode',choices=['smoke','train'],required=True)
+    ap.add_argument('--revision',default='r2');args=ap.parse_args()
     name=f'Dataset{args.id:03d}_ISLES2022_DWI'
     exp='P1_spacing_1p5mm' if args.id==11 else 'P2_spacing_1mm'
-    run=ROOT/'experiments'/exp/('run_seed2022_'+args.mode)
+    if not args.revision.isalnum(): raise ValueError('Revision must be alphanumeric')
+    run=ROOT/'experiments'/exp/('run_seed2022_'+args.mode+'_'+args.revision)
     if run.exists(): raise SystemExit('Existing experiment output detected. No files were modified.')
     pp=Path(os.environ['nnUNet_preprocessed'])/name
     baseline=Path(os.environ['nnUNet_preprocessed'])/'Dataset001_ISLES2022_DWI'
@@ -71,7 +74,7 @@ def main():
     cfg=plans['configurations']['3d_fullres']
     assert importlib.metadata.version('nnunetv2')=='2.8.1'
     if args.mode=='train':
-        smoke=json.loads((run.parent/'run_seed2022_smoke'/'completion.json').read_text())
+        smoke=json.loads((run.parent/('run_seed2022_smoke_'+args.revision)/'completion.json').read_text())
         assert smoke['status']=='passed'
         assert smoke['plans_sha256']==hashlib.sha256((pp/'nnUNetPlans.json').read_bytes()).hexdigest()
     git=lambda *a:subprocess.check_output(['git','-c',f'safe.directory={ROOT.as_posix()}',*a],cwd=ROOT,text=True).strip()
@@ -82,7 +85,6 @@ def main():
     torch.set_num_threads(8)
     run.mkdir(parents=True,exist_ok=False)
     os.environ['nnUNet_results']=str(run/'results')
-    trainer_module.nnUNet_results=str(run/'results')
     meta=dict(experiment_id=exp,mode=args.mode,git_commit=commit,branch=branch,dataset=name,fold=0,
               seed=2022,worker_seeds_train=[2022,2023,2024,2025],worker_seeds_val=[3022,3023],
               worker_order='nondeterministic',plans=cfg,trainer='nnUNetTrainer_SeededPreserve',
@@ -93,6 +95,7 @@ def main():
     save(run/'experiment_config.json',meta)
     trainer=None
     try:
+        plans['continue_training']=False
         trainer=nnUNetTrainer_SeededPreserve(plans,'3d_fullres',0,json.loads((pp/'dataset.json').read_text()),device=torch.device('cuda'))
         trainer.execution_started=time.monotonic()
         if args.mode=='smoke':
