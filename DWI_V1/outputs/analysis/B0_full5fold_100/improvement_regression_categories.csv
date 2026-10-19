@@ -1,0 +1,7 @@
+﻿Category,Case count,GT volume median mL,GT volume mean mL,GT volume min mL,GT volume max mL,Lesion count median,Lesion count mean,B0 failure type counts
+Strong improvement,5,0.752,3.7440000000000007,0.192,16.208000000000002,4.0,3.0,"{""mixed"": 3, ""small_lesion_miss"": 1, ""unclassified"": 1}"
+Moderate improvement,20,1.4336474932689454,4.883124517706015,0.12,29.048000000000002,4.5,4.7,"{""boundary_underseg"": 3, ""mixed"": 10, ""multifocal_miss"": 3, ""normal"": 3, ""unclassified"": 1}"
+Stable,194,9.906876080786228,27.795971260049896,0.0,482.152,6.0,10.402061855670103,"{""boundary_underseg"": 8, ""fp_dominant"": 3, ""low_confidence"": 5, ""mixed"": 35, ""multifocal_miss"": 89, ""normal"": 38, ""small_lesion_miss"": 6, ""unclassified"": 10}"
+Moderate regression,20,5.965115355694899,14.36999928526279,0.2,66.032,6.5,8.05,"{""boundary_underseg"": 1, ""low_confidence"": 1, ""mixed"": 8, ""multifocal_miss"": 7, ""normal"": 2, ""small_lesion_miss"": 1}"
+Strong regression,9,4.392,6.631015135597901,0.2,34.528,3.0,6.777777777777778,"{""boundary_underseg"": 2, ""low_confidence"": 1, ""mixed"": 4, ""multifocal_miss"": 2}"
+Not applicable (empty GT),2,0.0,0.0,0.0,0.0,0.0,0.0,"{""normal"": 2}"

@@ -1,0 +1,17 @@
+{
+  "feature_names": [
+    "log_gt_ml",
+    "log_components",
+    "largest_component_ratio",
+    "ap_extent_mm",
+    "is_extent_mm",
+    "pred_gt_ratio",
+    "voxel_recall"
+  ],
+  "distance_scaling": "Fold 0 median/IQR; Euclidean distance; Dice excluded",
+  "strict_rule": "GT >=50 mL AND Pred/GT <=0.6 AND voxel recall <=0.6; anchor excluded",
+  "strict_matches": [],
+  "strict_match_count": 0,
+  "interpretation": "isolated_large_coverage_failure_in_fold0",
+  "nearest_neighbor_count": 5
+}

@@ -1,0 +1,6 @@
+{
+  "mode": "read-only reuse; no resampling",
+  "source": "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\experiments\\recall_screen100_seed2022\\sampling_audit",
+  "summary_sha256": "48e4733411a7d6fcf3e3b838d8815ba994e8b06c42a4915e5072919219e54bcb",
+  "completion_sha256": "894eef6e383c7517ed190ecf78a2876b4cd1319933af58decc7cc3be6098ea8d"
+}

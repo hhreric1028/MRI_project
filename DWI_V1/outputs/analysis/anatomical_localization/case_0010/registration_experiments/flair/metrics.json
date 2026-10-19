@@ -1,0 +1,74 @@
+{
+  "status": "NEEDS REVIEW",
+  "tool": "2.5.6",
+  "method": "DWI rigid to structural, structural rigid then affine to template",
+  "reference": "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\datasets\\atlases\\HarvardOxford\\MNI152_T1_2mm_brain.nii.gz",
+  "transform_direction": "reference LPS to native LPS (resampling pull transform)",
+  "history": [
+    {
+      "metric": -0.5047162249348391,
+      "stop": "GradientDescentOptimizerv4Template: Convergence checker passed at iteration 60."
+    },
+    {
+      "metric": -0.3814048512946752,
+      "stop": "GradientDescentOptimizerv4Template: Convergence checker passed at iteration 166."
+    },
+    {
+      "metric": -0.5152773292974753,
+      "stop": "GradientDescentOptimizerv4Template: Convergence checker passed at iteration 14."
+    }
+  ],
+  "affine_determinant": 0.7096408236679251,
+  "native_orientation": [
+    "L",
+    "A",
+    "S"
+  ],
+  "native_volume_ml": 2.44,
+  "registered_voxels": 479,
+  "registered_labels": [
+    0,
+    1
+  ],
+  "note": "Visual QC required before atlas mapping. Standard-space volume differs from native volume after affine resampling.",
+  "parameters": {
+    "initialization": "moments",
+    "brain_mask": false,
+    "metric": "Mattes MI",
+    "bins": 50,
+    "sampling": "random",
+    "sampling_percentage": 0.3,
+    "seed": 2022,
+    "shrink_factors": [
+      4,
+      2,
+      1
+    ],
+    "smoothing_sigmas_mm": [
+      2,
+      1,
+      0
+    ],
+    "maximum_iterations_per_level": 200,
+    "structural": "FLAIR",
+    "learning_rate": 0.5,
+    "maximum_step_mm": 1.0
+  },
+  "resampling_diagnostic_only": true,
+  "geometry_check": "PASS",
+  "native_lesion_voxels": 305,
+  "registered_voxel_count_diagnostic_only": 479,
+  "inverse_roundtrip_max_mm": 4.5496934130773415e-14,
+  "native_prediction_sha256": "2d4ce60ab0df077736cf34bb52a8466ab26a4a632fa3cceda0220f16add77e91",
+  "visual_qc": {
+    "brain_boundary": "REVIEW",
+    "ventricles": "REVIEW",
+    "brainstem": "REVIEW",
+    "cerebellum": "REVIEW",
+    "inferior_boundary": "REVIEW",
+    "midline": "REVIEW",
+    "overall": "NEEDS REVIEW",
+    "note": "This automated audit cannot approve anatomical landmarks. See the separate human-readable visual review."
+  },
+  "parameter_note": "Baseline and geometry used original default maximum step; masked_refine and FLAIR used explicit 1 mm cap. See experiment descriptions; these are not identical optimization runs."
+}

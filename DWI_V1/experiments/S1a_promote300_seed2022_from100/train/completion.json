@@ -1,0 +1,14 @@
+{
+  "status": "training_and_validation_complete",
+  "resume_epoch": 100,
+  "actual_total_epochs": 300,
+  "continuation_epochs": 200,
+  "lr_schedule_reference_epochs": 1000,
+  "checkpoint": "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\experiments\\S1a_promote300_seed2022_from100\\train\\results\\Dataset001_ISLES2022_DWI\\nnUNetTrainer_S1a_Promote300__nnUNetPlans__3d_fullres\\fold_0\\checkpoint_final.pth",
+  "checkpoint_sha256": "48118c8ef0a5a9406a3e97b294b2eab65373892986885175287c20a3a542e312",
+  "predictions": "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\experiments\\S1a_promote300_seed2022_from100\\train\\results\\Dataset001_ISLES2022_DWI\\nnUNetTrainer_S1a_Promote300__nnUNetPlans__3d_fullres\\fold_0\\validation",
+  "total_amp_skipped_steps_during_continuation": 18,
+  "total_nonfinite_gradient_events_during_continuation": 18,
+  "unrecovered_consecutive_overflows": 0,
+  "finished_at": "2026-09-17T14:45:59.910475+08:00"
+}

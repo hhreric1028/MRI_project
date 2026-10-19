@@ -1,0 +1,89 @@
+{
+  "status": "PASS",
+  "unsupported_claims": [],
+  "unsupported_claim_count": 0,
+  "sentence_validation": [
+    {
+      "section": "Findings",
+      "sentence": "Multiple lesion regions are identified by DWI-based automated analysis.",
+      "supported_by": [
+        "segmentation.lesion_present",
+        "segmentation.component_count",
+        "analysis_type"
+      ],
+      "status": "PASS"
+    },
+    {
+      "section": "Findings",
+      "sentence": "The predicted lesions show a multifocal bilateral distribution, with a slightly greater predicted lesion burden on the right.",
+      "supported_by": [
+        "segmentation.distribution",
+        "location.laterality",
+        "location.left_fraction_percent",
+        "location.right_fraction_percent"
+      ],
+      "support_values": {
+        "left_percent": 40.984,
+        "right_percent": 59.016
+      },
+      "status": "PASS"
+    },
+    {
+      "section": "Findings",
+      "sentence": "In native image space, the predicted lesions are predominantly distributed within the central portion and at the middle level of the imaged brain volume.",
+      "supported_by": [
+        "location.space",
+        "location.ap_primary",
+        "location.si_primary"
+      ],
+      "status": "PASS"
+    },
+    {
+      "section": "Findings",
+      "sentence": "The total predicted lesion volume is approximately 2.44 mL.",
+      "supported_by": [
+        "volume.total_ml"
+      ],
+      "status": "PASS"
+    },
+    {
+      "section": "Impression",
+      "sentence": "Multifocal bilateral lesion regions identified by DWI-based automated analysis, predominantly within the central portion and at the middle level of the imaged brain volume in native image space.",
+      "supported_by": [
+        "analysis_type",
+        "segmentation.distribution",
+        "location.laterality",
+        "location.space",
+        "location.ap_primary",
+        "location.si_primary"
+      ],
+      "status": "PASS"
+    },
+    {
+      "section": "Impression",
+      "sentence": "Total predicted lesion volume is approximately 2.44 mL.",
+      "supported_by": [
+        "volume.total_ml"
+      ],
+      "status": "PASS"
+    }
+  ],
+  "consistency_check": {
+    "lesion_presence": "PASS",
+    "laterality": "PASS",
+    "distribution": "PASS",
+    "volume": "PASS",
+    "location": "PASS",
+    "clinical_evaluation_separation": "PASS",
+    "forbidden_clinical_content": "PASS",
+    "engineering_terms_absent": "PASS"
+  },
+  "forbidden_claim_hits": {},
+  "engineering_term_hits": [],
+  "validation_method": "deterministic claim-to-field mapping plus controlled vocabulary and cross-section checks",
+  "outputs": {
+    "structured_input": "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\outputs\\reports\\case_0010\\data\\structured_input.json",
+    "clinical_report": "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\outputs\\reports\\case_0010\\clinical_report.txt",
+    "model_evaluation": "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\outputs\\reports\\case_0010\\model_evaluation.txt"
+  }
+}

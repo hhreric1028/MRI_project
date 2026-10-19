@@ -1,0 +1,12 @@
+{
+  "primary_comparison": "B0-100 vs A1-100",
+  "nonfair_reference": "B0-1000",
+  "b0_metrics": "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\experiments\\recall_screen100_seed2022_r2\\B0_R2022_screen100\\metrics",
+  "a1_metrics": "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\experiments\\A1_DWIIntensityAug_seed2022\\metrics",
+  "b0_predictions": "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\experiments\\recall_screen100_seed2022_r2\\B0_R2022_screen100\\train\\results\\Dataset001_ISLES2022_DWI\\nnUNetTrainer_B0R2022_Screen100__nnUNetPlans__3d_fullres\\fold_0\\validation",
+  "a1_predictions": "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\experiments\\A1_DWIIntensityAug_seed2022\\train\\results\\Dataset001_ISLES2022_DWI\\nnUNetTrainer_A1_DWIIntensityAug_Screen100__nnUNetPlans__3d_fullres\\fold_0\\validation",
+  "evaluation_code": "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\scripts\\evaluate_experiment.py",
+  "failure_definition_source": "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\scripts\\failure_analysis_v2.py",
+  "threshold": 0.5,
+  "postprocessing": "none"
+}

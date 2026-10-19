@@ -1,0 +1,13 @@
+{
+  "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\experiments\\recall_2mm_seed2022\\B0-R2022\\train\\baseline_after.json": "36b6f4cc41d9839cec77e2168a2371e1a0f4524a49a66dde76cf3a30a3ec621d",
+  "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\experiments\\recall_2mm_seed2022\\B0-R2022\\train\\baseline_before.json": "e44613dfe724177d82650ab2b36bee1dd399d04311924ebbe42e42a754a4c68f",
+  "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\experiments\\recall_2mm_seed2022\\B0-R2022\\train\\experiment_config.json": "d82f859c47b6fcd74a03d36f2405ec7d227f5ea57186da52119b282f99c070de",
+  "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\experiments\\recall_2mm_seed2022\\B0-R2022\\train\\failure.json": "bbd8093caf33aa3510f4455bf6abba60f1a169057d8d5c1b60b7887f60f9179c",
+  "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\experiments\\recall_2mm_seed2022\\B0-R2022\\train\\results\\Dataset001_ISLES2022_DWI\\nnUNetTrainer_B0R2022__nnUNetPlans__3d_fullres\\dataset.json": "361eb70c2e99875b5af50f51647f6a8f0840763f35317f894bc4a479d99628d7",
+  "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\experiments\\recall_2mm_seed2022\\B0-R2022\\train\\results\\Dataset001_ISLES2022_DWI\\nnUNetTrainer_B0R2022__nnUNetPlans__3d_fullres\\dataset_fingerprint.json": "ba4c5d098dd03427d2160b2906c2fdaa5c457dd16f8d0935f27a6f088fddcce1",
+  "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\experiments\\recall_2mm_seed2022\\B0-R2022\\train\\results\\Dataset001_ISLES2022_DWI\\nnUNetTrainer_B0R2022__nnUNetPlans__3d_fullres\\plans.json": "a101110e0c7dd229ae02f167158054ede8434fd56ac7406f9fedce735d63d1d4",
+  "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\experiments\\recall_2mm_seed2022\\B0-R2022\\train\\results\\Dataset001_ISLES2022_DWI\\nnUNetTrainer_B0R2022__nnUNetPlans__3d_fullres\\fold_0\\checkpoint_best.pth": "f67ae113f4a68bad8e4ed6da31191f3497d7588bfa2c7a1c291e75dff1f865bd",
+  "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\experiments\\recall_2mm_seed2022\\B0-R2022\\train\\results\\Dataset001_ISLES2022_DWI\\nnUNetTrainer_B0R2022__nnUNetPlans__3d_fullres\\fold_0\\debug.json": "2db63f5c1d97303363790cde750a908df965102922bc339d7430dc4aba1b11c5",
+  "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\experiments\\recall_2mm_seed2022\\B0-R2022\\train\\results\\Dataset001_ISLES2022_DWI\\nnUNetTrainer_B0R2022__nnUNetPlans__3d_fullres\\fold_0\\progress.png": "d17100fcb6d88c4f572f25f22044a3147d50007257f1af2c9567cb0e0dc90833",
+  "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\experiments\\recall_2mm_seed2022\\B0-R2022\\train\\results\\Dataset001_ISLES2022_DWI\\nnUNetTrainer_B0R2022__nnUNetPlans__3d_fullres\\fold_0\\training_log_2026_9_15_01_01_42.txt": "161b813ab3f1a812beebf40f64791c81ed52085d2390cf6eb78bafe1c2e911fa"
+}

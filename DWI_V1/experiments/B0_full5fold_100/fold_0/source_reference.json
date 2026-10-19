@@ -1,0 +1,7 @@
+{
+  "source_run": "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\experiments\\recall_screen100_seed2022_r2\\B0_R2022_screen100\\train",
+  "source_checkpoint": "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\experiments\\recall_screen100_seed2022_r2\\B0_R2022_screen100\\train\\results\\Dataset001_ISLES2022_DWI\\nnUNetTrainer_B0R2022_Screen100__nnUNetPlans__3d_fullres\\fold_0\\checkpoint_final.pth",
+  "source_predictions": "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\experiments\\recall_screen100_seed2022_r2\\B0_R2022_screen100\\train\\results\\Dataset001_ISLES2022_DWI\\nnUNetTrainer_B0R2022_Screen100__nnUNetPlans__3d_fullres\\fold_0\\validation",
+  "retrained": false,
+  "reason": "Existing Original B0-100 Fold 0 passed all reuse checks; protocol forbids rerunning it."
+}

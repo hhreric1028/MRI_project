@@ -1,0 +1,6 @@
+﻿Failure type,B0 failure -> Kamel normal,B0 normal -> Kamel failure,Both failure,Both normal,Net rescued
+severe_under,3,6,22,219,-3
+large_partial,0,2,4,244,-2
+small_lesion_miss,3,2,25,220,1
+multifocal_miss,7,4,154,85,3
+dice_lt_0p3,3,3,12,232,0

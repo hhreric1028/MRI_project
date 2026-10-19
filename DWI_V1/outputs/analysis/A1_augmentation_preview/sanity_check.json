@@ -1,0 +1,33 @@
+{
+  "quantitative_status": "passed",
+  "all_outputs_finite": true,
+  "all_examples_changed_intensity": true,
+  "all_masks_identical": true,
+  "geometry_checks": [
+    {
+      "case": "case_0023",
+      "mask_sha256_before": "d9243e93ff20a225a801ca34c3b666826c19759af8c7488ce38d835fb39b21cc",
+      "mask_sha256_after": "d9243e93ff20a225a801ca34c3b666826c19759af8c7488ce38d835fb39b21cc",
+      "identical": true
+    },
+    {
+      "case": "case_0225",
+      "mask_sha256_before": "094f7a373d3084477b4dcd31e1611aa4e7ada1c77916cd2313e1d0baca3b15ea",
+      "mask_sha256_after": "094f7a373d3084477b4dcd31e1611aa4e7ada1c77916cd2313e1d0baca3b15ea",
+      "identical": true
+    },
+    {
+      "case": "case_0248",
+      "mask_sha256_before": "cd33b9945a9a52c6fc2aefc0b8c48f0e239052308f997692f7fd924c07ed0d00",
+      "mask_sha256_after": "cd33b9945a9a52c6fc2aefc0b8c48f0e239052308f997692f7fd924c07ed0d00",
+      "identical": true
+    }
+  ],
+  "visual_review_status": "passed",
+  "visual_review_note": "Reviewed all 24 augmented panels. Lesions remain visible in the large, 1-5 mL, and multifocal cases; intensity variation is conservative; no implausible inversion, clipping pattern, geometry change, or mask displacement is visible.",
+  "visual_files": [
+    "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\outputs\\analysis\\A1_augmentation_preview\\large_lesion__case_0023.png",
+    "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\outputs\\analysis\\A1_augmentation_preview\\small_1_to_5_ml__case_0225.png",
+    "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\outputs\\analysis\\A1_augmentation_preview\\multifocal__case_0248.png"
+  ]
+}

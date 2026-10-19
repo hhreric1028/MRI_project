@@ -1,0 +1,15 @@
+{
+  "fold": 2,
+  "best_epoch": 70,
+  "best_validation_metric": 0.8324044346809387,
+  "best_validation_metric_definition": "EMA of patch pseudo-Dice used by nnUNet checkpoint_best",
+  "final_epoch": 100,
+  "final_train_loss": -0.7952661514282227,
+  "final_val_loss": -0.713674783706665,
+  "final_pseudo_dice": 0.6257752776145935,
+  "amp_overflow_count": 7,
+  "unrecovered_consecutive_overflows": 0,
+  "runtime_seconds": 5157.5470000000205,
+  "checkpoint_best": "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\experiments\\kamel_replication_seed2022\\fold_2\\results\\Dataset001_ISLES2022_DWI\\nnUNetTrainer_KamelRep_Screen100__nnUNetPlans__3d_fullres\\fold_2\\checkpoint_best.pth",
+  "checkpoint_final": "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\experiments\\kamel_replication_seed2022\\fold_2\\results\\Dataset001_ISLES2022_DWI\\nnUNetTrainer_KamelRep_Screen100__nnUNetPlans__3d_fullres\\fold_2\\checkpoint_final.pth"
+}

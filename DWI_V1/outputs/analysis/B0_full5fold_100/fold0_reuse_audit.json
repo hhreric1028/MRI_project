@@ -1,0 +1,23 @@
+{
+  "trainer_class": "nnUNetTrainer_B0R2022_Screen100",
+  "correct_trainer": true,
+  "epoch_rows": 100,
+  "final_epoch_row": 100,
+  "checkpoint_current_epoch": 100,
+  "actual_epochs": 100,
+  "checkpoint_final": "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\experiments\\recall_screen100_seed2022_r2\\B0_R2022_screen100\\train\\results\\Dataset001_ISLES2022_DWI\\nnUNetTrainer_B0R2022_Screen100__nnUNetPlans__3d_fullres\\fold_0\\checkpoint_final.pth",
+  "checkpoint_final_exists": true,
+  "checkpoint_hash_matches_completion": true,
+  "checkpoint_best": "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\experiments\\recall_screen100_seed2022_r2\\B0_R2022_screen100\\train\\results\\Dataset001_ISLES2022_DWI\\nnUNetTrainer_B0R2022_Screen100__nnUNetPlans__3d_fullres\\fold_0\\checkpoint_best.pth",
+  "checkpoint_best_exists": true,
+  "progress_png": "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\experiments\\recall_screen100_seed2022_r2\\B0_R2022_screen100\\train\\results\\Dataset001_ISLES2022_DWI\\nnUNetTrainer_B0R2022_Screen100__nnUNetPlans__3d_fullres\\fold_0\\progress.png",
+  "progress_png_exists": true,
+  "training_logs": [
+    "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\experiments\\recall_screen100_seed2022_r2\\B0_R2022_screen100\\train\\results\\Dataset001_ISLES2022_DWI\\nnUNetTrainer_B0R2022_Screen100__nnUNetPlans__3d_fullres\\fold_0\\training_log_2026_9_16_12_18_15.txt"
+  ],
+  "validation_nii_count": 50,
+  "validation_npz_count": 50,
+  "validation_ids_match_fold0": true,
+  "unified_evaluator_recomputable": true,
+  "passed": true
+}

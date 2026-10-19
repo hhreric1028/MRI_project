@@ -1,0 +1,1905 @@
+{
+  "case_id": "case_0010",
+  "case_type": "validation",
+  "space": "native",
+  "analysis_scope": "coarse native-space location only; no MNI registration or atlas mapping",
+  "paths": {
+    "image": "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\datasets\\ISLES2022\\inference\\single_case\\imagesTs\\case_0010_0000.nii.gz",
+    "prediction": "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\outputs\\inference\\Dataset001_ISLES2022_DWI\\predictions\\case_0010.nii.gz",
+    "ground_truth": "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\datasets\\ISLES2022\\nnUNet_raw\\Dataset001_ISLES2022_DWI\\labelsTr\\case_0010.nii.gz"
+  },
+  "image_geometry": {
+    "shape": [
+      112,
+      112,
+      72
+    ],
+    "spacing_mm": [
+      2.0,
+      2.0,
+      2.0
+    ],
+    "orientation": {
+      "axis_codes": [
+        "L",
+        "A",
+        "S"
+      ],
+      "axis_codes_string": "LAS",
+      "world_coordinate_convention": "NIfTI RAS+: +x Right, +y Anterior, +z Superior",
+      "array_axes": [
+        {
+          "array_axis": 0,
+          "dominant_world_axis": "Left-Right",
+          "increasing_index_direction": "L",
+          "orientation_transform": [
+            0,
+            -1
+          ]
+        },
+        {
+          "array_axis": 1,
+          "dominant_world_axis": "Posterior-Anterior",
+          "increasing_index_direction": "A",
+          "orientation_transform": [
+            1,
+            1
+          ]
+        },
+        {
+          "array_axis": 2,
+          "dominant_world_axis": "Inferior-Superior",
+          "increasing_index_direction": "S",
+          "orientation_transform": [
+            2,
+            1
+          ]
+        }
+      ],
+      "affine": [
+        [
+          -1.9967691898345947,
+          0.06971853971481323,
+          0.08973541110754013,
+          101.81419372558594
+        ],
+        [
+          0.046659741550683975,
+          1.943092703819275,
+          -0.4713953733444214,
+          -88.59638977050781
+        ],
+        [
+          0.10361461341381073,
+          0.4685403108596802,
+          1.9415802955627441,
+          -13.199920654296875
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "prediction_grid": {
+      "shape_match": true,
+      "spacing_match": true,
+      "affine_match": true,
+      "max_affine_absolute_difference": 3.725290298461914e-09
+    },
+    "ground_truth_grid": {
+      "shape_match": true,
+      "spacing_match": true,
+      "affine_match": true,
+      "max_affine_absolute_difference": 0.0
+    },
+    "tolerance": {
+      "rtol": 1e-05,
+      "atol": 0.0001
+    }
+  },
+  "input_validation": {
+    "prediction_labels": [
+      0,
+      1
+    ],
+    "ground_truth_labels": [
+      0,
+      1
+    ],
+    "all_inputs_finite": true
+  },
+  "brain_extent_estimation": {
+    "status": "PASS",
+    "method": "largest 26-connected finite DWI support above scale-relative background threshold",
+    "intensity_threshold_absolute": 8.61499633789116e-06,
+    "intensity_scale_max_abs": 861.499633789116,
+    "exact_zero_fraction_percent": 81.136,
+    "raw_support_voxels": 169739,
+    "largest_support_voxels": 169739,
+    "largest_component_fraction_percent": 100.0,
+    "support_fraction_of_image_percent": 18.794,
+    "support_component_count": 1,
+    "index_bounding_box_inclusive": {
+      "minimum": [
+        19,
+        9,
+        4
+      ],
+      "maximum": [
+        90,
+        90,
+        67
+      ],
+      "span_voxels": [
+        72,
+        82,
+        64
+      ]
+    },
+    "touches_image_border": false,
+    "checks": {
+      "has_background": true,
+      "support_fraction_plausible": true,
+      "largest_component_dominant": true,
+      "does_not_touch_image_border": true,
+      "spans_plausible_fraction_each_axis": true,
+      "physical_ranges_plausible": true
+    },
+    "limitations": "Coarse DWI non-background support, not a validated anatomical brain or CSF segmentation."
+  },
+  "brain_extent": {
+    "world_ras_voxel_center_min_mm": [
+      -72.36452776938677,
+      -84.85446875169873,
+      13.668079450726509
+    ],
+    "world_ras_voxel_center_max_mm": [
+      69.90446343272924,
+      74.00168407708406,
+      147.99452635645866
+    ],
+    "world_ras_range_mm": [
+      142.268991202116,
+      158.8561528287828,
+      134.32644690573215
+    ],
+    "left_right": {
+      "left_mm": -72.36452776938677,
+      "right_mm": 69.90446343272924
+    },
+    "posterior_anterior": {
+      "posterior_mm": -84.85446875169873,
+      "anterior_mm": 74.00168407708406,
+      "posterior_central_boundary_mm": -31.902417808771133,
+      "central_anterior_boundary_mm": 21.049633134156466
+    },
+    "inferior_superior": {
+      "inferior_mm": 13.668079450726509,
+      "superior_mm": 147.99452635645866,
+      "inferior_middle_boundary_mm": 58.44356175263723,
+      "middle_superior_boundary_mm": 103.21904405454795
+    },
+    "estimated_midline_x_mm": -1.230032168328762,
+    "midline_uncertainty_band_half_width_mm": 2.8453798240423205
+  },
+  "overall": {
+    "lesion_voxels": 305,
+    "component_count": 13,
+    "distribution": "Multifocal",
+    "laterality": "Bilateral",
+    "left_fraction_percent": 40.984,
+    "right_fraction_percent": 59.016,
+    "exact_midline_fraction_percent": 0.0,
+    "outside_midline_uncertainty_band": {
+      "left_fraction_percent": 37.049,
+      "right_fraction_percent": 47.869,
+      "midline_band_fraction_percent": 15.082
+    },
+    "midline_crossing_component_ranks": [],
+    "centroid_world_ras_mm": [
+      -0.687168,
+      -23.172286,
+      67.430326
+    ],
+    "anterior_posterior": {
+      "region": "Central",
+      "region_by_centroid": "Central",
+      "region_fractions_percent": {
+        "Posterior": 32.459,
+        "Central": 67.541,
+        "Anterior": 0.0
+      },
+      "centroid_relative_position": 0.38829,
+      "centroid_distance_to_nearest_third_boundary": 0.054956,
+      "classification_status": "PASS"
+    },
+    "superior_inferior": {
+      "region": "Middle",
+      "region_by_centroid": "Middle",
+      "region_fractions_percent": {
+        "Inferior": 30.164,
+        "Middle": 69.836,
+        "Superior": 0.0
+      },
+      "centroid_relative_position": 0.400236,
+      "centroid_distance_to_nearest_third_boundary": 0.066902,
+      "classification_status": "PASS"
+    },
+    "location_status": "PASS"
+  },
+  "components": [
+    {
+      "rank": 1,
+      "label_id": 5,
+      "voxel_count": 97,
+      "volume_mm3": 776.0,
+      "volume_ml": 0.776,
+      "centroid_world_ras_mm": [
+        2.211845,
+        -10.425341,
+        61.079942
+      ],
+      "world_bounding_box_mm": {
+        "minimum": [
+          -4.992771,
+          -19.619885,
+          55.793228
+        ],
+        "maximum": [
+          9.652114,
+          -2.836745,
+          67.672797
+        ]
+      },
+      "laterality": "Predominantly Right",
+      "left_fraction_percent": 15.464,
+      "right_fraction_percent": 84.536,
+      "exact_midline_fraction_percent": 0.0,
+      "outside_uncertainty_band": {
+        "left_fraction_percent": 3.093,
+        "right_fraction_percent": 49.485,
+        "midline_band_fraction_percent": 47.423
+      },
+      "robust_midline_crossing": false,
+      "anterior_posterior": {
+        "region": "Central",
+        "region_by_centroid": "Central",
+        "region_fractions_percent": {
+          "Posterior": 0.0,
+          "Central": 100.0,
+          "Anterior": 0.0
+        },
+        "centroid_relative_position": 0.468532,
+        "centroid_distance_to_nearest_third_boundary": 0.135198,
+        "classification_status": "PASS"
+      },
+      "superior_inferior": {
+        "region": "Middle",
+        "region_by_centroid": "Middle",
+        "region_fractions_percent": {
+          "Inferior": 20.619,
+          "Middle": 79.381,
+          "Superior": 0.0
+        },
+        "centroid_relative_position": 0.35296,
+        "centroid_distance_to_nearest_third_boundary": 0.019627,
+        "classification_status": "NEEDS REVIEW"
+      },
+      "location_status": "NEEDS REVIEW"
+    },
+    {
+      "rank": 2,
+      "label_id": 10,
+      "voxel_count": 71,
+      "volume_mm3": 568.0,
+      "volume_ml": 0.568,
+      "centroid_world_ras_mm": [
+        -11.923341,
+        -5.91473,
+        84.324272
+      ],
+      "world_bounding_box_mm": {
+        "minimum": [
+          -17.564754,
+          -12.866719,
+          81.052081
+        ],
+        "maximum": [
+          -5.235547,
+          1.066346,
+          87.642869
+        ]
+      },
+      "laterality": "Left",
+      "left_fraction_percent": 100.0,
+      "right_fraction_percent": 0.0,
+      "exact_midline_fraction_percent": 0.0,
+      "outside_uncertainty_band": {
+        "left_fraction_percent": 100.0,
+        "right_fraction_percent": 0.0,
+        "midline_band_fraction_percent": 0.0
+      },
+      "robust_midline_crossing": false,
+      "anterior_posterior": {
+        "region": "Central",
+        "region_by_centroid": "Central",
+        "region_fractions_percent": {
+          "Posterior": 0.0,
+          "Central": 100.0,
+          "Anterior": 0.0
+        },
+        "centroid_relative_position": 0.496926,
+        "centroid_distance_to_nearest_third_boundary": 0.163593,
+        "classification_status": "PASS"
+      },
+      "superior_inferior": {
+        "region": "Middle",
+        "region_by_centroid": "Middle",
+        "region_fractions_percent": {
+          "Inferior": 0.0,
+          "Middle": 100.0,
+          "Superior": 0.0
+        },
+        "centroid_relative_position": 0.526004,
+        "centroid_distance_to_nearest_third_boundary": 0.140663,
+        "classification_status": "PASS"
+      },
+      "location_status": "PASS"
+    },
+    {
+      "rank": 3,
+      "label_id": 2,
+      "voxel_count": 19,
+      "volume_mm3": 152.0,
+      "volume_ml": 0.152,
+      "centroid_world_ras_mm": [
+        19.835939,
+        -31.883614,
+        49.57367
+      ],
+      "world_bounding_box_mm": {
+        "minimum": [
+          16.075017,
+          -34.263697,
+          47.125598
+        ],
+        "maximum": [
+          22.453951,
+          -29.42387,
+          52.310765
+        ]
+      },
+      "laterality": "Right",
+      "left_fraction_percent": 0.0,
+      "right_fraction_percent": 100.0,
+      "exact_midline_fraction_percent": 0.0,
+      "outside_uncertainty_band": {
+        "left_fraction_percent": 0.0,
+        "right_fraction_percent": 100.0,
+        "midline_band_fraction_percent": 0.0
+      },
+      "robust_midline_crossing": false,
+      "anterior_posterior": {
+        "region": "Posterior",
+        "region_by_centroid": "Central",
+        "region_fractions_percent": {
+          "Posterior": 52.632,
+          "Central": 47.368,
+          "Anterior": 0.0
+        },
+        "centroid_relative_position": 0.333452,
+        "centroid_distance_to_nearest_third_boundary": 0.000118,
+        "classification_status": "NEEDS REVIEW"
+      },
+      "superior_inferior": {
+        "region": "Inferior",
+        "region_by_centroid": "Inferior",
+        "region_fractions_percent": {
+          "Inferior": 100.0,
+          "Middle": 0.0,
+          "Superior": 0.0
+        },
+        "centroid_relative_position": 0.267301,
+        "centroid_distance_to_nearest_third_boundary": 0.066032,
+        "classification_status": "PASS"
+      },
+      "location_status": "NEEDS REVIEW"
+    },
+    {
+      "rank": 4,
+      "label_id": 13,
+      "voxel_count": 19,
+      "volume_mm3": 152.0,
+      "volume_ml": 0.152,
+      "centroid_world_ras_mm": [
+        -20.812672,
+        -74.833556,
+        92.203707
+      ],
+      "world_bounding_box_mm": {
+        "minimum": [
+          -22.66276,
+          -78.619358,
+          90.240753
+        ],
+        "maximum": [
+          -18.579486,
+          -72.272025,
+          94.696069
+        ]
+      },
+      "laterality": "Left",
+      "left_fraction_percent": 100.0,
+      "right_fraction_percent": 0.0,
+      "exact_midline_fraction_percent": 0.0,
+      "outside_uncertainty_band": {
+        "left_fraction_percent": 100.0,
+        "right_fraction_percent": 0.0,
+        "midline_band_fraction_percent": 0.0
+      },
+      "robust_midline_crossing": false,
+      "anterior_posterior": {
+        "region": "Posterior",
+        "region_by_centroid": "Posterior",
+        "region_fractions_percent": {
+          "Posterior": 100.0,
+          "Central": 0.0,
+          "Anterior": 0.0
+        },
+        "centroid_relative_position": 0.063082,
+        "centroid_distance_to_nearest_third_boundary": 0.270252,
+        "classification_status": "PASS"
+      },
+      "superior_inferior": {
+        "region": "Middle",
+        "region_by_centroid": "Middle",
+        "region_fractions_percent": {
+          "Inferior": 0.0,
+          "Middle": 100.0,
+          "Superior": 0.0
+        },
+        "centroid_relative_position": 0.584662,
+        "centroid_distance_to_nearest_third_boundary": 0.082004,
+        "classification_status": "PASS"
+      },
+      "location_status": "PASS"
+    },
+    {
+      "rank": 5,
+      "label_id": 1,
+      "voxel_count": 18,
+      "volume_mm3": 144.0,
+      "volume_ml": 0.144,
+      "centroid_world_ras_mm": [
+        21.691203,
+        -45.845922,
+        32.014118
+      ],
+      "world_bounding_box_mm": {
+        "minimum": [
+          18.882659,
+          -47.638101,
+          29.578985
+        ],
+        "maximum": [
+          25.122156,
+          -43.140541,
+          33.930686
+        ]
+      },
+      "laterality": "Right",
+      "left_fraction_percent": 0.0,
+      "right_fraction_percent": 100.0,
+      "exact_midline_fraction_percent": 0.0,
+      "outside_uncertainty_band": {
+        "left_fraction_percent": 0.0,
+        "right_fraction_percent": 100.0,
+        "midline_band_fraction_percent": 0.0
+      },
+      "robust_midline_crossing": false,
+      "anterior_posterior": {
+        "region": "Posterior",
+        "region_by_centroid": "Posterior",
+        "region_fractions_percent": {
+          "Posterior": 100.0,
+          "Central": 0.0,
+          "Anterior": 0.0
+        },
+        "centroid_relative_position": 0.245559,
+        "centroid_distance_to_nearest_third_boundary": 0.087774,
+        "classification_status": "PASS"
+      },
+      "superior_inferior": {
+        "region": "Inferior",
+        "region_by_centroid": "Inferior",
+        "region_fractions_percent": {
+          "Inferior": 100.0,
+          "Middle": 0.0,
+          "Superior": 0.0
+        },
+        "centroid_relative_position": 0.136578,
+        "centroid_distance_to_nearest_third_boundary": 0.196755,
+        "classification_status": "PASS"
+      },
+      "location_status": "PASS"
+    },
+    {
+      "rank": 6,
+      "label_id": 11,
+      "voxel_count": 18,
+      "volume_mm3": 144.0,
+      "volume_ml": 0.144,
+      "centroid_world_ras_mm": [
+        -19.386106,
+        -50.299846,
+        87.425956
+      ],
+      "world_bounding_box_mm": {
+        "minimum": [
+          -24.251566,
+          -53.8414,
+          84.475066
+        ],
+        "maximum": [
+          -14.287737,
+          -46.21986,
+          91.615151
+        ]
+      },
+      "laterality": "Left",
+      "left_fraction_percent": 100.0,
+      "right_fraction_percent": 0.0,
+      "exact_midline_fraction_percent": 0.0,
+      "outside_uncertainty_band": {
+        "left_fraction_percent": 100.0,
+        "right_fraction_percent": 0.0,
+        "midline_band_fraction_percent": 0.0
+      },
+      "robust_midline_crossing": false,
+      "anterior_posterior": {
+        "region": "Posterior",
+        "region_by_centroid": "Posterior",
+        "region_fractions_percent": {
+          "Posterior": 100.0,
+          "Central": 0.0,
+          "Anterior": 0.0
+        },
+        "centroid_relative_position": 0.217521,
+        "centroid_distance_to_nearest_third_boundary": 0.115812,
+        "classification_status": "PASS"
+      },
+      "superior_inferior": {
+        "region": "Middle",
+        "region_by_centroid": "Middle",
+        "region_fractions_percent": {
+          "Inferior": 0.0,
+          "Middle": 100.0,
+          "Superior": 0.0
+        },
+        "centroid_relative_position": 0.549094,
+        "centroid_distance_to_nearest_third_boundary": 0.117572,
+        "classification_status": "PASS"
+      },
+      "location_status": "PASS"
+    },
+    {
+      "rank": 7,
+      "label_id": 3,
+      "voxel_count": 15,
+      "volume_mm3": 120.0,
+      "volume_ml": 0.12,
+      "centroid_world_ras_mm": [
+        8.68774,
+        -42.31511,
+        44.917783
+      ],
+      "world_bounding_box_mm": {
+        "minimum": [
+          5.652843,
+          -45.688955,
+          43.35939
+        ],
+        "maximum": [
+          11.872323,
+          -39.906337,
+          46.134436
+        ]
+      },
+      "laterality": "Right",
+      "left_fraction_percent": 0.0,
+      "right_fraction_percent": 100.0,
+      "exact_midline_fraction_percent": 0.0,
+      "outside_uncertainty_band": {
+        "left_fraction_percent": 0.0,
+        "right_fraction_percent": 100.0,
+        "midline_band_fraction_percent": 0.0
+      },
+      "robust_midline_crossing": false,
+      "anterior_posterior": {
+        "region": "Posterior",
+        "region_by_centroid": "Posterior",
+        "region_fractions_percent": {
+          "Posterior": 100.0,
+          "Central": 0.0,
+          "Anterior": 0.0
+        },
+        "centroid_relative_position": 0.267785,
+        "centroid_distance_to_nearest_third_boundary": 0.065548,
+        "classification_status": "PASS"
+      },
+      "superior_inferior": {
+        "region": "Inferior",
+        "region_by_centroid": "Inferior",
+        "region_fractions_percent": {
+          "Inferior": 100.0,
+          "Middle": 0.0,
+          "Superior": 0.0
+        },
+        "centroid_relative_position": 0.23264,
+        "centroid_distance_to_nearest_third_boundary": 0.100693,
+        "classification_status": "PASS"
+      },
+      "location_status": "PASS"
+    },
+    {
+      "rank": 8,
+      "label_id": 8,
+      "voxel_count": 12,
+      "volume_mm3": 96.0,
+      "volume_ml": 0.096,
+      "centroid_world_ras_mm": [
+        6.133877,
+        -6.270752,
+        84.346309
+      ],
+      "world_bounding_box_mm": {
+        "minimum": [
+          2.612093,
+          -9.447131,
+          82.52967
+        ],
+        "maximum": [
+          8.761855,
+          -4.089248,
+          85.876871
+        ]
+      },
+      "laterality": "Right",
+      "left_fraction_percent": 0.0,
+      "right_fraction_percent": 100.0,
+      "exact_midline_fraction_percent": 0.0,
+      "outside_uncertainty_band": {
+        "left_fraction_percent": 0.0,
+        "right_fraction_percent": 100.0,
+        "midline_band_fraction_percent": 0.0
+      },
+      "robust_midline_crossing": false,
+      "anterior_posterior": {
+        "region": "Central",
+        "region_by_centroid": "Central",
+        "region_fractions_percent": {
+          "Posterior": 0.0,
+          "Central": 100.0,
+          "Anterior": 0.0
+        },
+        "centroid_relative_position": 0.494685,
+        "centroid_distance_to_nearest_third_boundary": 0.161351,
+        "classification_status": "PASS"
+      },
+      "superior_inferior": {
+        "region": "Middle",
+        "region_by_centroid": "Middle",
+        "region_fractions_percent": {
+          "Inferior": 0.0,
+          "Middle": 100.0,
+          "Superior": 0.0
+        },
+        "centroid_relative_position": 0.526168,
+        "centroid_distance_to_nearest_third_boundary": 0.140499,
+        "classification_status": "PASS"
+      },
+      "location_status": "PASS"
+    },
+    {
+      "rank": 9,
+      "label_id": 6,
+      "voxel_count": 9,
+      "volume_mm3": 72.0,
+      "volume_ml": 0.072,
+      "centroid_world_ras_mm": [
+        5.552403,
+        -37.211597,
+        60.265196
+      ],
+      "world_bounding_box_mm": {
+        "minimum": [
+          4.563096,
+          -39.17994,
+          58.928228
+        ],
+        "maximum": [
+          6.719319,
+          -34.869019,
+          61.910503
+        ]
+      },
+      "laterality": "Right",
+      "left_fraction_percent": 0.0,
+      "right_fraction_percent": 100.0,
+      "exact_midline_fraction_percent": 0.0,
+      "outside_uncertainty_band": {
+        "left_fraction_percent": 0.0,
+        "right_fraction_percent": 100.0,
+        "midline_band_fraction_percent": 0.0
+      },
+      "robust_midline_crossing": false,
+      "anterior_posterior": {
+        "region": "Posterior",
+        "region_by_centroid": "Posterior",
+        "region_fractions_percent": {
+          "Posterior": 100.0,
+          "Central": 0.0,
+          "Anterior": 0.0
+        },
+        "centroid_relative_position": 0.299912,
+        "centroid_distance_to_nearest_third_boundary": 0.033421,
+        "classification_status": "PASS"
+      },
+      "superior_inferior": {
+        "region": "Middle",
+        "region_by_centroid": "Middle",
+        "region_fractions_percent": {
+          "Inferior": 0.0,
+          "Middle": 100.0,
+          "Superior": 0.0
+        },
+        "centroid_relative_position": 0.346895,
+        "centroid_distance_to_nearest_third_boundary": 0.013561,
+        "classification_status": "NEEDS REVIEW"
+      },
+      "location_status": "NEEDS REVIEW"
+    },
+    {
+      "rank": 10,
+      "label_id": 7,
+      "voxel_count": 9,
+      "volume_mm3": 72.0,
+      "volume_ml": 0.072,
+      "centroid_world_ras_mm": [
+        5.994316,
+        -25.799685,
+        59.352927
+      ],
+      "world_bounding_box_mm": {
+        "minimum": [
+          4.801936,
+          -28.09695,
+          57.387769
+        ],
+        "maximum": [
+          6.958159,
+          -24.210764,
+          62.311624
+        ]
+      },
+      "laterality": "Right",
+      "left_fraction_percent": 0.0,
+      "right_fraction_percent": 100.0,
+      "exact_midline_fraction_percent": 0.0,
+      "outside_uncertainty_band": {
+        "left_fraction_percent": 0.0,
+        "right_fraction_percent": 100.0,
+        "midline_band_fraction_percent": 0.0
+      },
+      "robust_midline_crossing": false,
+      "anterior_posterior": {
+        "region": "Central",
+        "region_by_centroid": "Central",
+        "region_fractions_percent": {
+          "Posterior": 0.0,
+          "Central": 100.0,
+          "Anterior": 0.0
+        },
+        "centroid_relative_position": 0.37175,
+        "centroid_distance_to_nearest_third_boundary": 0.038417,
+        "classification_status": "PASS"
+      },
+      "superior_inferior": {
+        "region": "Middle",
+        "region_by_centroid": "Middle",
+        "region_fractions_percent": {
+          "Inferior": 44.444,
+          "Middle": 55.556,
+          "Superior": 0.0
+        },
+        "centroid_relative_position": 0.340103,
+        "centroid_distance_to_nearest_third_boundary": 0.00677,
+        "classification_status": "NEEDS REVIEW"
+      },
+      "location_status": "NEEDS REVIEW"
+    },
+    {
+      "rank": 11,
+      "label_id": 4,
+      "voxel_count": 8,
+      "volume_mm3": 64.0,
+      "volume_ml": 0.064,
+      "centroid_world_ras_mm": [
+        11.391994,
+        -29.94975,
+        51.571971
+      ],
+      "world_bounding_box_mm": {
+        "minimum": [
+          10.313882,
+          -31.180324,
+          50.315103
+        ],
+        "maximum": [
+          12.470105,
+          -28.719176,
+          52.828838
+        ]
+      },
+      "laterality": "Right",
+      "left_fraction_percent": 0.0,
+      "right_fraction_percent": 100.0,
+      "exact_midline_fraction_percent": 0.0,
+      "outside_uncertainty_band": {
+        "left_fraction_percent": 0.0,
+        "right_fraction_percent": 100.0,
+        "midline_band_fraction_percent": 0.0
+      },
+      "robust_midline_crossing": false,
+      "anterior_posterior": {
+        "region": "Central",
+        "region_by_centroid": "Central",
+        "region_fractions_percent": {
+          "Posterior": 0.0,
+          "Central": 100.0,
+          "Anterior": 0.0
+        },
+        "centroid_relative_position": 0.345625,
+        "centroid_distance_to_nearest_third_boundary": 0.012292,
+        "classification_status": "NEEDS REVIEW"
+      },
+      "superior_inferior": {
+        "region": "Inferior",
+        "region_by_centroid": "Inferior",
+        "region_fractions_percent": {
+          "Inferior": 100.0,
+          "Middle": 0.0,
+          "Superior": 0.0
+        },
+        "centroid_relative_position": 0.282177,
+        "centroid_distance_to_nearest_third_boundary": 0.051156,
+        "classification_status": "PASS"
+      },
+      "location_status": "NEEDS REVIEW"
+    },
+    {
+      "rank": 12,
+      "label_id": 9,
+      "voxel_count": 8,
+      "volume_mm3": 64.0,
+      "volume_ml": 0.064,
+      "centroid_world_ras_mm": [
+        3.444951,
+        -34.592087,
+        54.932509
+      ],
+      "world_bounding_box_mm": {
+        "minimum": [
+          2.366839,
+          -35.822661,
+          53.675642
+        ],
+        "maximum": [
+          4.523062,
+          -33.361513,
+          56.189377
+        ]
+      },
+      "laterality": "Right",
+      "left_fraction_percent": 0.0,
+      "right_fraction_percent": 100.0,
+      "exact_midline_fraction_percent": 0.0,
+      "outside_uncertainty_band": {
+        "left_fraction_percent": 0.0,
+        "right_fraction_percent": 100.0,
+        "midline_band_fraction_percent": 0.0
+      },
+      "robust_midline_crossing": false,
+      "anterior_posterior": {
+        "region": "Posterior",
+        "region_by_centroid": "Posterior",
+        "region_fractions_percent": {
+          "Posterior": 100.0,
+          "Central": 0.0,
+          "Anterior": 0.0
+        },
+        "centroid_relative_position": 0.316402,
+        "centroid_distance_to_nearest_third_boundary": 0.016931,
+        "classification_status": "NEEDS REVIEW"
+      },
+      "superior_inferior": {
+        "region": "Inferior",
+        "region_by_centroid": "Inferior",
+        "region_fractions_percent": {
+          "Inferior": 100.0,
+          "Middle": 0.0,
+          "Superior": 0.0
+        },
+        "centroid_relative_position": 0.307195,
+        "centroid_distance_to_nearest_third_boundary": 0.026138,
+        "classification_status": "NEEDS REVIEW"
+      },
+      "location_status": "NEEDS REVIEW"
+    },
+    {
+      "rank": 13,
+      "label_id": 12,
+      "voxel_count": 2,
+      "volume_mm3": 16.0,
+      "volume_ml": 0.016,
+      "centroid_world_ras_mm": [
+        -13.525327,
+        -42.340727,
+        98.129365
+      ],
+      "world_bounding_box_mm": {
+        "minimum": [
+          -13.560186,
+          -43.312273,
+          97.895095
+        ],
+        "maximum": [
+          -13.490468,
+          -41.369181,
+          98.363635
+        ]
+      },
+      "laterality": "Left",
+      "left_fraction_percent": 100.0,
+      "right_fraction_percent": 0.0,
+      "exact_midline_fraction_percent": 0.0,
+      "outside_uncertainty_band": {
+        "left_fraction_percent": 100.0,
+        "right_fraction_percent": 0.0,
+        "midline_band_fraction_percent": 0.0
+      },
+      "robust_midline_crossing": false,
+      "anterior_posterior": {
+        "region": "Posterior",
+        "region_by_centroid": "Posterior",
+        "region_fractions_percent": {
+          "Posterior": 100.0,
+          "Central": 0.0,
+          "Anterior": 0.0
+        },
+        "centroid_relative_position": 0.267624,
+        "centroid_distance_to_nearest_third_boundary": 0.065709,
+        "classification_status": "PASS"
+      },
+      "superior_inferior": {
+        "region": "Middle",
+        "region_by_centroid": "Middle",
+        "region_fractions_percent": {
+          "Inferior": 0.0,
+          "Middle": 100.0,
+          "Superior": 0.0
+        },
+        "centroid_relative_position": 0.628776,
+        "centroid_distance_to_nearest_third_boundary": 0.03789,
+        "classification_status": "PASS"
+      },
+      "location_status": "PASS"
+    }
+  ],
+  "ground_truth": {
+    "overall": {
+      "lesion_voxels": 421,
+      "component_count": 14,
+      "distribution": "Multifocal",
+      "laterality": "Bilateral",
+      "left_fraction_percent": 44.893,
+      "right_fraction_percent": 55.107,
+      "exact_midline_fraction_percent": 0.0,
+      "outside_midline_uncertainty_band": {
+        "left_fraction_percent": 41.805,
+        "right_fraction_percent": 46.318,
+        "midline_band_fraction_percent": 11.876
+      },
+      "midline_crossing_component_ranks": [],
+      "centroid_world_ras_mm": [
+        -2.072481,
+        -27.632074,
+        69.950405
+      ],
+      "anterior_posterior": {
+        "region": "Central",
+        "region_by_centroid": "Central",
+        "region_fractions_percent": {
+          "Posterior": 40.855,
+          "Central": 59.145,
+          "Anterior": 0.0
+        },
+        "centroid_relative_position": 0.360215,
+        "centroid_distance_to_nearest_third_boundary": 0.026882,
+        "classification_status": "NEEDS REVIEW"
+      },
+      "superior_inferior": {
+        "region": "Middle",
+        "region_by_centroid": "Middle",
+        "region_fractions_percent": {
+          "Inferior": 28.029,
+          "Middle": 71.971,
+          "Superior": 0.0
+        },
+        "centroid_relative_position": 0.418997,
+        "centroid_distance_to_nearest_third_boundary": 0.085663,
+        "classification_status": "PASS"
+      },
+      "location_status": "NEEDS REVIEW"
+    },
+    "components": [
+      {
+        "rank": 1,
+        "label_id": 6,
+        "voxel_count": 99,
+        "volume_mm3": 792.0,
+        "volume_ml": 0.792,
+        "centroid_world_ras_mm": [
+          2.188878,
+          -10.0576,
+          61.207402
+        ],
+        "world_bounding_box_mm": {
+          "minimum": [
+            -4.992771,
+            -19.619885,
+            55.793228
+          ],
+          "maximum": [
+            9.632097,
+            -2.836745,
+            67.672797
+          ]
+        },
+        "laterality": "Predominantly Right",
+        "left_fraction_percent": 15.152,
+        "right_fraction_percent": 84.848,
+        "exact_midline_fraction_percent": 0.0,
+        "outside_uncertainty_band": {
+          "left_fraction_percent": 2.02,
+          "right_fraction_percent": 49.495,
+          "midline_band_fraction_percent": 48.485
+        },
+        "robust_midline_crossing": false,
+        "anterior_posterior": {
+          "region": "Central",
+          "region_by_centroid": "Central",
+          "region_fractions_percent": {
+            "Posterior": 0.0,
+            "Central": 100.0,
+            "Anterior": 0.0
+          },
+          "centroid_relative_position": 0.470847,
+          "centroid_distance_to_nearest_third_boundary": 0.137513,
+          "classification_status": "PASS"
+        },
+        "superior_inferior": {
+          "region": "Middle",
+          "region_by_centroid": "Middle",
+          "region_fractions_percent": {
+            "Inferior": 20.202,
+            "Middle": 79.798,
+            "Superior": 0.0
+          },
+          "centroid_relative_position": 0.353909,
+          "centroid_distance_to_nearest_third_boundary": 0.020576,
+          "classification_status": "NEEDS REVIEW"
+        },
+        "location_status": "NEEDS REVIEW"
+      },
+      {
+        "rank": 2,
+        "label_id": 11,
+        "voxel_count": 79,
+        "volume_mm3": 632.0,
+        "volume_ml": 0.632,
+        "centroid_world_ras_mm": [
+          -12.063844,
+          -6.326631,
+          84.665275
+        ],
+        "world_bounding_box_mm": {
+          "minimum": [
+            -17.564754,
+            -13.291455,
+            80.58354
+          ],
+          "maximum": [
+            -5.235547,
+            0.68827,
+            89.219523
+          ]
+        },
+        "laterality": "Left",
+        "left_fraction_percent": 100.0,
+        "right_fraction_percent": 0.0,
+        "exact_midline_fraction_percent": 0.0,
+        "outside_uncertainty_band": {
+          "left_fraction_percent": 100.0,
+          "right_fraction_percent": 0.0,
+          "midline_band_fraction_percent": 0.0
+        },
+        "robust_midline_crossing": false,
+        "anterior_posterior": {
+          "region": "Central",
+          "region_by_centroid": "Central",
+          "region_fractions_percent": {
+            "Posterior": 0.0,
+            "Central": 100.0,
+            "Anterior": 0.0
+          },
+          "centroid_relative_position": 0.494333,
+          "centroid_distance_to_nearest_third_boundary": 0.161,
+          "classification_status": "PASS"
+        },
+        "superior_inferior": {
+          "region": "Middle",
+          "region_by_centroid": "Middle",
+          "region_fractions_percent": {
+            "Inferior": 0.0,
+            "Middle": 100.0,
+            "Superior": 0.0
+          },
+          "centroid_relative_position": 0.528542,
+          "centroid_distance_to_nearest_third_boundary": 0.138124,
+          "classification_status": "PASS"
+        },
+        "location_status": "PASS"
+      },
+      {
+        "rank": 3,
+        "label_id": 10,
+        "voxel_count": 46,
+        "volume_mm3": 368.0,
+        "volume_ml": 0.368,
+        "centroid_world_ras_mm": [
+          -15.88207,
+          -50.559241,
+          87.464771
+        ],
+        "world_bounding_box_mm": {
+          "minimum": [
+            -24.251566,
+            -55.831152,
+            84.475066
+          ],
+          "maximum": [
+            -4.283875,
+            -46.1732,
+            91.615151
+          ]
+        },
+        "laterality": "Left",
+        "left_fraction_percent": 100.0,
+        "right_fraction_percent": 0.0,
+        "exact_midline_fraction_percent": 0.0,
+        "outside_uncertainty_band": {
+          "left_fraction_percent": 100.0,
+          "right_fraction_percent": 0.0,
+          "midline_band_fraction_percent": 0.0
+        },
+        "robust_midline_crossing": false,
+        "anterior_posterior": {
+          "region": "Posterior",
+          "region_by_centroid": "Posterior",
+          "region_fractions_percent": {
+            "Posterior": 100.0,
+            "Central": 0.0,
+            "Anterior": 0.0
+          },
+          "centroid_relative_position": 0.215889,
+          "centroid_distance_to_nearest_third_boundary": 0.117445,
+          "classification_status": "PASS"
+        },
+        "superior_inferior": {
+          "region": "Middle",
+          "region_by_centroid": "Middle",
+          "region_fractions_percent": {
+            "Inferior": 0.0,
+            "Middle": 100.0,
+            "Superior": 0.0
+          },
+          "centroid_relative_position": 0.549383,
+          "centroid_distance_to_nearest_third_boundary": 0.117283,
+          "classification_status": "PASS"
+        },
+        "location_status": "PASS"
+      },
+      {
+        "rank": 4,
+        "label_id": 13,
+        "voxel_count": 37,
+        "volume_mm3": 296.0,
+        "volume_ml": 0.296,
+        "centroid_world_ras_mm": [
+          -21.293107,
+          -74.479081,
+          91.242323
+        ],
+        "world_bounding_box_mm": {
+          "minimum": [
+            -24.679546,
+            -78.666018,
+            86.929748
+          ],
+          "maximum": [
+            -18.509767,
+            -70.328932,
+            94.696069
+          ]
+        },
+        "laterality": "Left",
+        "left_fraction_percent": 100.0,
+        "right_fraction_percent": 0.0,
+        "exact_midline_fraction_percent": 0.0,
+        "outside_uncertainty_band": {
+          "left_fraction_percent": 100.0,
+          "right_fraction_percent": 0.0,
+          "midline_band_fraction_percent": 0.0
+        },
+        "robust_midline_crossing": false,
+        "anterior_posterior": {
+          "region": "Posterior",
+          "region_by_centroid": "Posterior",
+          "region_fractions_percent": {
+            "Posterior": 100.0,
+            "Central": 0.0,
+            "Anterior": 0.0
+          },
+          "centroid_relative_position": 0.065313,
+          "centroid_distance_to_nearest_third_boundary": 0.26802,
+          "classification_status": "PASS"
+        },
+        "superior_inferior": {
+          "region": "Middle",
+          "region_by_centroid": "Middle",
+          "region_fractions_percent": {
+            "Inferior": 0.0,
+            "Middle": 100.0,
+            "Superior": 0.0
+          },
+          "centroid_relative_position": 0.577505,
+          "centroid_distance_to_nearest_third_boundary": 0.089161,
+          "classification_status": "PASS"
+        },
+        "location_status": "PASS"
+      },
+      {
+        "rank": 5,
+        "label_id": 2,
+        "voxel_count": 31,
+        "volume_mm3": 248.0,
+        "volume_ml": 0.248,
+        "centroid_world_ras_mm": [
+          19.342609,
+          -31.786144,
+          49.329821
+        ],
+        "world_bounding_box_mm": {
+          "minimum": [
+            16.075017,
+            -34.781753,
+            45.652559
+          ],
+          "maximum": [
+            22.453951,
+            -28.481079,
+            52.310765
+          ]
+        },
+        "laterality": "Right",
+        "left_fraction_percent": 0.0,
+        "right_fraction_percent": 100.0,
+        "exact_midline_fraction_percent": 0.0,
+        "outside_uncertainty_band": {
+          "left_fraction_percent": 0.0,
+          "right_fraction_percent": 100.0,
+          "midline_band_fraction_percent": 0.0
+        },
+        "robust_midline_crossing": false,
+        "anterior_posterior": {
+          "region": "Central",
+          "region_by_centroid": "Central",
+          "region_fractions_percent": {
+            "Posterior": 48.387,
+            "Central": 51.613,
+            "Anterior": 0.0
+          },
+          "centroid_relative_position": 0.334065,
+          "centroid_distance_to_nearest_third_boundary": 0.000732,
+          "classification_status": "NEEDS REVIEW"
+        },
+        "superior_inferior": {
+          "region": "Inferior",
+          "region_by_centroid": "Inferior",
+          "region_fractions_percent": {
+            "Inferior": 100.0,
+            "Middle": 0.0,
+            "Superior": 0.0
+          },
+          "centroid_relative_position": 0.265486,
+          "centroid_distance_to_nearest_third_boundary": 0.067848,
+          "classification_status": "PASS"
+        },
+        "location_status": "NEEDS REVIEW"
+      },
+      {
+        "rank": 6,
+        "label_id": 5,
+        "voxel_count": 23,
+        "volume_mm3": 184.0,
+        "volume_ml": 0.184,
+        "centroid_world_ras_mm": [
+          5.904413,
+          -26.249513,
+          59.128438
+        ],
+        "world_bounding_box_mm": {
+          "minimum": [
+            2.805167,
+            -28.993081,
+            55.549803
+          ],
+          "maximum": [
+            8.865193,
+            -22.739067,
+            62.311624
+          ]
+        },
+        "laterality": "Right",
+        "left_fraction_percent": 0.0,
+        "right_fraction_percent": 100.0,
+        "exact_midline_fraction_percent": 0.0,
+        "outside_uncertainty_band": {
+          "left_fraction_percent": 0.0,
+          "right_fraction_percent": 100.0,
+          "midline_band_fraction_percent": 0.0
+        },
+        "robust_midline_crossing": false,
+        "anterior_posterior": {
+          "region": "Central",
+          "region_by_centroid": "Central",
+          "region_fractions_percent": {
+            "Posterior": 0.0,
+            "Central": 100.0,
+            "Anterior": 0.0
+          },
+          "centroid_relative_position": 0.368918,
+          "centroid_distance_to_nearest_third_boundary": 0.035585,
+          "classification_status": "PASS"
+        },
+        "superior_inferior": {
+          "region": "Inferior",
+          "region_by_centroid": "Middle",
+          "region_fractions_percent": {
+            "Inferior": 52.174,
+            "Middle": 47.826,
+            "Superior": 0.0
+          },
+          "centroid_relative_position": 0.338432,
+          "centroid_distance_to_nearest_third_boundary": 0.005099,
+          "classification_status": "NEEDS REVIEW"
+        },
+        "location_status": "NEEDS REVIEW"
+      },
+      {
+        "rank": 7,
+        "label_id": 8,
+        "voxel_count": 23,
+        "volume_mm3": 184.0,
+        "volume_ml": 0.184,
+        "centroid_world_ras_mm": [
+          5.551293,
+          -6.273946,
+          83.611089
+        ],
+        "world_bounding_box_mm": {
+          "minimum": [
+            2.452639,
+            -9.447131,
+            81.160245
+          ],
+          "maximum": [
+            8.761855,
+            -3.571193,
+            85.876871
+          ]
+        },
+        "laterality": "Right",
+        "left_fraction_percent": 0.0,
+        "right_fraction_percent": 100.0,
+        "exact_midline_fraction_percent": 0.0,
+        "outside_uncertainty_band": {
+          "left_fraction_percent": 0.0,
+          "right_fraction_percent": 100.0,
+          "midline_band_fraction_percent": 0.0
+        },
+        "robust_midline_crossing": false,
+        "anterior_posterior": {
+          "region": "Central",
+          "region_by_centroid": "Central",
+          "region_fractions_percent": {
+            "Posterior": 0.0,
+            "Central": 100.0,
+            "Anterior": 0.0
+          },
+          "centroid_relative_position": 0.494665,
+          "centroid_distance_to_nearest_third_boundary": 0.161331,
+          "classification_status": "PASS"
+        },
+        "superior_inferior": {
+          "region": "Middle",
+          "region_by_centroid": "Middle",
+          "region_fractions_percent": {
+            "Inferior": 0.0,
+            "Middle": 100.0,
+            "Superior": 0.0
+          },
+          "centroid_relative_position": 0.520694,
+          "centroid_distance_to_nearest_third_boundary": 0.145972,
+          "classification_status": "PASS"
+        },
+        "location_status": "PASS"
+      },
+      {
+        "rank": 8,
+        "label_id": 3,
+        "voxel_count": 19,
+        "volume_mm3": 152.0,
+        "volume_ml": 0.152,
+        "centroid_world_ras_mm": [
+          8.803867,
+          -42.140185,
+          44.774169
+        ],
+        "world_bounding_box_mm": {
+          "minimum": [
+            5.652843,
+            -45.735615,
+            43.35939
+          ],
+          "maximum": [
+            11.872323,
+            -39.434941,
+            46.134436
+          ]
+        },
+        "laterality": "Right",
+        "left_fraction_percent": 0.0,
+        "right_fraction_percent": 100.0,
+        "exact_midline_fraction_percent": 0.0,
+        "outside_uncertainty_band": {
+          "left_fraction_percent": 0.0,
+          "right_fraction_percent": 100.0,
+          "midline_band_fraction_percent": 0.0
+        },
+        "robust_midline_crossing": false,
+        "anterior_posterior": {
+          "region": "Posterior",
+          "region_by_centroid": "Posterior",
+          "region_fractions_percent": {
+            "Posterior": 100.0,
+            "Central": 0.0,
+            "Anterior": 0.0
+          },
+          "centroid_relative_position": 0.268887,
+          "centroid_distance_to_nearest_third_boundary": 0.064447,
+          "classification_status": "PASS"
+        },
+        "superior_inferior": {
+          "region": "Inferior",
+          "region_by_centroid": "Inferior",
+          "region_fractions_percent": {
+            "Inferior": 100.0,
+            "Middle": 0.0,
+            "Superior": 0.0
+          },
+          "centroid_relative_position": 0.231571,
+          "centroid_distance_to_nearest_third_boundary": 0.101762,
+          "classification_status": "PASS"
+        },
+        "location_status": "PASS"
+      },
+      {
+        "rank": 9,
+        "label_id": 1,
+        "voxel_count": 17,
+        "volume_mm3": 136.0,
+        "volume_ml": 0.136,
+        "centroid_world_ras_mm": [
+          21.609763,
+          -45.601215,
+          31.848386
+        ],
+        "world_bounding_box_mm": {
+          "minimum": [
+            18.882659,
+            -47.638101,
+            29.578985
+          ],
+          "maximum": [
+            25.122156,
+            -43.140541,
+            33.930686
+          ]
+        },
+        "laterality": "Right",
+        "left_fraction_percent": 0.0,
+        "right_fraction_percent": 100.0,
+        "exact_midline_fraction_percent": 0.0,
+        "outside_uncertainty_band": {
+          "left_fraction_percent": 0.0,
+          "right_fraction_percent": 100.0,
+          "midline_band_fraction_percent": 0.0
+        },
+        "robust_midline_crossing": false,
+        "anterior_posterior": {
+          "region": "Posterior",
+          "region_by_centroid": "Posterior",
+          "region_fractions_percent": {
+            "Posterior": 100.0,
+            "Central": 0.0,
+            "Anterior": 0.0
+          },
+          "centroid_relative_position": 0.247099,
+          "centroid_distance_to_nearest_third_boundary": 0.086234,
+          "classification_status": "PASS"
+        },
+        "superior_inferior": {
+          "region": "Inferior",
+          "region_by_centroid": "Inferior",
+          "region_fractions_percent": {
+            "Inferior": 100.0,
+            "Middle": 0.0,
+            "Superior": 0.0
+          },
+          "centroid_relative_position": 0.135344,
+          "centroid_distance_to_nearest_third_boundary": 0.197989,
+          "classification_status": "PASS"
+        },
+        "location_status": "PASS"
+      },
+      {
+        "rank": 10,
+        "label_id": 7,
+        "voxel_count": 16,
+        "volume_mm3": 128.0,
+        "volume_ml": 0.128,
+        "centroid_world_ras_mm": [
+          4.43555,
+          -36.601525,
+          60.450627
+        ],
+        "world_bounding_box_mm": {
+          "minimum": [
+            2.566327,
+            -41.076373,
+            59.031842
+          ],
+          "maximum": [
+            6.769021,
+            -32.925926,
+            62.482658
+          ]
+        },
+        "laterality": "Right",
+        "left_fraction_percent": 0.0,
+        "right_fraction_percent": 100.0,
+        "exact_midline_fraction_percent": 0.0,
+        "outside_uncertainty_band": {
+          "left_fraction_percent": 0.0,
+          "right_fraction_percent": 100.0,
+          "midline_band_fraction_percent": 0.0
+        },
+        "robust_midline_crossing": false,
+        "anterior_posterior": {
+          "region": "Posterior",
+          "region_by_centroid": "Posterior",
+          "region_fractions_percent": {
+            "Posterior": 100.0,
+            "Central": 0.0,
+            "Anterior": 0.0
+          },
+          "centroid_relative_position": 0.303752,
+          "centroid_distance_to_nearest_third_boundary": 0.029581,
+          "classification_status": "NEEDS REVIEW"
+        },
+        "superior_inferior": {
+          "region": "Middle",
+          "region_by_centroid": "Middle",
+          "region_fractions_percent": {
+            "Inferior": 0.0,
+            "Middle": 100.0,
+            "Superior": 0.0
+          },
+          "centroid_relative_position": 0.348275,
+          "centroid_distance_to_nearest_third_boundary": 0.014942,
+          "classification_status": "NEEDS REVIEW"
+        },
+        "location_status": "NEEDS REVIEW"
+      },
+      {
+        "rank": 11,
+        "label_id": 9,
+        "voxel_count": 10,
+        "volume_mm3": 80.0,
+        "volume_ml": 0.08,
+        "centroid_world_ras_mm": [
+          2.854893,
+          -34.625228,
+          55.157752
+        ],
+        "world_bounding_box_mm": {
+          "minimum": [
+            0.459805,
+            -35.822661,
+            53.675642
+          ],
+          "maximum": [
+            4.523062,
+            -33.361513,
+            56.292992
+          ]
+        },
+        "laterality": "Right",
+        "left_fraction_percent": 0.0,
+        "right_fraction_percent": 100.0,
+        "exact_midline_fraction_percent": 0.0,
+        "outside_uncertainty_band": {
+          "left_fraction_percent": 0.0,
+          "right_fraction_percent": 80.0,
+          "midline_band_fraction_percent": 20.0
+        },
+        "robust_midline_crossing": false,
+        "anterior_posterior": {
+          "region": "Posterior",
+          "region_by_centroid": "Posterior",
+          "region_fractions_percent": {
+            "Posterior": 100.0,
+            "Central": 0.0,
+            "Anterior": 0.0
+          },
+          "centroid_relative_position": 0.316193,
+          "centroid_distance_to_nearest_third_boundary": 0.01714,
+          "classification_status": "NEEDS REVIEW"
+        },
+        "superior_inferior": {
+          "region": "Inferior",
+          "region_by_centroid": "Inferior",
+          "region_fractions_percent": {
+            "Inferior": 100.0,
+            "Middle": 0.0,
+            "Superior": 0.0
+          },
+          "centroid_relative_position": 0.308872,
+          "centroid_distance_to_nearest_third_boundary": 0.024461,
+          "classification_status": "NEEDS REVIEW"
+        },
+        "location_status": "NEEDS REVIEW"
+      },
+      {
+        "rank": 12,
+        "label_id": 4,
+        "voxel_count": 9,
+        "volume_mm3": 72.0,
+        "volume_ml": 0.072,
+        "centroid_world_ras_mm": [
+          11.51953,
+          -29.654682,
+          51.75217
+        ],
+        "world_bounding_box_mm": {
+          "minimum": [
+            10.313882,
+            -31.180324,
+            50.315103
+          ],
+          "maximum": [
+            12.539824,
+            -27.294138,
+            53.193764
+          ]
+        },
+        "laterality": "Right",
+        "left_fraction_percent": 0.0,
+        "right_fraction_percent": 100.0,
+        "exact_midline_fraction_percent": 0.0,
+        "outside_uncertainty_band": {
+          "left_fraction_percent": 0.0,
+          "right_fraction_percent": 100.0,
+          "midline_band_fraction_percent": 0.0
+        },
+        "robust_midline_crossing": false,
+        "anterior_posterior": {
+          "region": "Central",
+          "region_by_centroid": "Central",
+          "region_fractions_percent": {
+            "Posterior": 0.0,
+            "Central": 100.0,
+            "Anterior": 0.0
+          },
+          "centroid_relative_position": 0.347483,
+          "centroid_distance_to_nearest_third_boundary": 0.01415,
+          "classification_status": "NEEDS REVIEW"
+        },
+        "superior_inferior": {
+          "region": "Inferior",
+          "region_by_centroid": "Inferior",
+          "region_fractions_percent": {
+            "Inferior": 100.0,
+            "Middle": 0.0,
+            "Superior": 0.0
+          },
+          "centroid_relative_position": 0.283519,
+          "centroid_distance_to_nearest_third_boundary": 0.049814,
+          "classification_status": "PASS"
+        },
+        "location_status": "NEEDS REVIEW"
+      },
+      {
+        "rank": 13,
+        "label_id": 12,
+        "voxel_count": 8,
+        "volume_mm3": 64.0,
+        "volume_ml": 0.064,
+        "centroid_world_ras_mm": [
+          -14.478844,
+          -42.553095,
+          99.151962
+        ],
+        "world_bounding_box_mm": {
+          "minimum": [
+            -15.556955,
+            -43.783669,
+            97.895095
+          ],
+          "maximum": [
+            -13.400732,
+            -41.322521,
+            100.40883
+          ]
+        },
+        "laterality": "Left",
+        "left_fraction_percent": 100.0,
+        "right_fraction_percent": 0.0,
+        "exact_midline_fraction_percent": 0.0,
+        "outside_uncertainty_band": {
+          "left_fraction_percent": 100.0,
+          "right_fraction_percent": 0.0,
+          "midline_band_fraction_percent": 0.0
+        },
+        "robust_midline_crossing": false,
+        "anterior_posterior": {
+          "region": "Posterior",
+          "region_by_centroid": "Posterior",
+          "region_fractions_percent": {
+            "Posterior": 100.0,
+            "Central": 0.0,
+            "Anterior": 0.0
+          },
+          "centroid_relative_position": 0.266287,
+          "centroid_distance_to_nearest_third_boundary": 0.067046,
+          "classification_status": "PASS"
+        },
+        "superior_inferior": {
+          "region": "Middle",
+          "region_by_centroid": "Middle",
+          "region_fractions_percent": {
+            "Inferior": 0.0,
+            "Middle": 100.0,
+            "Superior": 0.0
+          },
+          "centroid_relative_position": 0.636389,
+          "centroid_distance_to_nearest_third_boundary": 0.030278,
+          "classification_status": "PASS"
+        },
+        "location_status": "PASS"
+      },
+      {
+        "rank": 14,
+        "label_id": 14,
+        "voxel_count": 4,
+        "volume_mm3": 32.0,
+        "volume_ml": 0.032,
+        "centroid_world_ras_mm": [
+          -25.71347,
+          -51.914584,
+          79.886821
+        ],
+        "world_bounding_box_mm": {
+          "minimum": [
+            -26.746714,
+            -52.909461,
+            79.600743
+          ],
+          "maximum": [
+            -24.680227,
+            -50.919708,
+            80.172898
+          ]
+        },
+        "laterality": "Left",
+        "left_fraction_percent": 100.0,
+        "right_fraction_percent": 0.0,
+        "exact_midline_fraction_percent": 0.0,
+        "outside_uncertainty_band": {
+          "left_fraction_percent": 100.0,
+          "right_fraction_percent": 0.0,
+          "midline_band_fraction_percent": 0.0
+        },
+        "robust_midline_crossing": false,
+        "anterior_posterior": {
+          "region": "Posterior",
+          "region_by_centroid": "Posterior",
+          "region_fractions_percent": {
+            "Posterior": 100.0,
+            "Central": 0.0,
+            "Anterior": 0.0
+          },
+          "centroid_relative_position": 0.207357,
+          "centroid_distance_to_nearest_third_boundary": 0.125977,
+          "classification_status": "PASS"
+        },
+        "superior_inferior": {
+          "region": "Middle",
+          "region_by_centroid": "Middle",
+          "region_fractions_percent": {
+            "Inferior": 0.0,
+            "Middle": 100.0,
+            "Superior": 0.0
+          },
+          "centroid_relative_position": 0.492969,
+          "centroid_distance_to_nearest_third_boundary": 0.159635,
+          "classification_status": "PASS"
+        },
+        "location_status": "PASS"
+      }
+    ]
+  },
+  "prediction_vs_ground_truth": {
+    "purpose": "coarse distribution comparison only; not a Dice or spatial-overlap substitute",
+    "laterality_match": true,
+    "anterior_posterior_match": true,
+    "superior_inferior_match": true,
+    "prediction": {
+      "laterality": "Bilateral",
+      "anterior_posterior": "Central",
+      "superior_inferior": "Middle",
+      "component_count": 13
+    },
+    "ground_truth": {
+      "laterality": "Bilateral",
+      "anterior_posterior": "Central",
+      "superior_inferior": "Middle",
+      "component_count": 14
+    }
+  },
+  "superficial_deep": {
+    "classification": "Not determined",
+    "reason": "The coarse DWI support is not a validated brain-surface segmentation."
+  },
+  "qc": {
+    "image": "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\outputs\\analysis\\native_location\\case_0010\\native_location_qc.png",
+    "status": "PASS",
+    "note": "Lines are calculation/QC guides, not medical structure boundaries."
+  },
+  "status": "PASS"
+}

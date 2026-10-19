@@ -1,0 +1,5 @@
+{
+  "time": "2026-09-16T12:12:01.581274+08:00",
+  "error": "RuntimeError('B0_R2022_screen100_train failed (1); outputs retained; no automatic retry')",
+  "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\scripts\\screen100_pipeline.py\", line 113, in main\n    train_and_evaluate(name, expected_sources)\n  File \"C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\scripts\\screen100_pipeline.py\", line 79, in train_and_evaluate\n    stage(f\"{name}_train\", \"run_screen100_experiment.py\", \"--experiment\", name, \"--mode\", \"train\")\n  File \"C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\scripts\\screen100_pipeline.py\", line 59, in stage\n    raise RuntimeError(f\"{name} failed ({code}); outputs retained; no automatic retry\")\nRuntimeError: B0_R2022_screen100_train failed (1); outputs retained; no automatic retry\n"
+}

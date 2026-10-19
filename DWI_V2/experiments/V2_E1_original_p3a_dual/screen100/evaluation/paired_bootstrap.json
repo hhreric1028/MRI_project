@@ -1,0 +1,83 @@
+{
+  "iterations": 10000,
+  "seed": 2022,
+  "candidate_minus_B0_R2022_100": {
+    "mean_dice": {
+      "delta": 0.006367045088390477,
+      "ci95": [
+        -0.001792854378781175,
+        0.015285150303465887
+      ],
+      "valid_iterations": 10000
+    },
+    "lesion_recall": {
+      "delta": 0.0509977827050998,
+      "ci95": [
+        0.022499999999999964,
+        0.07999999999999996
+      ],
+      "valid_iterations": 10000
+    },
+    "lesion_precision": {
+      "delta": -0.0592612612612613,
+      "ci95": [
+        -0.11148570145214301,
+        -0.013644484670169581
+      ],
+      "valid_iterations": 10000
+    },
+    "severe_under_rate": {
+      "delta": -0.04000000000000001,
+      "ci95": [
+        -0.12,
+        0.039999999999999994
+      ],
+      "valid_iterations": 10000
+    },
+    "fp_per_case": {
+      "delta": 0.9199999999999999,
+      "ci95": [
+        0.3599999999999999,
+        1.6600000000000001
+      ],
+      "valid_iterations": 10000
+    }
+  },
+  "fixed_worst5_candidate_minus_baseline": {
+    "mean_dice": {
+      "delta": 0.01718288998078027,
+      "ci95": [
+        -0.022644740468162894,
+        0.05701052042972349
+      ],
+      "valid_iterations": 10000
+    },
+    "mean_voxel_recall": {
+      "delta": 0.01679562280505667,
+      "ci95": [
+        -0.01665209455859698,
+        0.050243340168710404
+      ],
+      "valid_iterations": 10000
+    }
+  },
+  "coverage_cohort_candidate_minus_baseline": {
+    "mean_dice": {
+      "delta": 0.023581859133150473,
+      "ci95": [
+        -0.006876444502431189,
+        0.050614227445271665
+      ],
+      "valid_iterations": 10000
+    },
+    "mean_voxel_recall": {
+      "delta": 0.02781821872898871,
+      "ci95": [
+        -0.0010266850303966581,
+        0.05448442715727055
+      ],
+      "valid_iterations": 10000
+    }
+  },
+  "horizon_note": "Matched at 100 epochs"
+}

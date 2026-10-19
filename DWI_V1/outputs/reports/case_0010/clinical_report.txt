@@ -1,0 +1,11 @@
+MRI of head images are obtained:
+
+Findings:
+- Multiple lesion regions are identified by DWI-based automated analysis.
+- The predicted lesions show a multifocal bilateral distribution, with a slightly greater predicted lesion burden on the right.
+- In native image space, the predicted lesions are predominantly distributed within the central portion and at the middle level of the imaged brain volume.
+- The total predicted lesion volume is approximately 2.44 mL.
+
+Impression:
+- Multifocal bilateral lesion regions identified by DWI-based automated analysis, predominantly within the central portion and at the middle level of the imaged brain volume in native image space.
+- Total predicted lesion volume is approximately 2.44 mL.

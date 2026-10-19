@@ -1,0 +1,43 @@
+{
+  "cases": 50,
+  "mean_dice": 0.7645259668788942,
+  "median_dice": 0.8238805970149253,
+  "volume_mae_ml": 4.521208746666576,
+  "signed_volume_error_ml": -1.9292127506790029,
+  "hd95_mm": 10.521758797984806,
+  "lesion_tp": 268,
+  "lesion_fn": 183,
+  "lesion_fp": 107,
+  "lesion_recall": 0.5942350332594235,
+  "lesion_precision": 0.7146666666666667,
+  "lesion_f1": 0.648910411622276,
+  "fp_lesions_per_case": 2.14,
+  "severe_under_count": 8,
+  "severe_under_rate": 0.16,
+  "dice_lt_0p5": 4,
+  "dice_lt_0p3": 3,
+  "catastrophic_miss_count": 0,
+  "fixed_worst5_ids": [
+    "case_0182",
+    "case_0068",
+    "case_0181",
+    "case_0160",
+    "case_0212"
+  ],
+  "fixed_worst5_mean_dice": 0.2814355247997603,
+  "fixed_worst5_mean_voxel_recall": 0.18745296154751143,
+  "fixed_worst5_total_fn_ml": 22.613302774920353,
+  "coverage_cohort_ids": [
+    "case_0146",
+    "case_0181",
+    "case_0160",
+    "case_0068",
+    "case_0212",
+    "case_0186",
+    "case_0182"
+  ],
+  "coverage_cohort_mean_dice": 0.3865800805113233,
+  "coverage_cohort_mean_voxel_recall": 0.2728902026665202,
+  "coverage_cohort_total_fn_ml": 38.99155846776742,
+  "coverage_cohort_mean_pred_gt_ratio": 0.3011401629204303
+}

@@ -1,0 +1,7 @@
+{
+  "status": "NEEDS REVIEW",
+  "selected_source": "NONE",
+  "approved_transform": null,
+  "reason": "Both rigid candidates have broadly consistent alignment, but fine cortical/inferior correspondence and component-11 tissue-boundary plausibility require further review.",
+  "review": "../visual_review.md"
+}

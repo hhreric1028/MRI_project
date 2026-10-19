@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "stage": "screen100",
+  "restored_epoch": 0,
+  "current_lr": 0.01,
+  "warmup_iterations": 10,
+  "measured_iterations": 30,
+  "seconds_per_iteration": 0.18906666666734964,
+  "skipped_optimizer_steps": 0,
+  "nonfinite_gradient_events": 0,
+  "validation_loss": -0.15239211916923523,
+  "peak_allocated_gib": 5.29005765914917,
+  "peak_reserved_gib": 6.158203125,
+  "v1_guard_after": {
+    "C:\\Users\\User\\Desktop\\MRI_project_v1\\datasets\\ISLES2022\\nnUNet_raw\\Dataset001_ISLES2022_DWI\\dataset.json": "361eb70c2e99875b5af50f51647f6a8f0840763f35317f894bc4a479d99628d7",
+    "C:\\Users\\User\\Desktop\\MRI_project_v1\\datasets\\ISLES2022\\processed\\Dataset001_ISLES2022_DWI\\nnUNetPlans.json": "09a3894923f0437d714fd14e44c3728785b59d2c28d01d12d8f7681b38d8340e",
+    "C:\\Users\\User\\Desktop\\MRI_project_v1\\datasets\\ISLES2022\\processed\\Dataset001_ISLES2022_DWI\\dataset_fingerprint.json": "ba4c5d098dd03427d2160b2906c2fdaa5c457dd16f8d0935f27a6f088fddcce1",
+    "C:\\Users\\User\\Desktop\\MRI_project_v1\\datasets\\ISLES2022\\processed\\Dataset001_ISLES2022_DWI\\splits_final.json": "09ed64d65dc3b5ece2656639a5abfc1a4f76b6e33121512a4931f6b6d6814d31",
+    "C:\\Users\\User\\Desktop\\MRI_project_v1\\scripts\\prepare_p3a_dataset.py": "671a6871642c3b2648f17dad9f1ed259da8ada73765d44118b2635add8577a7a",
+    "C:\\Users\\User\\Desktop\\MRI_project_v1\\scripts\\recall_trainers.py": "9832a70619396916e0fdd67a3d74def366f8926149ae5363c99722f093845f40",
+    "C:\\Users\\User\\Desktop\\MRI_project_v1\\scripts\\screen100_trainers.py": "61543e8aa1b7921aa7ad1fed80281605d4c8ae1303c8ebd8114789f27bf3fd4a",
+    "C:\\Users\\User\\Desktop\\MRI_project_v1\\scripts\\evaluate_experiment.py": "44a97e68800e66754ea07b2f00f3abf6c274489ee6ea0f8fd34740c81a091e64"
+  },
+  "finished_at": "2026-09-21T02:35:31.268550+08:00"
+}

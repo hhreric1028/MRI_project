@@ -1,0 +1,345 @@
+{
+  "comparison": "P3a-100 minus matched B0-R2022-100",
+  "iterations": 10000,
+  "seed": 2022,
+  "resampling_unit": "paired validation case ID; lesion counts re-aggregated per resample",
+  "baseline": {
+    "mean_dice": 0.7645259668788942,
+    "median_dice": 0.8238805970149253,
+    "hd95_mean_mm": 10.521758797984806,
+    "volume_mae_ml": 4.521207161261114,
+    "signed_volume_error_ml": -1.9292142312690026,
+    "lesion_recall": 0.5942350332594235,
+    "lesion_precision": 0.7146666666666667,
+    "lesion_f1": 0.648910411622276,
+    "lesion_fn": 183,
+    "lesion_fp": 107,
+    "fp_lesions_per_case": 2.14,
+    "severe_under_count": 8,
+    "dice_lt_05": 4,
+    "dice_lt_03": 3,
+    "catastrophic_miss_count": 0,
+    "small_cases": 12,
+    "small_mean_dice": 0.6262440982382312,
+    "small_median_dice": 0.7633060822958717,
+    "small_recall": 0.7333333333333333,
+    "small_precision": 0.8979591836734694,
+    "small_volume_mae_ml": 0.9831121409866785,
+    "small_severe_under_count": 5
+  },
+  "candidate": {
+    "mean_dice": 0.783869311949674,
+    "median_dice": 0.8323959505061868,
+    "hd95_mean_mm": 8.834405413459754,
+    "volume_mae_ml": 4.3862276507555364,
+    "signed_volume_error_ml": -0.8465730282215665,
+    "lesion_recall": 0.6385809312638581,
+    "lesion_precision": 0.6889952153110048,
+    "lesion_f1": 0.6628308400460299,
+    "lesion_fn": 163,
+    "lesion_fp": 130,
+    "fp_lesions_per_case": 2.6,
+    "severe_under_count": 5,
+    "dice_lt_05": 2,
+    "dice_lt_03": 1,
+    "catastrophic_miss_count": 0,
+    "small_cases": 12,
+    "small_mean_dice": 0.6616750644903723,
+    "small_median_dice": 0.6929406800096456,
+    "small_recall": 0.7166666666666667,
+    "small_precision": 0.7678571428571429,
+    "small_volume_mae_ml": 1.087232031021599,
+    "small_severe_under_count": 4
+  },
+  "curve": {
+    "rows": 100,
+    "first_epoch": 1,
+    "last_epoch": 100,
+    "finite": true,
+    "final_lr": 0.009104420581500319,
+    "expected_final_lr": 0.009104420581500319,
+    "total_amp_skipped_steps": 7,
+    "unrecovered_consecutive_overflows": 0,
+    "normal": true
+  },
+  "overall_bootstrap": {
+    "mean_dice": {
+      "baseline": 0.7645259668788942,
+      "candidate": 0.783869311949674,
+      "delta": 0.019343345070779838,
+      "ci95": [
+        0.0001225723543569009,
+        0.04424742862415502
+      ],
+      "valid_replicates": 10000
+    },
+    "median_dice": {
+      "baseline": 0.8238805970149253,
+      "candidate": 0.8323959505061868,
+      "delta": 0.008515353491261424,
+      "ci95": [
+        -0.030410606330239915,
+        0.02634699959699947
+      ],
+      "valid_replicates": 10000
+    },
+    "lesion_recall": {
+      "baseline": 0.5942350332594235,
+      "candidate": 0.6385809312638581,
+      "delta": 0.04434589800443456,
+      "ci95": [
+        0.0,
+        0.08430382093980276
+      ],
+      "valid_replicates": 10000
+    },
+    "lesion_precision": {
+      "baseline": 0.7146666666666667,
+      "candidate": 0.6889952153110048,
+      "delta": -0.025671451355661845,
+      "ci95": [
+        -0.06620703856655191,
+        0.013630593912059603
+      ],
+      "valid_replicates": 10000
+    },
+    "volume_mae_ml": {
+      "baseline": 4.521207161261114,
+      "candidate": 4.3862276507555364,
+      "delta": -0.13497951050557777,
+      "ci95": [
+        -0.7871465845390242,
+        0.5201530950678357
+      ],
+      "valid_replicates": 10000
+    },
+    "signed_volume_error_ml": {
+      "baseline": -1.9292142312690026,
+      "candidate": -0.8465730282215665,
+      "delta": 1.082641203047436,
+      "ci95": [
+        0.4522792563035629,
+        1.7993383666986453
+      ],
+      "valid_replicates": 10000
+    },
+    "severe_under_count": {
+      "baseline": 8,
+      "candidate": 5,
+      "delta": -3,
+      "ci95": [
+        -7.0,
+        0.0
+      ],
+      "valid_replicates": 10000
+    },
+    "severe_under_rate": {
+      "baseline": 0.16,
+      "candidate": 0.1,
+      "delta": -0.06,
+      "ci95": [
+        -0.13999999999999999,
+        0.0
+      ],
+      "valid_replicates": 10000
+    },
+    "dice_below_05_rate": {
+      "baseline": 0.08,
+      "candidate": 0.04,
+      "delta": -0.04,
+      "ci95": [
+        -0.1,
+        0.0
+      ],
+      "valid_replicates": 10000
+    },
+    "catastrophic_miss_rate": {
+      "baseline": 0.0,
+      "candidate": 0.0,
+      "delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "valid_replicates": 10000
+    },
+    "fp_lesions_per_case": {
+      "baseline": 2.14,
+      "candidate": 2.6,
+      "delta": 0.45999999999999996,
+      "ci95": [
+        0.0,
+        0.9199999999999999
+      ],
+      "valid_replicates": 10000
+    },
+    "hd95_finite_mean_mm": {
+      "baseline": 10.521758797984806,
+      "candidate": 8.834405413459754,
+      "delta": -1.6873533845250517,
+      "ci95": [
+        -4.280373823868017,
+        0.7388969322168953
+      ],
+      "valid_replicates": 10000
+    },
+    "hd95_infinite_rate": {
+      "baseline": 0.0,
+      "candidate": 0.0,
+      "delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "valid_replicates": 10000
+    }
+  },
+  "small_1_5_ml_bootstrap": {
+    "mean_dice": {
+      "baseline": 0.6262440982382312,
+      "candidate": 0.6616750644903723,
+      "delta": 0.03543096625214104,
+      "ci95": [
+        -0.02911255172100358,
+        0.12479903405364204
+      ],
+      "valid_replicates": 10000
+    },
+    "median_dice": {
+      "baseline": 0.7633060822958717,
+      "candidate": 0.6929406800096456,
+      "delta": -0.07036540228622612,
+      "ci95": [
+        -0.11142369452522449,
+        0.06483803028469615
+      ],
+      "valid_replicates": 10000
+    },
+    "lesion_recall": {
+      "baseline": 0.7333333333333333,
+      "candidate": 0.7166666666666667,
+      "delta": -0.016666666666666607,
+      "ci95": [
+        -0.19354838709677424,
+        0.17948717948717952
+      ],
+      "valid_replicates": 10000
+    },
+    "lesion_precision": {
+      "baseline": 0.8979591836734694,
+      "candidate": 0.7678571428571429,
+      "delta": -0.13010204081632648,
+      "ci95": [
+        -0.2510504569990689,
+        -0.03774714976974233
+      ],
+      "valid_replicates": 10000
+    },
+    "volume_mae_ml": {
+      "baseline": 0.9831121409866785,
+      "candidate": 1.087232031021599,
+      "delta": 0.1041198900349205,
+      "ci95": [
+        -0.15412878717040393,
+        0.45057456472004315
+      ],
+      "valid_replicates": 10000
+    },
+    "signed_volume_error_ml": {
+      "baseline": -0.8804454743200117,
+      "candidate": -0.6032320310215988,
+      "delta": 0.2772134432984129,
+      "ci95": [
+        0.05342716120583383,
+        0.5843467281401186
+      ],
+      "valid_replicates": 10000
+    },
+    "severe_under_count": {
+      "baseline": 5,
+      "candidate": 4,
+      "delta": -1,
+      "ci95": [
+        -3.0,
+        0.0
+      ],
+      "valid_replicates": 10000
+    },
+    "severe_under_rate": {
+      "baseline": 0.4166666666666667,
+      "candidate": 0.3333333333333333,
+      "delta": -0.08333333333333337,
+      "ci95": [
+        -0.25000000000000006,
+        0.0
+      ],
+      "valid_replicates": 10000
+    },
+    "dice_below_05_rate": {
+      "baseline": 0.25,
+      "candidate": 0.08333333333333333,
+      "delta": -0.16666666666666669,
+      "ci95": [
+        -0.4166666666666667,
+        0.0
+      ],
+      "valid_replicates": 10000
+    },
+    "catastrophic_miss_rate": {
+      "baseline": 0.0,
+      "candidate": 0.0,
+      "delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "valid_replicates": 10000
+    },
+    "fp_lesions_per_case": {
+      "baseline": 0.4166666666666667,
+      "candidate": 1.0833333333333333,
+      "delta": 0.6666666666666665,
+      "ci95": [
+        0.16666666666666669,
+        1.25
+      ],
+      "valid_replicates": 10000
+    },
+    "hd95_finite_mean_mm": {
+      "baseline": 17.56206369261768,
+      "candidate": 14.36336949496341,
+      "delta": -3.1986941976542713,
+      "ci95": [
+        -12.213195758698188,
+        6.59244523316471
+      ],
+      "valid_replicates": 10000
+    },
+    "hd95_infinite_rate": {
+      "baseline": 0.0,
+      "candidate": 0.0,
+      "delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "valid_replicates": 10000
+    }
+  },
+  "promotion": {
+    "decision": "PROMOTE TO 300",
+    "core_signal_count": 3,
+    "core": {
+      "mean_dice_improved": true,
+      "lesion_recall_improved": true,
+      "severe_under_count_reduced": true,
+      "small_dice_recall_balanced_improvement": false
+    },
+    "guards": {
+      "precision_drop_within_0.05": true,
+      "fp_per_case_increase_within_0.5": true,
+      "volume_mae_increase_within_0.5_ml": true,
+      "training_and_numerics_normal": true
+    }
+  }
+}

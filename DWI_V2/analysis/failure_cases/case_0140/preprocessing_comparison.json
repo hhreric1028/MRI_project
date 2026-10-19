@@ -1,0 +1,52 @@
+{
+  "raw_shape_xyz": [
+    112,
+    112,
+    73
+  ],
+  "shape_before_cropping_zyx": [
+    73,
+    112,
+    112
+  ],
+  "bbox_used_for_cropping_zyx": [
+    [
+      6,
+      71
+    ],
+    [
+      7,
+      91
+    ],
+    [
+      17,
+      91
+    ]
+  ],
+  "expected_crop_shape_zyx": [
+    65,
+    84,
+    74
+  ],
+  "preprocessed_shape_czyx": [
+    1,
+    65,
+    84,
+    74
+  ],
+  "native_spacing_zyx_mm": [
+    2.0,
+    2.0,
+    2.0
+  ],
+  "preprocessed_spacing_zyx_mm": [
+    2.0,
+    2.0,
+    2.0
+  ],
+  "resampling_shape_change": false,
+  "spacing_change": false,
+  "raw_preprocessed_pearson_within_brain": 0.9999999999999976,
+  "preprocessed_gt_matches_native_gt_exactly": true,
+  "causal_claim": "none; this is a descriptive artifact comparison"
+}

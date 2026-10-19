@@ -1,0 +1,89 @@
+{
+  "iterations": 10000,
+  "seed": 2022,
+  "resampling_unit": "paired case; lesion TP/FP/FN re-aggregated within each resample",
+  "candidate_minus_b0_100": {
+    "delta_mean_dice": {
+      "baseline": 0.7645259668788942,
+      "candidate": 0.7498241681432641,
+      "delta": -0.014701798735630045,
+      "ci95": [
+        -0.027144137172631245,
+        -0.0032523127584153586
+      ],
+      "valid_replicates": 10000
+    },
+    "delta_lesion_recall": {
+      "baseline": 0.5942350332594235,
+      "candidate": 0.6208425720620843,
+      "delta": 0.026607538802660757,
+      "ci95": [
+        0.0,
+        0.05376550868486345
+      ],
+      "valid_replicates": 10000
+    },
+    "delta_precision": {
+      "baseline": 0.7146666666666667,
+      "candidate": 0.6306306306306306,
+      "delta": -0.08403603603603604,
+      "ci95": [
+        -0.1408063608617572,
+        -0.0305699234469694
+      ],
+      "valid_replicates": 10000
+    },
+    "delta_severe_under_rate": {
+      "baseline": 0.16,
+      "candidate": 0.2,
+      "delta": 0.04000000000000001,
+      "ci95": [
+        0.0,
+        0.1
+      ],
+      "valid_replicates": 10000
+    },
+    "delta_fp_lesions_per_case": {
+      "baseline": 2.14,
+      "candidate": 3.28,
+      "delta": 1.1399999999999997,
+      "ci95": [
+        0.45999999999999996,
+        2.0000000000000004
+      ],
+      "valid_replicates": 10000
+    },
+    "delta_volume_mae_ml": {
+      "baseline": 4.521207161261114,
+      "candidate": 5.7646811318597235,
+      "delta": 1.2434739705986093,
+      "ci95": [
+        -0.12299411033449097,
+        2.937343597893055
+      ],
+      "valid_replicates": 10000
+    }
+  },
+  "small_1_5_ml_candidate_minus_b0_100": {
+    "delta_mean_dice": {
+      "baseline": 0.6262440982382312,
+      "candidate": 0.610485256252746,
+      "delta": -0.015758841985485272,
+      "ci95": [
+        -0.04829189310874826,
+        0.012722517207565528
+      ],
+      "valid_replicates": 10000
+    },
+    "delta_lesion_recall": {
+      "baseline": 0.7333333333333333,
+      "candidate": 0.8,
+      "delta": 0.06666666666666676,
+      "ci95": [
+        -0.018867924528301883,
+        0.1282051282051282
+      ],
+      "valid_replicates": 10000
+    }
+  }
+}

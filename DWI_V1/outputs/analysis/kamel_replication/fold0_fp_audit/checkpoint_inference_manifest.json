@@ -1,0 +1,36 @@
+[
+  {
+    "label": "B0_best",
+    "mode": "inference_only",
+    "checkpoint": "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\experiments\\recall_screen100_seed2022_r2\\B0_R2022_screen100\\train\\results\\Dataset001_ISLES2022_DWI\\nnUNetTrainer_B0R2022_Screen100__nnUNetPlans__3d_fullres\\fold_0\\checkpoint_best.pth",
+    "checkpoint_sha256": "5c0e3dee520f4a94aea0d606d7933754484e721ba4f12aa936932714a6516fc7",
+    "checkpoint_epoch": 94,
+    "trainer_class": "nnUNetTrainer_B0R2022_Screen100",
+    "allowed_mirroring_axes": [
+      0,
+      1,
+      2
+    ],
+    "predictions": "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\outputs\\analysis\\kamel_replication\\fold0_fp_audit\\checkpoint_inference\\B0_best\\results\\Dataset001_ISLES2022_DWI\\nnUNetTrainer_B0R2022_Screen100__nnUNetPlans__3d_fullres\\fold_0\\validation",
+    "prediction_masks": 50,
+    "probability_files": 50,
+    "training_called": false
+  },
+  {
+    "label": "Replication_best",
+    "mode": "inference_only",
+    "checkpoint": "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\experiments\\kamel_replication_seed2022\\fold_0\\results\\Dataset001_ISLES2022_DWI\\nnUNetTrainer_KamelRep_Screen100__nnUNetPlans__3d_fullres\\fold_0\\checkpoint_best.pth",
+    "checkpoint_sha256": "8b5d79ba8c4724e586922e0e4a9635fee6d5b400fc769fa1f3b64d2cd47ba62e",
+    "checkpoint_epoch": 68,
+    "trainer_class": "nnUNetTrainer_KamelRep_Screen100",
+    "allowed_mirroring_axes": [
+      0,
+      1,
+      2
+    ],
+    "predictions": "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\outputs\\analysis\\kamel_replication\\fold0_fp_audit\\checkpoint_inference\\Replication_best\\results\\Dataset001_ISLES2022_DWI\\nnUNetTrainer_KamelRep_Screen100__nnUNetPlans__3d_fullres\\fold_0\\validation",
+    "prediction_masks": 50,
+    "probability_files": 50,
+    "training_called": false
+  }
+]

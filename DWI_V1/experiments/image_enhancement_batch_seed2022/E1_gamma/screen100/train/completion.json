@@ -1,0 +1,15 @@
+{
+  "status": "training_and_validation_complete",
+  "experiment": "E1_gamma",
+  "stage": "screen100",
+  "resume_epoch": 0,
+  "actual_total_epochs": 100,
+  "lr_schedule_reference_epochs": 1000,
+  "checkpoint": "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\experiments\\image_enhancement_batch_seed2022\\E1_gamma\\predictions\\screen100\\train\\results\\Dataset021_ISLES2022_DWI_GammaDual\\nnUNetTrainer_E1Gamma_Screen100__nnUNetPlans__3d_fullres\\fold_0\\checkpoint_final.pth",
+  "checkpoint_sha256": "374fccfd225c8d3cb774666ef9ad880102e2d286af2aa8cc2106841532e7bc5b",
+  "predictions": "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\experiments\\image_enhancement_batch_seed2022\\E1_gamma\\predictions\\screen100\\train\\results\\Dataset021_ISLES2022_DWI_GammaDual\\nnUNetTrainer_E1Gamma_Screen100__nnUNetPlans__3d_fullres\\fold_0\\validation",
+  "total_amp_skipped_steps": 9,
+  "total_nonfinite_gradient_events": 9,
+  "unrecovered_consecutive_overflows": 0,
+  "finished_at": "2026-09-20T02:19:22.339425+08:00"
+}

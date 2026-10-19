@@ -1,0 +1,4205 @@
+{
+  "results": {
+    "0.33": {
+      "overall": {
+        "patches": 1000,
+        "distinct_cases": 200,
+        "forced_foreground_rate": 0.375,
+        "lesion_containing_patch_rate": 0.99,
+        "foreground_voxel_fraction": 0.0047686376953125,
+        "lesion_voxel_count": 2929.851,
+        "lesion_coverage": 0.9982676833880259,
+        "small_lesion_containing_patches": 222
+      },
+      "subgroups": {
+        "<1 mL": {
+          "patches": 370,
+          "distinct_cases": 79,
+          "forced_foreground_rate": 0.4,
+          "lesion_containing_patch_rate": 0.972972972972973,
+          "foreground_voxel_fraction": 0.0016326277449324326,
+          "lesion_voxel_count": 1003.0864864864865,
+          "lesion_coverage": 0.9986494666027748,
+          "small_lesion_containing_patches": 0
+        },
+        "1\u20135 mL": {
+          "patches": 222,
+          "distinct_cases": 40,
+          "forced_foreground_rate": 0.35135135135135137,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0005495950051614115,
+          "lesion_voxel_count": 337.6711711711712,
+          "lesion_coverage": 0.9969314755388966,
+          "small_lesion_containing_patches": 222
+        },
+        "5\u201320 mL": {
+          "patches": 203,
+          "distinct_cases": 40,
+          "forced_foreground_rate": 0.3842364532019704,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0022453400810755336,
+          "lesion_voxel_count": 1379.536945812808,
+          "lesion_coverage": 0.9985536311353402,
+          "small_lesion_containing_patches": 0
+        },
+        "20\u201350 mL": {
+          "patches": 98,
+          "distinct_cases": 20,
+          "forced_foreground_rate": 0.336734693877551,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.00694975353422619,
+          "lesion_voxel_count": 4269.928571428572,
+          "lesion_coverage": 0.9990629326492709,
+          "small_lesion_containing_patches": 0
+        },
+        "\u226550 mL": {
+          "patches": 107,
+          "distinct_cases": 21,
+          "forced_foreground_rate": 0.35514018691588783,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.02715584538064642,
+          "lesion_voxel_count": 16684.551401869157,
+          "lesion_coverage": 0.9984846400692438,
+          "small_lesion_containing_patches": 0
+        }
+      },
+      "cases": {
+        "case_0001": {
+          "patches": 2,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.5,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0013435872395833335,
+          "lesion_voxel_count": 825.5,
+          "lesion_coverage": 0.988622754491018,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0002": {
+          "patches": 9,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.3333333333333333,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.00020399305555555554,
+          "lesion_voxel_count": 125.33333333333333,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0003": {
+          "patches": 5,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.2,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0062903645833333344,
+          "lesion_voxel_count": 3864.8,
+          "lesion_coverage": 0.9978827782081074,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0004": {
+          "patches": 7,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.2857142857142857,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0004996744791666666,
+          "lesion_voxel_count": 307.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 7
+        },
+        "case_0005": {
+          "patches": 7,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.42857142857142855,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0010739862351190476,
+          "lesion_voxel_count": 659.8571428571429,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0006": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.25,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 8.138020833333333e-06,
+          "lesion_voxel_count": 5.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0007": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.25,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0005204264322916667,
+          "lesion_voxel_count": 319.75,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 4
+        },
+        "case_0008": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 1.0,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0001375325520833333,
+          "lesion_voxel_count": 84.5,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0009": {
+          "patches": 1,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.0,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0008512369791666667,
+          "lesion_voxel_count": 523.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 1
+        },
+        "case_0012": {
+          "patches": 2,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.0,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 8.626302083333333e-05,
+          "lesion_voxel_count": 53.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0013": {
+          "patches": 5,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.4,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0059326171875,
+          "lesion_voxel_count": 3645.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0014": {
+          "patches": 6,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.3333333333333333,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0031868489583333336,
+          "lesion_voxel_count": 1958.0,
+          "lesion_coverage": 0.9901011405207661,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0015": {
+          "patches": 7,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.42857142857142855,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0031573195684523807,
+          "lesion_voxel_count": 1939.857142857143,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0016": {
+          "patches": 5,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.0,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 3.743489583333334e-05,
+          "lesion_voxel_count": 23.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0018": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.25,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.00020670572916666667,
+          "lesion_voxel_count": 127.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 4
+        },
+        "case_0020": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.75,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0018017578125,
+          "lesion_voxel_count": 1107.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0022": {
+          "patches": 7,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.42857142857142855,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0002778552827380953,
+          "lesion_voxel_count": 170.71428571428572,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 7
+        },
+        "case_0023": {
+          "patches": 5,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.6,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.11360937500000001,
+          "lesion_voxel_count": 69801.6,
+          "lesion_coverage": 0.9880369675952811,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0024": {
+          "patches": 8,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.75,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.00462890625,
+          "lesion_voxel_count": 2844.0,
+          "lesion_coverage": 0.9996256239600665,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0025": {
+          "patches": 5,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.4,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0014967447916666668,
+          "lesion_voxel_count": 919.6,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0026": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.25,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0007303873697916668,
+          "lesion_voxel_count": 448.75,
+          "lesion_coverage": 0.9950110864745011,
+          "small_lesion_containing_patches": 4
+        },
+        "case_0027": {
+          "patches": 10,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.2,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.00126416015625,
+          "lesion_voxel_count": 776.7,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0029": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.25,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.001717529296875,
+          "lesion_voxel_count": 1055.25,
+          "lesion_coverage": 0.9828767123287672,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0030": {
+          "patches": 3,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.3333333333333333,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 8.789062500000001e-05,
+          "lesion_voxel_count": 54.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0032": {
+          "patches": 6,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.3333333333333333,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.00011284722222222223,
+          "lesion_voxel_count": 69.33333333333333,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0033": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.25,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0090478515625,
+          "lesion_voxel_count": 5559.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0035": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.5,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 2.5227864583333333e-05,
+          "lesion_voxel_count": 15.5,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0036": {
+          "patches": 5,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.6,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.003763997395833333,
+          "lesion_voxel_count": 2312.6,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0037": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.0,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 9.928385416666667e-05,
+          "lesion_voxel_count": 61.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0038": {
+          "patches": 2,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.0,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0018855794270833334,
+          "lesion_voxel_count": 1158.5,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0039": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.75,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.003833414713541667,
+          "lesion_voxel_count": 2355.25,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0040": {
+          "patches": 5,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.4,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0019710286458333335,
+          "lesion_voxel_count": 1211.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0042": {
+          "patches": 5,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.6,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0011930338541666667,
+          "lesion_voxel_count": 733.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 5
+        },
+        "case_0043": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.5,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0060282389322916675,
+          "lesion_voxel_count": 3703.75,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0044": {
+          "patches": 5,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.8,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.00023535156250000002,
+          "lesion_voxel_count": 144.6,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 5
+        },
+        "case_0045": {
+          "patches": 5,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.4,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.00020312500000000002,
+          "lesion_voxel_count": 124.8,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0046": {
+          "patches": 5,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.4,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 7.486979166666666e-05,
+          "lesion_voxel_count": 46.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0047": {
+          "patches": 3,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.3333333333333333,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.010517578125000001,
+          "lesion_voxel_count": 6462.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0049": {
+          "patches": 6,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.3333333333333333,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0009578450520833333,
+          "lesion_voxel_count": 588.5,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 6
+        },
+        "case_0050": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.25,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.003997395833333334,
+          "lesion_voxel_count": 2456.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0052": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.75,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0034785970052083337,
+          "lesion_voxel_count": 2137.25,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0054": {
+          "patches": 6,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.3333333333333333,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0007256401909722221,
+          "lesion_voxel_count": 445.8333333333333,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 6
+        },
+        "case_0056": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.0,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.00013224283854166668,
+          "lesion_voxel_count": 81.25,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0057": {
+          "patches": 7,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.2857142857142857,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.012258184523809524,
+          "lesion_voxel_count": 7531.428571428572,
+          "lesion_coverage": 0.9912162162162163,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0058": {
+          "patches": 5,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.8,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0006507161458333333,
+          "lesion_voxel_count": 399.8,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 5
+        },
+        "case_0059": {
+          "patches": 6,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.8333333333333334,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.00013047960069444443,
+          "lesion_voxel_count": 80.16666666666667,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0060": {
+          "patches": 8,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.125,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0075148518880208326,
+          "lesion_voxel_count": 4617.125,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0061": {
+          "patches": 8,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.5,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.00011555989583333335,
+          "lesion_voxel_count": 71.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0062": {
+          "patches": 2,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.5,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.04377766927083333,
+          "lesion_voxel_count": 26897.0,
+          "lesion_coverage": 0.9911724305106657,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0063": {
+          "patches": 7,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.42857142857142855,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0012253534226190478,
+          "lesion_voxel_count": 752.8571428571429,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0064": {
+          "patches": 7,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.2857142857142857,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 5.9756324404761905e-05,
+          "lesion_voxel_count": 36.714285714285715,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0065": {
+          "patches": 5,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.4,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.005500325520833333,
+          "lesion_voxel_count": 3379.4,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0066": {
+          "patches": 6,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.16666666666666666,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.014573838975694442,
+          "lesion_voxel_count": 8954.166666666666,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0067": {
+          "patches": 6,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.5,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 6.917317708333333e-05,
+          "lesion_voxel_count": 42.5,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0070": {
+          "patches": 3,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.6666666666666666,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.00010416666666666665,
+          "lesion_voxel_count": 64.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0071": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.5,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.00029459635416666664,
+          "lesion_voxel_count": 181.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 4
+        },
+        "case_0073": {
+          "patches": 3,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.3333333333333333,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.000322265625,
+          "lesion_voxel_count": 198.0,
+          "lesion_coverage": 0.982905982905983,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0075": {
+          "patches": 6,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.3333333333333333,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0004904513888888889,
+          "lesion_voxel_count": 301.3333333333333,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 6
+        },
+        "case_0076": {
+          "patches": 5,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.0,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0011168619791666668,
+          "lesion_voxel_count": 686.2,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0077": {
+          "patches": 5,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.2,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.008915690104166667,
+          "lesion_voxel_count": 5477.8,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0078": {
+          "patches": 7,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.42857142857142855,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.028541201636904764,
+          "lesion_voxel_count": 17535.714285714286,
+          "lesion_coverage": 0.9979159041925908,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0079": {
+          "patches": 9,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.6666666666666666,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 5.0455729166666666e-05,
+          "lesion_voxel_count": 31.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0080": {
+          "patches": 6,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.16666666666666666,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.00013264973958333333,
+          "lesion_voxel_count": 81.5,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0081": {
+          "patches": 9,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.5555555555555556,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.025259331597222226,
+          "lesion_voxel_count": 15519.333333333334,
+          "lesion_coverage": 0.9999717076552012,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0082": {
+          "patches": 5,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.4,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.00015787760416666668,
+          "lesion_voxel_count": 97.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0083": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.25,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.022597656249999997,
+          "lesion_voxel_count": 13884.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0084": {
+          "patches": 8,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.25,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0012473551432291667,
+          "lesion_voxel_count": 766.375,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0085": {
+          "patches": 1,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.0,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.005773111979166667,
+          "lesion_voxel_count": 3547.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0087": {
+          "patches": 6,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.3333333333333333,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.01397542317708333,
+          "lesion_voxel_count": 8586.5,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0088": {
+          "patches": 2,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.5,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 8.544921875e-05,
+          "lesion_voxel_count": 52.5,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0089": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.5,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0003658040364583333,
+          "lesion_voxel_count": 224.75,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 4
+        },
+        "case_0090": {
+          "patches": 5,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.4,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0006943359375000001,
+          "lesion_voxel_count": 426.6,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 5
+        },
+        "case_0091": {
+          "patches": 3,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.0,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0101318359375,
+          "lesion_voxel_count": 6225.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0092": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.0,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.014814453125,
+          "lesion_voxel_count": 9102.0,
+          "lesion_coverage": 0.9994850981342379,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0095": {
+          "patches": 8,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.125,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0004901123046875001,
+          "lesion_voxel_count": 301.125,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 8
+        },
+        "case_0096": {
+          "patches": 6,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.5,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0002058919270833333,
+          "lesion_voxel_count": 126.5,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 6
+        },
+        "case_0097": {
+          "patches": 5,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.4,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0014811197916666666,
+          "lesion_voxel_count": 910.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0098": {
+          "patches": 3,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.3333333333333333,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.00028157552083333333,
+          "lesion_voxel_count": 173.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 3
+        },
+        "case_0099": {
+          "patches": 8,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.25,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0007600911458333333,
+          "lesion_voxel_count": 467.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 8
+        },
+        "case_0100": {
+          "patches": 3,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.6666666666666666,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.00010091145833333333,
+          "lesion_voxel_count": 62.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0101": {
+          "patches": 5,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.4,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0037125651041666667,
+          "lesion_voxel_count": 2281.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0102": {
+          "patches": 3,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.0,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0036946614583333332,
+          "lesion_voxel_count": 2270.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0103": {
+          "patches": 5,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.0,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 3.90625e-05,
+          "lesion_voxel_count": 24.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0106": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.75,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0012040201822916667,
+          "lesion_voxel_count": 739.75,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0107": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.75,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.007973632812500001,
+          "lesion_voxel_count": 4899.0,
+          "lesion_coverage": 0.9900019896538003,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0108": {
+          "patches": 7,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.42857142857142855,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0008749534970238095,
+          "lesion_voxel_count": 537.5714285714286,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 7
+        },
+        "case_0109": {
+          "patches": 1,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.0,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0012158203125,
+          "lesion_voxel_count": 747.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0111": {
+          "patches": 6,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.8333333333333334,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 3.4179687499999996e-05,
+          "lesion_voxel_count": 21.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0112": {
+          "patches": 8,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.5,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 8.890787760416666e-05,
+          "lesion_voxel_count": 54.625,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0113": {
+          "patches": 2,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.0,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0182861328125,
+          "lesion_voxel_count": 11235.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0114": {
+          "patches": 5,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.4,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0013958333333333333,
+          "lesion_voxel_count": 857.6,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0115": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.5,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 3.011067708333333e-05,
+          "lesion_voxel_count": 18.5,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0116": {
+          "patches": 3,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.6666666666666666,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.028325737847222223,
+          "lesion_voxel_count": 17403.333333333332,
+          "lesion_coverage": 0.9999617671235494,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0117": {
+          "patches": 3,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.3333333333333333,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 7.595486111111112e-06,
+          "lesion_voxel_count": 4.666666666666667,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0119": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.75,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 9.806315104166668e-05,
+          "lesion_voxel_count": 60.25,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0120": {
+          "patches": 6,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.3333333333333333,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.006120605468750001,
+          "lesion_voxel_count": 3760.5,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0122": {
+          "patches": 3,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.0,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.003840603298611111,
+          "lesion_voxel_count": 2359.6666666666665,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0124": {
+          "patches": 7,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.2857142857142857,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0006784784226190477,
+          "lesion_voxel_count": 416.85714285714283,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 7
+        },
+        "case_0125": {
+          "patches": 2,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.5,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.004995930989583334,
+          "lesion_voxel_count": 3069.5,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0126": {
+          "patches": 2,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.0,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0008276367187499999,
+          "lesion_voxel_count": 508.5,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 2
+        },
+        "case_0127": {
+          "patches": 5,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.0,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.031205729166666668,
+          "lesion_voxel_count": 19172.8,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0128": {
+          "patches": 5,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.4,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.00026529947916666667,
+          "lesion_voxel_count": 163.0,
+          "lesion_coverage": 0.9703125,
+          "small_lesion_containing_patches": 5
+        },
+        "case_0129": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.0,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.00020345052083333332,
+          "lesion_voxel_count": 125.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 4
+        },
+        "case_0130": {
+          "patches": 10,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.1,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0008680013020833331,
+          "lesion_voxel_count": 533.3,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 10
+        },
+        "case_0131": {
+          "patches": 5,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.4,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0019345703124999999,
+          "lesion_voxel_count": 1188.6,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0132": {
+          "patches": 3,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.3333333333333333,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0003906250000000001,
+          "lesion_voxel_count": 240.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 3
+        },
+        "case_0133": {
+          "patches": 6,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.3333333333333333,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0007980685763888889,
+          "lesion_voxel_count": 490.3333333333333,
+          "lesion_coverage": 0.9992119779353822,
+          "small_lesion_containing_patches": 6
+        },
+        "case_0134": {
+          "patches": 6,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.16666666666666666,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.00012044270833333334,
+          "lesion_voxel_count": 74.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0136": {
+          "patches": 6,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.6666666666666666,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 4.394531249999999e-05,
+          "lesion_voxel_count": 27.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0138": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.25,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 2.6855468749999997e-05,
+          "lesion_voxel_count": 16.5,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0139": {
+          "patches": 3,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.0,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 8.951822916666667e-05,
+          "lesion_voxel_count": 55.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0141": {
+          "patches": 6,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.6666666666666666,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 2.3600260416666666e-05,
+          "lesion_voxel_count": 14.5,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0142": {
+          "patches": 7,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.2857142857142857,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.000636625744047619,
+          "lesion_voxel_count": 391.14285714285717,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 7
+        },
+        "case_0143": {
+          "patches": 7,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.2857142857142857,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0004973493303571429,
+          "lesion_voxel_count": 305.57142857142856,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 7
+        },
+        "case_0144": {
+          "patches": 7,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.2857142857142857,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 1.5113467261904762e-05,
+          "lesion_voxel_count": 9.285714285714286,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0145": {
+          "patches": 5,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.4,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0009440104166666668,
+          "lesion_voxel_count": 580.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 5
+        },
+        "case_0147": {
+          "patches": 5,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.6,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.000244140625,
+          "lesion_voxel_count": 150.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0149": {
+          "patches": 5,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.6,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 8.3984375e-05,
+          "lesion_voxel_count": 51.6,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0150": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.5,
+          "lesion_containing_patch_rate": 0.0,
+          "foreground_voxel_fraction": 0.0,
+          "lesion_voxel_count": 0.0,
+          "lesion_coverage": null,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0152": {
+          "patches": 6,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.3333333333333333,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0002278645833333334,
+          "lesion_voxel_count": 140.0,
+          "lesion_coverage": 0.9171597633136095,
+          "small_lesion_containing_patches": 6
+        },
+        "case_0153": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.75,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.008801676432291667,
+          "lesion_voxel_count": 5407.75,
+          "lesion_coverage": 0.9826455674068894,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0154": {
+          "patches": 5,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.2,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.000349609375,
+          "lesion_voxel_count": 214.8,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0155": {
+          "patches": 3,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.3333333333333333,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.004957682291666667,
+          "lesion_voxel_count": 3046.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0156": {
+          "patches": 1,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 1.0,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0027864583333333335,
+          "lesion_voxel_count": 1712.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0157": {
+          "patches": 5,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.4,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0008369140625,
+          "lesion_voxel_count": 514.2,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 5
+        },
+        "case_0158": {
+          "patches": 5,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.4,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0005784505208333334,
+          "lesion_voxel_count": 355.4,
+          "lesion_coverage": 0.9977900552486189,
+          "small_lesion_containing_patches": 5
+        },
+        "case_0159": {
+          "patches": 6,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.3333333333333333,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.000693359375,
+          "lesion_voxel_count": 426.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0162": {
+          "patches": 6,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.5,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.008007812500000001,
+          "lesion_voxel_count": 4920.0,
+          "lesion_coverage": 0.9997547667218442,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0163": {
+          "patches": 6,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.3333333333333333,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0010885959201388888,
+          "lesion_voxel_count": 668.8333333333334,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0164": {
+          "patches": 3,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.6666666666666666,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.006898328993055556,
+          "lesion_voxel_count": 4238.333333333333,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0165": {
+          "patches": 2,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.5,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0015332031249999998,
+          "lesion_voxel_count": 942.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0166": {
+          "patches": 6,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.3333333333333333,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.011009385850694444,
+          "lesion_voxel_count": 6764.166666666667,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0167": {
+          "patches": 9,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.2222222222222222,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.00018500434027777775,
+          "lesion_voxel_count": 113.66666666666667,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 9
+        },
+        "case_0169": {
+          "patches": 7,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.5714285714285714,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0006608072916666666,
+          "lesion_voxel_count": 406.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 7
+        },
+        "case_0170": {
+          "patches": 6,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.3333333333333333,
+          "lesion_containing_patch_rate": 0.0,
+          "foreground_voxel_fraction": 0.0,
+          "lesion_voxel_count": 0.0,
+          "lesion_coverage": null,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0171": {
+          "patches": 5,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.4,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.006171549479166667,
+          "lesion_voxel_count": 3791.8,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0172": {
+          "patches": 9,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.6666666666666666,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.001170609085648148,
+          "lesion_voxel_count": 719.2222222222222,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0173": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.25,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.007013346354166667,
+          "lesion_voxel_count": 4309.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0174": {
+          "patches": 8,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.25,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0001708984375,
+          "lesion_voxel_count": 105.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0175": {
+          "patches": 3,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.3333333333333333,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0004893663194444445,
+          "lesion_voxel_count": 300.6666666666667,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0176": {
+          "patches": 3,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.3333333333333333,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.008619791666666666,
+          "lesion_voxel_count": 5296.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0177": {
+          "patches": 6,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.3333333333333333,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 5.696614583333334e-05,
+          "lesion_voxel_count": 35.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0178": {
+          "patches": 5,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.2,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0030846354166666665,
+          "lesion_voxel_count": 1895.2,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0179": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.0,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.005644124348958333,
+          "lesion_voxel_count": 3467.75,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0180": {
+          "patches": 5,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.2,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0051123046874999994,
+          "lesion_voxel_count": 3141.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0183": {
+          "patches": 3,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.0,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0014360894097222223,
+          "lesion_voxel_count": 882.3333333333334,
+          "lesion_coverage": 0.9969325153374232,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0184": {
+          "patches": 2,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.5,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.00106689453125,
+          "lesion_voxel_count": 655.5,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0185": {
+          "patches": 6,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.3333333333333333,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.00032796223958333337,
+          "lesion_voxel_count": 201.5,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 6
+        },
+        "case_0189": {
+          "patches": 6,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.6666666666666666,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0020472547743055555,
+          "lesion_voxel_count": 1257.8333333333333,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0190": {
+          "patches": 8,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.375,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0021925862630208333,
+          "lesion_voxel_count": 1347.125,
+          "lesion_coverage": 0.9998163115356355,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0191": {
+          "patches": 1,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.0,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.008479817708333334,
+          "lesion_voxel_count": 5210.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0192": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.5,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0036735026041666667,
+          "lesion_voxel_count": 2257.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0193": {
+          "patches": 7,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.2857142857142857,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.002824125744047619,
+          "lesion_voxel_count": 1735.142857142857,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0194": {
+          "patches": 11,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.45454545454545453,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0030076645359848487,
+          "lesion_voxel_count": 1847.909090909091,
+          "lesion_coverage": 0.9881174761311747,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0195": {
+          "patches": 2,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.5,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0032438151041666663,
+          "lesion_voxel_count": 1993.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0198": {
+          "patches": 3,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.3333333333333333,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0009467230902777778,
+          "lesion_voxel_count": 581.6666666666666,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0199": {
+          "patches": 5,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.4,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.002281901041666667,
+          "lesion_voxel_count": 1402.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0200": {
+          "patches": 3,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.0,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0018706597222222221,
+          "lesion_voxel_count": 1149.3333333333333,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0202": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.25,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0014766438802083334,
+          "lesion_voxel_count": 907.25,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0203": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.5,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.00023356119791666667,
+          "lesion_voxel_count": 143.5,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 4
+        },
+        "case_0204": {
+          "patches": 7,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.5714285714285714,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0028238932291666666,
+          "lesion_voxel_count": 1735.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0206": {
+          "patches": 7,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.5714285714285714,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0010337611607142854,
+          "lesion_voxel_count": 635.1428571428571,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0208": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.25,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.008621012369791667,
+          "lesion_voxel_count": 5296.75,
+          "lesion_coverage": 0.9260454808248217,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0209": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.25,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.004188639322916667,
+          "lesion_voxel_count": 2573.5,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0210": {
+          "patches": 3,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.0,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.007095811631944444,
+          "lesion_voxel_count": 4359.666666666667,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0211": {
+          "patches": 3,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.3333333333333333,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.010399305555555556,
+          "lesion_voxel_count": 6389.333333333333,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0213": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.0,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.00130859375,
+          "lesion_voxel_count": 804.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0214": {
+          "patches": 7,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.5714285714285714,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0006431361607142856,
+          "lesion_voxel_count": 395.14285714285717,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 7
+        },
+        "case_0215": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.75,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0030863444010416664,
+          "lesion_voxel_count": 1896.25,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0216": {
+          "patches": 7,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.2857142857142857,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.00021902901785714285,
+          "lesion_voxel_count": 134.57142857142858,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 7
+        },
+        "case_0217": {
+          "patches": 8,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.25,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.009839680989583334,
+          "lesion_voxel_count": 6045.5,
+          "lesion_coverage": 0.9952175697865353,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0218": {
+          "patches": 9,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.4444444444444444,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.002595124421296296,
+          "lesion_voxel_count": 1594.4444444444443,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0219": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.25,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0022257486979166668,
+          "lesion_voxel_count": 1367.5,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0221": {
+          "patches": 5,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.4,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.019289062500000002,
+          "lesion_voxel_count": 11851.2,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0222": {
+          "patches": 10,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.4,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.03280680338541666,
+          "lesion_voxel_count": 20156.5,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0223": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.25,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.028380940755208334,
+          "lesion_voxel_count": 17437.25,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0224": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.5,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.003982747395833333,
+          "lesion_voxel_count": 2447.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0225": {
+          "patches": 5,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.2,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0005224609374999999,
+          "lesion_voxel_count": 321.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 5
+        },
+        "case_0226": {
+          "patches": 7,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.42857142857142855,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0014046223958333332,
+          "lesion_voxel_count": 863.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0227": {
+          "patches": 3,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.3333333333333333,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0016541883680555557,
+          "lesion_voxel_count": 1016.3333333333334,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0228": {
+          "patches": 7,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.2857142857142857,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.002073800223214286,
+          "lesion_voxel_count": 1274.142857142857,
+          "lesion_coverage": 0.9902567478604344,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0229": {
+          "patches": 2,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.0,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.004004720052083333,
+          "lesion_voxel_count": 2460.5,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0230": {
+          "patches": 7,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.2857142857142857,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.02066243489583333,
+          "lesion_voxel_count": 12695.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0231": {
+          "patches": 10,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.3,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0077679036458333335,
+          "lesion_voxel_count": 4772.6,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0232": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.5,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0005216471354166667,
+          "lesion_voxel_count": 320.5,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0233": {
+          "patches": 3,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.3333333333333333,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 1.2478298611111112e-05,
+          "lesion_voxel_count": 7.666666666666667,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0234": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.25,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 5.0862630208333336e-05,
+          "lesion_voxel_count": 31.25,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0236": {
+          "patches": 3,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.0,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.003951822916666667,
+          "lesion_voxel_count": 2428.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0237": {
+          "patches": 7,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.2857142857142857,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.020873790922619047,
+          "lesion_voxel_count": 12824.857142857143,
+          "lesion_coverage": 0.9996683106919326,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0239": {
+          "patches": 5,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.4,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0032565104166666662,
+          "lesion_voxel_count": 2000.8,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0240": {
+          "patches": 6,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.5,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.032350531684027774,
+          "lesion_voxel_count": 19876.166666666668,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0241": {
+          "patches": 5,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.4,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0005794270833333334,
+          "lesion_voxel_count": 356.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0242": {
+          "patches": 3,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.3333333333333333,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0016861979166666666,
+          "lesion_voxel_count": 1036.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0243": {
+          "patches": 7,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.42857142857142855,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0016145833333333329,
+          "lesion_voxel_count": 992.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0244": {
+          "patches": 3,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.6666666666666666,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.007003038194444444,
+          "lesion_voxel_count": 4302.666666666667,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0245": {
+          "patches": 3,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.3333333333333333,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.004226345486111112,
+          "lesion_voxel_count": 2596.6666666666665,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0246": {
+          "patches": 3,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.6666666666666666,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0438525390625,
+          "lesion_voxel_count": 26943.0,
+          "lesion_coverage": 0.998717569300582,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0248": {
+          "patches": 5,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.6,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0027027994791666665,
+          "lesion_voxel_count": 1660.6,
+          "lesion_coverage": 0.9996815286624203,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0249": {
+          "patches": 3,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.0,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0021956380208333335,
+          "lesion_voxel_count": 1349.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0250": {
+          "patches": 7,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.42857142857142855,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.001224423363095238,
+          "lesion_voxel_count": 752.2857142857143,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        }
+      }
+    },
+    "0.5": {
+      "overall": {
+        "patches": 1000,
+        "distinct_cases": 200,
+        "forced_foreground_rate": 0.5,
+        "lesion_containing_patch_rate": 0.988,
+        "foreground_voxel_fraction": 0.005803020833333333,
+        "lesion_voxel_count": 3565.376,
+        "lesion_coverage": 0.9958856145887306,
+        "small_lesion_containing_patches": 195
+      },
+      "subgroups": {
+        "<1 mL": {
+          "patches": 386,
+          "distinct_cases": 79,
+          "forced_foreground_rate": 0.5,
+          "lesion_containing_patch_rate": 0.9689119170984456,
+          "foreground_voxel_fraction": 0.0018348960019969776,
+          "lesion_voxel_count": 1127.360103626943,
+          "lesion_coverage": 0.9941112356398573,
+          "small_lesion_containing_patches": 0
+        },
+        "1\u20135 mL": {
+          "patches": 195,
+          "distinct_cases": 40,
+          "forced_foreground_rate": 0.5282051282051282,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0005458149706196581,
+          "lesion_voxel_count": 335.34871794871793,
+          "lesion_coverage": 0.9966484810162866,
+          "small_lesion_containing_patches": 195
+        },
+        "5\u201320 mL": {
+          "patches": 200,
+          "distinct_cases": 40,
+          "forced_foreground_rate": 0.455,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.002181111653645833,
+          "lesion_voxel_count": 1340.075,
+          "lesion_coverage": 0.9971159468390496,
+          "small_lesion_containing_patches": 0
+        },
+        "20\u201350 mL": {
+          "patches": 92,
+          "distinct_cases": 20,
+          "forced_foreground_rate": 0.6413043478260869,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.006959900786911233,
+          "lesion_voxel_count": 4276.163043478261,
+          "lesion_coverage": 0.9994582684692539,
+          "small_lesion_containing_patches": 0
+        },
+        "\u226550 mL": {
+          "patches": 127,
+          "distinct_cases": 21,
+          "forced_foreground_rate": 0.4251968503937008,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.03080144767060368,
+          "lesion_voxel_count": 18924.409448818897,
+          "lesion_coverage": 0.995414025348048,
+          "small_lesion_containing_patches": 0
+        }
+      },
+      "cases": {
+        "case_0001": {
+          "patches": 8,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.625,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0012386067708333333,
+          "lesion_voxel_count": 761.0,
+          "lesion_coverage": 0.994311377245509,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0002": {
+          "patches": 3,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.3333333333333333,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0001247829861111111,
+          "lesion_voxel_count": 76.66666666666667,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0003": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.75,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.006529541015624999,
+          "lesion_voxel_count": 4011.75,
+          "lesion_coverage": 0.9946423960753938,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0004": {
+          "patches": 7,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.7142857142857143,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0004348028273809524,
+          "lesion_voxel_count": 267.14285714285717,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 7
+        },
+        "case_0005": {
+          "patches": 3,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.3333333333333333,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0011697048611111112,
+          "lesion_voxel_count": 718.6666666666666,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0006": {
+          "patches": 5,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.2,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 7.161458333333333e-06,
+          "lesion_voxel_count": 4.4,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0007": {
+          "patches": 5,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.6,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0007649739583333332,
+          "lesion_voxel_count": 470.0,
+          "lesion_coverage": 0.9712984054669704,
+          "small_lesion_containing_patches": 5
+        },
+        "case_0008": {
+          "patches": 7,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.2857142857142857,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0001529947916666667,
+          "lesion_voxel_count": 94.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0009": {
+          "patches": 6,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.6666666666666666,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0008417426215277778,
+          "lesion_voxel_count": 517.1666666666666,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 6
+        },
+        "case_0012": {
+          "patches": 2,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.0,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 9.114583333333334e-05,
+          "lesion_voxel_count": 56.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0013": {
+          "patches": 5,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 1.0,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.005776041666666666,
+          "lesion_voxel_count": 3548.8,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0014": {
+          "patches": 9,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.5555555555555556,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0024348958333333336,
+          "lesion_voxel_count": 1496.0,
+          "lesion_coverage": 0.9670038017358871,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0015": {
+          "patches": 6,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.5,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.002693413628472222,
+          "lesion_voxel_count": 1654.8333333333333,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0016": {
+          "patches": 5,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 1.0,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 4.2317708333333335e-05,
+          "lesion_voxel_count": 26.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0018": {
+          "patches": 2,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.0,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.00021647135416666668,
+          "lesion_voxel_count": 133.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 2
+        },
+        "case_0020": {
+          "patches": 2,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.5,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0017838541666666667,
+          "lesion_voxel_count": 1096.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0022": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 1.0,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0002335611979166667,
+          "lesion_voxel_count": 143.5,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 4
+        },
+        "case_0023": {
+          "patches": 8,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.375,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.11202718098958334,
+          "lesion_voxel_count": 68829.5,
+          "lesion_coverage": 0.9781334516915827,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0024": {
+          "patches": 7,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 1.0,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.003987862723214286,
+          "lesion_voxel_count": 2450.1428571428573,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0025": {
+          "patches": 2,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.5,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0015771484375,
+          "lesion_voxel_count": 969.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0026": {
+          "patches": 7,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.7142857142857143,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0006396484375000001,
+          "lesion_voxel_count": 393.0,
+          "lesion_coverage": 0.9927146024707001,
+          "small_lesion_containing_patches": 7
+        },
+        "case_0027": {
+          "patches": 6,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.8333333333333334,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0013519965277777777,
+          "lesion_voxel_count": 830.6666666666666,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0029": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.25,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.001270751953125,
+          "lesion_voxel_count": 780.75,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0030": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.5,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 8.463541666666667e-05,
+          "lesion_voxel_count": 52.0,
+          "lesion_coverage": 0.95703125,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0032": {
+          "patches": 7,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 1.0,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.00010277157738095238,
+          "lesion_voxel_count": 63.142857142857146,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0033": {
+          "patches": 5,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.2,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.009186197916666666,
+          "lesion_voxel_count": 5644.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0035": {
+          "patches": 5,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.6,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 3.5481770833333335e-05,
+          "lesion_voxel_count": 21.8,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0036": {
+          "patches": 6,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.3333333333333333,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0034429253472222222,
+          "lesion_voxel_count": 2115.3333333333335,
+          "lesion_coverage": 0.999138302455838,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0037": {
+          "patches": 1,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.0,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 9.928385416666667e-05,
+          "lesion_voxel_count": 61.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0038": {
+          "patches": 2,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.5,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0016471354166666668,
+          "lesion_voxel_count": 1012.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0039": {
+          "patches": 7,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.14285714285714285,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0038039434523809523,
+          "lesion_voxel_count": 2337.1428571428573,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0040": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.25,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0017911783854166667,
+          "lesion_voxel_count": 1100.5,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0042": {
+          "patches": 2,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.5,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0009554036458333334,
+          "lesion_voxel_count": 587.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 2
+        },
+        "case_0043": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.25,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.005454915364583333,
+          "lesion_voxel_count": 3351.5,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0044": {
+          "patches": 3,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.3333333333333333,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.00025065104166666665,
+          "lesion_voxel_count": 154.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 3
+        },
+        "case_0045": {
+          "patches": 2,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.0,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.00012451171875,
+          "lesion_voxel_count": 76.5,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0046": {
+          "patches": 5,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.4,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 6.640624999999999e-05,
+          "lesion_voxel_count": 40.8,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0047": {
+          "patches": 5,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.2,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.009899088541666667,
+          "lesion_voxel_count": 6082.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0049": {
+          "patches": 9,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.4444444444444444,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0009928385416666666,
+          "lesion_voxel_count": 610.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 9
+        },
+        "case_0050": {
+          "patches": 7,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.2857142857142857,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.00360258556547619,
+          "lesion_voxel_count": 2213.4285714285716,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0052": {
+          "patches": 2,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.5,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0032991536458333334,
+          "lesion_voxel_count": 2027.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0054": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.75,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0011348470052083334,
+          "lesion_voxel_count": 697.25,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 4
+        },
+        "case_0056": {
+          "patches": 8,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.5,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.00012837727864583334,
+          "lesion_voxel_count": 78.875,
+          "lesion_coverage": 0.9002976190476191,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0057": {
+          "patches": 6,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.16666666666666666,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.013799913194444444,
+          "lesion_voxel_count": 8478.666666666666,
+          "lesion_coverage": 0.9897522522522523,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0058": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.5,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.000712890625,
+          "lesion_voxel_count": 438.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 4
+        },
+        "case_0059": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.5,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.00012044270833333334,
+          "lesion_voxel_count": 74.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0060": {
+          "patches": 6,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.6666666666666666,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.010968967013888888,
+          "lesion_voxel_count": 6739.333333333333,
+          "lesion_coverage": 0.9987207971453579,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0061": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.75,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.00014689127604166667,
+          "lesion_voxel_count": 90.25,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0062": {
+          "patches": 5,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.2,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.038355794270833334,
+          "lesion_voxel_count": 23565.8,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0063": {
+          "patches": 3,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.3333333333333333,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0012337239583333334,
+          "lesion_voxel_count": 758.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0064": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.25,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 6.2255859375e-05,
+          "lesion_voxel_count": 38.25,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0065": {
+          "patches": 2,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.5,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.005508626302083333,
+          "lesion_voxel_count": 3384.5,
+          "lesion_coverage": 0.9998522895125554,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0066": {
+          "patches": 3,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.6666666666666666,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.01574544270833333,
+          "lesion_voxel_count": 9674.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0067": {
+          "patches": 3,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.3333333333333333,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 6.781684027777777e-05,
+          "lesion_voxel_count": 41.666666666666664,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0070": {
+          "patches": 3,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.6666666666666666,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 6.618923611111112e-05,
+          "lesion_voxel_count": 40.666666666666664,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0071": {
+          "patches": 8,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.375,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0003363037109375,
+          "lesion_voxel_count": 206.625,
+          "lesion_coverage": 0.9782110091743119,
+          "small_lesion_containing_patches": 8
+        },
+        "case_0073": {
+          "patches": 5,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.4,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.00030045572916666664,
+          "lesion_voxel_count": 184.6,
+          "lesion_coverage": 0.9794871794871796,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0075": {
+          "patches": 5,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.4,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.00042968750000000006,
+          "lesion_voxel_count": 264.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 5
+        },
+        "case_0076": {
+          "patches": 5,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.4,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0014254557291666667,
+          "lesion_voxel_count": 875.8,
+          "lesion_coverage": 0.9759577278731836,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0077": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.5,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.007163492838541667,
+          "lesion_voxel_count": 4401.25,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0078": {
+          "patches": 7,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.8571428571428571,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.022941313244047617,
+          "lesion_voxel_count": 14095.142857142857,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0079": {
+          "patches": 3,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.6666666666666666,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 5.4796006944444445e-05,
+          "lesion_voxel_count": 33.666666666666664,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0080": {
+          "patches": 6,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.5,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.00014946831597222225,
+          "lesion_voxel_count": 91.83333333333333,
+          "lesion_coverage": 0.9491869918699187,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0081": {
+          "patches": 9,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.6666666666666666,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.023780201099537036,
+          "lesion_voxel_count": 14610.555555555555,
+          "lesion_coverage": 0.9999787807414009,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0082": {
+          "patches": 8,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.25,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.00019002278645833333,
+          "lesion_voxel_count": 116.75,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0083": {
+          "patches": 7,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.14285714285714285,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.02166410900297619,
+          "lesion_voxel_count": 13310.42857142857,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0084": {
+          "patches": 9,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.3333333333333333,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.001552191840277778,
+          "lesion_voxel_count": 953.6666666666666,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0085": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.75,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.006385904947916666,
+          "lesion_voxel_count": 3923.5,
+          "lesion_coverage": 0.9995180391076839,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0087": {
+          "patches": 2,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.5,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.014961751302083333,
+          "lesion_voxel_count": 9192.5,
+          "lesion_coverage": 0.9953992434311421,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0088": {
+          "patches": 5,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.8,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 8.072916666666667e-05,
+          "lesion_voxel_count": 49.6,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0089": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.5,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0002783203125,
+          "lesion_voxel_count": 171.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 4
+        },
+        "case_0090": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.75,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0007340494791666667,
+          "lesion_voxel_count": 451.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 4
+        },
+        "case_0091": {
+          "patches": 2,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 1.0,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.008352864583333333,
+          "lesion_voxel_count": 5132.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0092": {
+          "patches": 8,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.375,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.012453409830729166,
+          "lesion_voxel_count": 7651.375,
+          "lesion_coverage": 0.9964714078022776,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0095": {
+          "patches": 1,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 1.0,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0005045572916666667,
+          "lesion_voxel_count": 310.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 1
+        },
+        "case_0096": {
+          "patches": 5,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.4,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0002532552083333333,
+          "lesion_voxel_count": 155.6,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 5
+        },
+        "case_0097": {
+          "patches": 2,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.5,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0010856119791666666,
+          "lesion_voxel_count": 667.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0098": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.5,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0002596028645833333,
+          "lesion_voxel_count": 159.5,
+          "lesion_coverage": 0.9653179190751445,
+          "small_lesion_containing_patches": 4
+        },
+        "case_0099": {
+          "patches": 3,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.3333333333333333,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0009065755208333333,
+          "lesion_voxel_count": 557.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 3
+        },
+        "case_0100": {
+          "patches": 3,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.6666666666666666,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0001123046875,
+          "lesion_voxel_count": 69.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0101": {
+          "patches": 9,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.2222222222222222,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0031949869791666665,
+          "lesion_voxel_count": 1963.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0102": {
+          "patches": 6,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.6666666666666666,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.002671440972222222,
+          "lesion_voxel_count": 1641.3333333333333,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0103": {
+          "patches": 6,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.3333333333333333,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 3.90625e-05,
+          "lesion_voxel_count": 24.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0106": {
+          "patches": 5,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.6,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0015546875,
+          "lesion_voxel_count": 955.2,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0107": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.75,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.008127034505208333,
+          "lesion_voxel_count": 4993.25,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0108": {
+          "patches": 8,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.25,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0007509358723958334,
+          "lesion_voxel_count": 461.375,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 8
+        },
+        "case_0109": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.0,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0010209147135416667,
+          "lesion_voxel_count": 627.25,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0111": {
+          "patches": 7,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.5714285714285714,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 3.162202380952381e-05,
+          "lesion_voxel_count": 19.428571428571427,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0112": {
+          "patches": 5,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.6,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 8.951822916666666e-05,
+          "lesion_voxel_count": 55.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0113": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.75,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.01273681640625,
+          "lesion_voxel_count": 7825.5,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0114": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.5,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0011161295572916668,
+          "lesion_voxel_count": 685.75,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0115": {
+          "patches": 3,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 1.0,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 2.4414062500000005e-05,
+          "lesion_voxel_count": 15.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0116": {
+          "patches": 7,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.2857142857142857,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.02837100074404762,
+          "lesion_voxel_count": 17431.14285714286,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0117": {
+          "patches": 7,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.2857142857142857,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 8.138020833333333e-06,
+          "lesion_voxel_count": 5.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0119": {
+          "patches": 7,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.7142857142857143,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.00013392857142857144,
+          "lesion_voxel_count": 82.28571428571429,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0120": {
+          "patches": 6,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.6666666666666666,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0067995876736111115,
+          "lesion_voxel_count": 4177.666666666667,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0122": {
+          "patches": 9,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.5555555555555556,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0027846498842592593,
+          "lesion_voxel_count": 1710.888888888889,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0124": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.0,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0006689453124999999,
+          "lesion_voxel_count": 411.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 4
+        },
+        "case_0125": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.75,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0072505696614583335,
+          "lesion_voxel_count": 4454.75,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0126": {
+          "patches": 1,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.0,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0008479817708333333,
+          "lesion_voxel_count": 521.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 1
+        },
+        "case_0127": {
+          "patches": 6,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.6666666666666666,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.038677842881944445,
+          "lesion_voxel_count": 23763.666666666668,
+          "lesion_coverage": 0.9952349043258134,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0128": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.75,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.00019694010416666666,
+          "lesion_voxel_count": 121.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 4
+        },
+        "case_0129": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.25,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0002775065104166667,
+          "lesion_voxel_count": 170.5,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 4
+        },
+        "case_0130": {
+          "patches": 10,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.5,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0008479817708333334,
+          "lesion_voxel_count": 521.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 10
+        },
+        "case_0131": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.25,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0020943196614583333,
+          "lesion_voxel_count": 1286.75,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0132": {
+          "patches": 5,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.4,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0003356119791666667,
+          "lesion_voxel_count": 206.2,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 5
+        },
+        "case_0133": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.75,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0007649739583333332,
+          "lesion_voxel_count": 470.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 4
+        },
+        "case_0134": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.75,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.00010091145833333333,
+          "lesion_voxel_count": 62.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0136": {
+          "patches": 5,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.8,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 3.678385416666667e-05,
+          "lesion_voxel_count": 22.6,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0138": {
+          "patches": 8,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.25,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 5.025227864583333e-05,
+          "lesion_voxel_count": 30.875,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0139": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.25,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 9.318033854166666e-05,
+          "lesion_voxel_count": 57.25,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0141": {
+          "patches": 9,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.8888888888888888,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 2.170138888888889e-05,
+          "lesion_voxel_count": 13.333333333333334,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0142": {
+          "patches": 3,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.0,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.00042426215277777775,
+          "lesion_voxel_count": 260.6666666666667,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 3
+        },
+        "case_0143": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.75,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0005261230468750001,
+          "lesion_voxel_count": 323.25,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 4
+        },
+        "case_0144": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.75,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 1.220703125e-05,
+          "lesion_voxel_count": 7.5,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0145": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.75,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0009537760416666666,
+          "lesion_voxel_count": 586.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 4
+        },
+        "case_0147": {
+          "patches": 2,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 1.0,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.00017578125,
+          "lesion_voxel_count": 108.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0149": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.25,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 7.486979166666666e-05,
+          "lesion_voxel_count": 46.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0150": {
+          "patches": 6,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.5,
+          "lesion_containing_patch_rate": 0.0,
+          "foreground_voxel_fraction": 0.0,
+          "lesion_voxel_count": 0.0,
+          "lesion_coverage": null,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0152": {
+          "patches": 5,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.0,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0002897135416666667,
+          "lesion_voxel_count": 178.0,
+          "lesion_coverage": 0.9928994082840237,
+          "small_lesion_containing_patches": 5
+        },
+        "case_0153": {
+          "patches": 5,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.6,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.008987955729166667,
+          "lesion_voxel_count": 5522.2,
+          "lesion_coverage": 0.9978317887742613,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0154": {
+          "patches": 1,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.0,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0003434244791666667,
+          "lesion_voxel_count": 211.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0155": {
+          "patches": 5,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.2,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.004957682291666667,
+          "lesion_voxel_count": 3046.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0156": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.5,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0027864583333333335,
+          "lesion_voxel_count": 1712.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0157": {
+          "patches": 5,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.8,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0007034505208333334,
+          "lesion_voxel_count": 432.2,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 5
+        },
+        "case_0158": {
+          "patches": 9,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.4444444444444444,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0005571831597222222,
+          "lesion_voxel_count": 342.3333333333333,
+          "lesion_coverage": 0.9877225291589933,
+          "small_lesion_containing_patches": 9
+        },
+        "case_0159": {
+          "patches": 3,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.6666666666666666,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0007568359375,
+          "lesion_voxel_count": 465.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0162": {
+          "patches": 8,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.25,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.007981770833333334,
+          "lesion_voxel_count": 4904.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0163": {
+          "patches": 5,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.6,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0010091145833333332,
+          "lesion_voxel_count": 620.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0164": {
+          "patches": 1,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.0,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0055973307291666665,
+          "lesion_voxel_count": 3439.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0165": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.25,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0027071126302083332,
+          "lesion_voxel_count": 1663.25,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0166": {
+          "patches": 3,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 1.0,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.01196994357638889,
+          "lesion_voxel_count": 7354.333333333333,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0167": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.5,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.00022298177083333333,
+          "lesion_voxel_count": 137.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 4
+        },
+        "case_0169": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.5,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0006510416666666667,
+          "lesion_voxel_count": 400.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 4
+        },
+        "case_0170": {
+          "patches": 6,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.6666666666666666,
+          "lesion_containing_patch_rate": 0.0,
+          "foreground_voxel_fraction": 0.0,
+          "lesion_voxel_count": 0.0,
+          "lesion_coverage": null,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0171": {
+          "patches": 6,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.8333333333333334,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.007208658854166667,
+          "lesion_voxel_count": 4429.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0172": {
+          "patches": 10,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.5,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0011848958333333334,
+          "lesion_voxel_count": 728.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0173": {
+          "patches": 5,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.8,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.006158203125,
+          "lesion_voxel_count": 3783.6,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0174": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.25,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.00012166341145833332,
+          "lesion_voxel_count": 74.75,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0175": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.25,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0004475911458333333,
+          "lesion_voxel_count": 275.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0176": {
+          "patches": 1,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 1.0,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.004925130208333333,
+          "lesion_voxel_count": 3026.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0177": {
+          "patches": 6,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.5,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 5.696614583333334e-05,
+          "lesion_voxel_count": 35.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0178": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.75,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.003028157552083333,
+          "lesion_voxel_count": 1860.5,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0179": {
+          "patches": 3,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.6666666666666666,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.005764973958333333,
+          "lesion_voxel_count": 3542.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0180": {
+          "patches": 2,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 1.0,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.004021809895833333,
+          "lesion_voxel_count": 2471.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0183": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.5,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0010099283854166667,
+          "lesion_voxel_count": 620.5,
+          "lesion_coverage": 0.973159509202454,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0184": {
+          "patches": 2,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.5,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0010823567708333334,
+          "lesion_voxel_count": 665.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0185": {
+          "patches": 6,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.8333333333333334,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0002693684895833333,
+          "lesion_voxel_count": 165.5,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 6
+        },
+        "case_0189": {
+          "patches": 5,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.2,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0018740234374999998,
+          "lesion_voxel_count": 1151.4,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0190": {
+          "patches": 6,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.3333333333333333,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0020754665798611116,
+          "lesion_voxel_count": 1275.1666666666667,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0191": {
+          "patches": 1,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.0,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.008479817708333334,
+          "lesion_voxel_count": 5210.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0192": {
+          "patches": 10,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.4,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0035527343750000003,
+          "lesion_voxel_count": 2182.8,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0193": {
+          "patches": 8,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.5,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0021250406901041664,
+          "lesion_voxel_count": 1305.625,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0194": {
+          "patches": 9,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.5555555555555556,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0023376012731481485,
+          "lesion_voxel_count": 1436.2222222222222,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0195": {
+          "patches": 6,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.16666666666666666,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0036439344618055558,
+          "lesion_voxel_count": 2238.8333333333335,
+          "lesion_coverage": 0.9965244099579696,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0198": {
+          "patches": 3,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.6666666666666666,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0013199869791666666,
+          "lesion_voxel_count": 811.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0199": {
+          "patches": 6,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.5,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.001812065972222222,
+          "lesion_voxel_count": 1113.3333333333333,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0200": {
+          "patches": 2,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.5,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0018668619791666666,
+          "lesion_voxel_count": 1147.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0202": {
+          "patches": 7,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.2857142857142857,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0015457589285714287,
+          "lesion_voxel_count": 949.7142857142857,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0203": {
+          "patches": 8,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.625,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.00023946126302083336,
+          "lesion_voxel_count": 147.125,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 8
+        },
+        "case_0204": {
+          "patches": 5,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.4,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0027939453124999998,
+          "lesion_voxel_count": 1716.6,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0206": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 1.0,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0009891764322916667,
+          "lesion_voxel_count": 607.75,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0208": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.5,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0075927734375,
+          "lesion_voxel_count": 4665.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0209": {
+          "patches": 7,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.2857142857142857,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.004491024925595238,
+          "lesion_voxel_count": 2759.285714285714,
+          "lesion_coverage": 0.9978013521684164,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0210": {
+          "patches": 11,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.45454545454545453,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0057457386363636365,
+          "lesion_voxel_count": 3530.181818181818,
+          "lesion_coverage": 0.9976061000118217,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0211": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.75,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.011678466796874998,
+          "lesion_voxel_count": 7175.25,
+          "lesion_coverage": 0.9619028556178276,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0213": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.25,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.001116943359375,
+          "lesion_voxel_count": 686.25,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0214": {
+          "patches": 6,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.6666666666666666,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0004880099826388889,
+          "lesion_voxel_count": 299.8333333333333,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 6
+        },
+        "case_0215": {
+          "patches": 3,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.6666666666666666,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.003068033854166667,
+          "lesion_voxel_count": 1885.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0216": {
+          "patches": 5,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.8,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.00019140625,
+          "lesion_voxel_count": 117.6,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 5
+        },
+        "case_0217": {
+          "patches": 6,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.5,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.009686957465277778,
+          "lesion_voxel_count": 5951.666666666667,
+          "lesion_coverage": 0.9994800218938149,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0218": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.25,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0026826985677083333,
+          "lesion_voxel_count": 1648.25,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0219": {
+          "patches": 8,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.625,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0026177978515625,
+          "lesion_voxel_count": 1608.375,
+          "lesion_coverage": 0.956689677843524,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0221": {
+          "patches": 6,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.0,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.02641682942708333,
+          "lesion_voxel_count": 16230.5,
+          "lesion_coverage": 0.9997189906142866,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0222": {
+          "patches": 9,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.4444444444444444,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.040749421296296294,
+          "lesion_voxel_count": 25036.444444444445,
+          "lesion_coverage": 0.9892435045252389,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0223": {
+          "patches": 6,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.5,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.028364257812499998,
+          "lesion_voxel_count": 17427.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0224": {
+          "patches": 7,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.5714285714285714,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.004557059151785714,
+          "lesion_voxel_count": 2799.8571428571427,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0225": {
+          "patches": 5,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.6,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0005061848958333333,
+          "lesion_voxel_count": 311.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 5
+        },
+        "case_0226": {
+          "patches": 8,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.375,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0011283365885416665,
+          "lesion_voxel_count": 693.25,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0227": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.75,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.001656494140625,
+          "lesion_voxel_count": 1017.75,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0228": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.75,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.001790771484375,
+          "lesion_voxel_count": 1100.25,
+          "lesion_coverage": 0.8995391705069125,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0229": {
+          "patches": 5,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.6,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.004072916666666667,
+          "lesion_voxel_count": 2502.4,
+          "lesion_coverage": 0.9961783439490446,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0230": {
+          "patches": 5,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.6,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.023771484375000002,
+          "lesion_voxel_count": 14605.2,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0231": {
+          "patches": 5,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.4,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.007504231770833333,
+          "lesion_voxel_count": 4610.6,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0232": {
+          "patches": 2,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.0,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.00039306640624999997,
+          "lesion_voxel_count": 241.5,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0233": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.5,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 1.5462239583333335e-05,
+          "lesion_voxel_count": 9.5,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0234": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.75,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 3.946940104166666e-05,
+          "lesion_voxel_count": 24.25,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0236": {
+          "patches": 6,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.5,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.005512152777777778,
+          "lesion_voxel_count": 3386.6666666666665,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0237": {
+          "patches": 11,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.45454545454545453,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.01939571496212121,
+          "lesion_voxel_count": 11916.727272727272,
+          "lesion_coverage": 0.9994677238771725,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0239": {
+          "patches": 7,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.42857142857142855,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.003502836681547619,
+          "lesion_voxel_count": 2152.1428571428573,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0240": {
+          "patches": 7,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.14285714285714285,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.052268182663690474,
+          "lesion_voxel_count": 32113.571428571428,
+          "lesion_coverage": 0.9967071458164073,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0241": {
+          "patches": 2,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 1.0,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0005533854166666667,
+          "lesion_voxel_count": 340.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0242": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.25,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0014412434895833333,
+          "lesion_voxel_count": 885.5,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0243": {
+          "patches": 8,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.5,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0019002278645833333,
+          "lesion_voxel_count": 1167.5,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0244": {
+          "patches": 3,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.6666666666666666,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0070621744791666665,
+          "lesion_voxel_count": 4339.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0245": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.75,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.002618408203125,
+          "lesion_voxel_count": 1608.75,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0246": {
+          "patches": 4,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.25,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.03738728841145834,
+          "lesion_voxel_count": 22970.75,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0248": {
+          "patches": 5,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.4,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0030654296875000002,
+          "lesion_voxel_count": 1883.4,
+          "lesion_coverage": 0.9996815286624203,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0249": {
+          "patches": 6,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.6666666666666666,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0021107313368055555,
+          "lesion_voxel_count": 1296.8333333333333,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        },
+        "case_0250": {
+          "patches": 5,
+          "distinct_cases": 1,
+          "forced_foreground_rate": 0.6,
+          "lesion_containing_patch_rate": 1.0,
+          "foreground_voxel_fraction": 0.0013623046875,
+          "lesion_voxel_count": 837.0,
+          "lesion_coverage": 1.0,
+          "small_lesion_containing_patches": 0
+        }
+      }
+    }
+  },
+  "delta_050_minus_033": {
+    "overall": {
+      "patches": 0,
+      "distinct_cases": 0,
+      "forced_foreground_rate": 0.125,
+      "lesion_containing_patch_rate": -0.0020000000000000018,
+      "foreground_voxel_fraction": 0.0010343831380208324,
+      "lesion_voxel_count": 635.5250000000001,
+      "lesion_coverage": -0.002382068799295256,
+      "small_lesion_containing_patches": -27
+    },
+    "<1 mL": {
+      "patches": 16,
+      "distinct_cases": 0,
+      "forced_foreground_rate": 0.09999999999999998,
+      "lesion_containing_patch_rate": -0.0040610558745274306,
+      "foreground_voxel_fraction": 0.00020226825706454502,
+      "lesion_voxel_count": 124.27361714045662,
+      "lesion_coverage": -0.0045382309629175,
+      "small_lesion_containing_patches": 0
+    },
+    "1\u20135 mL": {
+      "patches": -27,
+      "distinct_cases": 0,
+      "forced_foreground_rate": 0.17685377685377685,
+      "lesion_containing_patch_rate": 0.0,
+      "foreground_voxel_fraction": -3.7800345417533495e-06,
+      "lesion_voxel_count": -2.322453222453248,
+      "lesion_coverage": -0.0002829945226100472,
+      "small_lesion_containing_patches": -27
+    },
+    "5\u201320 mL": {
+      "patches": -3,
+      "distinct_cases": 0,
+      "forced_foreground_rate": 0.0707635467980296,
+      "lesion_containing_patch_rate": 0.0,
+      "foreground_voxel_fraction": -6.422842742970052e-05,
+      "lesion_voxel_count": -39.461945812807926,
+      "lesion_coverage": -0.0014376842962906533,
+      "small_lesion_containing_patches": 0
+    },
+    "20\u201350 mL": {
+      "patches": -6,
+      "distinct_cases": 0,
+      "forced_foreground_rate": 0.3045696539485359,
+      "lesion_containing_patch_rate": 0.0,
+      "foreground_voxel_fraction": 1.014725268504331e-05,
+      "lesion_voxel_count": 6.23447204968943,
+      "lesion_coverage": 0.0003953358199829671,
+      "small_lesion_containing_patches": 0
+    },
+    "\u226550 mL": {
+      "patches": 20,
+      "distinct_cases": 0,
+      "forced_foreground_rate": 0.07005666347781297,
+      "lesion_containing_patch_rate": 0.0,
+      "foreground_voxel_fraction": 0.003645602289957261,
+      "lesion_voxel_count": 2239.858046949739,
+      "lesion_coverage": -0.0030706147211957413,
+      "small_lesion_containing_patches": 0
+    }
+  },
+  "coverage_definition": "Fraction of source GT voxel centers inside the augmented patch support.\n\n    Uses the inverse actual affine, and intersects with the initial crop support.\n    Not post-augmentation voxel count divided by native volume (scaling biases that).\n    Excludes interpolation/threshold effects; denominator is full preprocessed GT.\n    ",
+  "seed": 2022,
+  "patches_per_group": 1000,
+  "validation_sampling": 0.33,
+  "missing_fields": [],
+  "decision": "review_required: assess substantive lesion exposure increase, especially 1\u20135 mL; equality alone is NOT a decision criterion",
+  "caveat": "Same initial seed does not pair subsequent cases when different cropping branches consume different random draws. Diagnostic is synchronous; full training uses seeded nondeterministic workers. Native GT defines subgroups; coverage denominator is preprocessed GT."
+}

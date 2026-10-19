@@ -1,0 +1,15 @@
+Model Evaluation Summary
+
+Case: case_0010
+Case Type: Validation
+Clinical Report Status: This document is for model evaluation and is not a clinical report.
+
+Ground Truth volume: 3.368 mL
+Prediction volume: 2.440 mL
+Absolute volume error: 0.928 mL
+Relative volume error: 27.553%
+Signed volume error: -0.928 mL (-27.553%)
+Interpretation: Prediction volume is underestimated.
+
+Prediction connected components: 13
+Ground Truth connected components: 14

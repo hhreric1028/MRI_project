@@ -1,0 +1,32 @@
+{
+  "status": "complete",
+  "source_cases": 250,
+  "reviewed_unique_cases": 31,
+  "case_montages": 31,
+  "comparison_montages": 9,
+  "category_montages": 8,
+  "probability_backfilled_cases": 0,
+  "selection_counts": {
+    "A_good": 8,
+    "B_small_lesion_miss": 5,
+    "C_multifocal_miss": 5,
+    "D_large_partial_coverage": 6,
+    "E_severe_undersegmentation": 10,
+    "F_extreme_low_dice": 5,
+    "G_fp_heavy": 5,
+    "H_fold4_worst": 5
+  },
+  "csv_files": [
+    "manifest.csv",
+    "reviewed_case_list.csv",
+    "reviewed_case_metrics.csv",
+    "failure_taxonomy_summary.csv",
+    "reviewed_case_manifest.csv",
+    "good_vs_bad_pairs.csv",
+    "large_partial_review.csv",
+    "fold4_review.csv"
+  ],
+  "recommended_single_next_direction": "sampling",
+  "new_training_started": false,
+  "sources_modified": false
+}

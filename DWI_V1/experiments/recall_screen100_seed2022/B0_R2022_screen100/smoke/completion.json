@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "warmup": 20,
+  "measured": 100,
+  "seconds": 20.795999999998457,
+  "seconds_per_iteration": 0.20795999999998457,
+  "skipped_steps": 0,
+  "nonfinite_gradient_events": 0,
+  "validation_loss": -0.5293870568275452,
+  "peak_allocated_gib": 5.2627668380737305,
+  "peak_reserved_gib": 6.123046875,
+  "finished_at": "2026-09-16T12:10:38.501315+08:00"
+}

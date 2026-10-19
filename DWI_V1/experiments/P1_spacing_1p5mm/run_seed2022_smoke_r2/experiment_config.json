@@ -1,0 +1,175 @@
+{
+  "experiment_id": "P1_spacing_1p5mm",
+  "mode": "smoke",
+  "git_commit": "dcc017ef72ee40458348c567df06ce1293bf28c4",
+  "branch": "exp/spacing-1p5mm",
+  "dataset": "Dataset011_ISLES2022_DWI",
+  "fold": 0,
+  "seed": 2022,
+  "worker_seeds_train": [
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "worker_seeds_val": [
+    3022,
+    3023
+  ],
+  "worker_order": "nondeterministic",
+  "plans": {
+    "data_identifier": "nnUNetPlans_3d_fullres",
+    "preprocessor_name": "DefaultPreprocessor",
+    "batch_size": 5,
+    "patch_size": [
+      96,
+      112,
+      96
+    ],
+    "median_image_size_in_voxels": [
+      88.0,
+      111.0,
+      91.0
+    ],
+    "spacing": [
+      1.5,
+      1.5,
+      1.5
+    ],
+    "normalization_schemes": [
+      "ZScoreNormalization"
+    ],
+    "use_mask_for_norm": [
+      true
+    ],
+    "resampling_fn_data": "resample_data_or_seg_to_shape",
+    "resampling_fn_seg": "resample_data_or_seg_to_shape",
+    "resampling_fn_data_kwargs": {
+      "is_seg": false,
+      "order": 3,
+      "order_z": 0,
+      "force_separate_z": null
+    },
+    "resampling_fn_seg_kwargs": {
+      "is_seg": true,
+      "order": 1,
+      "order_z": 0,
+      "force_separate_z": null
+    },
+    "resampling_fn_probabilities": "resample_data_or_seg_to_shape",
+    "resampling_fn_probabilities_kwargs": {
+      "is_seg": false,
+      "order": 1,
+      "order_z": 0,
+      "force_separate_z": null
+    },
+    "architecture": {
+      "network_class_name": "dynamic_network_architectures.architectures.unet.PlainConvUNet",
+      "arch_kwargs": {
+        "n_stages": 5,
+        "features_per_stage": [
+          32,
+          64,
+          128,
+          256,
+          320
+        ],
+        "conv_op": "torch.nn.modules.conv.Conv3d",
+        "kernel_sizes": [
+          [
+            3,
+            3,
+            3
+          ],
+          [
+            3,
+            3,
+            3
+          ],
+          [
+            3,
+            3,
+            3
+          ],
+          [
+            3,
+            3,
+            3
+          ],
+          [
+            3,
+            3,
+            3
+          ]
+        ],
+        "strides": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            2,
+            2,
+            2
+          ],
+          [
+            2,
+            2,
+            2
+          ],
+          [
+            2,
+            2,
+            2
+          ],
+          [
+            2,
+            2,
+            2
+          ]
+        ],
+        "n_conv_per_stage": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "n_conv_per_stage_decoder": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "conv_bias": true,
+        "norm_op": "torch.nn.modules.instancenorm.InstanceNorm3d",
+        "norm_op_kwargs": {
+          "eps": 1e-05,
+          "affine": true
+        },
+        "dropout_op": null,
+        "dropout_op_kwargs": null,
+        "nonlin": "torch.nn.LeakyReLU",
+        "nonlin_kwargs": {
+          "inplace": true
+        }
+      },
+      "_kw_requires_import": [
+        "conv_op",
+        "norm_op",
+        "dropout_op",
+        "nonlin"
+      ]
+    },
+    "batch_dice": false
+  },
+  "trainer": "nnUNetTrainer_SeededPreserve",
+  "plans_sha256": "dfe7ea48e9127cb00fc2fcc8a8a8022e9498cf8b1058b58114a7224b38b2f3a3",
+  "split_sha256": "09ed64d65dc3b5ece2656639a5abfc1a4f76b6e33121512a4931f6b6d6814d31",
+  "started_at": "2026-09-14T08:40:27.132877+08:00",
+  "torch": "2.8.0+cu128",
+  "nnunet": "2.8.1",
+  "gpu": "NVIDIA GeForce RTX 5080",
+  "evaluation_checkpoint": "checkpoint_final.pth"
+}

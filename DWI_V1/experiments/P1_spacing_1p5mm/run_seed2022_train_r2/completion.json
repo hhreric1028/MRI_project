@@ -1,0 +1,6 @@
+{
+  "status": "training_and_validation_complete",
+  "epochs": 1000,
+  "plans_sha256": "dfe7ea48e9127cb00fc2fcc8a8a8022e9498cf8b1058b58114a7224b38b2f3a3",
+  "finished_at": "2026-09-14T22:22:40.696176+08:00"
+}

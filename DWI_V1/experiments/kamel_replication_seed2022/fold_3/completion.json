@@ -1,0 +1,27 @@
+{
+  "status": "training_and_prediction_complete",
+  "fold": 3,
+  "actual_epochs": 100,
+  "checkpoint": "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\experiments\\kamel_replication_seed2022\\fold_3\\results\\Dataset001_ISLES2022_DWI\\nnUNetTrainer_KamelRep_Screen100__nnUNetPlans__3d_fullres\\fold_3\\checkpoint_final.pth",
+  "checkpoint_sha256": "24be438558c00ed1de53d65086cf0cf108591d7b5e91d8ce3cadda0755db447f",
+  "predictions": "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\experiments\\kamel_replication_seed2022\\fold_3\\results\\Dataset001_ISLES2022_DWI\\nnUNetTrainer_KamelRep_Screen100__nnUNetPlans__3d_fullres\\fold_3\\validation",
+  "total_amp_skipped_steps": 10,
+  "total_nonfinite_gradient_events": 10,
+  "unrecovered_consecutive_overflows": 0,
+  "training_summary": {
+    "fold": 3,
+    "best_epoch": 96,
+    "best_validation_metric": 0.8134437799453735,
+    "best_validation_metric_definition": "EMA of patch pseudo-Dice used by nnUNet checkpoint_best",
+    "final_epoch": 100,
+    "final_train_loss": -0.7850067019462585,
+    "final_val_loss": -0.771216869354248,
+    "final_pseudo_dice": 0.8258915543556213,
+    "amp_overflow_count": 10,
+    "unrecovered_consecutive_overflows": 0,
+    "runtime_seconds": 5175.781000000075,
+    "checkpoint_best": "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\experiments\\kamel_replication_seed2022\\fold_3\\results\\Dataset001_ISLES2022_DWI\\nnUNetTrainer_KamelRep_Screen100__nnUNetPlans__3d_fullres\\fold_3\\checkpoint_best.pth",
+    "checkpoint_final": "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\experiments\\kamel_replication_seed2022\\fold_3\\results\\Dataset001_ISLES2022_DWI\\nnUNetTrainer_KamelRep_Screen100__nnUNetPlans__3d_fullres\\fold_3\\checkpoint_final.pth"
+  },
+  "finished_at": "2026-09-22T19:24:32.334469+08:00"
+}

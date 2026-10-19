@@ -1,0 +1,22 @@
+{
+  "status": "complete",
+  "time": "2026-09-21T02:31:16.436075+08:00",
+  "cases": 250,
+  "channels": 2,
+  "all_finite": true,
+  "all_shapes_aligned": true,
+  "fold0_split_byte_identical": true,
+  "plan_invariants": {
+    "patch_size": [
+      80,
+      96,
+      80
+    ],
+    "batch_size": 8,
+    "spacing": [
+      2.0,
+      2.0,
+      2.0
+    ]
+  }
+}

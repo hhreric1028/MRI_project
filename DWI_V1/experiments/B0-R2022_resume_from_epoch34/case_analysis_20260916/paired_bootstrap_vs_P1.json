@@ -1,0 +1,139 @@
+{
+  "iterations": 10000,
+  "seed": 2022,
+  "resampling_unit": "case ID; identical sampled IDs for both models; lesion TP/FP/FN re-aggregated",
+  "difference": "B0-R2022 minus P1",
+  "metrics": {
+    "mean_dice": {
+      "baseline": 0.7648386673835025,
+      "candidate": 0.7755346354736776,
+      "delta": 0.010695968090175145,
+      "ci95": [
+        -0.013738508330975554,
+        0.031820117138744664
+      ],
+      "valid_replicates": 10000
+    },
+    "median_dice": {
+      "baseline": 0.8307336799537839,
+      "candidate": 0.8353326063249727,
+      "delta": 0.004598926371188861,
+      "ci95": [
+        -0.013978341807845253,
+        0.04709061729112296
+      ],
+      "valid_replicates": 10000
+    },
+    "lesion_recall": {
+      "baseline": 0.5986696230598669,
+      "candidate": 0.6452328159645233,
+      "delta": 0.04656319290465638,
+      "ci95": [
+        0.007811992694805195,
+        0.08418434479054784
+      ],
+      "valid_replicates": 10000
+    },
+    "lesion_precision": {
+      "baseline": 0.7520891364902507,
+      "candidate": 0.7167487684729064,
+      "delta": -0.035340368017344304,
+      "ci95": [
+        -0.06914617515287112,
+        -0.0011913748380820805
+      ],
+      "valid_replicates": 10000
+    },
+    "volume_mae_ml": {
+      "baseline": 4.853287275962541,
+      "candidate": 4.781557123287335,
+      "delta": -0.07173015267520544,
+      "ci95": [
+        -0.46549359239454097,
+        0.32618066682976204
+      ],
+      "valid_replicates": 10000
+    },
+    "signed_volume_error_ml": {
+      "baseline": -2.7964131892461834,
+      "candidate": -2.22727497538252,
+      "delta": 0.5691382138636634,
+      "ci95": [
+        0.22979475450466832,
+        0.9595518849157295
+      ],
+      "valid_replicates": 10000
+    },
+    "severe_under_count": {
+      "baseline": 9,
+      "candidate": 7,
+      "delta": -2,
+      "ci95": [
+        -5.0,
+        0.0
+      ],
+      "valid_replicates": 10000
+    },
+    "severe_under_rate": {
+      "baseline": 0.18,
+      "candidate": 0.14,
+      "delta": -0.03999999999999998,
+      "ci95": [
+        -0.1,
+        0.0
+      ],
+      "valid_replicates": 10000
+    },
+    "dice_below_05_rate": {
+      "baseline": 0.1,
+      "candidate": 0.1,
+      "delta": 0.0,
+      "ci95": [
+        -0.06,
+        0.06
+      ],
+      "valid_replicates": 10000
+    },
+    "catastrophic_miss_rate": {
+      "baseline": 0.0,
+      "candidate": 0.0,
+      "delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "valid_replicates": 10000
+    },
+    "fp_lesions_per_case": {
+      "baseline": 1.78,
+      "candidate": 2.3,
+      "delta": 0.5199999999999998,
+      "ci95": [
+        0.17999999999999994,
+        0.8600000000000001
+      ],
+      "valid_replicates": 10000
+    },
+    "hd95_finite_mean_mm": {
+      "baseline": 9.954488494306752,
+      "candidate": 9.72152439892268,
+      "delta": -0.23296409538407126,
+      "ci95": [
+        -2.5426496362757733,
+        1.920666704962215
+      ],
+      "valid_replicates": 10000
+    },
+    "hd95_infinite_rate": {
+      "baseline": 0.0,
+      "candidate": 0.0,
+      "delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "valid_replicates": 10000
+    }
+  },
+  "limitations": "Fold 0 only; single-seed screening. The resumed run is a training-state continuation, not a bitwise deterministic continuation. Historical B0 has an unconfirmed seed, and P1 also changes spacing, so these comparisons are descriptive rather than single-variable causal comparisons. Paired bootstrap confidence intervals describe case-level uncertainty within this validation cohort and do not establish cross-fold, cross-center, or cross-seed generalization."
+}

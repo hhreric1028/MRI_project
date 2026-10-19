@@ -1,0 +1,7 @@
+﻿case,fold,gt_ml,pred_ml,pred_gt_ratio,dice,voxel_recall,gt_lesion_count,pred_lesion_count,largest_gt_component_ml,largest_gt_component_coverage,failure_mode,failure_labels
+case_0023,3,482.152,217.392,0.45087856111765584,0.6184142813032489,0.44862201131593354,9,18,477.264,0.4528981863287405,mixed,large_partial_underseg;multifocal_miss;large_partial_coverage_failure
+case_0083,3,111.176,2.72,0.02446571202417788,0.04621760202289808,0.023674174282219185,2,7,73.096,0.01959067527634891,large_partial_underseg,large_partial_underseg;large_partial_coverage_failure
+case_0092,4,66.032,24.912,0.377271625878362,0.5265657987332865,0.36261206687666586,4,5,61.04,0.3610747051114024,mixed,large_partial_underseg;multifocal_miss;large_partial_coverage_failure
+case_0116,4,139.496,23.84,0.1709009577335551,0.28388107949257974,0.16619831393014853,4,31,139.38400000000001,0.1663318601848132,mixed,large_partial_underseg;multifocal_miss;large_partial_coverage_failure
+case_0146,0,21.016000000000002,10.44,0.49676437000380663,0.6617497456765005,0.49524172059383326,11,12,19.192,0.5064610254272613,mixed,large_partial_underseg;multifocal_miss;large_partial_coverage_failure
+case_0229,1,21.118283553889725,10.121146937495345,0.4792599224112205,0.635061529150696,0.4697105341689048,46,8,15.055678725825889,0.447886144830473,mixed,large_partial_underseg;multifocal_miss;large_partial_coverage_failure

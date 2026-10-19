@@ -1,0 +1,111 @@
+{
+  "status": "SAMPLING INTERVENTION INEFFECTIVE",
+  "time": "2026-09-21T02:35:00.715271+08:00",
+  "training_allowed": false,
+  "training_cases": 200,
+  "lesion_positive_training_cases": 198,
+  "empty_gt_training_cases": [
+    "case_0150",
+    "case_0170"
+  ],
+  "validation_cases_used": 0,
+  "audited_patches_per_scenario": 1000,
+  "initial_patch_size": [
+    137,
+    144,
+    128
+  ],
+  "final_patch_size": [
+    80,
+    96,
+    80
+  ],
+  "baseline_foreground_sampling": 0.33,
+  "hard_region_definition": {
+    "data_scope": "Fold 0 training 200 only; validation IDs excluded",
+    "method": "within each 26-connected lesion component, select the exact lowest intensity rank fraction on baseline nnUNet-preprocessed DWI",
+    "percentile_candidates": [
+      20,
+      30,
+      40
+    ],
+    "selected_percentile": 20,
+    "selection_rule": "smallest audited percentile with hard voxels in every lesion-positive training case, median hard fraction >=18%, 10th-percentile hard-voxel count >=10, and mean within-lesion standardized easy-minus-hard separation >=0.5",
+    "model_errors_used": false,
+    "validation_data_used": false,
+    "hard_location_cap_per_case": 10000
+  },
+  "candidate_summaries": [
+    {
+      "scenario": "B0",
+      "hard_preference_within_forced_foreground": 0.0,
+      "patches": 1000,
+      "forced_foreground_patches": 375,
+      "lesion_containing_patch_rate": 0.992,
+      "low_salience_containing_patch_rate": 0.992,
+      "forced_low_salience_containing_patch_rate": 0.992,
+      "mean_lesion_voxel_fraction": 0.001126677501520681,
+      "mean_hard_region_voxel_fraction": 0.00022675456521188157,
+      "forced_mean_total_lesion_coverage": 0.992,
+      "forced_mean_low_salience_coverage": 0.992,
+      "forced_mean_components_covered": 8.085333333333333
+    },
+    {
+      "scenario": "V2-S1-0.333",
+      "hard_preference_within_forced_foreground": 0.3333333333333333,
+      "patches": 1000,
+      "forced_foreground_patches": 375,
+      "lesion_containing_patch_rate": 0.992,
+      "low_salience_containing_patch_rate": 0.992,
+      "forced_low_salience_containing_patch_rate": 0.992,
+      "mean_lesion_voxel_fraction": 0.001126677501520681,
+      "mean_hard_region_voxel_fraction": 0.00022675456521188157,
+      "forced_mean_total_lesion_coverage": 0.992,
+      "forced_mean_low_salience_coverage": 0.992,
+      "forced_mean_components_covered": 8.085333333333333,
+      "absolute_forced_hard_coverage_gain": 0.0,
+      "absolute_forced_hard_presence_gain": 0.0,
+      "absolute_lesion_patch_rate_change": 0.0,
+      "effective": false
+    },
+    {
+      "scenario": "V2-S1-0.500",
+      "hard_preference_within_forced_foreground": 0.5,
+      "patches": 1000,
+      "forced_foreground_patches": 375,
+      "lesion_containing_patch_rate": 0.992,
+      "low_salience_containing_patch_rate": 0.992,
+      "forced_low_salience_containing_patch_rate": 0.992,
+      "mean_lesion_voxel_fraction": 0.001126677501520681,
+      "mean_hard_region_voxel_fraction": 0.00022675456521188157,
+      "forced_mean_total_lesion_coverage": 0.992,
+      "forced_mean_low_salience_coverage": 0.992,
+      "forced_mean_components_covered": 8.085333333333333,
+      "absolute_forced_hard_coverage_gain": 0.0,
+      "absolute_forced_hard_presence_gain": 0.0,
+      "absolute_lesion_patch_rate_change": 0.0,
+      "effective": false
+    },
+    {
+      "scenario": "V2-S1-0.667",
+      "hard_preference_within_forced_foreground": 0.6666666666666666,
+      "patches": 1000,
+      "forced_foreground_patches": 375,
+      "lesion_containing_patch_rate": 0.992,
+      "low_salience_containing_patch_rate": 0.992,
+      "forced_low_salience_containing_patch_rate": 0.992,
+      "mean_lesion_voxel_fraction": 0.001126677501520681,
+      "mean_hard_region_voxel_fraction": 0.00022675456521188157,
+      "forced_mean_total_lesion_coverage": 0.992,
+      "forced_mean_low_salience_coverage": 0.992,
+      "forced_mean_components_covered": 8.085333333333333,
+      "absolute_forced_hard_coverage_gain": 0.0,
+      "absolute_forced_hard_presence_gain": 0.0,
+      "absolute_lesion_patch_rate_change": 0.0,
+      "effective": false
+    }
+  ],
+  "selected_sampling": null,
+  "effectiveness_rule": "forced hard coverage gain >=0.10, forced hard-presence gain >=0.05, lesion-patch rate change >=-0.01",
+  "git_commit": "54f514a495bda207d35785082f4ac12930eb0ac9"
+}

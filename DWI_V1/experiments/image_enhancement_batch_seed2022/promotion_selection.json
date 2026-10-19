@@ -1,0 +1,13 @@
+{
+  "selected_maximum_two": [
+    "E3_intensity_scale"
+  ],
+  "ranking_priorities": [
+    "severe under reduction",
+    "recall",
+    "1-5 mL",
+    "mean Dice",
+    "FP penalty",
+    "precision"
+  ]
+}

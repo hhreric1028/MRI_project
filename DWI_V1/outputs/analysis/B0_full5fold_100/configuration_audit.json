@@ -1,0 +1,273 @@
+{
+  "created_at": "2026-09-23T00:46:05.108737+08:00",
+  "comparison": [
+    {
+      "item": "trainer class",
+      "B0-100": "nnUNetTrainer_B0R2022_Screen100 (Fold 0); nnUNetTrainer_B0Full5fold_Screen100 (Fold 1-4 selector wrapper)",
+      "KamelRep-100": "nnUNetTrainer_KamelRep_Screen100",
+      "status": "DIFFERENT",
+      "note": "Class names differ. Both wrappers inherit Screen100Mixin + nnUNetTrainer_B0R2022; Fold 1-4 wrapper changes only do_split to select the audited fixed fold."
+    },
+    {
+      "item": "seed policy",
+      "B0-100": "Python/NumPy/Torch/CUDA=2022; train workers 2022-2025; val workers 3022-3023; non-deterministic arrival order",
+      "KamelRep-100": "Python/NumPy/Torch/CUDA=2022; train workers 2022-2025; val workers 3022-3023; non-deterministic arrival order",
+      "status": "SAME",
+      "note": ""
+    },
+    {
+      "item": "split file/hash",
+      "B0-100": "splits_final.json / 09ed64d65dc3b5ece2656639a5abfc1a4f76b6e33121512a4931f6b6d6814d31",
+      "KamelRep-100": "splits_final.json / 09ed64d65dc3b5ece2656639a5abfc1a4f76b6e33121512a4931f6b6d6814d31",
+      "status": "SAME",
+      "note": ""
+    },
+    {
+      "item": "nnUNet plans/hash",
+      "B0-100": "nnUNetPlans / 09a3894923f0437d714fd14e44c3728785b59d2c28d01d12d8f7681b38d8340e",
+      "KamelRep-100": "nnUNetPlans / 09a3894923f0437d714fd14e44c3728785b59d2c28d01d12d8f7681b38d8340e",
+      "status": "SAME",
+      "note": ""
+    },
+    {
+      "item": "target spacing",
+      "B0-100": [
+        2.0,
+        2.0,
+        2.0
+      ],
+      "KamelRep-100": [
+        2.0,
+        2.0,
+        2.0
+      ],
+      "status": "SAME",
+      "note": ""
+    },
+    {
+      "item": "patch size",
+      "B0-100": [
+        80,
+        96,
+        80
+      ],
+      "KamelRep-100": [
+        80,
+        96,
+        80
+      ],
+      "status": "SAME",
+      "note": ""
+    },
+    {
+      "item": "batch size",
+      "B0-100": 8,
+      "KamelRep-100": 8,
+      "status": "SAME",
+      "note": ""
+    },
+    {
+      "item": "architecture",
+      "B0-100": "dynamic_network_architectures.architectures.unet.PlainConvUNet",
+      "KamelRep-100": "dynamic_network_architectures.architectures.unet.PlainConvUNet",
+      "status": "SAME",
+      "note": ""
+    },
+    {
+      "item": "feature channels",
+      "B0-100": [
+        32,
+        64,
+        128,
+        256,
+        320
+      ],
+      "KamelRep-100": [
+        32,
+        64,
+        128,
+        256,
+        320
+      ],
+      "status": "SAME",
+      "note": ""
+    },
+    {
+      "item": "normalization",
+      "B0-100": [
+        "ZScoreNormalization"
+      ],
+      "KamelRep-100": [
+        "ZScoreNormalization"
+      ],
+      "status": "SAME",
+      "note": ""
+    },
+    {
+      "item": "normalization mask",
+      "B0-100": [
+        true
+      ],
+      "KamelRep-100": [
+        true
+      ],
+      "status": "SAME",
+      "note": ""
+    },
+    {
+      "item": "foreground sampling",
+      "B0-100": "train 0.33 / validation 0.33",
+      "KamelRep-100": "train 0.33 / validation 0.33",
+      "status": "SAME",
+      "note": ""
+    },
+    {
+      "item": "loss",
+      "B0-100": "B0 Dice+CE, equal weights, batch Dice false",
+      "KamelRep-100": "B0 Dice+CE, equal weights, batch Dice false",
+      "status": "SAME",
+      "note": ""
+    },
+    {
+      "item": "optimizer",
+      "B0-100": "SGD momentum 0.99, Nesterov, weight decay 3e-5",
+      "KamelRep-100": "SGD momentum 0.99, Nesterov, weight decay 3e-5",
+      "status": "SAME",
+      "note": ""
+    },
+    {
+      "item": "initial LR",
+      "B0-100": 0.01,
+      "KamelRep-100": 0.01,
+      "status": "SAME",
+      "note": ""
+    },
+    {
+      "item": "LR scheduler",
+      "B0-100": "PolyLR exponent 0.9; 1000-epoch denominator",
+      "KamelRep-100": "PolyLR exponent 0.9; 1000-epoch denominator",
+      "status": "SAME",
+      "note": ""
+    },
+    {
+      "item": "augmentation pipeline",
+      "B0-100": "nnUNet v2.8.1 default: rotation/scaling, noise, blur, brightness, contrast, low-resolution, two gamma transforms, mirroring axes (0,1,2); no override",
+      "KamelRep-100": "nnUNet v2.8.1 default: rotation/scaling, noise, blur, brightness, contrast, low-resolution, two gamma transforms, mirroring axes (0,1,2); no override",
+      "status": "SAME",
+      "note": ""
+    },
+    {
+      "item": "number of epochs",
+      "B0-100": 100,
+      "KamelRep-100": 100,
+      "status": "SAME",
+      "note": ""
+    },
+    {
+      "item": "checkpoint policy",
+      "B0-100": "checkpoint_best retained; primary checkpoint_final at epoch 100",
+      "KamelRep-100": "checkpoint_best retained; primary checkpoint_final at epoch 100",
+      "status": "SAME",
+      "note": ""
+    },
+    {
+      "item": "inference configuration",
+      "B0-100": "nnUNet saved-checkpoint sliding-window validation; mirroring axes (0,1,2); threshold-equivalent argmax 0.5",
+      "KamelRep-100": "nnUNet saved-checkpoint sliding-window validation; mirroring axes (0,1,2); threshold-equivalent argmax 0.5",
+      "status": "SAME",
+      "note": ""
+    },
+    {
+      "item": "post-processing",
+      "B0-100": "none",
+      "KamelRep-100": "none",
+      "status": "SAME",
+      "note": ""
+    },
+    {
+      "item": "evaluation code",
+      "B0-100": "scripts/evaluate_cv_fold.py -> evaluate_experiment.metrics/summarize",
+      "KamelRep-100": "scripts/evaluate_cv_fold.py -> evaluate_experiment.metrics/summarize",
+      "status": "SAME",
+      "note": ""
+    },
+    {
+      "item": "connected-component definition",
+      "B0-100": "26-connectivity; max-cardinality then max-IoU one-to-one overlap",
+      "KamelRep-100": "26-connectivity; max-cardinality then max-IoU one-to-one overlap",
+      "status": "SAME",
+      "note": ""
+    }
+  ],
+  "effective_training_configuration_difference_count": 0,
+  "conclusion": "The two experiment families have no effective model, data, optimization, augmentation, inference, or evaluation configuration difference. Trainer class names differ only because both five-fold launchers must generalize the original Fold-0-only do_split method. This is an independent repeated five-fold training comparison used to estimate stochastic training variability.",
+  "split_audit": {
+    "split_file": "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\datasets\\ISLES2022\\processed\\Dataset001_ISLES2022_DWI\\splits_final.json",
+    "split_sha256": "09ed64d65dc3b5ece2656639a5abfc1a4f76b6e33121512a4931f6b6d6814d31",
+    "folds": 5,
+    "dataset_cases": 250,
+    "fold_details": [
+      {
+        "fold": 0,
+        "train_cases": 200,
+        "validation_cases": 50,
+        "train_validation_overlap": [],
+        "train_union_validation_matches_dataset": true
+      },
+      {
+        "fold": 1,
+        "train_cases": 200,
+        "validation_cases": 50,
+        "train_validation_overlap": [],
+        "train_union_validation_matches_dataset": true
+      },
+      {
+        "fold": 2,
+        "train_cases": 200,
+        "validation_cases": 50,
+        "train_validation_overlap": [],
+        "train_union_validation_matches_dataset": true
+      },
+      {
+        "fold": 3,
+        "train_cases": 200,
+        "validation_cases": 50,
+        "train_validation_overlap": [],
+        "train_union_validation_matches_dataset": true
+      },
+      {
+        "fold": 4,
+        "train_cases": 200,
+        "validation_cases": 50,
+        "train_validation_overlap": [],
+        "train_union_validation_matches_dataset": true
+      }
+    ],
+    "validation_union_count": 250,
+    "every_case_validated_exactly_once": true,
+    "leakage_detected": false
+  },
+  "fold0_reuse": {
+    "trainer_class": "nnUNetTrainer_B0R2022_Screen100",
+    "correct_trainer": true,
+    "epoch_rows": 100,
+    "final_epoch_row": 100,
+    "checkpoint_current_epoch": 100,
+    "actual_epochs": 100,
+    "checkpoint_final": "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\experiments\\recall_screen100_seed2022_r2\\B0_R2022_screen100\\train\\results\\Dataset001_ISLES2022_DWI\\nnUNetTrainer_B0R2022_Screen100__nnUNetPlans__3d_fullres\\fold_0\\checkpoint_final.pth",
+    "checkpoint_final_exists": true,
+    "checkpoint_hash_matches_completion": true,
+    "checkpoint_best": "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\experiments\\recall_screen100_seed2022_r2\\B0_R2022_screen100\\train\\results\\Dataset001_ISLES2022_DWI\\nnUNetTrainer_B0R2022_Screen100__nnUNetPlans__3d_fullres\\fold_0\\checkpoint_best.pth",
+    "checkpoint_best_exists": true,
+    "progress_png": "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\experiments\\recall_screen100_seed2022_r2\\B0_R2022_screen100\\train\\results\\Dataset001_ISLES2022_DWI\\nnUNetTrainer_B0R2022_Screen100__nnUNetPlans__3d_fullres\\fold_0\\progress.png",
+    "progress_png_exists": true,
+    "training_logs": [
+      "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\experiments\\recall_screen100_seed2022_r2\\B0_R2022_screen100\\train\\results\\Dataset001_ISLES2022_DWI\\nnUNetTrainer_B0R2022_Screen100__nnUNetPlans__3d_fullres\\fold_0\\training_log_2026_9_16_12_18_15.txt"
+    ],
+    "validation_nii_count": 50,
+    "validation_npz_count": 50,
+    "validation_ids_match_fold0": true,
+    "unified_evaluator_recomputable": true,
+    "passed": true
+  }
+}

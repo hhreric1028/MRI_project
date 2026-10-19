@@ -1,0 +1,15 @@
+{
+  "status": "training_and_validation_complete",
+  "experiment": "E3_intensity_scale",
+  "stage": "screen100",
+  "resume_epoch": 0,
+  "actual_total_epochs": 100,
+  "lr_schedule_reference_epochs": 1000,
+  "checkpoint": "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\experiments\\image_enhancement_batch_seed2022\\E3_intensity_scale\\predictions\\screen100\\train\\results\\Dataset023_ISLES2022_DWI_IntensityScaleDual\\nnUNetTrainer_E3Scale_Screen100__nnUNetPlans__3d_fullres\\fold_0\\checkpoint_final.pth",
+  "checkpoint_sha256": "fbd0cbce45ef42c0b2118e911daf75897e792e0181940675e7ad241530429668",
+  "predictions": "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\experiments\\image_enhancement_batch_seed2022\\E3_intensity_scale\\predictions\\screen100\\train\\results\\Dataset023_ISLES2022_DWI_IntensityScaleDual\\nnUNetTrainer_E3Scale_Screen100__nnUNetPlans__3d_fullres\\fold_0\\validation",
+  "total_amp_skipped_steps": 7,
+  "total_nonfinite_gradient_events": 7,
+  "unrecovered_consecutive_overflows": 0,
+  "finished_at": "2026-09-20T05:16:05.174315+08:00"
+}

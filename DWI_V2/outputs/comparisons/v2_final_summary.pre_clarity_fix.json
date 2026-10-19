@@ -1,0 +1,184 @@
+{
+  "status": "complete",
+  "time": "2026-09-21T04:01:11.929002+08:00",
+  "selection": {
+    "status": "no_promotion",
+    "time": "2026-09-21T04:00:29.756056+08:00",
+    "selected_experiment": null,
+    "eligible_experiments": [],
+    "ranking": [],
+    "priority_order": [
+      "severe-under reduction",
+      "fixed Worst-5 mean Dice delta",
+      "fixed Worst-5 recall delta",
+      "coverage-cohort recall delta",
+      "case_0140 recall delta",
+      "lesion recall delta",
+      "precision delta",
+      "negative FP/case delta",
+      "overall mean Dice delta"
+    ],
+    "screen_classifications": {
+      "E1": "RECALL-PRECISION TRADE-OFF"
+    },
+    "s1_sampling_status": "SAMPLING INTERVENTION INEFFECTIVE",
+    "constraints": {
+      "maximum_promoted_candidates": 1,
+      "maximum_epochs": 300,
+      "full_1000_epoch_training": false
+    }
+  },
+  "s1_sampling": {
+    "status": "SAMPLING INTERVENTION INEFFECTIVE",
+    "time": "2026-09-21T02:35:00.715271+08:00",
+    "training_allowed": false,
+    "training_cases": 200,
+    "lesion_positive_training_cases": 198,
+    "empty_gt_training_cases": [
+      "case_0150",
+      "case_0170"
+    ],
+    "validation_cases_used": 0,
+    "audited_patches_per_scenario": 1000,
+    "initial_patch_size": [
+      137,
+      144,
+      128
+    ],
+    "final_patch_size": [
+      80,
+      96,
+      80
+    ],
+    "baseline_foreground_sampling": 0.33,
+    "hard_region_definition": {
+      "data_scope": "Fold 0 training 200 only; validation IDs excluded",
+      "method": "within each 26-connected lesion component, select the exact lowest intensity rank fraction on baseline nnUNet-preprocessed DWI",
+      "percentile_candidates": [
+        20,
+        30,
+        40
+      ],
+      "selected_percentile": 20,
+      "selection_rule": "smallest audited percentile with hard voxels in every lesion-positive training case, median hard fraction >=18%, 10th-percentile hard-voxel count >=10, and mean within-lesion standardized easy-minus-hard separation >=0.5",
+      "model_errors_used": false,
+      "validation_data_used": false,
+      "hard_location_cap_per_case": 10000
+    },
+    "candidate_summaries": [
+      {
+        "scenario": "B0",
+        "hard_preference_within_forced_foreground": 0.0,
+        "patches": 1000,
+        "forced_foreground_patches": 375,
+        "lesion_containing_patch_rate": 0.992,
+        "low_salience_containing_patch_rate": 0.992,
+        "forced_low_salience_containing_patch_rate": 0.992,
+        "mean_lesion_voxel_fraction": 0.001126677501520681,
+        "mean_hard_region_voxel_fraction": 0.00022675456521188157,
+        "forced_mean_total_lesion_coverage": 0.992,
+        "forced_mean_low_salience_coverage": 0.992,
+        "forced_mean_components_covered": 8.085333333333333
+      },
+      {
+        "scenario": "V2-S1-0.333",
+        "hard_preference_within_forced_foreground": 0.3333333333333333,
+        "patches": 1000,
+        "forced_foreground_patches": 375,
+        "lesion_containing_patch_rate": 0.992,
+        "low_salience_containing_patch_rate": 0.992,
+        "forced_low_salience_containing_patch_rate": 0.992,
+        "mean_lesion_voxel_fraction": 0.001126677501520681,
+        "mean_hard_region_voxel_fraction": 0.00022675456521188157,
+        "forced_mean_total_lesion_coverage": 0.992,
+        "forced_mean_low_salience_coverage": 0.992,
+        "forced_mean_components_covered": 8.085333333333333,
+        "absolute_forced_hard_coverage_gain": 0.0,
+        "absolute_forced_hard_presence_gain": 0.0,
+        "absolute_lesion_patch_rate_change": 0.0,
+        "effective": false
+      },
+      {
+        "scenario": "V2-S1-0.500",
+        "hard_preference_within_forced_foreground": 0.5,
+        "patches": 1000,
+        "forced_foreground_patches": 375,
+        "lesion_containing_patch_rate": 0.992,
+        "low_salience_containing_patch_rate": 0.992,
+        "forced_low_salience_containing_patch_rate": 0.992,
+        "mean_lesion_voxel_fraction": 0.001126677501520681,
+        "mean_hard_region_voxel_fraction": 0.00022675456521188157,
+        "forced_mean_total_lesion_coverage": 0.992,
+        "forced_mean_low_salience_coverage": 0.992,
+        "forced_mean_components_covered": 8.085333333333333,
+        "absolute_forced_hard_coverage_gain": 0.0,
+        "absolute_forced_hard_presence_gain": 0.0,
+        "absolute_lesion_patch_rate_change": 0.0,
+        "effective": false
+      },
+      {
+        "scenario": "V2-S1-0.667",
+        "hard_preference_within_forced_foreground": 0.6666666666666666,
+        "patches": 1000,
+        "forced_foreground_patches": 375,
+        "lesion_containing_patch_rate": 0.992,
+        "low_salience_containing_patch_rate": 0.992,
+        "forced_low_salience_containing_patch_rate": 0.992,
+        "mean_lesion_voxel_fraction": 0.001126677501520681,
+        "mean_hard_region_voxel_fraction": 0.00022675456521188157,
+        "forced_mean_total_lesion_coverage": 0.992,
+        "forced_mean_low_salience_coverage": 0.992,
+        "forced_mean_components_covered": 8.085333333333333,
+        "absolute_forced_hard_coverage_gain": 0.0,
+        "absolute_forced_hard_presence_gain": 0.0,
+        "absolute_lesion_patch_rate_change": 0.0,
+        "effective": false
+      }
+    ],
+    "selected_sampling": null,
+    "effectiveness_rule": "forced hard coverage gain >=0.10, forced hard-presence gain >=0.05, lesion-patch rate change >=-0.01",
+    "git_commit": "54f514a495bda207d35785082f4ac12930eb0ac9"
+  },
+  "candidate_rows": [
+    {
+      "experiment": "V2-E1-100",
+      "classification": "RECALL-PRECISION TRADE-OFF",
+      "mean_dice": 0.7708930119672847,
+      "lesion_recall": 0.6452328159645233,
+      "lesion_precision": 0.6554054054054054,
+      "fp_lesions_per_case": 3.06,
+      "severe_under_count": 6,
+      "fixed_worst5_mean_dice": 0.2986184147805406,
+      "coverage_cohort_recall": 0.3007084213955089,
+      "persistent_fn_recovered_ml": 0.10400000812672737
+    }
+  ],
+  "legacy_references": {
+    "P3a_only_100": {
+      "mean_dice": 0.783869311949674,
+      "lesion_recall": 0.6385809312638581,
+      "lesion_precision": 0.6889952153110048,
+      "fp_lesions_per_case": 2.6,
+      "severe_under_count": 5,
+      "volume_mae_ml": 4.3862276507555364
+    },
+    "S1a_100": {
+      "mean_dice": 0.7795770925143453,
+      "lesion_recall": 0.6053215077605322,
+      "lesion_precision": 0.7319034852546917,
+      "fp_lesions_per_case": 2.0,
+      "severe_under_count": 6,
+      "volume_mae_ml": 4.80714815115682
+    }
+  },
+  "e1_vs_p3a_only": {
+    "v2_e1_minus_p3a_only_mean_dice": -0.012976299982389361,
+    "v2_e1_minus_p3a_only_lesion_recall": 0.006651884700665245,
+    "v2_e1_minus_p3a_only_lesion_precision": -0.033589809905599455,
+    "v2_e1_minus_p3a_only_fp_per_case": 0.45999999999999996
+  },
+  "s1_vs_s1a": null,
+  "final_classification": "STOP",
+  "full_training_authorized": false,
+  "stopped_at_epoch": 100
+}

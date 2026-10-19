@@ -1,0 +1,15 @@
+{
+  "status": "training_and_validation_complete",
+  "experiment": "E2_clahe",
+  "stage": "screen100",
+  "resume_epoch": 0,
+  "actual_total_epochs": 100,
+  "lr_schedule_reference_epochs": 1000,
+  "checkpoint": "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\experiments\\image_enhancement_batch_seed2022\\E2_clahe\\predictions\\screen100\\train\\results\\Dataset022_ISLES2022_DWI_CLAHEDual\\nnUNetTrainer_E2CLAHE_Screen100__nnUNetPlans__3d_fullres\\fold_0\\checkpoint_final.pth",
+  "checkpoint_sha256": "0f877aabbebebc2278a1108d43adac9f2bfe5791996029ad3c8eaae95326eaf9",
+  "predictions": "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\experiments\\image_enhancement_batch_seed2022\\E2_clahe\\predictions\\screen100\\train\\results\\Dataset022_ISLES2022_DWI_CLAHEDual\\nnUNetTrainer_E2CLAHE_Screen100__nnUNetPlans__3d_fullres\\fold_0\\validation",
+  "total_amp_skipped_steps": 7,
+  "total_nonfinite_gradient_events": 7,
+  "unrecovered_consecutive_overflows": 0,
+  "finished_at": "2026-09-20T03:48:24.935433+08:00"
+}

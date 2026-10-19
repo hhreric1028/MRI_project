@@ -1,0 +1,8 @@
+﻿failure_mode,count_type,B0-100,A1-100,Delta_A1_minus_B0
+small_lesion_miss,expanded_label_presence,5,5,0
+large_partial_underseg,expanded_label_presence,3,4,1
+multifocal_miss,expanded_label_presence,35,34,-1
+boundary_underseg,expanded_label_presence,9,9,0
+low_confidence,expanded_label_presence,3,0,-3
+fp_dominant,expanded_label_presence,0,0,0
+mixed,primary_mode,15,13,-2

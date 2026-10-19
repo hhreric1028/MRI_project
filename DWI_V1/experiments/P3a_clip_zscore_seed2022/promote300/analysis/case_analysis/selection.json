@@ -1,0 +1,143 @@
+[
+  {
+    "case": "case_0034",
+    "reasons": [
+      "top5_improve"
+    ],
+    "slices": [
+      20,
+      17
+    ]
+  },
+  {
+    "case": "case_0068",
+    "reasons": [
+      "known_failure"
+    ],
+    "slices": [
+      16,
+      13
+    ]
+  },
+  {
+    "case": "case_0069",
+    "reasons": [
+      "top5_decline"
+    ],
+    "slices": [
+      29,
+      28
+    ]
+  },
+  {
+    "case": "case_0137",
+    "reasons": [
+      "top5_decline"
+    ],
+    "slices": [
+      22,
+      18
+    ]
+  },
+  {
+    "case": "case_0140",
+    "reasons": [
+      "known_failure"
+    ],
+    "slices": [
+      35,
+      26
+    ]
+  },
+  {
+    "case": "case_0146",
+    "reasons": [
+      "top5_decline"
+    ],
+    "slices": [
+      30,
+      38
+    ]
+  },
+  {
+    "case": "case_0148",
+    "reasons": [
+      "top5_improve"
+    ],
+    "slices": [
+      12,
+      20
+    ]
+  },
+  {
+    "case": "case_0181",
+    "reasons": [
+      "known_failure"
+    ],
+    "slices": [
+      14,
+      22
+    ]
+  },
+  {
+    "case": "case_0182",
+    "reasons": [
+      "top5_decline",
+      "known_failure"
+    ],
+    "slices": [
+      18,
+      21
+    ]
+  },
+  {
+    "case": "case_0187",
+    "reasons": [
+      "top5_improve"
+    ],
+    "slices": [
+      11,
+      9
+    ]
+  },
+  {
+    "case": "case_0188",
+    "reasons": [
+      "top5_decline"
+    ],
+    "slices": [
+      20,
+      20
+    ]
+  },
+  {
+    "case": "case_0212",
+    "reasons": [
+      "known_failure"
+    ],
+    "slices": [
+      25,
+      14
+    ]
+  },
+  {
+    "case": "case_0220",
+    "reasons": [
+      "top5_improve"
+    ],
+    "slices": [
+      42,
+      41
+    ]
+  },
+  {
+    "case": "case_0238",
+    "reasons": [
+      "top5_improve"
+    ],
+    "slices": [
+      12,
+      19
+    ]
+  }
+]

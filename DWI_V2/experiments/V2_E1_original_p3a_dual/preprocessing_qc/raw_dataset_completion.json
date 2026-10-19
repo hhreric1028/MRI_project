@@ -1,0 +1,66 @@
+{
+  "status": "complete",
+  "time": "2026-09-21T02:28:40.409812+08:00",
+  "dataset_id": 101,
+  "dataset_name": "Dataset101_ISLES2022_DWI_Original_P3a",
+  "cases": 250,
+  "fold0_train": 200,
+  "fold0_validation": 50,
+  "channel_0": "byte-identical copy of Dataset001 original DWI",
+  "channel_1": "per-volume binary_fill_holes(image != 0) foreground; P0.5-P99.5 clip; background unchanged; float32; nnUNet foreground z-score occurs later",
+  "p3a_source": "C:\\Users\\User\\Desktop\\MRI_project_v1\\scripts\\prepare_p3a_dataset.py",
+  "p3a_source_sha256": "671a6871642c3b2648f17dad9f1ed259da8ada73765d44118b2635add8577a7a",
+  "labels_byte_identical": true,
+  "all_geometry_aligned": true,
+  "all_finite": true,
+  "qc_cases": [
+    "case_0140",
+    "case_0068",
+    "case_0181",
+    "case_0186",
+    "case_0091",
+    "case_0162",
+    "case_0179",
+    "case_0099",
+    "case_0158",
+    "case_0169"
+  ],
+  "qc_reasons": {
+    "case_0140": [
+      "fixed failure anchor"
+    ],
+    "case_0068": [
+      "fixed failure anchor"
+    ],
+    "case_0181": [
+      "fixed failure anchor"
+    ],
+    "case_0186": [
+      "fixed failure anchor"
+    ],
+    "case_0091": [
+      "general training case"
+    ],
+    "case_0162": [
+      "general training case"
+    ],
+    "case_0179": [
+      "general training case"
+    ],
+    "case_0099": [
+      "1-5 mL training case"
+    ],
+    "case_0158": [
+      "1-5 mL training case"
+    ],
+    "case_0169": [
+      "1-5 mL training case"
+    ]
+  },
+  "git_commit": "54f514a495bda207d35785082f4ac12930eb0ac9",
+  "source_hashes": {
+    "C:\\Users\\User\\Desktop\\MRI_project_v1\\datasets\\ISLES2022\\nnUNet_raw\\Dataset001_ISLES2022_DWI\\dataset.json": "361eb70c2e99875b5af50f51647f6a8f0840763f35317f894bc4a479d99628d7",
+    "C:\\Users\\User\\Desktop\\MRI_project_v1\\datasets\\ISLES2022\\processed\\Dataset001_ISLES2022_DWI\\splits_final.json": "09ed64d65dc3b5ece2656639a5abfc1a4f76b6e33121512a4931f6b6d6814d31",
+    "C:\\Users\\User\\Desktop\\MRI_project_v1\\scripts\\prepare_p3a_dataset.py": "671a6871642c3b2648f17dad9f1ed259da8ada73765d44118b2635add8577a7a"
+  }
+}

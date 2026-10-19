@@ -1,23 +1,91 @@
-__pycache__/
-*.py[cod]
-.ipynb_checkpoints/
+# Python and notebook caches
+**/__pycache__/
+**/*.py[cod]
+**/.pytest_cache/
+**/.mypy_cache/
+**/.ruff_cache/
+**/.ipynb_checkpoints/
+
+# Local environments and secrets
 .env
-datasets/ISLES2022/raw/*
-datasets/ISLES2022/nnUNet_raw/*
-datasets/ISLES2022/processed/*
-outputs/**
-!outputs/**/
-!outputs/**/.gitkeep
-*.part
-datasets/
-outputs/models/
-outputs/predictions/
-nnUNet_results/
-*.pth
-*.npz
-*.npy
+.env.*
+!.env.example
+.venv/
+venv/
+
+# Datasets stay local. Only the entry documents are versioned.
+DWI_V1/datasets/**
+!DWI_V1/datasets/README.md
+DWI_V2/datasets/**
+!DWI_V2/datasets/README.md
+
+# Medical images, arrays, archives and nnUNet caches
 *.nii
 *.nii.gz
-experiments/**/preprocessed/
-experiments/**/results/
-experiments/**/predictions/
+*.nrrd
+*.mha
+*.mhd
+*.b2nd
+*.npy
+*.npz
+*.pkl
+*.part
+*.zip
+*.7z
+*.tar
+*.tar.gz
+**/nnUNet_raw/**
+**/nnUNet_preprocessed/**
+**/preprocessed/**
+
+# Model weights and generated predictions
+*.pth
+*.pt
+*.ckpt
+*.onnx
+**/checkpoint*/**
+**/results/**
+**/predictions/**
+**/inference/**
+
+# Generated visual and runtime output. Text/CSV/JSON summaries remain trackable.
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+*.log
+**/logs/**
+**/.matplotlib/**
+DWI_V1/outputs/models/**
+DWI_V1/outputs/predictions/**
+DWI_V1/outputs/figures/**
+DWI_V1/outputs/inference/**
+DWI_V1/outputs/log_archive/**
+DWI_V2/outputs/models/**
+DWI_V2/outputs/predictions/**
+DWI_V2/outputs/figures/**
+DWI_V2/outputs/inference/**
+DWI_V2/outputs/log_archive/**
+
+# Local auxiliary output created under a restricted Windows sandbox ACL.
+DWI_V1/outputs/analysis/failure_analysis_v2/
+
+# PROJECT_RESULTS is a local junction-based index. Track only its documentation.
+DWI_V1/PROJECT_RESULTS/**
+!DWI_V1/PROJECT_RESULTS/README.md
+!DWI_V1/PROJECT_RESULTS/inventory.csv
+
+# Codex/presentation build intermediates
+**/.build/**
+**/.codex-build/**
+**/.codex-finalizer-*/**
+*.inspect.ndjson
+*.validation.json
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/

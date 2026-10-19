@@ -1,0 +1,19 @@
+{
+  "classification": "RECALL-PRECISION TRADE-OFF",
+  "promote_to_300": false,
+  "guards": {
+    "severe_under_not_increased": true,
+    "fixed_worst5_improved": true,
+    "anchor_or_cohort_coverage_improved": true,
+    "overall_lesion_recall_not_decreased": true,
+    "precision_drop_within_0p05": false,
+    "fp_per_case_increase_within_0p5": false,
+    "volume_mae_not_materially_worse": false,
+    "numerically_stable": false
+  },
+  "volume_mae_allowed_margin_ml": 0.5,
+  "anchor_improved": false,
+  "coverage_cohort_improved": true,
+  "fixed_worst5_improved": true,
+  "severe_under_improved": true
+}

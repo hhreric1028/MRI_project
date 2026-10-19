@@ -1,0 +1,1 @@
+2026-09-08 16:30 Asia/Taipei: first 10 epochs passed; 26 completed at notification. Loss finite. Estimated training remaining 12.43 hours.

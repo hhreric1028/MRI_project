@@ -1,0 +1,356 @@
+{
+  "primary_trend": "P3a-300 minus P3a-100",
+  "iterations": 10000,
+  "seed": 2022,
+  "p3a100": {
+    "mean_dice": 0.783869311949674,
+    "median_dice": 0.8323959505061868,
+    "hd95_mean_mm": 8.834405413459754,
+    "volume_mae_ml": 4.3862276507555364,
+    "signed_volume_error_ml": -0.8465730282215665,
+    "lesion_recall": 0.6385809312638581,
+    "lesion_precision": 0.6889952153110048,
+    "lesion_f1": 0.6628308400460299,
+    "lesion_fn": 163,
+    "lesion_fp": 130,
+    "fp_lesions_per_case": 2.6,
+    "severe_under_count": 5,
+    "dice_lt_05": 2,
+    "dice_lt_03": 1,
+    "catastrophic_miss_count": 0,
+    "small_cases": 12,
+    "small_mean_dice": 0.6616750644903723,
+    "small_median_dice": 0.6929406800096456,
+    "small_recall": 0.7166666666666667,
+    "small_precision": 0.7678571428571429,
+    "small_volume_mae_ml": 1.087232031021599,
+    "small_severe_under_count": 4
+  },
+  "p3a300": {
+    "mean_dice": 0.7810070481837931,
+    "median_dice": 0.8325481798715203,
+    "hd95_mean_mm": 9.197091898297868,
+    "volume_mae_ml": 4.456593709213781,
+    "signed_volume_error_ml": -2.151313249268759,
+    "lesion_recall": 0.623059866962306,
+    "lesion_precision": 0.6938271604938272,
+    "lesion_f1": 0.6565420560747663,
+    "lesion_fn": 170,
+    "lesion_fp": 124,
+    "fp_lesions_per_case": 2.48,
+    "severe_under_count": 5,
+    "dice_lt_05": 3,
+    "dice_lt_03": 1,
+    "catastrophic_miss_count": 0,
+    "small_cases": 12,
+    "small_mean_dice": 0.6666083498088853,
+    "small_median_dice": 0.7101144447881225,
+    "small_recall": 0.7333333333333333,
+    "small_precision": 0.8148148148148148,
+    "small_volume_mae_ml": 0.9132496474848689,
+    "small_severe_under_count": 3
+  },
+  "b0_100_context_only": {
+    "mean_dice": 0.7645259668788942,
+    "median_dice": 0.8238805970149253,
+    "hd95_mean_mm": 10.521758797984806,
+    "volume_mae_ml": 4.521207161261114,
+    "signed_volume_error_ml": -1.9292142312690026,
+    "lesion_recall": 0.5942350332594235,
+    "lesion_precision": 0.7146666666666667,
+    "lesion_f1": 0.648910411622276,
+    "lesion_fn": 183,
+    "lesion_fp": 107,
+    "fp_lesions_per_case": 2.14,
+    "severe_under_count": 8,
+    "dice_lt_05": 4,
+    "dice_lt_03": 3,
+    "catastrophic_miss_count": 0,
+    "small_cases": 12,
+    "small_mean_dice": 0.6262440982382312,
+    "small_median_dice": 0.7633060822958717,
+    "small_recall": 0.7333333333333333,
+    "small_precision": 0.8979591836734694,
+    "small_volume_mae_ml": 0.9831121409866785,
+    "small_severe_under_count": 5
+  },
+  "curve": {
+    "rows": 200,
+    "first_epoch": 101,
+    "last_epoch": 300,
+    "finite": true,
+    "final_lr": 0.00726350460441003,
+    "expected_final_lr": 0.00726350460441003,
+    "total_amp_skipped_steps": 19,
+    "unrecovered_consecutive_overflows": 0,
+    "normal": true
+  },
+  "trend_bootstrap": {
+    "mean_dice": {
+      "baseline": 0.783869311949674,
+      "candidate": 0.7810070481837931,
+      "delta": -0.0028622637658809458,
+      "ci95": [
+        -0.012995265001799488,
+        0.006573020447858779
+      ],
+      "valid_replicates": 10000
+    },
+    "median_dice": {
+      "baseline": 0.8323959505061868,
+      "candidate": 0.8325481798715203,
+      "delta": 0.00015222936533354492,
+      "ci95": [
+        -0.03117270891597268,
+        0.024163032796050143
+      ],
+      "valid_replicates": 10000
+    },
+    "lesion_recall": {
+      "baseline": 0.6385809312638581,
+      "candidate": 0.623059866962306,
+      "delta": -0.01552106430155209,
+      "ci95": [
+        -0.043957387355920315,
+        0.011081543495589435
+      ],
+      "valid_replicates": 10000
+    },
+    "lesion_precision": {
+      "baseline": 0.6889952153110048,
+      "candidate": 0.6938271604938272,
+      "delta": 0.0048319451828223725,
+      "ci95": [
+        -0.039435263653484,
+        0.054839132325017595
+      ],
+      "valid_replicates": 10000
+    },
+    "volume_mae_ml": {
+      "baseline": 4.3862276507555364,
+      "candidate": 4.456593709213781,
+      "delta": 0.0703660584582444,
+      "ci95": [
+        -0.7781573603711096,
+        0.8431041648681635
+      ],
+      "valid_replicates": 10000
+    },
+    "signed_volume_error_ml": {
+      "baseline": -0.8465730282215665,
+      "candidate": -2.151313249268759,
+      "delta": -1.3047402210471923,
+      "ci95": [
+        -2.1156933339631956,
+        -0.6338161478158122
+      ],
+      "valid_replicates": 10000
+    },
+    "severe_under_count": {
+      "baseline": 5,
+      "candidate": 5,
+      "delta": 0,
+      "ci95": [
+        -3.0,
+        3.0
+      ],
+      "valid_replicates": 10000
+    },
+    "severe_under_rate": {
+      "baseline": 0.1,
+      "candidate": 0.1,
+      "delta": 0.0,
+      "ci95": [
+        -0.06,
+        0.06
+      ],
+      "valid_replicates": 10000
+    },
+    "dice_below_05_rate": {
+      "baseline": 0.04,
+      "candidate": 0.06,
+      "delta": 0.019999999999999997,
+      "ci95": [
+        0.0,
+        0.060000000000000005
+      ],
+      "valid_replicates": 10000
+    },
+    "catastrophic_miss_rate": {
+      "baseline": 0.0,
+      "candidate": 0.0,
+      "delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "valid_replicates": 10000
+    },
+    "fp_lesions_per_case": {
+      "baseline": 2.6,
+      "candidate": 2.48,
+      "delta": -0.1200000000000001,
+      "ci95": [
+        -0.7799999999999998,
+        0.4400000000000004
+      ],
+      "valid_replicates": 10000
+    },
+    "hd95_finite_mean_mm": {
+      "baseline": 8.834405413459754,
+      "candidate": 9.197091898297868,
+      "delta": 0.3626864848381146,
+      "ci95": [
+        -0.23141289747242594,
+        1.116625961751135
+      ],
+      "valid_replicates": 10000
+    },
+    "hd95_infinite_rate": {
+      "baseline": 0.0,
+      "candidate": 0.0,
+      "delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "valid_replicates": 10000
+    }
+  },
+  "small_1_5_ml_trend_bootstrap": {
+    "mean_dice": {
+      "baseline": 0.6616750644903723,
+      "candidate": 0.6666083498088853,
+      "delta": 0.004933285318513003,
+      "ci95": [
+        -0.020602747017950594,
+        0.02834811182809597
+      ],
+      "valid_replicates": 10000
+    },
+    "median_dice": {
+      "baseline": 0.6929406800096456,
+      "candidate": 0.7101144447881225,
+      "delta": 0.017173764778476874,
+      "ci95": [
+        -0.056519381946326885,
+        0.06041509036555581
+      ],
+      "valid_replicates": 10000
+    },
+    "lesion_recall": {
+      "baseline": 0.7166666666666667,
+      "candidate": 0.7333333333333333,
+      "delta": 0.016666666666666607,
+      "ci95": [
+        0.0,
+        0.05264912280701734
+      ],
+      "valid_replicates": 10000
+    },
+    "lesion_precision": {
+      "baseline": 0.7678571428571429,
+      "candidate": 0.8148148148148148,
+      "delta": 0.046957671957671865,
+      "ci95": [
+        0.0,
+        0.11944489381118302
+      ],
+      "valid_replicates": 10000
+    },
+    "volume_mae_ml": {
+      "baseline": 1.087232031021599,
+      "candidate": 0.9132496474848689,
+      "delta": -0.17398238353673012,
+      "ci95": [
+        -0.31390217126816045,
+        -0.03708727410835772
+      ],
+      "valid_replicates": 10000
+    },
+    "signed_volume_error_ml": {
+      "baseline": -0.6032320310215988,
+      "candidate": -0.6879163141515355,
+      "delta": -0.0846842831299367,
+      "ci95": [
+        -0.2495398768666006,
+        0.09657517742483016
+      ],
+      "valid_replicates": 10000
+    },
+    "severe_under_count": {
+      "baseline": 4,
+      "candidate": 3,
+      "delta": -1,
+      "ci95": [
+        -3.0,
+        0.0
+      ],
+      "valid_replicates": 10000
+    },
+    "severe_under_rate": {
+      "baseline": 0.3333333333333333,
+      "candidate": 0.25,
+      "delta": -0.08333333333333331,
+      "ci95": [
+        -0.25,
+        0.0
+      ],
+      "valid_replicates": 10000
+    },
+    "dice_below_05_rate": {
+      "baseline": 0.08333333333333333,
+      "candidate": 0.16666666666666666,
+      "delta": 0.08333333333333333,
+      "ci95": [
+        0.0,
+        0.25
+      ],
+      "valid_replicates": 10000
+    },
+    "catastrophic_miss_rate": {
+      "baseline": 0.0,
+      "candidate": 0.0,
+      "delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "valid_replicates": 10000
+    },
+    "fp_lesions_per_case": {
+      "baseline": 1.0833333333333333,
+      "candidate": 0.8333333333333334,
+      "delta": -0.2499999999999999,
+      "ci95": [
+        -0.6666666666666666,
+        0.0
+      ],
+      "valid_replicates": 10000
+    },
+    "hd95_finite_mean_mm": {
+      "baseline": 14.36336949496341,
+      "candidate": 15.238362269895068,
+      "delta": 0.8749927749316591,
+      "ci95": [
+        -0.4155372622994709,
+        2.460344917188603
+      ],
+      "valid_replicates": 10000
+    },
+    "hd95_infinite_rate": {
+      "baseline": 0.0,
+      "candidate": 0.0,
+      "delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "valid_replicates": 10000
+    }
+  },
+  "matched_b0_300_available": false,
+  "limitation": "No B0-R2022 epoch-300 checkpoint exists; B0-100 is context only and is not a matched 300-epoch primary comparator.",
+  "final_decision": "STOP",
+  "automatic_1000_started": false
+}

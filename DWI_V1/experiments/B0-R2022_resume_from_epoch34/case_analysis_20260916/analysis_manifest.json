@@ -1,0 +1,15 @@
+{
+  "status": "complete",
+  "case_count": 50,
+  "valid_dice_count": 49,
+  "native_evaluation_dice_match": true,
+  "tukey_lower_fence": 0.5907509065851575,
+  "focus_panel_count": 22,
+  "inputs": {
+    "new_evaluation": "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\experiments\\B0-R2022_resume_from_epoch34\\evaluation_v2",
+    "historical_B0_evaluation": "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\experiments\\B0_baseline\\evaluation_v2",
+    "P1_evaluation": "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\experiments\\P1_spacing_1p5mm\\run_seed2022_train_r2\\metrics",
+    "new_predictions": "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\experiments\\B0-R2022_resume_from_epoch34\\train\\results\\Dataset001_ISLES2022_DWI\\nnUNetTrainer_B0R2022_Resume__nnUNetPlans__3d_fullres\\fold_0\\validation"
+  },
+  "limitations": "Fold 0 only; single-seed screening. The resumed run is a training-state continuation, not a bitwise deterministic continuation. Historical B0 has an unconfirmed seed, and P1 also changes spacing, so these comparisons are descriptive rather than single-variable causal comparisons. Paired bootstrap confidence intervals describe case-level uncertainty within this validation cohort and do not establish cross-fold, cross-center, or cross-seed generalization."
+}

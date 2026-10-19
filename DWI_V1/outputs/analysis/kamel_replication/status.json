@@ -1,0 +1,56 @@
+{
+  "human_approval": {
+    "decision": "approved_continue_folds_1_to_4",
+    "fold_0_strict_gate": "failed",
+    "audit_classification": "D. MINOR STOCHASTIC VARIATION",
+    "gate_redefined": false
+  },
+  "fold_0": {
+    "status": "complete",
+    "start_time": "2026-09-22T12:07:19.586993+08:00",
+    "end_time": "2026-09-22T13:37:31.651388+08:00",
+    "runtime_seconds": 5412.829000000027,
+    "checkpoint_path": "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\experiments\\kamel_replication_seed2022\\fold_0\\results\\Dataset001_ISLES2022_DWI\\nnUNetTrainer_KamelRep_Screen100__nnUNetPlans__3d_fullres\\fold_0\\checkpoint_final.pth",
+    "validation_status": "complete",
+    "replication_check": "failed"
+  },
+  "fold_1": {
+    "status": "complete",
+    "start_time": "2026-09-22T15:04:01.983367+08:00",
+    "end_time": "2026-09-22T16:31:26.451806+08:00",
+    "runtime_seconds": 5245.3429999999935,
+    "checkpoint_path": "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\experiments\\kamel_replication_seed2022\\fold_1\\results\\Dataset001_ISLES2022_DWI\\nnUNetTrainer_KamelRep_Screen100__nnUNetPlans__3d_fullres\\fold_1\\checkpoint_final.pth",
+    "validation_status": "complete"
+  },
+  "fold_2": {
+    "status": "complete",
+    "start_time": "2026-09-22T16:31:41.044034+08:00",
+    "end_time": "2026-09-22T17:57:50.842131+08:00",
+    "runtime_seconds": 5170.530999999959,
+    "checkpoint_path": "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\experiments\\kamel_replication_seed2022\\fold_2\\results\\Dataset001_ISLES2022_DWI\\nnUNetTrainer_KamelRep_Screen100__nnUNetPlans__3d_fullres\\fold_2\\checkpoint_final.pth",
+    "validation_status": "complete"
+  },
+  "fold_3": {
+    "status": "complete",
+    "start_time": "2026-09-22T17:58:04.617686+08:00",
+    "end_time": "2026-09-22T19:24:32.334469+08:00",
+    "runtime_seconds": 5192.640000000014,
+    "checkpoint_path": "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\experiments\\kamel_replication_seed2022\\fold_3\\results\\Dataset001_ISLES2022_DWI\\nnUNetTrainer_KamelRep_Screen100__nnUNetPlans__3d_fullres\\fold_3\\checkpoint_final.pth",
+    "validation_status": "complete"
+  },
+  "fold_4": {
+    "status": "complete",
+    "start_time": "2026-09-22T19:24:50.852087+08:00",
+    "end_time": "2026-09-22T20:51:21.399440+08:00",
+    "runtime_seconds": 5188.2970000000205,
+    "checkpoint_path": "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\experiments\\kamel_replication_seed2022\\fold_4\\results\\Dataset001_ISLES2022_DWI\\nnUNetTrainer_KamelRep_Screen100__nnUNetPlans__3d_fullres\\fold_4\\checkpoint_final.pth",
+    "validation_status": "complete"
+  },
+  "overall": {
+    "status": "complete",
+    "oof_cases": 250,
+    "oof_prediction_directory": "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\experiments\\kamel_replication_seed2022\\OOF_predictions",
+    "ensemble_used": false,
+    "followup_model_started": false
+  }
+}

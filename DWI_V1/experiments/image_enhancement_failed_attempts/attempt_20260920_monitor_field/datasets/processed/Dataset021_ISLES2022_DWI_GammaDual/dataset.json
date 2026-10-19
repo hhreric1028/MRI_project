@@ -1,0 +1,13 @@
+{
+  "channel_names": {
+    "0": "DWI",
+    "1": "E1_enhanced_DWI"
+  },
+  "labels": {
+    "background": 0,
+    "lesion": 1
+  },
+  "numTraining": 250,
+  "file_ending": ".nii.gz",
+  "overwrite_image_reader_writer": "SimpleITKIO"
+}

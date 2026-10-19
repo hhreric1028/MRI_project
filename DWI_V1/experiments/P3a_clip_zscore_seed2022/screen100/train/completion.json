@@ -1,0 +1,14 @@
+{
+  "status": "training_and_validation_complete",
+  "stage": "screen100",
+  "resume_epoch": 0,
+  "actual_total_epochs": 100,
+  "lr_schedule_reference_epochs": 1000,
+  "checkpoint": "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\experiments\\P3a_clip_zscore_seed2022\\screen100\\train\\results\\Dataset013_ISLES2022_DWI_ClipZScore\\nnUNetTrainer_P3a_Screen100__nnUNetPlans__3d_fullres\\fold_0\\checkpoint_final.pth",
+  "checkpoint_sha256": "eb565ffa1b977af26bd0c112fa820b3d4ed64b9fb1e1a0aeb40bf1f2e5e7ed3a",
+  "predictions": "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\experiments\\P3a_clip_zscore_seed2022\\screen100\\train\\results\\Dataset013_ISLES2022_DWI_ClipZScore\\nnUNetTrainer_P3a_Screen100__nnUNetPlans__3d_fullres\\fold_0\\validation",
+  "total_amp_skipped_steps": 7,
+  "total_nonfinite_gradient_events": 7,
+  "unrecovered_consecutive_overflows": 0,
+  "finished_at": "2026-09-17T17:51:48.088773+08:00"
+}

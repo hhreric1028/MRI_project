@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "warmup": 20,
+  "measured": 100,
+  "seconds": 19.89100000000326,
+  "seconds_per_iteration": 0.1989100000000326,
+  "skipped_steps": 1,
+  "finite_gradient_steps": 119,
+  "recovered_at_end": true,
+  "model_finite": true,
+  "optimizer_finite": true,
+  "final_grad_scaler": {
+    "scale": 524288.0,
+    "growth_factor": 2.0,
+    "backoff_factor": 0.5,
+    "growth_interval": 2000,
+    "_growth_tracker": 46
+  },
+  "validation_loss": -0.5831167101860046,
+  "peak_allocated_gib": 5.263766288757324,
+  "peak_reserved_gib": 6.17578125,
+  "time": "2026-09-15T12:09:58.991638+08:00",
+  "original_checkpoint_sha256": "f67ae113f4a68bad8e4ed6da31191f3497d7588bfa2c7a1c291e75dff1f865bd"
+}

@@ -1,0 +1,27 @@
+{
+  "component_count": 3,
+  "largest_component_ml": 141.12801102796905,
+  "largest_component_ratio": 0.998302303208647,
+  "morphology_pattern": "dominant_large_component_with_satellites",
+  "bbox_voxel": {
+    "min": [
+      35,
+      7,
+      9
+    ],
+    "max": [
+      88,
+      56,
+      53
+    ]
+  },
+  "axis_codes": [
+    "L",
+    "A",
+    "S"
+  ],
+  "rl_extent_mm": 108.0,
+  "ap_extent_mm": 100.0,
+  "is_extent_mm": 90.0,
+  "gt_ml": 141.368011046723
+}

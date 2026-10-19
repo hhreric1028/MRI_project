@@ -1,0 +1,491 @@
+[
+  {
+    "case": "case_0010",
+    "selection_reasons": [
+      "top5_decline"
+    ],
+    "axial_canonical_z": [
+      25,
+      23
+    ],
+    "models": {
+      "B0": {
+        "whole_gt_components_no_overlap": 1,
+        "detected_gt_components_with_incomplete_coverage": 13,
+        "extra_prediction_components_no_gt_overlap": 0,
+        "gt_component_voxel_coverage": [
+          0.0,
+          0.5135135135135135,
+          0.34782608695652173,
+          0.8227848101265823,
+          0.25,
+          0.9393939393939394,
+          0.8,
+          0.5217391304347826,
+          0.5,
+          0.391304347826087,
+          0.7894736842105263,
+          0.8888888888888888,
+          0.6129032258064516,
+          0.9411764705882353
+        ],
+        "voxel_recall": 0.6888361045130641
+      },
+      "P1": {
+        "whole_gt_components_no_overlap": 2,
+        "detected_gt_components_with_incomplete_coverage": 12,
+        "extra_prediction_components_no_gt_overlap": 0,
+        "gt_component_voxel_coverage": [
+          0.0,
+          0.4864864864864865,
+          0.10869565217391304,
+          0.7468354430379747,
+          0.0,
+          0.7373737373737373,
+          0.8,
+          0.34782608695652173,
+          0.25,
+          0.08695652173913043,
+          0.42105263157894735,
+          0.5555555555555556,
+          0.45161290322580644,
+          0.6470588235294118
+        ],
+        "voxel_recall": 0.5106888361045131
+      }
+    }
+  },
+  {
+    "case": "case_0051",
+    "selection_reasons": [
+      "top5_improve"
+    ],
+    "axial_canonical_z": [
+      35,
+      21
+    ],
+    "models": {
+      "B0": {
+        "whole_gt_components_no_overlap": 0,
+        "detected_gt_components_with_incomplete_coverage": 6,
+        "extra_prediction_components_no_gt_overlap": 0,
+        "gt_component_voxel_coverage": [
+          0.625,
+          0.5,
+          0.2222222222222222,
+          0.4122137404580153,
+          0.7771739130434783,
+          0.4,
+          1.0,
+          1.0
+        ],
+        "voxel_recall": 0.6102564102564103
+      },
+      "P1": {
+        "whole_gt_components_no_overlap": 0,
+        "detected_gt_components_with_incomplete_coverage": 8,
+        "extra_prediction_components_no_gt_overlap": 0,
+        "gt_component_voxel_coverage": [
+          0.1875,
+          0.25,
+          0.4444444444444444,
+          0.8702290076335878,
+          0.7717391304347826,
+          0.2,
+          0.5,
+          0.7647058823529411
+        ],
+        "voxel_recall": 0.7384615384615385
+      }
+    }
+  },
+  {
+    "case": "case_0053",
+    "selection_reasons": [
+      "top5_improve"
+    ],
+    "axial_canonical_z": [
+      43,
+      40
+    ],
+    "models": {
+      "B0": {
+        "whole_gt_components_no_overlap": 0,
+        "detected_gt_components_with_incomplete_coverage": 2,
+        "extra_prediction_components_no_gt_overlap": 0,
+        "gt_component_voxel_coverage": [
+          0.8939393939393939,
+          0.9583333333333334
+        ],
+        "voxel_recall": 0.9111111111111111
+      },
+      "P1": {
+        "whole_gt_components_no_overlap": 0,
+        "detected_gt_components_with_incomplete_coverage": 2,
+        "extra_prediction_components_no_gt_overlap": 0,
+        "gt_component_voxel_coverage": [
+          0.8787878787878788,
+          0.875
+        ],
+        "voxel_recall": 0.8777777777777778
+      }
+    }
+  },
+  {
+    "case": "case_0068",
+    "selection_reasons": [
+      "known_low"
+    ],
+    "axial_canonical_z": [
+      16,
+      18
+    ],
+    "models": {
+      "B0": {
+        "whole_gt_components_no_overlap": 2,
+        "detected_gt_components_with_incomplete_coverage": 1,
+        "extra_prediction_components_no_gt_overlap": 0,
+        "gt_component_voxel_coverage": [
+          0.0,
+          0.0,
+          0.7192982456140351
+        ],
+        "voxel_recall": 0.08893709327548807
+      },
+      "P1": {
+        "whole_gt_components_no_overlap": 2,
+        "detected_gt_components_with_incomplete_coverage": 1,
+        "extra_prediction_components_no_gt_overlap": 0,
+        "gt_component_voxel_coverage": [
+          0.0,
+          0.0,
+          0.543859649122807
+        ],
+        "voxel_recall": 0.06724511930585683
+      }
+    }
+  },
+  {
+    "case": "case_0069",
+    "selection_reasons": [
+      "top5_decline"
+    ],
+    "axial_canonical_z": [
+      29,
+      28
+    ],
+    "models": {
+      "B0": {
+        "whole_gt_components_no_overlap": 0,
+        "detected_gt_components_with_incomplete_coverage": 1,
+        "extra_prediction_components_no_gt_overlap": 0,
+        "gt_component_voxel_coverage": [
+          0.7058823529411765
+        ],
+        "voxel_recall": 0.7058823529411765
+      },
+      "P1": {
+        "whole_gt_components_no_overlap": 0,
+        "detected_gt_components_with_incomplete_coverage": 1,
+        "extra_prediction_components_no_gt_overlap": 0,
+        "gt_component_voxel_coverage": [
+          0.5294117647058824
+        ],
+        "voxel_recall": 0.5294117647058824
+      }
+    }
+  },
+  {
+    "case": "case_0118",
+    "selection_reasons": [
+      "new_severe",
+      "top5_decline"
+    ],
+    "axial_canonical_z": [
+      41,
+      42
+    ],
+    "models": {
+      "B0": {
+        "whole_gt_components_no_overlap": 2,
+        "detected_gt_components_with_incomplete_coverage": 2,
+        "extra_prediction_components_no_gt_overlap": 0,
+        "gt_component_voxel_coverage": [
+          0.4,
+          0.6782945736434108,
+          0.0,
+          1.0,
+          1.0,
+          0.0
+        ],
+        "voxel_recall": 0.6716791979949874
+      },
+      "P1": {
+        "whole_gt_components_no_overlap": 3,
+        "detected_gt_components_with_incomplete_coverage": 3,
+        "extra_prediction_components_no_gt_overlap": 1,
+        "gt_component_voxel_coverage": [
+          0.26666666666666666,
+          0.4935400516795866,
+          0.0,
+          0.5,
+          0.0,
+          0.0
+        ],
+        "voxel_recall": 0.48621553884711777
+      }
+    }
+  },
+  {
+    "case": "case_0135",
+    "selection_reasons": [
+      "new_severe",
+      "top5_decline"
+    ],
+    "axial_canonical_z": [
+      35,
+      27
+    ],
+    "models": {
+      "B0": {
+        "whole_gt_components_no_overlap": 0,
+        "detected_gt_components_with_incomplete_coverage": 3,
+        "extra_prediction_components_no_gt_overlap": 0,
+        "gt_component_voxel_coverage": [
+          0.8076923076923077,
+          0.38372093023255816,
+          0.9090909090909091
+        ],
+        "voxel_recall": 0.6318681318681318
+      },
+      "P1": {
+        "whole_gt_components_no_overlap": 0,
+        "detected_gt_components_with_incomplete_coverage": 3,
+        "extra_prediction_components_no_gt_overlap": 0,
+        "gt_component_voxel_coverage": [
+          0.7115384615384616,
+          0.03488372093023256,
+          0.8863636363636364
+        ],
+        "voxel_recall": 0.4340659340659341
+      }
+    }
+  },
+  {
+    "case": "case_0140",
+    "selection_reasons": [
+      "known_low"
+    ],
+    "axial_canonical_z": [
+      35,
+      25
+    ],
+    "models": {
+      "B0": {
+        "whole_gt_components_no_overlap": 0,
+        "detected_gt_components_with_incomplete_coverage": 3,
+        "extra_prediction_components_no_gt_overlap": 6,
+        "gt_component_voxel_coverage": [
+          0.3239612266878295,
+          0.75,
+          0.9615384615384616
+        ],
+        "voxel_recall": 0.32499575575802164
+      },
+      "P1": {
+        "whole_gt_components_no_overlap": 0,
+        "detected_gt_components_with_incomplete_coverage": 3,
+        "extra_prediction_components_no_gt_overlap": 0,
+        "gt_component_voxel_coverage": [
+          0.3044045122158608,
+          0.25,
+          0.9230769230769231
+        ],
+        "voxel_recall": 0.3053024729783261
+      }
+    }
+  },
+  {
+    "case": "case_0160",
+    "selection_reasons": [
+      "new_severe"
+    ],
+    "axial_canonical_z": [
+      22,
+      20
+    ],
+    "models": {
+      "B0": {
+        "whole_gt_components_no_overlap": 1,
+        "detected_gt_components_with_incomplete_coverage": 5,
+        "extra_prediction_components_no_gt_overlap": 1,
+        "gt_component_voxel_coverage": [
+          0.7333333333333333,
+          0.125,
+          0.0,
+          0.43902439024390244,
+          0.625,
+          0.5806451612903226
+        ],
+        "voxel_recall": 0.4566787003610108
+      },
+      "P1": {
+        "whole_gt_components_no_overlap": 2,
+        "detected_gt_components_with_incomplete_coverage": 4,
+        "extra_prediction_components_no_gt_overlap": 1,
+        "gt_component_voxel_coverage": [
+          0.7212121212121212,
+          0.0,
+          0.0,
+          0.36585365853658536,
+          0.25,
+          0.36129032258064514
+        ],
+        "voxel_recall": 0.34657039711191334
+      }
+    }
+  },
+  {
+    "case": "case_0181",
+    "selection_reasons": [
+      "top5_improve",
+      "known_low"
+    ],
+    "axial_canonical_z": [
+      14,
+      12
+    ],
+    "models": {
+      "B0": {
+        "whole_gt_components_no_overlap": 2,
+        "detected_gt_components_with_incomplete_coverage": 2,
+        "extra_prediction_components_no_gt_overlap": 3,
+        "gt_component_voxel_coverage": [
+          0.03554274735830932,
+          0.0,
+          0.5095846645367412,
+          0.0
+        ],
+        "voxel_recall": 0.175715695952616
+      },
+      "P1": {
+        "whole_gt_components_no_overlap": 1,
+        "detected_gt_components_with_incomplete_coverage": 3,
+        "extra_prediction_components_no_gt_overlap": 2,
+        "gt_component_voxel_coverage": [
+          0.09029779058597502,
+          0.0,
+          0.5095846645367412,
+          0.025210084033613446
+        ],
+        "voxel_recall": 0.20829220138203355
+      }
+    }
+  },
+  {
+    "case": "case_0182",
+    "selection_reasons": [
+      "top5_improve",
+      "known_low"
+    ],
+    "axial_canonical_z": [
+      18,
+      18
+    ],
+    "models": {
+      "B0": {
+        "whole_gt_components_no_overlap": 1,
+        "detected_gt_components_with_incomplete_coverage": 2,
+        "extra_prediction_components_no_gt_overlap": 0,
+        "gt_component_voxel_coverage": [
+          0.3684210526315789,
+          0.060240963855421686,
+          0.0
+        ],
+        "voxel_recall": 0.11428571428571428
+      },
+      "P1": {
+        "whole_gt_components_no_overlap": 1,
+        "detected_gt_components_with_incomplete_coverage": 2,
+        "extra_prediction_components_no_gt_overlap": 0,
+        "gt_component_voxel_coverage": [
+          0.3684210526315789,
+          0.37349397590361444,
+          0.0
+        ],
+        "voxel_recall": 0.3619047619047619
+      }
+    }
+  },
+  {
+    "case": "case_0188",
+    "selection_reasons": [
+      "top5_improve"
+    ],
+    "axial_canonical_z": [
+      20,
+      20
+    ],
+    "models": {
+      "B0": {
+        "whole_gt_components_no_overlap": 1,
+        "detected_gt_components_with_incomplete_coverage": 2,
+        "extra_prediction_components_no_gt_overlap": 0,
+        "gt_component_voxel_coverage": [
+          0.6430379746835443,
+          0.25,
+          0.0
+        ],
+        "voxel_recall": 0.6384711779448622
+      },
+      "P1": {
+        "whole_gt_components_no_overlap": 1,
+        "detected_gt_components_with_incomplete_coverage": 2,
+        "extra_prediction_components_no_gt_overlap": 0,
+        "gt_component_voxel_coverage": [
+          0.6860759493670886,
+          0.5833333333333334,
+          0.0
+        ],
+        "voxel_recall": 0.6835839598997494
+      }
+    }
+  },
+  {
+    "case": "case_0212",
+    "selection_reasons": [
+      "top5_decline",
+      "known_low"
+    ],
+    "axial_canonical_z": [
+      25,
+      24
+    ],
+    "models": {
+      "B0": {
+        "whole_gt_components_no_overlap": 2,
+        "detected_gt_components_with_incomplete_coverage": 2,
+        "extra_prediction_components_no_gt_overlap": 2,
+        "gt_component_voxel_coverage": [
+          0.0,
+          0.3508771929824561,
+          0.9090909090909091,
+          0.0
+        ],
+        "voxel_recall": 0.36231884057971014
+      },
+      "P1": {
+        "whole_gt_components_no_overlap": 1,
+        "detected_gt_components_with_incomplete_coverage": 2,
+        "extra_prediction_components_no_gt_overlap": 1,
+        "gt_component_voxel_coverage": [
+          0.0,
+          0.21052631578947367,
+          0.7272727272727273,
+          1.0
+        ],
+        "voxel_recall": 0.2826086956521739
+      }
+    }
+  }
+]

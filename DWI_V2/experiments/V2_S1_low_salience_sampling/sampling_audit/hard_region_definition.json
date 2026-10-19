@@ -1,0 +1,14 @@
+{
+  "data_scope": "Fold 0 training 200 only; validation IDs excluded",
+  "method": "within each 26-connected lesion component, select the exact lowest intensity rank fraction on baseline nnUNet-preprocessed DWI",
+  "percentile_candidates": [
+    20,
+    30,
+    40
+  ],
+  "selected_percentile": 20,
+  "selection_rule": "smallest audited percentile with hard voxels in every lesion-positive training case, median hard fraction >=18%, 10th-percentile hard-voxel count >=10, and mean within-lesion standardized easy-minus-hard separation >=0.5",
+  "model_errors_used": false,
+  "validation_data_used": false,
+  "hard_location_cap_per_case": 10000
+}

@@ -1,0 +1,15 @@
+reference_id: V2_B0_reference
+source_model: B0-R2022
+dataset: Dataset001_ISLES2022_DWI
+configuration: 3d_fullres
+fold: 0
+checkpoint_role: existing_V1_artifact_only
+read_only: true
+anchor_case: case_0140
+tuning_target: false
+phase_1_training_allowed: false
+comparison_notes:
+  - Historical B0 has an unconfirmed seed.
+  - Screen100 and promote300 models have different training horizons.
+  - P1 also changes spacing; comparisons are descriptive, not single-factor causal claims.
+

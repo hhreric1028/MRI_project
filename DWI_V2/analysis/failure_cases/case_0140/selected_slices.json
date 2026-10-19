@@ -1,0 +1,22 @@
+[
+  {
+    "reason": "GT max area",
+    "axial_slice": 35
+  },
+  {
+    "reason": "FN max",
+    "axial_slice": 21
+  },
+  {
+    "reason": "worst Dice; inferior",
+    "axial_slice": 9
+  },
+  {
+    "reason": "middle",
+    "axial_slice": 31
+  },
+  {
+    "reason": "superior",
+    "axial_slice": 53
+  }
+]

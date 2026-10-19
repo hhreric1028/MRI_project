@@ -1,0 +1,31 @@
+{
+  "status": "complete",
+  "time": "2026-09-21T02:29:38.046464+08:00",
+  "method": "Dataset001 nnUNetPlans copied; dataset name changed; normalization/mask arrays extended from one to two channels; geometry/batch/architecture unchanged",
+  "source_plan": "C:\\Users\\User\\Desktop\\MRI_project_v1\\datasets\\ISLES2022\\processed\\Dataset001_ISLES2022_DWI\\nnUNetPlans.json",
+  "source_plan_sha256": "09a3894923f0437d714fd14e44c3728785b59d2c28d01d12d8f7681b38d8340e",
+  "target_plan_sha256": "ea6f9f1c72694deaf88b707be18f28ba16f408c035c5bbf3da0fb59a1e5383a8",
+  "invariants": {
+    "patch_size": [
+      80,
+      96,
+      80
+    ],
+    "batch_size": 8,
+    "spacing": [
+      2.0,
+      2.0,
+      2.0
+    ],
+    "architecture": "dynamic_network_architectures.architectures.unet.PlainConvUNet",
+    "normalization_schemes": [
+      "ZScoreNormalization",
+      "ZScoreNormalization"
+    ],
+    "use_mask_for_norm": [
+      true,
+      true
+    ]
+  },
+  "fold0_split_byte_identical": true
+}

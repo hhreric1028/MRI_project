@@ -1,0 +1,27 @@
+{
+  "status": "no_promotion",
+  "time": "2026-09-21T04:00:29.756056+08:00",
+  "selected_experiment": null,
+  "eligible_experiments": [],
+  "ranking": [],
+  "priority_order": [
+    "severe-under reduction",
+    "fixed Worst-5 mean Dice delta",
+    "fixed Worst-5 recall delta",
+    "coverage-cohort recall delta",
+    "case_0140 recall delta",
+    "lesion recall delta",
+    "precision delta",
+    "negative FP/case delta",
+    "overall mean Dice delta"
+  ],
+  "screen_classifications": {
+    "E1": "RECALL-PRECISION TRADE-OFF"
+  },
+  "s1_sampling_status": "SAMPLING INTERVENTION INEFFECTIVE",
+  "constraints": {
+    "maximum_promoted_candidates": 1,
+    "maximum_epochs": 300,
+    "full_1000_epoch_training": false
+  }
+}

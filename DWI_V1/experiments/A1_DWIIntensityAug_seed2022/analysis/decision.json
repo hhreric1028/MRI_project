@@ -1,0 +1,19 @@
+{
+  "decision": "STOP",
+  "reason": "Overall and small-lesion screening guards pass, but the prespecified target case_0140 worsened in Dice, Pred/GT, voxel recall, and largest-component coverage; volume MAE also worsened and case_0201 regressed.",
+  "positive_criteria": {
+    "lesion_recall_increased": true,
+    "small_1_5ml_dice_non_decreased": true,
+    "severe_under_decreased": false,
+    "case0140_coverage_increased": false,
+    "case0140_pred_gt_closer_to_one": false,
+    "case0140_missed_median_probability_increased": false,
+    "volume_mae_improved": false
+  },
+  "positive_count": 2,
+  "safety_guards": {
+    "mean_dice_not_obviously_lower": true,
+    "lesion_precision_not_collapsed": true,
+    "fp_per_case_not_substantially_higher": true
+  }
+}

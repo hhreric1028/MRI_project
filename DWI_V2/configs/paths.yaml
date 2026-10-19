@@ -1,0 +1,30 @@
+v1_root: "C:/Users/User/Desktop/MRI_project_v1"
+v2_root: "C:/Users/User/Desktop/MRI_project_v1/DWI_V2"
+case_id: case_0140
+
+sources:
+  raw_dwi: datasets/ISLES2022/nnUNet_raw/Dataset001_ISLES2022_DWI/imagesTr/case_0140_0000.nii.gz
+  raw_gt: datasets/ISLES2022/nnUNet_raw/Dataset001_ISLES2022_DWI/labelsTr/case_0140.nii.gz
+  preprocessed_data: datasets/ISLES2022/processed/Dataset001_ISLES2022_DWI/nnUNetPlans_3d_fullres/case_0140.b2nd
+  preprocessed_seg: datasets/ISLES2022/processed/Dataset001_ISLES2022_DWI/nnUNetPlans_3d_fullres/case_0140_seg.b2nd
+  preprocessed_properties: datasets/ISLES2022/processed/Dataset001_ISLES2022_DWI/nnUNetPlans_3d_fullres/case_0140.pkl
+  fold0_gt_dir: datasets/ISLES2022/processed/Dataset001_ISLES2022_DWI/gt_segmentations
+
+models:
+  Historical_B0: outputs/models/Dataset001_ISLES2022_DWI/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_0/validation
+  B0-R2022: experiments/B0-R2022_resume_from_epoch34/train/results/Dataset001_ISLES2022_DWI/nnUNetTrainer_B0R2022_Resume__nnUNetPlans__3d_fullres/fold_0/validation
+  P1: experiments/P1_spacing_1p5mm/run_seed2022_train_r2/results/Dataset011_ISLES2022_DWI/nnUNetTrainer_SeededPreserve__nnUNetPlans__3d_fullres/fold_0/validation
+  S1a-100: experiments/recall_screen100_seed2022_r2/S1a_screen100_seed2022/train/results/Dataset001_ISLES2022_DWI/nnUNetTrainer_S1a_Screen100__nnUNetPlans__3d_fullres/fold_0/validation
+  S1a-300: experiments/S1a_promote300_seed2022_from100/train/results/Dataset001_ISLES2022_DWI/nnUNetTrainer_S1a_Promote300__nnUNetPlans__3d_fullres/fold_0/validation
+  L2a-100: experiments/recall_screen100_seed2022_r2/L2a_screen100_seed2022/train/results/Dataset001_ISLES2022_DWI/nnUNetTrainer_L2a_Screen100__nnUNetPlans__3d_fullres/fold_0/validation
+  P3a-100: experiments/P3a_clip_zscore_seed2022/screen100/train/results/Dataset013_ISLES2022_DWI_ClipZScore/nnUNetTrainer_P3a_Screen100__nnUNetPlans__3d_fullres/fold_0/validation
+  P3a-300: experiments/P3a_clip_zscore_seed2022/promote300/train/results/Dataset013_ISLES2022_DWI_ClipZScore/nnUNetTrainer_P3a_Promote300__nnUNetPlans__3d_fullres/fold_0/validation
+  E1-Gamma-100: experiments/image_enhancement_batch_seed2022/E1_gamma/predictions/screen100/train/results/Dataset021_ISLES2022_DWI_GammaDual/nnUNetTrainer_E1Gamma_Screen100__nnUNetPlans__3d_fullres/fold_0/validation
+  E2-CLAHE-100: experiments/image_enhancement_batch_seed2022/E2_clahe/predictions/screen100/train/results/Dataset022_ISLES2022_DWI_CLAHEDual/nnUNetTrainer_E2CLAHE_Screen100__nnUNetPlans__3d_fullres/fold_0/validation
+  E3-Scale-100: experiments/image_enhancement_batch_seed2022/E3_intensity_scale/predictions/screen100/train/results/Dataset023_ISLES2022_DWI_IntensityScaleDual/nnUNetTrainer_E3Scale_Screen100__nnUNetPlans__3d_fullres/fold_0/validation
+  E3-Scale-300: experiments/image_enhancement_batch_seed2022/E3_intensity_scale/predictions/promote300/train/results/Dataset023_ISLES2022_DWI_IntensityScaleDual/nnUNetTrainer_E3Scale_Promote300__nnUNetPlans__3d_fullres/fold_0/validation
+
+baseline_model: B0-R2022
+local_ring_mm: 10.0
+segmentation_threshold: 0.5
+

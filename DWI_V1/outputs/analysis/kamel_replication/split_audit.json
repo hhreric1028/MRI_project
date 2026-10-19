@@ -1,0 +1,48 @@
+{
+  "split_file": "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\datasets\\ISLES2022\\processed\\Dataset001_ISLES2022_DWI\\splits_final.json",
+  "split_sha256": "09ed64d65dc3b5ece2656639a5abfc1a4f76b6e33121512a4931f6b6d6814d31",
+  "folds": 5,
+  "dataset_cases": 250,
+  "fold_details": [
+    {
+      "fold": 0,
+      "train_cases": 200,
+      "validation_cases": 50,
+      "train_validation_overlap": [],
+      "train_union_validation_matches_dataset": true
+    },
+    {
+      "fold": 1,
+      "train_cases": 200,
+      "validation_cases": 50,
+      "train_validation_overlap": [],
+      "train_union_validation_matches_dataset": true
+    },
+    {
+      "fold": 2,
+      "train_cases": 200,
+      "validation_cases": 50,
+      "train_validation_overlap": [],
+      "train_union_validation_matches_dataset": true
+    },
+    {
+      "fold": 3,
+      "train_cases": 200,
+      "validation_cases": 50,
+      "train_validation_overlap": [],
+      "train_union_validation_matches_dataset": true
+    },
+    {
+      "fold": 4,
+      "train_cases": 200,
+      "validation_cases": 50,
+      "train_validation_overlap": [],
+      "train_union_validation_matches_dataset": true
+    }
+  ],
+  "validation_union_count": 250,
+  "every_case_validated_exactly_once": true,
+  "missing_from_validation": [],
+  "duplicate_validation_cases": [],
+  "leakage_detected": false
+}

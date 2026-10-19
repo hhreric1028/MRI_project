@@ -1,0 +1,165 @@
+{
+  "cases": 50,
+  "fp_case_delta": {
+    "b0_total_fp": 107,
+    "replication_total_fp": 124,
+    "net_delta": 17,
+    "cases_increased": 15,
+    "cases_unchanged": 27,
+    "cases_decreased": 8,
+    "gross_positive_increment": 30,
+    "gross_negative_increment": -13,
+    "top3_share_of_gross_positive_increment": 0.4,
+    "top5_share_of_gross_positive_increment": 0.5666666666666667
+  },
+  "component_summary": {
+    "B0": {
+      "predicted_components": 375,
+      "fp_components": 107,
+      "predicted_component_volume_ml": 1097.330808228433,
+      "mean_component_volume_ml": 2.9262154886091545,
+      "median_component_volume_ml": 0.07200000000000001,
+      "components_lt_0p05_ml": 155,
+      "components_lt_0p1_ml": 222,
+      "fp_lt_0p05_ml": 73,
+      "fp_lt_0p1_ml": 90,
+      "fp_completely_isolated": 59,
+      "fp_boundary_adjacent": 4
+    },
+    "Replication": {
+      "predicted_components": 386,
+      "fp_components": 124,
+      "predicted_component_volume_ml": 1080.3737197491153,
+      "mean_component_volume_ml": 2.7988956470184343,
+      "median_component_volume_ml": 0.07200000000000001,
+      "components_lt_0p05_ml": 163,
+      "components_lt_0p1_ml": 231,
+      "fp_lt_0p05_ml": 86,
+      "fp_lt_0p1_ml": 108,
+      "fp_completely_isolated": 60,
+      "fp_boundary_adjacent": 7
+    }
+  },
+  "prediction_overlap": {
+    "mean_prediction_dice": 0.9346597917371928,
+    "median_prediction_dice": 0.9552623789589412,
+    "replication_only_voxels": 4616,
+    "replication_only_inside_gt_voxels": 2576,
+    "replication_only_inside_gt_fraction": 0.5580589254766031,
+    "b0_only_voxels": 6585,
+    "b0_only_inside_gt_voxels": 2864,
+    "b0_only_inside_gt_fraction": 0.4349278663629461
+  },
+  "checkpoint_comparison": [
+    {
+      "variant": "B0_best",
+      "model": "B0",
+      "checkpoint_selection": "best",
+      "checkpoint_epoch": 94,
+      "checkpoint_sha256": "5c0e3dee520f4a94aea0d606d7933754484e721ba4f12aa936932714a6516fc7",
+      "mean_dice": 0.7730615327190653,
+      "median_dice": 0.8241796200345423,
+      "lesion_recall": 0.6119733924611973,
+      "lesion_precision": 0.6987341772151898,
+      "fp_lesions_per_case": 2.38,
+      "lesion_tp": 276,
+      "lesion_fn": 175,
+      "lesion_fp": 119,
+      "prediction_folder": "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\outputs\\analysis\\kamel_replication\\fold0_fp_audit\\checkpoint_inference\\B0_best\\results\\Dataset001_ISLES2022_DWI\\nnUNetTrainer_B0R2022_Screen100__nnUNetPlans__3d_fullres\\fold_0\\validation"
+    },
+    {
+      "variant": "B0_final",
+      "model": "B0",
+      "checkpoint_selection": "final",
+      "checkpoint_epoch": 100,
+      "checkpoint_sha256": "cfca704ff0c337887cc091e83da983de45bbfa8c402d436a21ae31ec17b58b3d",
+      "mean_dice": 0.7645259668788942,
+      "median_dice": 0.8238805970149253,
+      "lesion_recall": 0.5942350332594235,
+      "lesion_precision": 0.7146666666666667,
+      "fp_lesions_per_case": 2.14,
+      "lesion_tp": 268,
+      "lesion_fn": 183,
+      "lesion_fp": 107,
+      "prediction_folder": "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\experiments\\recall_screen100_seed2022_r2\\B0_R2022_screen100\\train\\results\\Dataset001_ISLES2022_DWI\\nnUNetTrainer_B0R2022_Screen100__nnUNetPlans__3d_fullres\\fold_0\\validation"
+    },
+    {
+      "variant": "Replication_best",
+      "model": "Replication",
+      "checkpoint_selection": "best",
+      "checkpoint_epoch": 68,
+      "checkpoint_sha256": "8b5d79ba8c4724e586922e0e4a9635fee6d5b400fc769fa1f3b64d2cd47ba62e",
+      "mean_dice": 0.7840860427851959,
+      "median_dice": 0.8210526315789474,
+      "lesion_recall": 0.6053215077605322,
+      "lesion_precision": 0.726063829787234,
+      "fp_lesions_per_case": 2.06,
+      "lesion_tp": 273,
+      "lesion_fn": 178,
+      "lesion_fp": 103,
+      "prediction_folder": "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\outputs\\analysis\\kamel_replication\\fold0_fp_audit\\checkpoint_inference\\Replication_best\\results\\Dataset001_ISLES2022_DWI\\nnUNetTrainer_KamelRep_Screen100__nnUNetPlans__3d_fullres\\fold_0\\validation"
+    },
+    {
+      "variant": "Replication_final",
+      "model": "Replication",
+      "checkpoint_selection": "final",
+      "checkpoint_epoch": 100,
+      "checkpoint_sha256": "c3591dc0f15e9c9232ea280ce48614607adbf726322b8ccf61cc4fc032d54f70",
+      "mean_dice": 0.7713999842761605,
+      "median_dice": 0.8332234673698088,
+      "lesion_recall": 0.5809312638580931,
+      "lesion_precision": 0.6787564766839378,
+      "fp_lesions_per_case": 2.48,
+      "lesion_tp": 262,
+      "lesion_fn": 189,
+      "lesion_fp": 124,
+      "prediction_folder": "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\experiments\\kamel_replication_seed2022\\fold_0\\results\\Dataset001_ISLES2022_DWI\\nnUNetTrainer_KamelRep_Screen100__nnUNetPlans__3d_fullres\\fold_0\\validation"
+    }
+  ],
+  "checkpoint_pairwise_comparison": [
+    {
+      "b0_variant": "B0_best",
+      "replication_variant": "Replication_best",
+      "delta_mean_dice": 0.011024510066130588,
+      "delta_median_dice": -0.0031269884555948924,
+      "delta_lesion_recall": -0.006651884700665134,
+      "delta_lesion_precision": 0.027329652572044227,
+      "delta_fp_lesions_per_case": -0.31999999999999984
+    },
+    {
+      "b0_variant": "B0_best",
+      "replication_variant": "Replication_final",
+      "delta_mean_dice": -0.001661548442904781,
+      "delta_median_dice": 0.00904384733526653,
+      "delta_lesion_recall": -0.03104212860310418,
+      "delta_lesion_precision": -0.01997770053125203,
+      "delta_fp_lesions_per_case": 0.10000000000000009
+    },
+    {
+      "b0_variant": "B0_final",
+      "replication_variant": "Replication_best",
+      "delta_mean_dice": 0.01956007590630171,
+      "delta_median_dice": -0.002827965435977964,
+      "delta_lesion_recall": 0.011086474501108667,
+      "delta_lesion_precision": 0.011397163120567377,
+      "delta_fp_lesions_per_case": -0.08000000000000007
+    },
+    {
+      "b0_variant": "B0_final",
+      "replication_variant": "Replication_final",
+      "delta_mean_dice": 0.006874017397266341,
+      "delta_median_dice": 0.009342870354883459,
+      "delta_lesion_recall": -0.013303769401330379,
+      "delta_lesion_precision": -0.03591018998272888,
+      "delta_fp_lesions_per_case": 0.33999999999999986
+    }
+  ],
+  "source_checks": {
+    "plans_same": true,
+    "dataset_same": true,
+    "split_same": true,
+    "packages_same": true,
+    "evaluation_code_same": true,
+    "inference_settings_same": true
+  }
+}

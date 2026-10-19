@@ -1,0 +1,8 @@
+{
+  "time": "2026-09-17T20:40:38.688980+08:00",
+  "status": "P3a_workflow_complete",
+  "screen100_decision": "PROMOTE TO 300",
+  "promote300_executed": true,
+  "final_decision": "STOP",
+  "automatic_1000_started": false
+}

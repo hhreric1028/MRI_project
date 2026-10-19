@@ -1,0 +1,66 @@
+{
+  "keys": [
+    "network_weights",
+    "optimizer_state",
+    "grad_scaler_state",
+    "logging",
+    "_best_ema",
+    "current_epoch",
+    "init_args",
+    "trainer_name",
+    "inference_allowed_mirroring_axes"
+  ],
+  "model": {
+    "present": true,
+    "restorable": true,
+    "key": "network_weights",
+    "tensors": 240
+  },
+  "optimizer": {
+    "present": true,
+    "restorable": true,
+    "key": "optimizer_state",
+    "tensors": 86
+  },
+  "grad_scaler": {
+    "present": true,
+    "restorable": true,
+    "state": {
+      "scale": 1048576.0,
+      "growth_factor": 2.0,
+      "backoff_factor": 0.5,
+      "growth_interval": 2000,
+      "_growth_tracker": 500
+    }
+  },
+  "epoch": {
+    "present": true,
+    "restorable": true,
+    "value": 34,
+    "first_resumed_epoch": 35
+  },
+  "lr_scheduler": {
+    "present": false,
+    "restorable": true,
+    "method": "Reconstruct PolyLR(initial_lr=.01,max_steps=1000,exponent=.9), set explicit current_step=34; validate saved LR at step33"
+  },
+  "trainer_state": {
+    "present": true,
+    "restorable": true,
+    "keys": [
+      "logging",
+      "_best_ema",
+      "init_args",
+      "inference_allowed_mirroring_axes"
+    ]
+  },
+  "rng": {
+    "present": false,
+    "restorable": false
+  },
+  "dataloader_workers": {
+    "present": false,
+    "restorable": false
+  },
+  "limitation": "This run is a training-state continuation, not a bitwise deterministic continuation."
+}

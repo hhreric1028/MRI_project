@@ -1,0 +1,5 @@
+{
+  "time": "2026-09-15T01:29:54.780120+08:00",
+  "error": "RuntimeError('B0-R2022_train failed (1); retained, no automatic retry')",
+  "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\scripts\\recall_pipeline.py\", line 75, in main\n    train_and_evaluate('B0-R2022')\n  File \"C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\scripts\\recall_pipeline.py\", line 37, in train_and_evaluate\n    stage(name+'_train','run_recall_experiment.py','--experiment',name,'--mode','train')\n  File \"C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\scripts\\recall_pipeline.py\", line 24, in stage\n    if code:raise RuntimeError(f'{name} failed ({code}); retained, no automatic retry')\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: B0-R2022_train failed (1); retained, no automatic retry\n"
+}

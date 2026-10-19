@@ -1,0 +1,37 @@
+{
+  "best_fold": 3,
+  "best_fold_mean_dice": 0.8026978475764274,
+  "worst_fold": 4,
+  "worst_fold_mean_dice": 0.7394430085922097,
+  "fold_mean_dice_mean": 0.7709299334695692,
+  "fold_mean_dice_std": 0.02027387838982092,
+  "lesion_recall_mean": 0.5648045012060663,
+  "lesion_recall_std": 0.0807449002968538,
+  "lesion_precision_mean": 0.7093381347051658,
+  "lesion_precision_std": 0.03999042888383408,
+  "fp_per_case_mean": 2.124,
+  "fp_per_case_std": 0.2772435752186153,
+  "tiny_fp_per_case_mean": 1.8399999999999999,
+  "tiny_fp_per_case_std": 0.2715879231482873,
+  "ge1ml_fp_per_case_mean": 0.036000000000000004,
+  "ge1ml_fp_per_case_std": 0.03440930106817051,
+  "small_1_5ml_dice_mean": 0.7439189902366781,
+  "small_1_5ml_dice_std": 0.06494236638631971,
+  "small_1_5ml_recall_mean": 0.6745897362029888,
+  "small_1_5ml_recall_std": 0.04809981594383445,
+  "severe_under_by_fold": [
+    8,
+    5,
+    3,
+    3,
+    9
+  ],
+  "large_partial_by_fold": [
+    1,
+    1,
+    0,
+    2,
+    2
+  ],
+  "variance_interpretation": "Fold variance may explain part, but not all, of the literature-reference gap."
+}

@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "stage": "screen100",
+  "restored_epoch": 0,
+  "current_lr": 0.01,
+  "warmup": 20,
+  "measured": 100,
+  "seconds_per_iteration": 0.18812000000005355,
+  "skipped_steps": 0,
+  "nonfinite_gradient_events": 0,
+  "validation_loss": -0.32568803429603577,
+  "peak_allocated_gib": 5.2627668380737305,
+  "peak_reserved_gib": 6.123046875,
+  "finished_at": "2026-09-17T16:27:37.104479+08:00"
+}

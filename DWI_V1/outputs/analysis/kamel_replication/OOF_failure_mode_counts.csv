@@ -1,0 +1,11 @@
+﻿failure_mode,primary_count,expanded_label_presence
+small_lesion_miss,9,27
+multifocal_miss,95,158
+large_partial_underseg,1,10
+boundary_underseg,11,37
+fp_dominant,5,12
+low_confidence,4,12
+mixed,63,0
+normal,55,55
+unclassified,7,0
+large_partial_coverage_failure,0,6

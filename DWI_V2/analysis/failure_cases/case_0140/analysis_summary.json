@@ -1,0 +1,213 @@
+{
+  "case": "case_0140",
+  "baseline_model": "B0-R2022",
+  "baseline": {
+    "model": "B0-R2022",
+    "dice": 0.487032173342088,
+    "gt_ml": 141.368011046723,
+    "pred_ml": 53.57600418651486,
+    "pred_gt_ratio": 0.3789825137230491,
+    "tp_ml": 47.47200370953848,
+    "fn_ml": 93.89600733718454,
+    "fp_ml": 6.104000476976383,
+    "voxel_recall": 0.3358044253296361,
+    "voxel_precision": 0.8860683888308197,
+    "gt_components": 3,
+    "pred_components": 14,
+    "lesion_tp": 3,
+    "lesion_fn": 0,
+    "lesion_fp": 11,
+    "lesion_recall": 1.0,
+    "lesion_precision": 0.21428571428571427
+  },
+  "morphology": {
+    "component_count": 3,
+    "largest_component_ml": 141.12801102796905,
+    "largest_component_ratio": 0.998302303208647,
+    "morphology_pattern": "dominant_large_component_with_satellites",
+    "bbox_voxel": {
+      "min": [
+        35,
+        7,
+        9
+      ],
+      "max": [
+        88,
+        56,
+        53
+      ]
+    },
+    "axis_codes": [
+      "L",
+      "A",
+      "S"
+    ],
+    "rl_extent_mm": 108.0,
+    "ap_extent_mm": 100.0,
+    "is_extent_mm": 90.0,
+    "gt_ml": 141.368011046723
+  },
+  "intensity": {
+    "regions": {
+      "TP": {
+        "n": 5934,
+        "mean": 386.24676513671875,
+        "median": 373.3277587890625,
+        "sd": 72.99668884277344,
+        "p05": 290.1651672363281,
+        "p10": 306.2871887207031,
+        "p25": 335.4695816040039,
+        "p50": 373.32777404785156,
+        "p75": 425.03514099121094,
+        "p90": 485.21813049316404,
+        "p95": 522.5615570068359,
+        "local_cnr_vs_ring": 1.8694338317095174
+      },
+      "FN": {
+        "n": 11737,
+        "mean": 312.9875183105469,
+        "median": 312.6873779296875,
+        "sd": 54.96647262573242,
+        "p05": 224.19576416015624,
+        "p10": 248.750634765625,
+        "p25": 279.9869689941406,
+        "p50": 312.6873779296875,
+        "p75": 347.35382080078125,
+        "p90": 378.2419189453125,
+        "p95": 398.82172851562495,
+        "local_cnr_vs_ring": 1.0317930176040695
+      },
+      "local_ring_10mm": {
+        "n": 41656,
+        "mean": 222.74790954589844,
+        "median": 244.09349060058594,
+        "sd": 87.45902252197266,
+        "p05": 53.078064918518066,
+        "p10": 77.44691467285156,
+        "p25": 172.78986740112305,
+        "p50": 244.09349060058594,
+        "p75": 279.21968841552734,
+        "p90": 318.88087463378906,
+        "p95": 342.35033416748047
+      }
+    },
+    "comparison": {
+      "fn_minus_tp_mean": -73.25924682617188,
+      "fn_to_tp_median_ratio": 0.8375679830075587,
+      "standardized_mean_difference_fn_minus_tp": -1.1338057063469675,
+      "interpretation_rule": "descriptive only; spatially correlated voxels are not treated as independent samples"
+    },
+    "ring_definition_mm": 10.0
+  },
+  "probability": {
+    "tp_probability": {
+      "region": "TP",
+      "n": 5934,
+      "mean": 0.9666087031364441,
+      "median": 0.999593198299408,
+      "sd": 0.08807261288166046,
+      "p05": 0.7511639595031739,
+      "p10": 0.8901033401489258,
+      "p25": 0.9917803406715393,
+      "p50": 0.999593198299408,
+      "p75": 0.9999809265136719,
+      "p90": 0.9999988079071045,
+      "p95": 0.9999997615814209
+    },
+    "fn_probability": {
+      "region": "FN",
+      "n": 11737,
+      "mean": 0.0175489354878664,
+      "median": 3.467241913313046e-05,
+      "sd": 0.06627506762742996,
+      "p05": 2.3823690753488336e-07,
+      "p10": 8.141731655086919e-07,
+      "p25": 5.380023594625527e-06,
+      "p50": 3.467241913313046e-05,
+      "p75": 0.0006525407079607248,
+      "p90": 0.023202075436711288,
+      "p95": 0.11803904920816388
+    },
+    "fn_fraction_0p4_to_0p5": 0.009116469285166568,
+    "fn_fraction_below_0p25": 0.9735025986197495,
+    "fn_fraction_below_0p1": 0.9454715855840504,
+    "evidence_classification": "representation_or_feature_learning_dominant",
+    "threshold_sweep_is_diagnostic_only": true,
+    "probability_map_available": true,
+    "threshold_0p5_exactly_matches_saved_segmentation": true
+  },
+  "preprocessing": {
+    "raw_shape_xyz": [
+      112,
+      112,
+      73
+    ],
+    "shape_before_cropping_zyx": [
+      73,
+      112,
+      112
+    ],
+    "bbox_used_for_cropping_zyx": [
+      [
+        6,
+        71
+      ],
+      [
+        7,
+        91
+      ],
+      [
+        17,
+        91
+      ]
+    ],
+    "expected_crop_shape_zyx": [
+      65,
+      84,
+      74
+    ],
+    "preprocessed_shape_czyx": [
+      1,
+      65,
+      84,
+      74
+    ],
+    "native_spacing_zyx_mm": [
+      2.0,
+      2.0,
+      2.0
+    ],
+    "preprocessed_spacing_zyx_mm": [
+      2.0,
+      2.0,
+      2.0
+    ],
+    "resampling_shape_change": false,
+    "spacing_change": false,
+    "raw_preprocessed_pearson_within_brain": 0.9999999999999976,
+    "preprocessed_gt_matches_native_gt_exactly": true,
+    "causal_claim": "none; this is a descriptive artifact comparison"
+  },
+  "persistent_fn": {
+    "ml": 72.89600569621075,
+    "fraction_of_gt": 0.5156471054269708
+  },
+  "similar_cohort": {
+    "feature_names": [
+      "log_gt_ml",
+      "log_components",
+      "largest_component_ratio",
+      "ap_extent_mm",
+      "is_extent_mm",
+      "pred_gt_ratio",
+      "voxel_recall"
+    ],
+    "distance_scaling": "Fold 0 median/IQR; Euclidean distance; Dice excluded",
+    "strict_rule": "GT >=50 mL AND Pred/GT <=0.6 AND voxel recall <=0.6; anchor excluded",
+    "strict_matches": [],
+    "strict_match_count": 0,
+    "interpretation": "isolated_large_coverage_failure_in_fold0",
+    "nearest_neighbor_count": 5
+  },
+  "training_started": false
+}

@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "iterations": 100,
+  "seconds": 19.25,
+  "seconds_per_iteration": 0.1925,
+  "estimated_training_seconds_per_epoch": 48.125,
+  "patches_per_second": 25.974025974025974,
+  "peak_allocated_gb": 5.547488212585449,
+  "peak_reserved_gb": 6.42578125,
+  "plans_sha256": "dfe7ea48e9127cb00fc2fcc8a8a8022e9498cf8b1058b58114a7224b38b2f3a3",
+  "finished_at": "2026-09-14T08:41:10.705885+08:00"
+}

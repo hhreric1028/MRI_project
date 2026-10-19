@@ -1,0 +1,18 @@
+{
+  "decision": "RECALL-PRECISION TRADE-OFF",
+  "core_signal_count": 5,
+  "core": {
+    "mean_dice_improved": true,
+    "lesion_recall_improved": true,
+    "severe_under_reduced": true,
+    "small_1_5_ml_dice_improved": true,
+    "small_1_5_ml_recall_improved": true
+  },
+  "guards": {
+    "precision_drop_le_0.05": true,
+    "fp_per_case_increase_le_0.5": false,
+    "volume_mae_increase_le_0.5_ml": true,
+    "absolute_signed_bias_worsening_le_1_ml": false,
+    "training_numerically_stable": true
+  }
+}

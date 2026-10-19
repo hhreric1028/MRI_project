@@ -1,0 +1,175 @@
+{
+  "iterations": 10000,
+  "seed": 2022,
+  "resampling_unit": "paired case; lesion TP/FP/FN re-aggregated within each resample",
+  "candidate_minus_b0_100": {
+    "delta_mean_dice": {
+      "baseline": 0.7645259668788942,
+      "candidate": 0.7744709734122672,
+      "delta": 0.009945006533373046,
+      "ci95": [
+        -0.03407647439277898,
+        0.045895830661708444
+      ],
+      "valid_replicates": 10000
+    },
+    "delta_lesion_recall": {
+      "baseline": 0.5942350332594235,
+      "candidate": 0.6541019955654102,
+      "delta": 0.05986696230598665,
+      "ci95": [
+        0.030952265819287096,
+        0.0934858388486848
+      ],
+      "valid_replicates": 10000
+    },
+    "delta_precision": {
+      "baseline": 0.7146666666666667,
+      "candidate": 0.6719817767653758,
+      "delta": -0.04268488990129082,
+      "ci95": [
+        -0.09121822039553291,
+        0.0039590620909942375
+      ],
+      "valid_replicates": 10000
+    },
+    "delta_severe_under_rate": {
+      "baseline": 0.16,
+      "candidate": 0.1,
+      "delta": -0.06,
+      "ci95": [
+        -0.15999999999999998,
+        0.020000000000000004
+      ],
+      "valid_replicates": 10000
+    },
+    "delta_fp_lesions_per_case": {
+      "baseline": 2.14,
+      "candidate": 2.88,
+      "delta": 0.7399999999999998,
+      "ci95": [
+        0.19999999999999996,
+        1.3000000000000003
+      ],
+      "valid_replicates": 10000
+    },
+    "delta_volume_mae_ml": {
+      "baseline": 4.521207161261114,
+      "candidate": 4.32702060286314,
+      "delta": -0.19418655839797427,
+      "ci95": [
+        -1.4951936666139243,
+        0.9096544651655981
+      ],
+      "valid_replicates": 10000
+    }
+  },
+  "small_1_5_ml_candidate_minus_b0_100": {
+    "delta_mean_dice": {
+      "baseline": 0.6262440982382312,
+      "candidate": 0.6933218064691894,
+      "delta": 0.06707770823095816,
+      "ci95": [
+        0.007006852592437169,
+        0.1645911561244928
+      ],
+      "valid_replicates": 10000
+    },
+    "delta_lesion_recall": {
+      "baseline": 0.7333333333333333,
+      "candidate": 0.8333333333333334,
+      "delta": 0.10000000000000009,
+      "ci95": [
+        0.01754385964912275,
+        0.180327868852459
+      ],
+      "valid_replicates": 10000
+    }
+  },
+  "candidate_300_minus_candidate_100": {
+    "delta_mean_dice": {
+      "baseline": 0.7792960283953949,
+      "candidate": 0.7744709734122672,
+      "delta": -0.004825054983127686,
+      "ci95": [
+        -0.04210462374368201,
+        0.01751988775681198
+      ],
+      "valid_replicates": 10000
+    },
+    "delta_lesion_recall": {
+      "baseline": 0.6053215077605322,
+      "candidate": 0.6541019955654102,
+      "delta": 0.04878048780487798,
+      "ci95": [
+        0.017114914425427896,
+        0.08408478572029972
+      ],
+      "valid_replicates": 10000
+    },
+    "delta_precision": {
+      "baseline": 0.7127937336814621,
+      "candidate": 0.6719817767653758,
+      "delta": -0.0408119569160863,
+      "ci95": [
+        -0.08483000853514579,
+        0.006026874275459989
+      ],
+      "valid_replicates": 10000
+    },
+    "delta_severe_under_rate": {
+      "baseline": 0.12,
+      "candidate": 0.1,
+      "delta": -0.01999999999999999,
+      "ci95": [
+        -0.08000000000000002,
+        0.04000000000000001
+      ],
+      "valid_replicates": 10000
+    },
+    "delta_fp_lesions_per_case": {
+      "baseline": 2.2,
+      "candidate": 2.88,
+      "delta": 0.6799999999999997,
+      "ci95": [
+        0.1200000000000001,
+        1.2399999999999998
+      ],
+      "valid_replicates": 10000
+    },
+    "delta_volume_mae_ml": {
+      "baseline": 4.465353542665948,
+      "candidate": 4.32702060286314,
+      "delta": -0.13833293980280814,
+      "ci95": [
+        -0.8550407433881393,
+        0.498226599752419
+      ],
+      "valid_replicates": 10000
+    }
+  },
+  "small_1_5_ml_300_minus_100": {
+    "delta_mean_dice": {
+      "baseline": 0.6619866918251233,
+      "candidate": 0.6933218064691894,
+      "delta": 0.03133511464406613,
+      "ci95": [
+        0.013920441477331827,
+        0.049677991618674776
+      ],
+      "valid_replicates": 10000
+    },
+    "delta_lesion_recall": {
+      "baseline": 0.7833333333333333,
+      "candidate": 0.8333333333333334,
+      "delta": 0.050000000000000044,
+      "ci95": [
+        0.0,
+        0.10256410256410264
+      ],
+      "valid_replicates": 10000
+    }
+  },
+  "matched_b0_300_available": false,
+  "limitation": "B0-R2022 epoch 300 is unavailable; B0-100 comparison is contextual and not horizon matched."
+}

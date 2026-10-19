@@ -1,0 +1,24 @@
+{
+  "status": "training_and_validation_complete",
+  "stage": "screen100",
+  "resume_epoch": 0,
+  "actual_total_epochs": 100,
+  "lr_schedule_reference_epochs": 1000,
+  "checkpoint": "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V2\\experiments\\V2_E1_original_p3a_dual\\screen100\\train\\results\\Dataset101_ISLES2022_DWI_Original_P3a\\nnUNetTrainer_V2E1_Screen100__nnUNetPlans__3d_fullres\\fold_0\\checkpoint_final.pth",
+  "checkpoint_sha256": "fd312309296c38c0f9e067c4c9eee253496b4e34003cbdc9345e992df976c664",
+  "predictions": "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V2\\experiments\\V2_E1_original_p3a_dual\\screen100\\train\\results\\Dataset101_ISLES2022_DWI_Original_P3a\\nnUNetTrainer_V2E1_Screen100__nnUNetPlans__3d_fullres\\fold_0\\validation",
+  "total_amp_skipped_steps": 8,
+  "total_nonfinite_gradient_events": 8,
+  "unrecovered_consecutive_overflows": 0,
+  "v1_guard_after": {
+    "C:\\Users\\User\\Desktop\\MRI_project_v1\\datasets\\ISLES2022\\nnUNet_raw\\Dataset001_ISLES2022_DWI\\dataset.json": "361eb70c2e99875b5af50f51647f6a8f0840763f35317f894bc4a479d99628d7",
+    "C:\\Users\\User\\Desktop\\MRI_project_v1\\datasets\\ISLES2022\\processed\\Dataset001_ISLES2022_DWI\\nnUNetPlans.json": "09a3894923f0437d714fd14e44c3728785b59d2c28d01d12d8f7681b38d8340e",
+    "C:\\Users\\User\\Desktop\\MRI_project_v1\\datasets\\ISLES2022\\processed\\Dataset001_ISLES2022_DWI\\dataset_fingerprint.json": "ba4c5d098dd03427d2160b2906c2fdaa5c457dd16f8d0935f27a6f088fddcce1",
+    "C:\\Users\\User\\Desktop\\MRI_project_v1\\datasets\\ISLES2022\\processed\\Dataset001_ISLES2022_DWI\\splits_final.json": "09ed64d65dc3b5ece2656639a5abfc1a4f76b6e33121512a4931f6b6d6814d31",
+    "C:\\Users\\User\\Desktop\\MRI_project_v1\\scripts\\prepare_p3a_dataset.py": "671a6871642c3b2648f17dad9f1ed259da8ada73765d44118b2635add8577a7a",
+    "C:\\Users\\User\\Desktop\\MRI_project_v1\\scripts\\recall_trainers.py": "9832a70619396916e0fdd67a3d74def366f8926149ae5363c99722f093845f40",
+    "C:\\Users\\User\\Desktop\\MRI_project_v1\\scripts\\screen100_trainers.py": "61543e8aa1b7921aa7ad1fed80281605d4c8ae1303c8ebd8114789f27bf3fd4a",
+    "C:\\Users\\User\\Desktop\\MRI_project_v1\\scripts\\evaluate_experiment.py": "44a97e68800e66754ea07b2f00f3abf6c274489ee6ea0f8fd34740c81a091e64"
+  },
+  "finished_at": "2026-09-21T04:00:22.426702+08:00"
+}

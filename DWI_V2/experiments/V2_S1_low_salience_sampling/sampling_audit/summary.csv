@@ -1,0 +1,5 @@
+﻿scenario,hard_preference_within_forced_foreground,patches,forced_foreground_patches,lesion_containing_patch_rate,low_salience_containing_patch_rate,forced_low_salience_containing_patch_rate,mean_lesion_voxel_fraction,mean_hard_region_voxel_fraction,forced_mean_total_lesion_coverage,forced_mean_low_salience_coverage,forced_mean_components_covered,absolute_forced_hard_coverage_gain,absolute_forced_hard_presence_gain,absolute_lesion_patch_rate_change,effective
+B0,0.0,1000,375,0.992,0.992,0.992,0.001126677501520681,0.00022675456521188157,0.992,0.992,8.085333333333333,,,,
+V2-S1-0.333,0.3333333333333333,1000,375,0.992,0.992,0.992,0.001126677501520681,0.00022675456521188157,0.992,0.992,8.085333333333333,0.0,0.0,0.0,False
+V2-S1-0.500,0.5,1000,375,0.992,0.992,0.992,0.001126677501520681,0.00022675456521188157,0.992,0.992,8.085333333333333,0.0,0.0,0.0,False
+V2-S1-0.667,0.6666666666666666,1000,375,0.992,0.992,0.992,0.001126677501520681,0.00022675456521188157,0.992,0.992,8.085333333333333,0.0,0.0,0.0,False

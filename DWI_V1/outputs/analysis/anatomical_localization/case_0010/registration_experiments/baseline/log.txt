@@ -1,0 +1,58 @@
+{
+  "status": "NEEDS REVIEW",
+  "tool": "2.5.6",
+  "method": "rigid then affine, Mattes MI",
+  "reference": "C:\\Users\\User\\Desktop\\MRI_project_v1\\datasets\\atlases\\HarvardOxford\\MNI152_T1_2mm_brain.nii.gz",
+  "transform_direction": "reference LPS to native LPS (resampling pull transform)",
+  "history": [],
+  "affine_determinant": 0.6985954053480048,
+  "native_orientation": [
+    "L",
+    "A",
+    "S"
+  ],
+  "native_volume_ml": 2.44,
+  "registered_voxels": 449,
+  "registered_labels": [
+    0,
+    1
+  ],
+  "note": "Visual QC required before atlas mapping. Standard-space volume differs from native volume after affine resampling.",
+  "parameters": {
+    "initialization": "moments",
+    "brain_mask": false,
+    "metric": "Mattes MI",
+    "bins": 50,
+    "sampling": "random",
+    "sampling_percentage": 0.3,
+    "seed": 2022,
+    "shrink_factors": [
+      4,
+      2,
+      1
+    ],
+    "smoothing_sigmas_mm": [
+      2,
+      1,
+      0
+    ],
+    "maximum_iterations_per_level": 200
+  },
+  "resampling_diagnostic_only": true,
+  "geometry_check": "PASS",
+  "native_lesion_voxels": 305,
+  "registered_voxel_count_diagnostic_only": 449,
+  "inverse_roundtrip_max_mm": 3.256115871121665e-14,
+  "native_prediction_sha256": "2d4ce60ab0df077736cf34bb52a8466ab26a4a632fa3cceda0220f16add77e91",
+  "visual_qc": {
+    "brain_boundary": "REVIEW",
+    "ventricles": "REVIEW",
+    "brainstem": "REVIEW",
+    "cerebellum": "REVIEW",
+    "inferior_boundary": "REVIEW",
+    "midline": "REVIEW",
+    "overall": "NEEDS REVIEW",
+    "note": "This automated audit cannot approve anatomical landmarks. See the separate human-readable visual review."
+  },
+  "parameter_note": "Baseline and geometry used original default maximum step; masked_refine and FLAIR used explicit 1 mm cap. See experiment descriptions; these are not identical optimization runs."
+}

@@ -1,0 +1,5 @@
+{
+  "time": "2026-09-16T12:11:57.968316+08:00",
+  "error": "AttributeError(\"'nnUNetTrainer_B0R2022_Screen100' object has no attribute 'execution_started'\")",
+  "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\scripts\\run_screen100_experiment.py\", line 196, in main\n    trainer.run_training()\n  File \"C:\\Users\\User\\anaconda3\\envs\\MRI_DWI\\Lib\\site-packages\\nnunetv2\\training\\nnUNetTrainer\\nnUNetTrainer.py\", line 1436, in run_training\n    self.on_epoch_end()\n  File \"C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\scripts\\screen100_trainers.py\", line 143, in on_epoch_end\n    super().on_epoch_end()\n  File \"C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\scripts\\train_spacing_experiment.py\", line 45, in on_epoch_end\n    elapsed=time.monotonic()-self.execution_started\n                             ^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'nnUNetTrainer_B0R2022_Screen100' object has no attribute 'execution_started'\n"
+}

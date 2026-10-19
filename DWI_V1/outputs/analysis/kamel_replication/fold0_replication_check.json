@@ -1,0 +1,17 @@
+{
+  "passed": false,
+  "interpretation": "material Fold 0 mismatch; stop before Fold 1",
+  "why_not_bitwise": "The B0 data augmenter records fixed worker seeds but uses nondeterministic worker arrival order, so bitwise equality is not promised.",
+  "tolerances": {
+    "absolute_mean_dice_delta_le_0p015": true,
+    "absolute_median_dice_delta_le_0p02": true,
+    "absolute_lesion_recall_delta_le_0p03": true,
+    "absolute_lesion_precision_delta_le_0p03": false,
+    "absolute_fp_per_case_delta_le_0p30": false,
+    "absolute_severe_under_count_delta_le_2": true,
+    "paired_mean_absolute_dice_delta_le_0p05": true
+  },
+  "paired_mean_absolute_dice_delta": 0.02212550266128139,
+  "paired_median_absolute_dice_delta": 0.012724130253281563,
+  "max_absolute_dice_delta": 0.1445208757809724
+}

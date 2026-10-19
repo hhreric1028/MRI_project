@@ -1,0 +1,26 @@
+{
+  "decision": "approved_continue_folds_1_to_4",
+  "decision_date": "2026-09-22",
+  "fold_0_strict_replication_gate": "failed",
+  "audit_classification": "D. MINOR STOCHASTIC VARIATION",
+  "accepted_interpretation": "stochastic-equivalent baseline after human review",
+  "gate_redefined": false,
+  "gate_retroactively_changed_to_pass": false,
+  "approved_scope": [
+    "Fold 1: 100 epochs",
+    "Fold 2: 100 epochs",
+    "Fold 3: 100 epochs",
+    "Fold 4: 100 epochs",
+    "250-case final-checkpoint OOF analysis"
+  ],
+  "prohibited_scope": [
+    "300 or 1000 epoch extension",
+    "ensemble inference",
+    "backbone change",
+    "augmentation change",
+    "loss change",
+    "sampling change",
+    "threshold or post-processing change"
+  ],
+  "source_audit_report": "outputs/analysis/kamel_replication/fold0_fp_audit/final_fp_audit_report.md"
+}

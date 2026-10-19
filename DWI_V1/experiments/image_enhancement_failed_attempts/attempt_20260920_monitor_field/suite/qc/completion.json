@@ -1,0 +1,354 @@
+{
+  "time": "2026-09-20T00:46:12.322661+08:00",
+  "status": "enhancement_qc_and_preprocessing_complete",
+  "dataset_id_audit": {
+    "E1_gamma": 21,
+    "E2_clahe": 22,
+    "E3_intensity_scale": 23
+  },
+  "parameters": {
+    "selection_partition": "fold0 training only; validation segmentation performance not used",
+    "local_background": "GT-external foreground ring, Euclidean distance >0 and <= 6 mm",
+    "gamma": {
+      "candidates": [
+        0.7,
+        0.8,
+        1.2
+      ],
+      "selected": 1.2,
+      "anchor": "per-volume foreground P99.5; no clipping",
+      "qc_rejected": false,
+      "selection_score": "(median CNR / original median CNR) \u00d7 (median lesion/surround ratio / original median ratio)",
+      "reason": "highest balanced CNR-and-local-contrast score among guard-passing candidates"
+    },
+    "clahe": {
+      "implementation": "skimage.exposure.equalize_adapthist",
+      "candidates_clip_limit": [
+        0.005,
+        0.01,
+        0.02
+      ],
+      "selected_clip_limit": 0.02,
+      "kernel_size_voxels": [
+        16,
+        16
+      ],
+      "kernel_size_nominal_mm_at_2mm": [
+        32,
+        32
+      ],
+      "slice_wise": true,
+      "anatomical_axis": "native axial axis 2",
+      "background": "excluded from statistics and reset to zero; processing limited to per-slice brain bounding box",
+      "input_scaling": "per-volume foreground P0.5-P99.5 to [0,1] with clipping",
+      "qc_rejected": false,
+      "selection_score": "(median CNR / original median CNR) \u00d7 (median lesion/surround ratio / original median ratio)",
+      "reason": "highest balanced CNR-and-local-contrast score among candidates passing worst-case structure/noise/saturation guards"
+    },
+    "intensity_scale": {
+      "input": "baseline per-volume filled-foreground z-score",
+      "scale": 0.76,
+      "shift": 0.0,
+      "selection_rule": "target training-case median foreground P99.5 near 2.5; rounded to 0.01 and clipped to [0.75,1.0]",
+      "observed_training_median_p99_5_before_scaling": 3.2782552909851073,
+      "network_preprocessing": "NoNormalization on channel 1; channel 0 retains baseline masked ZScoreNormalization",
+      "qc_rejected": false,
+      "interpretation": "non-destructive mild affine representation control; CNR is expected to remain invariant"
+    },
+    "candidate_summary": {
+      "clahe_0.005": {
+        "cnr": {
+          "median": 1.4694535457509483,
+          "mean": 1.3590496317294916,
+          "min": 0.6825510270842363,
+          "max": 1.843690298809565
+        },
+        "lesion_surrounding_ratio_nonnegative": {
+          "median": 1.8343005180358887,
+          "mean": 1.848323336014381,
+          "min": 1.476810097694397,
+          "max": 2.52528977394104
+        },
+        "saturation_percent": {
+          "median": 1.1276312835655942,
+          "mean": 1.2004721280144919,
+          "min": 1.0287989382879894,
+          "max": 1.6305163397938336
+        },
+        "noise_amplification_vs_original": {
+          "median": 0.9585072994232178,
+          "mean": 0.9638643264770508,
+          "min": 0.8719066977500916,
+          "max": 1.037109613418579
+        },
+        "foreground_spearman_vs_original": {
+          "median": 0.9242163653965902,
+          "mean": 0.8920297322888872,
+          "min": 0.5707107836204788,
+          "max": 0.9833059749274717
+        }
+      },
+      "clahe_0.01": {
+        "cnr": {
+          "median": 1.241891814979946,
+          "mean": 1.232439506089282,
+          "min": 0.6052665586209424,
+          "max": 1.6448745896558106
+        },
+        "lesion_surrounding_ratio_nonnegative": {
+          "median": 1.6161816120147705,
+          "mean": 1.6686537540875948,
+          "min": 1.355682134628296,
+          "max": 2.137960433959961
+        },
+        "saturation_percent": {
+          "median": 1.8937434264760227,
+          "mean": 1.9303870792338862,
+          "min": 0.6759951664594316,
+          "max": 3.6695505016491397
+        },
+        "noise_amplification_vs_original": {
+          "median": 1.0467437505722046,
+          "mean": 1.0196792162381685,
+          "min": 0.8574751019477844,
+          "max": 1.2785334587097168
+        },
+        "foreground_spearman_vs_original": {
+          "median": 0.9388345780446712,
+          "mean": 0.9079254898859607,
+          "min": 0.6714471317331142,
+          "max": 0.9743418095077792
+        }
+      },
+      "clahe_0.02": {
+        "cnr": {
+          "median": 1.2792296901890383,
+          "mean": 1.266003800723,
+          "min": 0.5581863172682389,
+          "max": 1.642369267303089
+        },
+        "lesion_surrounding_ratio_nonnegative": {
+          "median": 1.7489560842514038,
+          "mean": 1.7525437428401067,
+          "min": 1.5069249868392944,
+          "max": 2.192082166671753
+        },
+        "saturation_percent": {
+          "median": 0.7791712217157237,
+          "mean": 0.7651192185185727,
+          "min": 0.5547188315441061,
+          "max": 0.9795616703146763
+        },
+        "noise_amplification_vs_original": {
+          "median": 1.0888773202896118,
+          "mean": 1.067574184674483,
+          "min": 0.7920529246330261,
+          "max": 1.480522871017456
+        },
+        "foreground_spearman_vs_original": {
+          "median": 0.9116909143486641,
+          "mean": 0.9032884699158354,
+          "min": 0.8207159490018964,
+          "max": 0.9425953549183758
+        }
+      },
+      "gamma_0.7": {
+        "cnr": {
+          "median": 1.3052145176279177,
+          "mean": 1.2888755162943417,
+          "min": 0.6855395239888554,
+          "max": 1.8412174861250192
+        },
+        "lesion_surrounding_ratio_nonnegative": {
+          "median": 1.6393252611160278,
+          "mean": 1.633259002978985,
+          "min": 1.39713454246521,
+          "max": 2.1250290870666504
+        },
+        "saturation_percent": {
+          "median": 0.15714310383532784,
+          "mean": 0.2650253137470466,
+          "min": 0.0008756414073308699,
+          "max": 0.8657608883861063
+        },
+        "noise_amplification_vs_original": {
+          "median": 0.9992624521255493,
+          "mean": 1.0244628145144536,
+          "min": 0.9555608630180359,
+          "max": 1.194696068763733
+        },
+        "foreground_spearman_vs_original": {
+          "median": 0.9999999999984558,
+          "mean": 0.9999999612852339,
+          "min": 0.9999996790905948,
+          "max": 1.0
+        }
+      },
+      "gamma_0.8": {
+        "cnr": {
+          "median": 1.2878402439502132,
+          "mean": 1.2900919834381521,
+          "min": 0.6888237508764917,
+          "max": 1.8450810380138118
+        },
+        "lesion_surrounding_ratio_nonnegative": {
+          "median": 1.7045141458511353,
+          "mean": 1.7104397278565626,
+          "min": 1.433125376701355,
+          "max": 2.2722249031066895
+        },
+        "saturation_percent": {
+          "median": 0.15714310383532784,
+          "mean": 0.26593663270013984,
+          "min": 0.0008756414073308699,
+          "max": 0.8698011058652415
+        },
+        "noise_amplification_vs_original": {
+          "median": 1.0011951923370361,
+          "mean": 1.0183957356673021,
+          "min": 0.9718078970909119,
+          "max": 1.127680778503418
+        },
+        "foreground_spearman_vs_original": {
+          "median": 0.9999999999980392,
+          "mean": 0.9999999608701498,
+          "min": 0.9999996753012872,
+          "max": 1.0
+        }
+      },
+      "gamma_1.2": {
+        "cnr": {
+          "median": 1.242946890762101,
+          "mean": 1.253750102870792,
+          "min": 0.6789774149861171,
+          "max": 1.7967156522502805
+        },
+        "lesion_surrounding_ratio_nonnegative": {
+          "median": 2.0080456733703613,
+          "mean": 2.07855670268719,
+          "min": 1.5777382850646973,
+          "max": 3.0274055004119873
+        },
+        "saturation_percent": {
+          "median": 0.15714310383532784,
+          "mean": 0.27108814147776117,
+          "min": 0.0008756414073308699,
+          "max": 0.8934652368144617
+        },
+        "noise_amplification_vs_original": {
+          "median": 0.992563009262085,
+          "mean": 0.9742997472102826,
+          "min": 0.8829535245895386,
+          "max": 1.0229727029800415
+        },
+        "foreground_spearman_vs_original": {
+          "median": 0.9999999999986431,
+          "mean": 0.9999999590733238,
+          "min": 0.9999996613503491,
+          "max": 1.0
+        }
+      },
+      "intensity_scale_0.76_0": {
+        "cnr": {
+          "median": 1.2533425886932985,
+          "mean": 1.2789988611589125,
+          "min": 0.6882869463137145,
+          "max": 1.8318752753577596
+        },
+        "lesion_surrounding_ratio_nonnegative": {
+          "median": 1.8476893901824951,
+          "mean": 1.8819025204731867,
+          "min": 1.5034047365188599,
+          "max": 2.6142094135284424
+        },
+        "saturation_percent": {
+          "median": 0.0011543478511814751,
+          "mean": 0.10029516304060579,
+          "min": 0.0008756414073308699,
+          "max": 0.4289316522893165
+        },
+        "noise_amplification_vs_original": {
+          "median": 0.7599999904632568,
+          "mean": 0.7599999904632568,
+          "min": 0.7599999308586121,
+          "max": 0.7600000500679016
+        },
+        "foreground_spearman_vs_original": {
+          "median": 0.9999999999999972,
+          "mean": 0.9999999999996434,
+          "min": 0.9999999999954031,
+          "max": 1.0
+        }
+      },
+      "original": {
+        "cnr": {
+          "median": 1.2533425906362623,
+          "mean": 1.2789988475549268,
+          "min": 0.6882869867010402,
+          "max": 1.8318753914620542
+        },
+        "lesion_surrounding_ratio_nonnegative": {
+          "median": 1.8476893901824951,
+          "mean": 1.88190247462346,
+          "min": 1.5034047365188599,
+          "max": 2.6142094135284424
+        },
+        "saturation_percent": {
+          "median": 0.0011543478511814751,
+          "mean": 0.10029516304060579,
+          "min": 0.0008756414073308699,
+          "max": 0.4289316522893165
+        },
+        "noise_amplification_vs_original": {
+          "median": 1.0,
+          "mean": 1.0,
+          "min": 1.0,
+          "max": 1.0
+        },
+        "foreground_spearman_vs_original": {
+          "median": 1.0,
+          "mean": 1.0,
+          "min": 0.9999999999999998,
+          "max": 1.0
+        }
+      }
+    },
+    "original_median_cnr": 1.2533425906362623
+  },
+  "raw_datasets": {
+    "E1_gamma": {
+      "raw": "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\datasets\\ISLES2022\\nnUNet_raw\\Dataset021_ISLES2022_DWI_GammaDual",
+      "resume_verified": true
+    },
+    "E2_clahe": {
+      "raw": "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\datasets\\ISLES2022\\nnUNet_raw\\Dataset022_ISLES2022_DWI_CLAHEDual",
+      "resume_verified": true
+    },
+    "E3_intensity_scale": {
+      "raw": "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\datasets\\ISLES2022\\nnUNet_raw\\Dataset023_ISLES2022_DWI_IntensityScaleDual",
+      "resume_verified": true
+    }
+  },
+  "preprocessed_datasets": {
+    "E1_gamma": {
+      "preprocessed": "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\datasets\\ISLES2022\\processed\\Dataset021_ISLES2022_DWI_GammaDual",
+      "plans_sha256": "562779ef4efa8f66ad73cbc7d4b95995dad7e30dbc648ad508b7bb79e895bc59",
+      "split_sha256": "09ed64d65dc3b5ece2656639a5abfc1a4f76b6e33121512a4931f6b6d6814d31",
+      "preprocessed_cases": 250
+    },
+    "E2_clahe": {
+      "preprocessed": "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\datasets\\ISLES2022\\processed\\Dataset022_ISLES2022_DWI_CLAHEDual",
+      "plans_sha256": "7ff53ad11e366a5eb9827003348d1c0bdad910f9ad63255acd1aa444061baf9a",
+      "split_sha256": "09ed64d65dc3b5ece2656639a5abfc1a4f76b6e33121512a4931f6b6d6814d31",
+      "preprocessed_cases": 250
+    },
+    "E3_intensity_scale": {
+      "preprocessed": "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\datasets\\ISLES2022\\processed\\Dataset023_ISLES2022_DWI_IntensityScaleDual",
+      "plans_sha256": "f48b74c44cf02afec7d96e1ef99bf960c47d181f023809475bb600fe275bc990",
+      "split_sha256": "09ed64d65dc3b5ece2656639a5abfc1a4f76b6e33121512a4931f6b6d6814d31",
+      "preprocessed_cases": 250
+    }
+  },
+  "baseline_dataset_untouched": true,
+  "validation_performance_used_for_parameter_selection": false
+}

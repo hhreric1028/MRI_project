@@ -1,0 +1,33 @@
+{
+  "inputs_unchanged": true,
+  "experiments": {
+    "dwi": {
+      "output_grid_match": true,
+      "labels": [
+        0,
+        1
+      ],
+      "transformed_voxels_diagnostic": 5279,
+      "retained_native_components": 13,
+      "outside_flair_nonzero_support_voxels": 0,
+      "rigid_matrix_determinant": 1.0
+    },
+    "adc": {
+      "output_grid_match": true,
+      "labels": [
+        0,
+        1
+      ],
+      "transformed_voxels_diagnostic": 5239,
+      "retained_native_components": 13,
+      "outside_flair_nonzero_support_voxels": 0,
+      "rigid_matrix_determinant": 1.0
+    }
+  },
+  "transform_disagreement_at_native_lesion_voxel_centers_mm": {
+    "min": 0.3369045191953755,
+    "median": 0.3913120814982774,
+    "max": 0.5888888884544942
+  },
+  "note": "Agreement between two transforms is not independent proof of anatomical accuracy."
+}

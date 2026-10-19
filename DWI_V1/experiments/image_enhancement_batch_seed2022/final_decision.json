@@ -1,0 +1,13 @@
+{
+  "status": "image_enhancement_batch_complete",
+  "promoted_to_300": [
+    "E3_intensity_scale"
+  ],
+  "final_decisions": {
+    "E1_gamma": "RECALL-PRECISION TRADE-OFF",
+    "E2_clahe": "RECALL-PRECISION TRADE-OFF",
+    "E3_intensity_scale": "RECALL-PRECISION TRADE-OFF"
+  },
+  "automatic_1000_started": false,
+  "matched_b0_300_available": false
+}

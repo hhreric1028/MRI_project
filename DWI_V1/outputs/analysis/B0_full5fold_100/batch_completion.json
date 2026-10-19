@@ -1,0 +1,11 @@
+{
+  "status": "complete_after_analysis_recovery",
+  "started_at": "2026-09-23T00:46:42.997833+08:00",
+  "finished_at": "2026-09-23T06:58:36.106904+08:00",
+  "training_folds_completed": [1, 2, 3, 4],
+  "fold_0_reused": true,
+  "oof_cases": 250,
+  "paired_cases": 250,
+  "verdict": "C. STOCHASTICALLY EQUIVALENT",
+  "recovery_note": "All training and fold evaluation completed before a nullable case precision value stopped the first paired-analysis pass. The analysis-only bug was corrected, partial derived outputs were regenerated, and all final artifacts were verified. No model was retrained during recovery."
+}

@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "experiment": "E3_intensity_scale",
+  "stage": "screen100",
+  "restored_epoch": 0,
+  "current_lr": 0.01,
+  "warmup": 20,
+  "measured": 100,
+  "seconds_per_iteration": 0.1925,
+  "skipped_steps": 0,
+  "nonfinite_gradient_events": 0,
+  "validation_loss": -0.41215503215789795,
+  "peak_allocated_gib": 5.29005765914917,
+  "peak_reserved_gib": 6.158203125,
+  "finished_at": "2026-09-20T03:49:29.052398+08:00"
+}

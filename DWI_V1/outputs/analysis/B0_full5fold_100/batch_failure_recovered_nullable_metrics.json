@@ -1,0 +1,8 @@
+{
+  "status": "failed_stop_batch",
+  "started_at": "2026-09-23T00:46:42.997833+08:00",
+  "failed_at": "2026-09-23T06:25:01.837421+08:00",
+  "error": "CalledProcessError(1, ['C:\\\\Users\\\\User\\\\anaconda3\\\\envs\\\\MRI_DWI\\\\python.exe', 'C:\\\\Users\\\\User\\\\Desktop\\\\MRI_project_v1\\\\scripts\\\\b0_full5fold_final_analysis.py'])",
+  "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\scripts\\run_b0_full5fold_batch.py\", line 92, in main\n    run(SCRIPTS / \"b0_full5fold_final_analysis.py\")\n  File \"C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\scripts\\run_b0_full5fold_batch.py\", line 36, in run\n    subprocess.run(command, cwd=ROOT, check=True)\n  File \"C:\\Users\\User\\anaconda3\\envs\\MRI_DWI\\Lib\\subprocess.py\", line 571, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command '['C:\\\\Users\\\\User\\\\anaconda3\\\\envs\\\\MRI_DWI\\\\python.exe', 'C:\\\\Users\\\\User\\\\Desktop\\\\MRI_project_v1\\\\scripts\\\\b0_full5fold_final_analysis.py']' returned non-zero exit status 1.\n",
+  "policy": "Batch stopped immediately; no later fold was skipped or launched."
+}

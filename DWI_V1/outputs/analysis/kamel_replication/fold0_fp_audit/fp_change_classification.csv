@@ -1,0 +1,150 @@
+﻿case_id,category,b0_component_ids,replication_component_ids,b0_fp_component_count,replication_fp_component_count,b0_volume_ml,replication_volume_ml,delta_volume_ml,spatial_overlap_voxels,note
+case_0011,B_replication_only_new_fp,,1,0,1,0.0,0.016,0.016,0,No spatial overlap with any B0 prediction component.
+case_0011,A_both_models_already_had_fp,1,2,1,1,0.032,0.032,0.0,4,Spatially overlapping FP in both predictions.
+case_0011,D_same_location_replication_larger,8,8,1,1,0.016,0.032,0.016,2,Spatially overlapping FP; replication component is larger by more than one voxel.
+case_0011,A_both_models_already_had_fp,9,9,1,1,0.136,0.088,-0.048,11,Spatially overlapping FP in both predictions.
+case_0011,B_replication_only_new_fp,,10,0,1,0.0,0.008,0.008,0,No spatial overlap with any B0 prediction component.
+case_0011,A_both_models_already_had_fp,10,11,1,1,0.032,0.032,0.0,4,Spatially overlapping FP in both predictions.
+case_0011,B_replication_only_new_fp,,12,0,1,0.0,0.016,0.016,0,No spatial overlap with any B0 prediction component.
+case_0011,C_b0_only_fp,7,,1,0,0.008,0.0,-0.008,0,B0 FP has no replication FP at the same location.
+case_0011,C_b0_only_fp,12,,1,0,0.168,0.0,-0.168,0,B0 FP has no replication FP at the same location.
+case_0017,D_same_location_replication_larger,1,1,1,1,0.096,0.128,0.032,12,Spatially overlapping FP; replication component is larger by more than one voxel.
+case_0017,D_same_location_replication_larger,4,4,1,1,0.464,0.512,0.048,57,Spatially overlapping FP; replication component is larger by more than one voxel.
+case_0017,D_same_location_replication_larger,7,6,1,1,0.088,0.112,0.024,11,Spatially overlapping FP; replication component is larger by more than one voxel.
+case_0017,A_both_models_already_had_fp,10,8,1,1,0.032,0.032,0.0,4,Spatially overlapping FP in both predictions.
+case_0017,B_replication_only_new_fp,,10,0,1,0.0,0.016,0.016,0,No spatial overlap with any B0 prediction component.
+case_0017,C_b0_only_fp,5,3,1,0,0.10400000000000001,12.648,12.544,13,B0 FP has no replication FP at the same location.
+case_0017,C_b0_only_fp,8,3,1,0,0.064,12.648,12.584,8,B0 FP has no replication FP at the same location.
+case_0019,D_same_location_replication_larger,6,4,1,1,0.032,0.07200000000000001,0.04,4,Spatially overlapping FP; replication component is larger by more than one voxel.
+case_0019,B_replication_only_new_fp,,5,0,1,0.0,0.016,0.016,0,No spatial overlap with any B0 prediction component.
+case_0019,A_both_models_already_had_fp,5,6,1,1,0.008,0.008,0.0,1,Spatially overlapping FP in both predictions.
+case_0019,A_both_models_already_had_fp,8,8,1,1,0.04,0.032,-0.008,4,Spatially overlapping FP in both predictions.
+case_0019,A_both_models_already_had_fp,9,9,1,1,0.016,0.008,-0.008,1,Spatially overlapping FP in both predictions.
+case_0019,A_both_models_already_had_fp,11,11,1,1,0.008,0.008,0.0,1,Spatially overlapping FP in both predictions.
+case_0019,A_both_models_already_had_fp,13,12,1,1,0.032,0.024,-0.008,3,Spatially overlapping FP in both predictions.
+case_0019,C_b0_only_fp,4,,1,0,0.016,0.0,-0.016,0,B0 FP has no replication FP at the same location.
+case_0021,E_same_location_fragmentation_increased,4,2;5,0,1,10.296,9.704,-0.592,1213,"One B0 component overlaps multiple replication components, including unmatched FP component(s)."
+case_0021,A_both_models_already_had_fp,5,3,1,1,0.016,0.024,0.008,2,Spatially overlapping FP in both predictions.
+case_0021,C_b0_only_fp,8,6,1,0,0.20800000000000002,1.1520000000000001,0.9440000000000001,20,B0 FP has no replication FP at the same location.
+case_0028,A_both_models_already_had_fp,5,5,1,1,0.056,0.048,-0.008,6,Spatially overlapping FP in both predictions.
+case_0028,A_both_models_already_had_fp,6,6,1,1,0.032,0.032,0.0,4,Spatially overlapping FP in both predictions.
+case_0028,C_b0_only_fp,4,,1,0,0.024,0.0,-0.024,0,B0 FP has no replication FP at the same location.
+case_0031,E_same_location_fragmentation_increased,7,5;12,1,1,0.272,0.056,-0.216,7,"One B0 component overlaps multiple replication components, including unmatched FP component(s)."
+case_0031,B_replication_only_new_fp,,9,0,1,0.0,0.008,0.008,0,No spatial overlap with any B0 prediction component.
+case_0031,B_replication_only_new_fp,,10,0,1,0.0,0.008,0.008,0,No spatial overlap with any B0 prediction component.
+case_0031,A_both_models_already_had_fp,12,13,1,1,0.016,0.024,0.008,2,Spatially overlapping FP in both predictions.
+case_0031,D_same_location_replication_larger,16,16,1,1,0.008,0.032,0.024,1,Spatially overlapping FP; replication component is larger by more than one voxel.
+case_0031,D_same_location_replication_larger,20,17,1,1,0.032,0.056,0.024,4,Spatially overlapping FP; replication component is larger by more than one voxel.
+case_0031,A_both_models_already_had_fp,19,20,1,1,0.024,0.024,0.0,3,Spatially overlapping FP in both predictions.
+case_0031,A_both_models_already_had_fp,21,21,1,1,0.024,0.016,-0.008,2,Spatially overlapping FP in both predictions.
+case_0031,C_b0_only_fp,4,1,1,0,0.024,87.912,87.888,3,B0 FP has no replication FP at the same location.
+case_0031,C_b0_only_fp,13,1,1,0,0.024,87.912,87.888,3,B0 FP has no replication FP at the same location.
+case_0031,C_b0_only_fp,25,,1,0,0.008,0.0,-0.008,0,B0 FP has no replication FP at the same location.
+case_0048,E_same_location_fragmentation_increased,3,3;5;6;7,0,3,34.696,32.384,-2.312,4008,"One B0 component overlaps multiple replication components, including unmatched FP component(s)."
+case_0048,A_both_models_already_had_fp,4,4,1,1,0.008,0.008,0.0,1,Spatially overlapping FP in both predictions.
+case_0048,A_both_models_already_had_fp,13,16,1,1,0.024,0.024,0.0,3,Spatially overlapping FP in both predictions.
+case_0048,B_replication_only_new_fp,,17,0,1,0.0,0.008,0.008,0,No spatial overlap with any B0 prediction component.
+case_0051,A_both_models_already_had_fp,5,4,1,1,0.032,0.008,-0.024,1,Spatially overlapping FP in both predictions.
+case_0051,B_replication_only_new_fp,,7,0,1,0.0,0.016,0.016,0,No spatial overlap with any B0 prediction component.
+case_0051,B_replication_only_new_fp,,8,0,1,0.0,0.024,0.024,0,No spatial overlap with any B0 prediction component.
+case_0055,A_both_models_already_had_fp,2,2,1,1,0.032,0.024,-0.008,3,Spatially overlapping FP in both predictions.
+case_0072,D_same_location_replication_larger,3,2,1,1,0.488,1.6480000000000001,1.16,61,Spatially overlapping FP; replication component is larger by more than one voxel.
+case_0072,A_both_models_already_had_fp,4,4,1,1,0.216,0.096,-0.12,12,Spatially overlapping FP in both predictions.
+case_0072,B_replication_only_new_fp,,9,0,1,0.0,0.016,0.016,0,No spatial overlap with any B0 prediction component.
+case_0072,A_both_models_already_had_fp,9,11,1,1,0.264,0.272,0.008,33,Spatially overlapping FP in both predictions.
+case_0072,A_both_models_already_had_fp,12,13,1,1,0.016,0.024,0.008,2,Spatially overlapping FP in both predictions.
+case_0072,D_same_location_replication_larger,13,14,1,1,1.616,2.008,0.392,202,Spatially overlapping FP; replication component is larger by more than one voxel.
+case_0074,A_both_models_already_had_fp,4,5,1,1,0.056,0.048,-0.008,6,Spatially overlapping FP in both predictions.
+case_0074,A_both_models_already_had_fp,5,6,1,1,0.016,0.024,0.008,2,Spatially overlapping FP in both predictions.
+case_0074,D_same_location_replication_larger,7,7,1,1,0.016,0.064,0.048,2,Spatially overlapping FP; replication component is larger by more than one voxel.
+case_0086,E_same_location_fragmentation_increased,2,2;3,0,1,49.392,49.112,-0.28,6042,"One B0 component overlaps multiple replication components, including unmatched FP component(s)."
+case_0094,E_same_location_fragmentation_increased,1,1;2,0,1,0.592,0.5760000000000001,-0.016,70,"One B0 component overlaps multiple replication components, including unmatched FP component(s)."
+case_0094,B_replication_only_new_fp,,9,0,1,0.0,0.08,0.08,0,No spatial overlap with any B0 prediction component.
+case_0104,D_same_location_replication_larger,2,1,1,1,0.024,0.056,0.032,3,Spatially overlapping FP; replication component is larger by more than one voxel.
+case_0104,A_both_models_already_had_fp,6,5,1,1,0.016,0.016,0.0,2,Spatially overlapping FP in both predictions.
+case_0104,A_both_models_already_had_fp,11,9,1,1,0.016,0.016,0.0,2,Spatially overlapping FP in both predictions.
+case_0104,A_both_models_already_had_fp,13,11,1,1,0.016,0.016,0.0,2,Spatially overlapping FP in both predictions.
+case_0104,A_both_models_already_had_fp,15,12,1,1,0.096,0.088,-0.008,11,Spatially overlapping FP in both predictions.
+case_0104,D_same_location_replication_larger,20,16,1,1,0.008,0.064,0.056,1,Spatially overlapping FP; replication component is larger by more than one voxel.
+case_0104,C_b0_only_fp,10,,1,0,0.04,0.0,-0.04,0,B0 FP has no replication FP at the same location.
+case_0104,C_b0_only_fp,14,,1,0,0.008,0.0,-0.008,0,B0 FP has no replication FP at the same location.
+case_0104,C_b0_only_fp,18,,1,0,0.048,0.0,-0.048,0,B0 FP has no replication FP at the same location.
+case_0105,B_replication_only_new_fp,,1,0,1,0.0,0.008,0.008,0,No spatial overlap with any B0 prediction component.
+case_0105,B_replication_only_new_fp,,5,0,1,0.0,0.128,0.128,0,No spatial overlap with any B0 prediction component.
+case_0105,B_replication_only_new_fp,,6,0,1,0.0,0.2,0.2,0,No spatial overlap with any B0 prediction component.
+case_0105,C_b0_only_fp,4,3,1,0,0.016,0.44,0.424,2,B0 FP has no replication FP at the same location.
+case_0110,B_replication_only_new_fp,,2,0,1,0.0,0.008,0.008,0,No spatial overlap with any B0 prediction component.
+case_0110,D_same_location_replication_larger,3,4,1,1,0.016,0.032,0.016,2,Spatially overlapping FP; replication component is larger by more than one voxel.
+case_0110,A_both_models_already_had_fp,4,5,1,1,0.064,0.064,0.0,7,Spatially overlapping FP in both predictions.
+case_0110,E_same_location_fragmentation_increased,9,10,0,1,0.68,0.6960000000000001,0.016,84,Replication unmatched component overlaps a B0 component that was matched to GT.
+case_0110,A_both_models_already_had_fp,10,11,1,1,0.056,0.064,0.008,7,Spatially overlapping FP in both predictions.
+case_0110,C_b0_only_fp,8,9,1,0,0.656,0.664,0.008,81,B0 FP has no replication FP at the same location.
+case_0123,E_same_location_fragmentation_increased,7,7;8,0,1,0.28,0.224,-0.056,28,"One B0 component overlaps multiple replication components, including unmatched FP component(s)."
+case_0123,A_both_models_already_had_fp,1,1,1,1,0.008,0.008,0.0,1,Spatially overlapping FP in both predictions.
+case_0123,A_both_models_already_had_fp,4,4,1,1,0.024,0.024,0.0,3,Spatially overlapping FP in both predictions.
+case_0123,A_both_models_already_had_fp,6,6,1,1,0.096,0.096,0.0,12,Spatially overlapping FP in both predictions.
+case_0123,A_both_models_already_had_fp,8,9,1,1,0.04,0.032,-0.008,4,Spatially overlapping FP in both predictions.
+case_0137,A_both_models_already_had_fp,1,1,1,1,0.0724858124657073,0.0724858124657073,0.0,9,Spatially overlapping FP in both predictions.
+case_0137,D_same_location_replication_larger,3,3,1,1,0.016107958325712733,0.0483238749771382,0.032215916651425466,2,Spatially overlapping FP; replication component is larger by more than one voxel.
+case_0140,E_same_location_fragmentation_increased,2,2;6;9;11;12;14;15,0,6,65.592,67.896,2.3040000000000003,7372,"One B0 component overlaps multiple replication components, including unmatched FP component(s)."
+case_0140,D_same_location_replication_larger,1,1,1,1,1.008,1.032,0.024,124,Spatially overlapping FP; replication component is larger by more than one voxel.
+case_0140,B_replication_only_new_fp,,4,0,1,0.0,0.008,0.008,0,No spatial overlap with any B0 prediction component.
+case_0140,B_replication_only_new_fp,,7,0,1,0.0,0.016,0.016,0,No spatial overlap with any B0 prediction component.
+case_0140,B_replication_only_new_fp,,8,0,1,0.0,0.008,0.008,0,No spatial overlap with any B0 prediction component.
+case_0140,A_both_models_already_had_fp,9,10,1,1,0.216,0.168,-0.048,21,Spatially overlapping FP in both predictions.
+case_0140,D_same_location_replication_larger,10,13,1,1,0.024,0.048,0.024,3,Spatially overlapping FP; replication component is larger by more than one voxel.
+case_0140,C_b0_only_fp,5,2,1,0,0.008,67.816,67.808,1,B0 FP has no replication FP at the same location.
+case_0140,C_b0_only_fp,6,3,1,0,0.032,9.040000000000001,9.008000000000001,4,B0 FP has no replication FP at the same location.
+case_0140,C_b0_only_fp,7,2,1,0,0.016,67.816,67.8,2,B0 FP has no replication FP at the same location.
+case_0140,C_b0_only_fp,8,2,1,0,0.008,67.816,67.808,1,B0 FP has no replication FP at the same location.
+case_0146,A_both_models_already_had_fp,2,2,1,1,0.08,0.08,0.0,10,Spatially overlapping FP in both predictions.
+case_0146,B_replication_only_new_fp,,3,0,1,0.0,0.008,0.008,0,No spatial overlap with any B0 prediction component.
+case_0146,A_both_models_already_had_fp,6,7,1,1,0.032,0.032,0.0,4,Spatially overlapping FP in both predictions.
+case_0146,B_replication_only_new_fp,,8,0,1,0.0,0.008,0.008,0,No spatial overlap with any B0 prediction component.
+case_0146,A_both_models_already_had_fp,8,10,1,1,0.024,0.016,-0.008,2,Spatially overlapping FP in both predictions.
+case_0160,E_same_location_fragmentation_increased,1,1;2,0,1,0.712,0.5760000000000001,-0.136,69,"One B0 component overlaps multiple replication components, including unmatched FP component(s)."
+case_0160,A_both_models_already_had_fp,3,4,1,1,0.056,0.04,-0.016,5,Spatially overlapping FP in both predictions.
+case_0160,C_b0_only_fp,5,,1,0,0.024,0.0,-0.024,0,B0 FP has no replication FP at the same location.
+case_0168,E_same_location_fragmentation_increased,1,2;4;9,0,2,27.648,27.448,-0.2,3353,"One B0 component overlaps multiple replication components, including unmatched FP component(s)."
+case_0168,B_replication_only_new_fp,,8,0,1,0.0,0.016,0.016,0,No spatial overlap with any B0 prediction component.
+case_0168,B_replication_only_new_fp,,12,0,1,0.0,0.008,0.008,0,No spatial overlap with any B0 prediction component.
+case_0168,A_both_models_already_had_fp,17,13,1,1,0.016,0.024,0.008,2,Spatially overlapping FP in both predictions.
+case_0168,C_b0_only_fp,6,3,1,0,0.10400000000000001,0.9440000000000001,0.84,13,B0 FP has no replication FP at the same location.
+case_0168,C_b0_only_fp,10,3,1,0,0.008,0.9440000000000001,0.936,1,B0 FP has no replication FP at the same location.
+case_0168,C_b0_only_fp,13,3,1,0,0.024,0.9440000000000001,0.92,3,B0 FP has no replication FP at the same location.
+case_0168,C_b0_only_fp,14,,1,0,0.024,0.0,-0.024,0,B0 FP has no replication FP at the same location.
+case_0168,C_b0_only_fp,15,,1,0,0.016,0.0,-0.016,0,B0 FP has no replication FP at the same location.
+case_0168,C_b0_only_fp,16,,1,0,0.008,0.0,-0.008,0,B0 FP has no replication FP at the same location.
+case_0168,C_b0_only_fp,18,,1,0,0.048,0.0,-0.048,0,B0 FP has no replication FP at the same location.
+case_0181,B_replication_only_new_fp,,1,0,1,0.0,0.04,0.04,0,No spatial overlap with any B0 prediction component.
+case_0181,B_replication_only_new_fp,,2,0,1,0.0,0.008,0.008,0,No spatial overlap with any B0 prediction component.
+case_0181,A_both_models_already_had_fp,3,5,1,1,0.056,0.056,0.0,7,Spatially overlapping FP in both predictions.
+case_0181,B_replication_only_new_fp,,6,0,1,0.0,0.128,0.128,0,No spatial overlap with any B0 prediction component.
+case_0181,B_replication_only_new_fp,,7,0,1,0.0,0.296,0.296,0,No spatial overlap with any B0 prediction component.
+case_0181,C_b0_only_fp,2,,1,0,0.008,0.0,-0.008,0,B0 FP has no replication FP at the same location.
+case_0182,B_replication_only_new_fp,,2,0,1,0.0,0.030996094981674105,0.030996094981674105,0,No spatial overlap with any B0 prediction component.
+case_0186,B_replication_only_new_fp,,13,0,1,0.0,0.015498047490837052,0.015498047490837052,0,No spatial overlap with any B0 prediction component.
+case_0186,C_b0_only_fp,10,8,1,0,0.43394532974343747,2.7741505008598324,2.340205171116395,26,B0 FP has no replication FP at the same location.
+case_0196,A_both_models_already_had_fp,1,1,1,1,0.032,0.016,-0.016,2,Spatially overlapping FP in both predictions.
+case_0196,C_b0_only_fp,4,,1,0,0.088,0.0,-0.088,0,B0 FP has no replication FP at the same location.
+case_0197,A_both_models_already_had_fp,1,3,1,1,0.10848633243585937,0.06199218996334821,-0.04649414247251116,4,Spatially overlapping FP in both predictions.
+case_0197,A_both_models_already_had_fp,5,5,1,1,0.06199218996334821,0.06199218996334821,0.0,4,Spatially overlapping FP in both predictions.
+case_0201,E_same_location_fragmentation_increased,1,1;2;9;10;11,0,3,182.70702150360745,170.4703104556873,-12.236711047920164,21809,"One B0 component overlaps multiple replication components, including unmatched FP component(s)."
+case_0201,E_same_location_fragmentation_increased,2,3,0,1,0.07739855185275246,0.0851384070380277,0.007739855185275246,8,Replication unmatched component overlaps a B0 component that was matched to GT.
+case_0201,A_both_models_already_had_fp,10,8,1,1,0.015479710370550492,0.007739855185275246,-0.007739855185275246,1,Spatially overlapping FP in both predictions.
+case_0201,C_b0_only_fp,8,,1,0,0.015479710370550492,0.0,-0.015479710370550492,0,B0 FP has no replication FP at the same location.
+case_0205,D_same_location_replication_larger,2,2,1,1,3.072,3.336,0.264,382,Spatially overlapping FP; replication component is larger by more than one voxel.
+case_0205,B_replication_only_new_fp,,7,0,1,0.0,0.016,0.016,0,No spatial overlap with any B0 prediction component.
+case_0207,A_both_models_already_had_fp,2,2,1,1,0.07562500825027654,0.06932292422942016,-0.006302084020856379,11,Spatially overlapping FP in both predictions.
+case_0220,A_both_models_already_had_fp,1,1,1,1,0.056,0.04,-0.016,5,Spatially overlapping FP in both predictions.
+case_0220,A_both_models_already_had_fp,4,3,1,1,0.008,0.008,0.0,1,Spatially overlapping FP in both predictions.
+case_0220,A_both_models_already_had_fp,5,4,1,1,0.016,0.024,0.008,2,Spatially overlapping FP in both predictions.
+case_0220,C_b0_only_fp,3,,1,0,0.008,0.0,-0.008,0,B0 FP has no replication FP at the same location.
+case_0235,B_replication_only_new_fp,,4,0,1,0.0,0.008,0.008,0,No spatial overlap with any B0 prediction component.
+case_0235,A_both_models_already_had_fp,5,5,1,1,0.032,0.024,-0.008,3,Spatially overlapping FP in both predictions.
+case_0235,A_both_models_already_had_fp,8,8,1,1,0.04,0.048,0.008,5,Spatially overlapping FP in both predictions.
+case_0235,A_both_models_already_had_fp,10,10,1,1,0.032,0.04,0.008,4,Spatially overlapping FP in both predictions.
+case_0235,C_b0_only_fp,3,,1,0,0.016,0.0,-0.016,0,B0 FP has no replication FP at the same location.
+case_0247,A_both_models_already_had_fp,9,9,1,1,0.008,0.008,0.0,1,Spatially overlapping FP in both predictions.
+case_0247,C_b0_only_fp,11,,1,0,0.016,0.0,-0.016,0,B0 FP has no replication FP at the same location.
+case_0247,C_b0_only_fp,14,,1,0,0.008,0.0,-0.008,0,B0 FP has no replication FP at the same location.

@@ -1,0 +1,12 @@
+{
+  "status": "a1_100_training_and_validation_complete",
+  "actual_epochs": 100,
+  "lr_schedule_reference_epochs": 1000,
+  "checkpoint": "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\experiments\\A1_DWIIntensityAug_seed2022\\train\\results\\Dataset001_ISLES2022_DWI\\nnUNetTrainer_A1_DWIIntensityAug_Screen100__nnUNetPlans__3d_fullres\\fold_0\\checkpoint_final.pth",
+  "checkpoint_sha256": "b3222b1886327887f53b23ae65a202e051c8e9af133e5c85e7b950842856fdbe",
+  "predictions": "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\experiments\\A1_DWIIntensityAug_seed2022\\train\\results\\Dataset001_ISLES2022_DWI\\nnUNetTrainer_A1_DWIIntensityAug_Screen100__nnUNetPlans__3d_fullres\\fold_0\\validation",
+  "total_amp_skipped_steps": 8,
+  "total_nonfinite_gradient_events": 8,
+  "unrecovered_consecutive_overflows": 0,
+  "finished_at": "2026-09-22T02:26:00.867953+08:00"
+}

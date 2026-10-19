@@ -1,0 +1,21 @@
+{
+  "time": "2026-09-16T17:16:30.9484384+08:00",
+  "status": "screening_comparison_complete_after_nullable_metric_fix",
+  "recovery_scope": "comparison analysis only",
+  "training_rerun": false,
+  "evaluation_rerun": false,
+  "original_failure_preserved": "screening_failure.json",
+  "partial_output_preserved": "screening_comparison_failed_before_nullable_fix",
+  "comparison_output": "screening_comparison",
+  "fix": "case-level deltas are null when either baseline or candidate metric is null",
+  "validation": {
+    "paired_rows_per_candidate": 50,
+    "empty_case_checked": "case_0151",
+    "paired_bootstrap_iterations": 10000,
+    "paired_bootstrap_seed": 2022,
+    "unit_test": "passed"
+  },
+  "analysis_source_sha256": "8973C163CB61CC7C2DED483434942714558D33FEF012F2341DE2F0A629212DE7",
+  "screening_summary_sha256": "AD04BFE06A77FB185AD22180398F6AD4C1A7675F481DB5A1BDCD1E2918065AC8",
+  "automatic_followup_started": false
+}

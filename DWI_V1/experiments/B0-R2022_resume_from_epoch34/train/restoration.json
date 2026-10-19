@@ -1,0 +1,35 @@
+{
+  "model_exact": true,
+  "optimizer_exact": true,
+  "scaler_exact": true,
+  "optimizer_tensors_on_device": true,
+  "model_finite": true,
+  "optimizer_finite": true,
+  "restored_epoch": 34,
+  "restored_history_length": 34,
+  "lr_before_interruption": 0.009702503915514164,
+  "expected_lr_at_resume": 0.009693473196581535,
+  "actual_lr_after_resume": 0.009693473196581535,
+  "scheduler_state_reconstructed": {
+    "initial_lr": 0.01,
+    "max_steps": 1000,
+    "exponent": 0.9,
+    "ctr": 1,
+    "base_lrs": [
+      0.01
+    ],
+    "last_epoch": -1,
+    "_step_count": 0,
+    "_is_initial": false,
+    "_last_lr": [
+      0.009693473196581535
+    ]
+  },
+  "grad_scaler": {
+    "scale": 1048576.0,
+    "growth_factor": 2.0,
+    "backoff_factor": 0.5,
+    "growth_interval": 2000,
+    "_growth_tracker": 500
+  }
+}

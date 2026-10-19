@@ -1,0 +1,251 @@
+﻿Case,Fold,GT volume mL,GT lesion count,B0 failure mode,Kamel failure mode,B0 severe_under,Kamel severe_under,severe_under transition,B0 large_partial,Kamel large_partial,large_partial transition,B0 small_lesion_miss,Kamel small_lesion_miss,small_lesion_miss transition,B0 multifocal_miss,Kamel multifocal_miss,multifocal_miss transition,B0 dice_lt_0p3,Kamel dice_lt_0p3,dice_lt_0p3 transition
+case_0001,3,6.68,31,multifocal_miss,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0002,4,0.9440000000000001,1,unclassified,low_confidence,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal
+case_0003,2,30.984,46,multifocal_miss,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0004,3,2.248,8,multifocal_miss,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0005,2,5.824,8,normal,normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal
+case_0006,3,0.04,1,unclassified,unclassified,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal
+case_0007,3,3.512,9,mixed,mixed,True,True,Both failure,False,False,Both normal,True,True,Both failure,True,True,Both failure,True,True,Both failure
+case_0008,4,0.752,5,mixed,unclassified,True,False,B0 failure -> Kamel normal,False,False,Both normal,True,False,B0 failure -> Kamel normal,True,False,B0 failure -> Kamel normal,False,False,Both normal
+case_0009,2,4.184,18,multifocal_miss,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0010,0,3.368,14,mixed,mixed,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0011,0,11.192,10,mixed,mixed,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0012,4,0.448,1,unclassified,unclassified,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal
+case_0013,3,29.16,22,multifocal_miss,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0014,2,12.392,9,mixed,mixed,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0015,1,13.208,2,normal,normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal
+case_0016,1,0.20800000000000002,2,mixed,mixed,False,True,B0 normal -> Kamel failure,False,False,Both normal,True,True,Both failure,True,True,Both failure,False,False,Both normal
+case_0017,0,15.432,8,mixed,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0018,1,1.064,1,boundary_underseg,boundary_underseg,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal
+case_0019,0,68.57600000000001,15,multifocal_miss,mixed,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0020,1,8.856,3,normal,normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal
+case_0021,0,17.72,10,multifocal_miss,mixed,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0022,3,1.304,2,boundary_underseg,boundary_underseg,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal
+case_0023,3,482.152,9,mixed,mixed,True,True,Both failure,True,True,Both failure,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0024,4,24.04,14,multifocal_miss,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0025,2,7.752,4,normal,normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal
+case_0026,2,3.608,9,multifocal_miss,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0027,1,6.5760000000000005,7,mixed,mixed,True,True,Both failure,False,False,Both normal,False,False,Both normal,True,True,Both failure,True,True,Both failure
+case_0028,0,7.272,6,multifocal_miss,normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,False,B0 failure -> Kamel normal,False,False,Both normal
+case_0029,2,8.76,13,multifocal_miss,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0030,4,0.512,7,mixed,mixed,True,True,Both failure,False,False,Both normal,True,True,Both failure,True,True,Both failure,False,False,Both normal
+case_0031,0,93.072,20,multifocal_miss,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0032,4,0.536,1,normal,normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal
+case_0033,3,45.152,12,mixed,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0034,0,1.24,3,normal,normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal
+case_0035,4,0.14400000000000002,1,boundary_underseg,boundary_underseg,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal
+case_0036,2,18.568,9,multifocal_miss,mixed,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0037,4,0.488,1,small_lesion_miss,small_lesion_miss,True,True,Both failure,False,False,Both normal,True,True,Both failure,False,False,Both normal,True,False,B0 failure -> Kamel normal
+case_0038,3,10.312,4,multifocal_miss,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0039,3,18.128,9,multifocal_miss,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0040,2,10.616,12,mixed,mixed,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0041,0,5.224,10,mixed,mixed,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0042,3,4.696,5,multifocal_miss,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0043,1,30.744,44,multifocal_miss,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0044,4,1.232,4,mixed,mixed,True,True,Both failure,False,False,Both normal,True,True,Both failure,True,True,Both failure,False,False,Both normal
+case_0045,2,0.768,1,boundary_underseg,small_lesion_miss,False,True,B0 normal -> Kamel failure,False,False,Both normal,False,True,B0 normal -> Kamel failure,False,False,Both normal,False,False,Both normal
+case_0046,2,0.368,1,small_lesion_miss,small_lesion_miss,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal,True,True,Both failure
+case_0047,3,51.696,9,multifocal_miss,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0048,0,55.0,37,multifocal_miss,mixed,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0049,2,4.88,14,mixed,mixed,True,True,Both failure,False,False,Both normal,True,True,Both failure,True,True,Both failure,False,False,Both normal
+case_0050,1,15.4,11,mixed,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0051,0,3.12,8,normal,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,True,B0 normal -> Kamel failure,False,False,Both normal
+case_0052,2,16.424,8,multifocal_miss,normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,False,B0 failure -> Kamel normal,False,False,Both normal
+case_0053,0,0.72,2,normal,normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal
+case_0054,3,3.2960000000000003,6,mixed,mixed,False,False,Both normal,False,False,Both normal,True,True,Both failure,True,True,Both failure,False,False,Both normal
+case_0055,0,25.84,2,normal,normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal
+case_0056,1,0.672,4,unclassified,low_confidence,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal
+case_0057,1,59.2,3,multifocal_miss,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0058,1,3.504,2,unclassified,unclassified,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal
+case_0059,3,0.6960000000000001,1,normal,normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal
+case_0060,4,39.96,2,normal,normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal
+case_0061,2,0.704,1,normal,normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal
+case_0062,1,198.016,5,mixed,mixed,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0063,3,6.064,2,low_confidence,normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal
+case_0064,3,0.336,2,boundary_underseg,unclassified,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal
+case_0065,4,27.080000000000002,4,multifocal_miss,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0066,3,71.70400000000001,1,normal,low_confidence,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal
+case_0067,1,0.312,1,unclassified,normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal
+case_0068,0,3.688,3,mixed,mixed,True,True,Both failure,False,False,Both normal,True,True,Both failure,True,True,Both failure,True,True,Both failure
+case_0069,0,0.136,1,boundary_underseg,boundary_underseg,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal
+case_0070,2,0.536,1,normal,normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal
+case_0071,1,1.744,7,normal,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,True,B0 normal -> Kamel failure,False,False,Both normal
+case_0072,0,8.128,10,multifocal_miss,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0073,3,1.56,11,multifocal_miss,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0074,0,5.304,8,mixed,multifocal_miss,True,False,B0 failure -> Kamel normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0075,3,2.472,12,mixed,mixed,False,False,Both normal,False,False,Both normal,True,True,Both failure,True,True,Both failure,False,False,Both normal
+case_0076,4,6.056,28,mixed,mixed,True,True,Both failure,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0077,3,40.432,6,multifocal_miss,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0078,4,112.416,7,multifocal_miss,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0079,2,0.296,4,multifocal_miss,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0080,2,0.656,2,boundary_underseg,boundary_underseg,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal
+case_0081,3,125.672,3,multifocal_miss,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0082,4,0.968,1,normal,normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal
+case_0083,3,111.176,2,mixed,large_partial_underseg,True,True,Both failure,True,True,Both failure,False,False,Both normal,True,False,B0 failure -> Kamel normal,True,True,Both failure
+case_0084,3,7.168,2,multifocal_miss,normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,False,B0 failure -> Kamel normal,False,False,Both normal
+case_0085,2,29.048000000000002,5,multifocal_miss,mixed,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0086,0,46.76,2,normal,normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal
+case_0087,2,78.248,4,boundary_underseg,boundary_underseg,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal
+case_0088,4,0.44,1,low_confidence,normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal
+case_0089,3,1.536,1,normal,normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal
+case_0090,1,3.608,10,multifocal_miss,mixed,False,False,Both normal,False,False,Both normal,False,True,B0 normal -> Kamel failure,True,True,Both failure,False,False,Both normal
+case_0091,2,48.6,19,multifocal_miss,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0092,4,66.032,4,mixed,mixed,True,True,Both failure,True,True,Both failure,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0093,0,0.336,1,boundary_underseg,normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal
+case_0094,0,4.5360000000000005,13,multifocal_miss,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0095,1,2.48,9,multifocal_miss,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0096,1,1.264,2,mixed,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0097,2,7.28,18,multifocal_miss,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0098,4,1.3840000000000001,15,mixed,mixed,False,False,Both normal,False,False,Both normal,True,True,Both failure,True,True,Both failure,False,False,Both normal
+case_0099,2,3.736,5,multifocal_miss,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0100,1,0.5680000000000001,1,normal,normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal
+case_0101,1,14.75053125,2,normal,normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal
+case_0102,4,12.93446875,12,multifocal_miss,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0103,2,0.192,1,unclassified,normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal
+case_0104,0,77.152,16,multifocal_miss,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0105,0,13.456,6,multifocal_miss,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0106,4,6.184,1,normal,normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal
+case_0107,1,40.208,25,multifocal_miss,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0108,4,4.36,17,mixed,mixed,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0109,3,5.976,1,normal,normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal
+case_0110,0,9.176,10,multifocal_miss,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0111,2,0.184,1,normal,normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal
+case_0112,2,0.44,1,low_confidence,normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal
+case_0113,1,62.800000000000004,16,multifocal_miss,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0114,4,6.192,1,unclassified,unclassified,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal
+case_0115,4,0.12,1,boundary_underseg,boundary_underseg,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal
+case_0116,4,139.496,4,mixed,mixed,True,True,Both failure,True,True,Both failure,False,False,Both normal,True,True,Both failure,False,True,B0 normal -> Kamel failure
+case_0117,2,0.048,2,mixed,mixed,False,False,Both normal,False,False,Both normal,True,True,Both failure,True,True,Both failure,True,True,Both failure
+case_0118,0,6.384,6,mixed,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0119,4,0.56,1,normal,normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal
+case_0120,4,30.36,12,multifocal_miss,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0121,0,4.096,1,low_confidence,normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal
+case_0122,3,13.728,1,fp_dominant,normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal
+case_0123,0,92.824,10,multifocal_miss,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0124,3,3.344,1,normal,normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal
+case_0125,4,35.736000000000004,1,normal,fp_dominant,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal
+case_0126,2,4.168,5,multifocal_miss,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0127,4,143.264,3,multifocal_miss,mixed,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0128,1,1.024,3,boundary_underseg,normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal
+case_0129,2,1.08,4,mixed,mixed,True,True,Both failure,False,False,Both normal,True,True,Both failure,True,True,Both failure,True,False,B0 failure -> Kamel normal
+case_0130,4,4.392,11,mixed,mixed,False,True,B0 normal -> Kamel failure,False,False,Both normal,True,True,Both failure,True,True,Both failure,False,True,B0 normal -> Kamel failure
+case_0131,2,10.376,5,multifocal_miss,mixed,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0132,4,1.92,5,multifocal_miss,normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,False,B0 failure -> Kamel normal,False,False,Both normal
+case_0133,1,3.384,14,mixed,mixed,False,False,Both normal,False,False,Both normal,True,True,Both failure,True,True,Both failure,False,False,Both normal
+case_0134,4,0.5760000000000001,1,unclassified,fp_dominant,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal
+case_0135,0,1.456,3,normal,boundary_underseg,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal
+case_0136,1,0.2,1,small_lesion_miss,small_lesion_miss,False,True,B0 normal -> Kamel failure,False,False,Both normal,True,True,Both failure,False,False,Both normal,False,True,B0 normal -> Kamel failure
+case_0137,0,2.263168144762639,1,small_lesion_miss,small_lesion_miss,True,True,Both failure,False,False,Both normal,True,True,Both failure,False,False,Both normal,False,False,Both normal
+case_0138,2,0.2,1,low_confidence,boundary_underseg,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal
+case_0139,4,0.56,2,small_lesion_miss,small_lesion_miss,True,True,Both failure,False,False,Both normal,True,True,Both failure,False,False,Both normal,True,True,Both failure
+case_0140,0,141.368,3,unclassified,unclassified,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal
+case_0141,1,0.12,5,mixed,multifocal_miss,False,False,Both normal,False,False,Both normal,True,False,B0 failure -> Kamel normal,True,True,Both failure,False,False,Both normal
+case_0142,2,2.568,1,normal,normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal
+case_0143,4,2.64,4,mixed,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0144,4,0.08,1,small_lesion_miss,small_lesion_miss,True,True,Both failure,False,False,Both normal,True,True,Both failure,False,False,Both normal,True,True,Both failure
+case_0145,1,4.848,22,multifocal_miss,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0146,0,21.016000000000002,11,multifocal_miss,mixed,False,True,B0 normal -> Kamel failure,False,True,B0 normal -> Kamel failure,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0147,3,0.864,7,mixed,mixed,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0148,0,2.2800000000000002,1,unclassified,normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal
+case_0149,1,0.368,2,mixed,mixed,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0150,3,0.0,0,fp_dominant,fp_dominant,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure
+case_0151,0,0.0,0,normal,normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal
+case_0152,3,1.352,22,multifocal_miss,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0153,2,49.981203157949494,69,mixed,mixed,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0154,2,2.1490106511120253,2,low_confidence,normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal
+case_0155,3,25.633770549844485,6,multifocal_miss,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0156,3,13.696,9,multifocal_miss,mixed,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0157,1,3.536,6,multifocal_miss,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0158,1,2.896,12,multifocal_miss,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0159,3,4.385947439906886,18,mixed,mixed,False,False,Both normal,False,False,Both normal,True,True,Both failure,True,True,Both failure,False,False,Both normal
+case_0160,0,4.432,6,mixed,mixed,True,True,Both failure,False,False,Both normal,True,True,Both failure,True,True,Both failure,False,False,Both normal
+case_0161,0,95.0340272138128,4,mixed,normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,False,B0 failure -> Kamel normal,False,False,Both normal
+case_0162,2,46.091193237749394,28,multifocal_miss,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0163,2,5.472,3,normal,normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal
+case_0164,2,28.12895619586925,4,multifocal_miss,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0165,4,10.763959507622694,28,multifocal_miss,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0166,1,59.66748283972265,12,mixed,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0167,4,1.2856251402547012,2,multifocal_miss,mixed,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0168,0,30.536,16,multifocal_miss,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0169,1,3.248,8,multifocal_miss,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0170,4,0.0,0,normal,normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal
+case_0171,2,31.008,37,multifocal_miss,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0172,2,5.824,7,multifocal_miss,mixed,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0173,1,34.528,6,mixed,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0174,1,0.864,1,small_lesion_miss,small_lesion_miss,True,True,Both failure,False,False,Both normal,True,True,Both failure,False,False,Both normal,True,True,Both failure
+case_0175,2,2.527135692363408,1,low_confidence,low_confidence,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal
+case_0176,1,43.06907397703617,6,mixed,mixed,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0177,2,0.28,2,normal,normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal
+case_0178,2,15.36,44,multifocal_miss,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0179,3,28.416,8,multifocal_miss,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0180,1,19.768,22,multifocal_miss,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0181,0,16.208000000000002,4,mixed,mixed,True,True,Both failure,False,False,Both normal,False,False,Both normal,True,True,Both failure,True,False,B0 failure -> Kamel normal
+case_0182,0,1.6272949865378905,3,mixed,mixed,True,True,Both failure,False,False,Both normal,True,True,Both failure,True,True,Both failure,True,True,Both failure
+case_0183,1,5.216,20,multifocal_miss,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0184,4,5.25593807339422,3,multifocal_miss,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0185,4,1.4431772407761108,3,unclassified,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,True,B0 normal -> Kamel failure,False,False,Both normal
+case_0186,0,11.127598098421004,50,mixed,mixed,True,True,Both failure,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0187,0,6.183720948843984,4,multifocal_miss,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0188,0,10.058126097286781,3,mixed,mixed,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0189,3,10.46118205631501,1,normal,normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal
+case_0190,4,10.888,3,normal,fp_dominant,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal
+case_0191,2,42.6335984010934,63,mixed,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0192,1,18.551162846531952,3,normal,normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal
+case_0193,3,11.60843876641745,13,multifocal_miss,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0194,2,15.234580683492823,17,mixed,mixed,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0195,3,18.907617938821204,32,multifocal_miss,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0196,0,13.472,3,normal,normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal
+case_0197,0,5.88925804651808,10,multifocal_miss,mixed,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0198,1,6.106230711389799,3,mixed,mixed,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0199,1,9.755626064285675,1,normal,normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal
+case_0200,2,8.797709293115505,1,normal,normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal
+case_0201,0,147.39780214838177,22,mixed,mixed,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0202,4,7.367136220381107,3,multifocal_miss,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0203,3,1.08,4,normal,normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal
+case_0204,3,13.944,2,fp_dominant,fp_dominant,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal
+case_0205,0,36.864000000000004,6,multifocal_miss,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0206,1,5.022760964622534,9,multifocal_miss,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0207,0,17.141668536729348,6,multifocal_miss,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0208,3,42.83660326467361,17,multifocal_miss,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0209,4,21.187606478119143,48,mixed,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0210,2,25.07584084017435,10,multifocal_miss,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0211,4,59.952,24,multifocal_miss,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0212,0,1.104,4,mixed,mixed,True,True,Both failure,False,False,Both normal,True,True,Both failure,True,True,Both failure,False,False,Both normal
+case_0213,1,6.432,7,normal,boundary_underseg,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal
+case_0214,1,2.696,5,boundary_underseg,mixed,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,True,B0 normal -> Kamel failure,False,False,Both normal
+case_0215,1,14.904428709325336,5,multifocal_miss,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0216,3,1.12,8,multifocal_miss,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0217,1,48.72,7,multifocal_miss,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0218,3,13.392,22,multifocal_miss,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0219,2,13.126846224738983,3,boundary_underseg,boundary_underseg,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal
+case_0220,0,5.44,3,multifocal_miss,mixed,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0221,3,94.896,6,multifocal_miss,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0222,3,163.9739241386621,4,mixed,mixed,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0223,3,139.48,6,multifocal_miss,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0224,1,19.576,13,multifocal_miss,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0225,1,2.64,15,multifocal_miss,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0226,4,6.6331643260782585,7,multifocal_miss,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0227,4,8.477431977487868,2,normal,normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal
+case_0228,2,10.941621528530959,64,multifocal_miss,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0229,1,21.118283553889725,46,mixed,mixed,False,True,B0 normal -> Kamel failure,False,True,B0 normal -> Kamel failure,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0230,4,107.70891800045636,7,multifocal_miss,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0231,3,32.68,5,multifocal_miss,mixed,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0232,3,2.8206446433323435,2,normal,normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal
+case_0233,2,0.064,1,small_lesion_miss,small_lesion_miss,True,False,B0 failure -> Kamel normal,False,False,Both normal,True,True,Both failure,False,False,Both normal,True,True,Both failure
+case_0234,4,0.232,3,mixed,mixed,False,False,Both normal,False,False,Both normal,True,False,B0 failure -> Kamel normal,True,True,Both failure,False,False,Both normal
+case_0235,0,12.016,13,boundary_underseg,normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal
+case_0236,4,28.006461388685747,43,multifocal_miss,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0237,3,79.248,8,multifocal_miss,mixed,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0238,0,12.868855570588725,28,multifocal_miss,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0239,4,16.892871765012387,6,mixed,mixed,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0240,1,212.40800000000002,1,normal,normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal
+case_0241,4,3.4715626379474998,5,mixed,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0242,3,7.2,2,multifocal_miss,mixed,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0243,1,8.199011311134148,2,multifocal_miss,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0244,2,34.712,14,multifocal_miss,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0245,1,14.98661192363943,1,normal,normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal
+case_0246,2,216.256,11,multifocal_miss,mixed,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0247,0,18.256,15,multifocal_miss,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0248,4,16.013595496996057,126,multifocal_miss,multifocal_miss,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal
+case_0249,3,11.2515824783477,1,normal,normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal,False,False,Both normal
+case_0250,1,8.027988600253593,7,mixed,mixed,False,False,Both normal,False,False,Both normal,False,False,Both normal,True,True,Both failure,False,False,Both normal

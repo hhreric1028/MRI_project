@@ -1,0 +1,118 @@
+{
+  "source": "dwi",
+  "status": "NEEDS REVIEW",
+  "method": "rigid",
+  "transform_direction": "FLAIR LPS to native LPS, resampling pull",
+  "parameters": {
+    "initialization": "MOMENTS",
+    "metric": "Mattes MI",
+    "bins": 50,
+    "sampling": "RANDOM",
+    "fraction": 0.3,
+    "seed": 2022,
+    "shrink": [
+      4,
+      2,
+      1
+    ],
+    "smoothing_mm": [
+      2,
+      1,
+      0
+    ],
+    "iterations": 200,
+    "learning_rate": 0.5,
+    "max_step_mm": 1
+  },
+  "history": {
+    "reused": "C:\\Users\\User\\Desktop\\MRI_project_v1\\outputs\\analysis\\anatomical_localization\\case_0010\\registration_experiments\\flair\\structural_to_dwi_pull.tfm"
+  },
+  "native_lesion_voxels": 305,
+  "native_clinical_volume_reference": "Block 2: 2.440 mL; not recomputed",
+  "transformed_labels": [
+    0,
+    1
+  ],
+  "transformed_voxels_diagnostic": 5279,
+  "components": [
+    {
+      "native_label_id": 1,
+      "native_voxels": 18,
+      "transformed_voxels_diagnostic": 309,
+      "outside_flair_nonzero_support_voxels": 0
+    },
+    {
+      "native_label_id": 2,
+      "native_voxels": 19,
+      "transformed_voxels_diagnostic": 342,
+      "outside_flair_nonzero_support_voxels": 0
+    },
+    {
+      "native_label_id": 3,
+      "native_voxels": 15,
+      "transformed_voxels_diagnostic": 249,
+      "outside_flair_nonzero_support_voxels": 0
+    },
+    {
+      "native_label_id": 4,
+      "native_voxels": 8,
+      "transformed_voxels_diagnostic": 147,
+      "outside_flair_nonzero_support_voxels": 0
+    },
+    {
+      "native_label_id": 5,
+      "native_voxels": 97,
+      "transformed_voxels_diagnostic": 1579,
+      "outside_flair_nonzero_support_voxels": 0
+    },
+    {
+      "native_label_id": 6,
+      "native_voxels": 9,
+      "transformed_voxels_diagnostic": 156,
+      "outside_flair_nonzero_support_voxels": 0
+    },
+    {
+      "native_label_id": 7,
+      "native_voxels": 9,
+      "transformed_voxels_diagnostic": 162,
+      "outside_flair_nonzero_support_voxels": 0
+    },
+    {
+      "native_label_id": 8,
+      "native_voxels": 12,
+      "transformed_voxels_diagnostic": 216,
+      "outside_flair_nonzero_support_voxels": 0
+    },
+    {
+      "native_label_id": 9,
+      "native_voxels": 8,
+      "transformed_voxels_diagnostic": 144,
+      "outside_flair_nonzero_support_voxels": 0
+    },
+    {
+      "native_label_id": 10,
+      "native_voxels": 71,
+      "transformed_voxels_diagnostic": 1276,
+      "outside_flair_nonzero_support_voxels": 0
+    },
+    {
+      "native_label_id": 11,
+      "native_voxels": 18,
+      "transformed_voxels_diagnostic": 321,
+      "outside_flair_nonzero_support_voxels": 0
+    },
+    {
+      "native_label_id": 12,
+      "native_voxels": 2,
+      "transformed_voxels_diagnostic": 36,
+      "outside_flair_nonzero_support_voxels": 0
+    },
+    {
+      "native_label_id": 13,
+      "native_voxels": 19,
+      "transformed_voxels_diagnostic": 342,
+      "outside_flair_nonzero_support_voxels": 0
+    }
+  ],
+  "note": "Nonzero FLAIR support is not a validated brain/CSF mask; visual lesion QC remains required."
+}

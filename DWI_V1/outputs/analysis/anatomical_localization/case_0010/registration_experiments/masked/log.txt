@@ -1,0 +1,5 @@
+Status: FAIL
+Experiment: original MOMENTS initialization with fixed positive-support and moving >0.001 masks.
+Error: Mattes Mutual Information: All samples map outside moving image buffer.
+No registration transform or registered prediction was accepted from this attempt.
+Separate recovery experiment: masked_refine, initialized from baseline affine, learning rate 0.1, maximum physical step 1 mm.

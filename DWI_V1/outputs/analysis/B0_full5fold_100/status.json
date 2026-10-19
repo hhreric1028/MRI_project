@@ -1,0 +1,59 @@
+{
+  "audit": {
+    "status": "complete",
+    "effective_configuration_difference_count": 0
+  },
+  "fold_0": {
+    "status": "complete",
+    "start_time": "2026-09-16T12:18:14.883606+08:00",
+    "end_time": "2026-09-16T13:45:27.862308+08:00",
+    "runtime_seconds": 5232.978702,
+    "checkpoint_path": "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\experiments\\recall_screen100_seed2022_r2\\B0_R2022_screen100\\train\\results\\Dataset001_ISLES2022_DWI\\nnUNetTrainer_B0R2022_Screen100__nnUNetPlans__3d_fullres\\fold_0\\checkpoint_final.pth",
+    "validation_status": "complete",
+    "retrained": false
+  },
+  "fold_1": {
+    "status": "complete",
+    "start_time": "2026-09-23T00:47:01.598189+08:00",
+    "end_time": "2026-09-23T02:11:19.737061+08:00",
+    "runtime_seconds": 5058.875,
+    "checkpoint_path": "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\experiments\\B0_full5fold_100\\fold_1\\results\\Dataset001_ISLES2022_DWI\\nnUNetTrainer_B0Full5fold_Screen100__nnUNetPlans__3d_fullres\\fold_1\\checkpoint_final.pth",
+    "validation_status": "complete",
+    "retrained": true
+  },
+  "fold_2": {
+    "status": "complete",
+    "start_time": "2026-09-23T02:11:33.883030+08:00",
+    "end_time": "2026-09-23T03:35:40.904308+08:00",
+    "runtime_seconds": 5047.734000000055,
+    "checkpoint_path": "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\experiments\\B0_full5fold_100\\fold_2\\results\\Dataset001_ISLES2022_DWI\\nnUNetTrainer_B0Full5fold_Screen100__nnUNetPlans__3d_fullres\\fold_2\\checkpoint_final.pth",
+    "validation_status": "complete",
+    "retrained": true
+  },
+  "fold_3": {
+    "status": "complete",
+    "start_time": "2026-09-23T03:35:54.420917+08:00",
+    "end_time": "2026-09-23T05:00:01.986871+08:00",
+    "runtime_seconds": 5051.9529999999795,
+    "checkpoint_path": "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\experiments\\B0_full5fold_100\\fold_3\\results\\Dataset001_ISLES2022_DWI\\nnUNetTrainer_B0Full5fold_Screen100__nnUNetPlans__3d_fullres\\fold_3\\checkpoint_final.pth",
+    "validation_status": "complete",
+    "retrained": true
+  },
+  "fold_4": {
+    "status": "complete",
+    "start_time": "2026-09-23T05:00:19.142971+08:00",
+    "end_time": "2026-09-23T06:24:26.758667+08:00",
+    "runtime_seconds": 5048.344000000041,
+    "checkpoint_path": "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\experiments\\B0_full5fold_100\\fold_4\\results\\Dataset001_ISLES2022_DWI\\nnUNetTrainer_B0Full5fold_Screen100__nnUNetPlans__3d_fullres\\fold_4\\checkpoint_final.pth",
+    "validation_status": "complete",
+    "retrained": true
+  },
+  "overall": {
+    "status": "complete",
+    "oof_cases": 250,
+    "paired_cases": 250,
+    "verdict": "C. STOCHASTICALLY EQUIVALENT",
+    "ensemble_used": false,
+    "followup_model_started": false
+  }
+}

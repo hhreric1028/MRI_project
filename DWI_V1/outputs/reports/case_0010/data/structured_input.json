@@ -1,0 +1,66 @@
+{
+  "case_id": "case_0010",
+  "case_type": "validation",
+  "analysis_type": "DWI-based automated lesion analysis",
+  "segmentation": {
+    "lesion_present": true,
+    "lesion_voxels": 305,
+    "component_count": 13,
+    "distribution": "multifocal"
+  },
+  "volume": {
+    "total_ml": 2.44,
+    "source": "verified native-space prediction volume"
+  },
+  "location": {
+    "space": "native",
+    "laterality": "bilateral",
+    "left_fraction_percent": 40.984,
+    "right_fraction_percent": 59.016,
+    "ap_primary": "central",
+    "ap_distribution_percent": {
+      "posterior": 32.459,
+      "central": 67.541,
+      "anterior": 0.0
+    },
+    "si_primary": "middle",
+    "si_distribution_percent": {
+      "inferior": 30.164,
+      "middle": 69.836,
+      "superior": 0.0
+    },
+    "fine_anatomical_localization": null
+  },
+  "model_evaluation": {
+    "ground_truth_volume_ml": 3.368,
+    "prediction_volume_ml": 2.44,
+    "absolute_volume_error_ml": 0.928,
+    "relative_volume_error_percent": 27.553,
+    "signed_volume_error_ml": -0.928,
+    "signed_volume_error_percent": -27.553,
+    "volume_error_interpretation": "Underestimated",
+    "prediction_component_count": 13,
+    "ground_truth_component_count": 14
+  },
+  "reporting_limits": {
+    "fine_anatomical_parcellation": "not available",
+    "lesion_age": "not determined",
+    "vascular_territory": "not determined",
+    "disease_mechanism": "not determined",
+    "signal_intensity_characterization": "not performed"
+  },
+  "provenance": {
+    "volume_json": {
+      "path": "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\outputs\\analysis\\volume\\case_0010\\volume_metrics.json",
+      "sha256": "f8e2bb530a2a5c19656fabd3f53a0324ff6510d96f6a8e12b687618bbf2162bd"
+    },
+    "components_json": {
+      "path": "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\outputs\\analysis\\connected_components\\case_0010\\connected_components.json",
+      "sha256": "473f91f3f0e21552abc1c70174845648dc4875d8921c7ed86c2e3ae5d7831eb5"
+    },
+    "location_json": {
+      "path": "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\outputs\\analysis\\native_location\\case_0010\\native_location.json",
+      "sha256": "3766b2fd8de013790c5c444e10af09399b679f92e1b0c84da8d88d16fbd5526a"
+    }
+  }
+}

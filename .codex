@@ -1,0 +1,36 @@
+# MRI_project_v1 repository guide
+
+## Scope
+
+- `DWI_V1/` and `DWI_V2/` are independent project roots.
+- Resolve paths relative to the selected version, never relative to the shared
+  repository root unless coordinating both versions.
+- Preserve local datasets, weights, predictions and experiment artifacts.
+
+## Version-control policy
+
+- Track source code, tests, configuration, environment specifications,
+  Markdown documentation, and compact CSV/JSON result summaries.
+- Never add raw medical images, preprocessed tensors, model checkpoints,
+  predictions, logs, caches, or generated build artifacts.
+- Do not use force-add to bypass `.gitignore` for binary research artifacts.
+- Do not move files between V1 and V2 merely to deduplicate them; cross-version
+  dependencies must be explicit and documented.
+
+## Experiment policy
+
+- Keep experiment identifiers stable because reports reference them.
+- Store reproducibility metadata beside each experiment: configuration, seed,
+  completion state and compact metrics.
+- Store heavyweight runtime products locally under the experiment's existing
+  `results/`, `predictions/`, `preprocessed/`, or checkpoint directories.
+- Put curated human-readable summaries under each version's `outputs/analysis`,
+  `outputs/metrics`, or `outputs/reports` directories.
+
+## Safety
+
+- Treat `datasets/` as immutable input unless a preparation script explicitly
+  creates a derived dataset.
+- Never delete ignored files as part of repository cleanup.
+- Check `git status` and scan tracked file sizes before publishing.
+

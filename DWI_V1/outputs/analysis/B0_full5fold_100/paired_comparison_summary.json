@@ -1,0 +1,15 @@
+{
+  "cases": 250,
+  "cases_with_defined_dice_delta": 248,
+  "mean_delta_dice": 0.0003809613401794425,
+  "median_delta_dice": 0.0017002351324970078,
+  "sd_delta_dice": 0.06645232638857493,
+  "positive_delta_cases": 136,
+  "negative_delta_cases": 106,
+  "stable_abs_le_0p03_cases": 194,
+  "improvement_gt_0p03_cases": 25,
+  "regression_lt_minus_0p03_cases": 29,
+  "positive_mean_dice_folds": 3,
+  "verdict": "C. STOCHASTICALLY EQUIVALENT",
+  "interpretation_constraint": "Configurations are technically identical; deltas estimate stochastic training variability and cannot be attributed to a Kamel method change."
+}

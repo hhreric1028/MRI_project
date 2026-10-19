@@ -1,0 +1,5 @@
+{
+  "time": "2026-09-16T16:43:51.313285+08:00",
+  "error": "RuntimeError('screening_comparison failed (1); outputs retained; no automatic retry')",
+  "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\scripts\\screen100_pipeline.py\", line 132, in main\n    stage(\"screening_comparison\", \"screen100_analysis.py\")\n  File \"C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\scripts\\screen100_pipeline.py\", line 60, in stage\n    raise RuntimeError(f\"{name} failed ({code}); outputs retained; no automatic retry\")\nRuntimeError: screening_comparison failed (1); outputs retained; no automatic retry\n"
+}

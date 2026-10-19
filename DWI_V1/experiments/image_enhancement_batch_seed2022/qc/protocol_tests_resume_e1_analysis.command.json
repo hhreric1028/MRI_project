@@ -1,0 +1,8 @@
+{
+  "command": [
+    "C:\\Users\\User\\anaconda3\\envs\\MRI_DWI\\python.exe",
+    "-u",
+    "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\scripts\\test_image_enhancement_protocol.py"
+  ],
+  "time": "2026-09-20T02:21:00.412077+08:00"
+}

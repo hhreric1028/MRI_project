@@ -1,0 +1,2 @@
+﻿case,fold,gt_volume_ml,pred_volume_ml,pred_gt_ratio,dice,voxel_recall,gt_lesion_count,pred_lesion_count,largest_gt_component_volume_ml,largest_component_coverage,large_partial_coverage_failure
+case_0146,0,21.016000000000002,10.44,0.49676437000380663,0.6617497456765005,0.49524172059383326,11,12,19.192,0.5064610254272613,True

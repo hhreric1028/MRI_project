@@ -1,0 +1,12 @@
+{
+  "status": "complete",
+  "time": "2026-09-21T02:30:53.895650+08:00",
+  "action": "repaired",
+  "channels": [
+    "0",
+    "1"
+  ],
+  "plan_sha256": "1e62944d532611b7a1948e505d50e82691f2cebe228d45cc4763bf3d4edf8b63",
+  "fingerprint_sha256": "4c39a19dbf2b3e0fdadaf0cdb2cf6737f5ef254198afcbb6d79435cbbfe02a79",
+  "preserved_pre_repair_plan": "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V2\\datasets\\nnUNet_preprocessed\\Dataset101_ISLES2022_DWI_Original_P3a\\nnUNetPlans.pre_channel_properties_repair.json"
+}

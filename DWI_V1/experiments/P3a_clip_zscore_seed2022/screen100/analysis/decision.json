@@ -1,0 +1,16 @@
+{
+  "decision": "PROMOTE TO 300",
+  "core_signal_count": 3,
+  "core": {
+    "mean_dice_improved": true,
+    "lesion_recall_improved": true,
+    "severe_under_count_reduced": true,
+    "small_dice_recall_balanced_improvement": false
+  },
+  "guards": {
+    "precision_drop_within_0.05": true,
+    "fp_per_case_increase_within_0.5": true,
+    "volume_mae_increase_within_0.5_ml": true,
+    "training_and_numerics_normal": true
+  }
+}

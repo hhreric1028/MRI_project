@@ -1,0 +1,13 @@
+{
+  "checked_at": "2026-09-09T05:25:23.119734+08:00",
+  "raw_files_unchanged": 1688,
+  "converted_files_unchanged": 500,
+  "preflight_hashes_unchanged": 753,
+  "completed_epochs": 1000,
+  "validation_segmentations": 50,
+  "validation_probability_files": 50,
+  "final_pseudo_dice": "0.857",
+  "final_train_loss": "-0.8897",
+  "final_val_loss": "-0.777",
+  "all_checks_passed": true
+}

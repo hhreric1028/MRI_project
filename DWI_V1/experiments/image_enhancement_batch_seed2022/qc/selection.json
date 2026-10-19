@@ -1,0 +1,65 @@
+{
+  "seed": 2022,
+  "parameter_selection_partition": "fold0 training only",
+  "general_cases": [
+    "case_0023",
+    "case_0183",
+    "case_0218",
+    "case_0221",
+    "case_0236"
+  ],
+  "small_1_5_ml_cases": [
+    "case_0098",
+    "case_0099",
+    "case_0142",
+    "case_0158",
+    "case_0169"
+  ],
+  "multifocal_cases": [
+    "case_0005",
+    "case_0143",
+    "case_0179"
+  ],
+  "parameter_selection_cases": [
+    "case_0023",
+    "case_0183",
+    "case_0218",
+    "case_0221",
+    "case_0236",
+    "case_0098",
+    "case_0099",
+    "case_0142",
+    "case_0158",
+    "case_0169",
+    "case_0005",
+    "case_0143",
+    "case_0179"
+  ],
+  "known_failure_cases_validation_visualization_only": [
+    "case_0068",
+    "case_0181",
+    "case_0182",
+    "case_0140",
+    "case_0186"
+  ],
+  "all_qc_cases": [
+    "case_0023",
+    "case_0183",
+    "case_0218",
+    "case_0221",
+    "case_0236",
+    "case_0098",
+    "case_0099",
+    "case_0142",
+    "case_0158",
+    "case_0169",
+    "case_0005",
+    "case_0143",
+    "case_0179",
+    "case_0068",
+    "case_0181",
+    "case_0182",
+    "case_0140",
+    "case_0186"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "cases": 50,
+  "dice_valid_cases": 49,
+  "dice_mean": 0.7781594638633543,
+  "dice_median": 0.829133064516129,
+  "mean_absolute_volume_error_ml": 4.5094214679610385,
+  "empty_gt_cases": [
+    {
+      "case": "case_0151",
+      "dice": null,
+      "gt_voxels": 0,
+      "pred_voxels": 0,
+      "gt_ml": 0.0,
+      "pred_ml": 0.0,
+      "absolute_volume_error_ml": 0.0,
+      "empty_gt": true,
+      "empty_prediction": true,
+      "false_positive_ml": 0.0
+    }
+  ],
+  "random_qa": [
+    "case_0093",
+    "case_0094",
+    "case_0140",
+    "case_0168",
+    "case_0186"
+  ],
+  "worst_qa": [
+    "case_0068",
+    "case_0182",
+    "case_0181",
+    "case_0140",
+    "case_0212"
+  ],
+  "qa_cases": [
+    "case_0068",
+    "case_0093",
+    "case_0094",
+    "case_0140",
+    "case_0168",
+    "case_0181",
+    "case_0182",
+    "case_0186",
+    "case_0212"
+  ],
+  "visual_review_status": "completed: agent inspected 9 cases, 3 slices each; see docs/training_report.md",
+  "checkpoint": "checkpoint_final.pth",
+  "epoch": 1000
+}

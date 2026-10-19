@@ -1,0 +1,16 @@
+{
+  "fold": 4,
+  "cases": 50,
+  "connectivity": 26,
+  "matching": "maximum-cardinality then maximum-IoU one-to-one overlap",
+  "total_fp_components": 49,
+  "fp_components_per_case": 0.98,
+  "fp_volume_per_case_ml": 0.4616245557830304,
+  "median_fp_component_volume_ml": 0.032,
+  "fp_components_lt_0p01_ml": 11,
+  "fp_components_lt_0p05_ml": 30,
+  "fp_components_lt_0p1_ml": 37,
+  "fp_components_ge_1_ml": 3,
+  "predicted_component_count": 223,
+  "total_predicted_foreground_volume_ml": 804.59609316764
+}

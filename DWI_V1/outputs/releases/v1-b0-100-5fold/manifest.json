@@ -1,0 +1,64 @@
+{
+  "release_tag": "weights-v1-b0-100-5fold",
+  "model": "DWI_V1 B0-100 five-fold ensemble",
+  "selection_basis": "Complete 250-case OOF evaluation; selected engineering baseline",
+  "evaluation": {
+    "mean_dice": 0.7707,
+    "median_dice": 0.8439,
+    "recall": 0.5475,
+    "precision": 0.7551,
+    "f1": 0.6347,
+    "fp_per_case": 1.668,
+    "volume_mae_ml": 6.177
+  },
+  "total_bytes": 662555411,
+  "checkpoints": [
+    {
+      "fold": 0,
+      "asset": "DWI_V1_B0_100_fold0_checkpoint_final.pth",
+      "bytes": 132511031,
+      "sha256": "cfca704ff0c337887cc091e83da983de45bbfa8c402d436a21ae31ec17b58b3d",
+      "current_epoch": 100,
+      "trainer_name": "nnUNetTrainer_B0R2022_Screen100",
+      "source": "DWI_V1/experiments/recall_screen100_seed2022_r2/B0_R2022_screen100/train/results/Dataset001_ISLES2022_DWI/nnUNetTrainer_B0R2022_Screen100__nnUNetPlans__3d_fullres/fold_0/checkpoint_final.pth"
+    },
+    {
+      "fold": 1,
+      "asset": "DWI_V1_B0_100_fold1_checkpoint_final.pth",
+      "bytes": 132511095,
+      "sha256": "fd9c563ec984671205204f70fab8d12cc205e8f24a38cd512dbbd9ff496ffcd7",
+      "current_epoch": 100,
+      "trainer_name": "nnUNetTrainer_B0Full5fold_Screen100",
+      "source": "DWI_V1/experiments/B0_full5fold_100/fold_1/results/Dataset001_ISLES2022_DWI/nnUNetTrainer_B0Full5fold_Screen100__nnUNetPlans__3d_fullres/fold_1/checkpoint_final.pth"
+    },
+    {
+      "fold": 2,
+      "asset": "DWI_V1_B0_100_fold2_checkpoint_final.pth",
+      "bytes": 132511095,
+      "sha256": "bdd182b57b051811d12bc997a782033a8d403da3113d083b81523fec5b6b8443",
+      "current_epoch": 100,
+      "trainer_name": "nnUNetTrainer_B0Full5fold_Screen100",
+      "source": "DWI_V1/experiments/B0_full5fold_100/fold_2/results/Dataset001_ISLES2022_DWI/nnUNetTrainer_B0Full5fold_Screen100__nnUNetPlans__3d_fullres/fold_2/checkpoint_final.pth"
+    },
+    {
+      "fold": 3,
+      "asset": "DWI_V1_B0_100_fold3_checkpoint_final.pth",
+      "bytes": 132511095,
+      "sha256": "f2b70be760cf39b92e966cafc4dbfdb017c65d7450b3fc56879f74272e5068cd",
+      "current_epoch": 100,
+      "trainer_name": "nnUNetTrainer_B0Full5fold_Screen100",
+      "source": "DWI_V1/experiments/B0_full5fold_100/fold_3/results/Dataset001_ISLES2022_DWI/nnUNetTrainer_B0Full5fold_Screen100__nnUNetPlans__3d_fullres/fold_3/checkpoint_final.pth"
+    },
+    {
+      "fold": 4,
+      "asset": "DWI_V1_B0_100_fold4_checkpoint_final.pth",
+      "bytes": 132511095,
+      "sha256": "83b768de878cf7654a3f22a542d9c25c46a9c353d07ec918a292c254b2130a73",
+      "current_epoch": 100,
+      "trainer_name": "nnUNetTrainer_B0Full5fold_Screen100",
+      "source": "DWI_V1/experiments/B0_full5fold_100/fold_4/results/Dataset001_ISLES2022_DWI/nnUNetTrainer_B0Full5fold_Screen100__nnUNetPlans__3d_fullres/fold_4/checkpoint_final.pth"
+    }
+  ],
+  "dwi_v2_release": null,
+  "dwi_v2_reason": "Final classification STOP; no candidate passed all promotion guards"
+}

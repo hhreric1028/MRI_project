@@ -1,0 +1,108 @@
+{
+  "purpose": "A1-100 pre-training visual QA; intensity transforms only",
+  "b0_defaults": {
+    "gaussian_noise": {
+      "variance": [
+        0.0,
+        0.1
+      ],
+      "apply_probability": 0.1
+    },
+    "gaussian_blur": {
+      "sigma": [
+        0.5,
+        1.0
+      ],
+      "apply_probability": 0.2,
+      "p_per_channel": 0.5
+    },
+    "multiplicative_brightness": {
+      "range": [
+        0.75,
+        1.25
+      ],
+      "apply_probability": 0.15
+    },
+    "contrast": {
+      "range": [
+        0.75,
+        1.25
+      ],
+      "apply_probability": 0.15,
+      "preserve_range": true
+    },
+    "gamma_invert": {
+      "range": [
+        0.7,
+        1.5
+      ],
+      "apply_probability": 0.1,
+      "retain_stats": true
+    },
+    "gamma": {
+      "range": [
+        0.7,
+        1.5
+      ],
+      "apply_probability": 0.3,
+      "retain_stats": true
+    }
+  },
+  "a1_settings": {
+    "gaussian_noise": {
+      "variance": [
+        0.0,
+        0.1
+      ],
+      "apply_probability": 0.15
+    },
+    "gaussian_blur": {
+      "sigma": [
+        0.5,
+        1.0
+      ],
+      "apply_probability": 0.2,
+      "p_per_channel": 0.5
+    },
+    "multiplicative_brightness": {
+      "range": [
+        0.85,
+        1.15
+      ],
+      "apply_probability": 0.25
+    },
+    "contrast": {
+      "range": [
+        0.75,
+        1.25
+      ],
+      "apply_probability": 0.3,
+      "preserve_range": true
+    },
+    "gamma_invert": {
+      "range": [
+        0.7,
+        1.5
+      ],
+      "apply_probability": 0.0,
+      "retain_stats": true
+    },
+    "gamma": {
+      "range": [
+        0.7,
+        1.5
+      ],
+      "apply_probability": 0.5,
+      "retain_stats": true
+    }
+  },
+  "unchanged": [
+    "Gaussian blur sigma/probability",
+    "spatial transforms",
+    "low-resolution simulation",
+    "mirror transforms",
+    "mask/label/deep-supervision transforms"
+  ],
+  "preview_note": "Preview applies only the four changed A1 intensity branches; no spatial transform is used, so mask geometry must be byte-identical.",
+  "examples_per_case": 8
+}

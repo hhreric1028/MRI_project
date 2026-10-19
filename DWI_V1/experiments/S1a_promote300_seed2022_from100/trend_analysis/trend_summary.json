@@ -1,0 +1,561 @@
+{
+  "label": "S1a checkpoint continuation from epoch 100 to total epoch 300",
+  "primary_comparison": "S1a_300 minus S1a_100",
+  "trend": "MIXED OR NO CONTINUED IMPROVEMENT",
+  "signals": {
+    "mean_dice_increased": false,
+    "lesion_recall_increased": true,
+    "severe_under_rate_reduced": false,
+    "volume_mae_reduced": false,
+    "precision_drop_within_0.05": false,
+    "fp_lesions_per_case_increase_within_0.5": false
+  },
+  "comparisons": {
+    "S1a_100": {
+      "iterations": 10000,
+      "seed": 2022,
+      "resampling_unit": "case ID; identical sampled cases used for both models",
+      "overall": {
+        "mean_dice": {
+          "baseline": 0.7795770925143453,
+          "candidate": 0.759328807095997,
+          "delta": -0.020248285418348222,
+          "ci95": [
+            -0.05845247087833296,
+            0.004301717193489814
+          ],
+          "valid_replicates": 10000
+        },
+        "median_dice": {
+          "baseline": 0.8320693391115926,
+          "candidate": 0.8294013121687744,
+          "delta": -0.0026680269428182024,
+          "ci95": [
+            -0.026058410149844002,
+            0.015670067037092728
+          ],
+          "valid_replicates": 10000
+        },
+        "lesion_recall": {
+          "baseline": 0.6053215077605322,
+          "candidate": 0.6585365853658537,
+          "delta": 0.053215077605321515,
+          "ci95": [
+            0.026505625149605083,
+            0.07851239669421484
+          ],
+          "valid_replicates": 10000
+        },
+        "lesion_precision": {
+          "baseline": 0.7319034852546917,
+          "candidate": 0.6811926605504587,
+          "delta": -0.05071082470423305,
+          "ci95": [
+            -0.08395110328561772,
+            -0.015174385167407222
+          ],
+          "valid_replicates": 10000
+        },
+        "volume_mae_ml": {
+          "baseline": 4.80714815115682,
+          "candidate": 4.844863632873935,
+          "delta": 0.037715481717114585,
+          "ci95": [
+            -0.4639032904277732,
+            0.4470261838637634
+          ],
+          "valid_replicates": 10000
+        },
+        "signed_volume_error_ml": {
+          "baseline": -2.525059028996216,
+          "candidate": -2.7453347277261373,
+          "delta": -0.22027569872992148,
+          "ci95": [
+            -0.7642804164739415,
+            0.24252052234446048
+          ],
+          "valid_replicates": 10000
+        },
+        "severe_under_count": {
+          "baseline": 6,
+          "candidate": 6,
+          "delta": 0,
+          "ci95": [
+            -3.0,
+            3.0
+          ],
+          "valid_replicates": 10000
+        },
+        "severe_under_rate": {
+          "baseline": 0.12,
+          "candidate": 0.12,
+          "delta": 0.0,
+          "ci95": [
+            -0.06,
+            0.06
+          ],
+          "valid_replicates": 10000
+        },
+        "dice_below_05_rate": {
+          "baseline": 0.1,
+          "candidate": 0.12,
+          "delta": 0.01999999999999999,
+          "ci95": [
+            -0.04000000000000001,
+            0.08000000000000002
+          ],
+          "valid_replicates": 10000
+        },
+        "catastrophic_miss_rate": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_replicates": 10000
+        },
+        "fp_lesions_per_case": {
+          "baseline": 2.0,
+          "candidate": 2.78,
+          "delta": 0.7799999999999998,
+          "ci95": [
+            0.3400000000000001,
+            1.2600000000000002
+          ],
+          "valid_replicates": 10000
+        },
+        "hd95_finite_mean_mm": {
+          "baseline": 10.07196209385667,
+          "candidate": 10.970806303760778,
+          "delta": 0.8988442099041087,
+          "ci95": [
+            -1.9767218167659275,
+            3.8678027385032183
+          ],
+          "valid_replicates": 10000
+        },
+        "hd95_infinite_rate": {
+          "baseline": 0.0,
+          "candidate": 0.02,
+          "delta": 0.02,
+          "ci95": [
+            0.0,
+            0.06
+          ],
+          "valid_replicates": 10000
+        }
+      },
+      "small_1_5_ml": {
+        "cases": 12,
+        "bootstrap": {
+          "mean_dice": {
+            "baseline": 0.6471952480202764,
+            "candidate": 0.6416453665559135,
+            "delta": -0.00554988146436286,
+            "ci95": [
+              -0.036941820631571205,
+              0.021860036265759487
+            ],
+            "valid_replicates": 10000
+          },
+          "median_dice": {
+            "baseline": 0.774472763618191,
+            "candidate": 0.7824492666264817,
+            "delta": 0.00797650300829078,
+            "ci95": [
+              -0.06716510903426798,
+              0.033213731045795614
+            ],
+            "valid_replicates": 10000
+          },
+          "lesion_recall": {
+            "baseline": 0.7,
+            "candidate": 0.7666666666666667,
+            "delta": 0.06666666666666676,
+            "ci95": [
+              0.0,
+              0.109375
+            ],
+            "valid_replicates": 10000
+          },
+          "lesion_precision": {
+            "baseline": 0.8571428571428571,
+            "candidate": 0.8214285714285714,
+            "delta": -0.0357142857142857,
+            "ci95": [
+              -0.11699003623188409,
+              0.040584523086530294
+            ],
+            "valid_replicates": 10000
+          },
+          "volume_mae_ml": {
+            "baseline": 0.9794894871194644,
+            "candidate": 0.9896302782937981,
+            "delta": 0.010140791174333752,
+            "ci95": [
+              -0.0912347541109394,
+              0.1108645902638068
+            ],
+            "valid_replicates": 10000
+          },
+          "signed_volume_error_ml": {
+            "baseline": -0.698156153786131,
+            "candidate": -0.749630278293798,
+            "delta": -0.051474124507666974,
+            "ci95": [
+              -0.15080993188596462,
+              0.04123437153476317
+            ],
+            "valid_replicates": 10000
+          },
+          "severe_under_count": {
+            "baseline": 3,
+            "candidate": 4,
+            "delta": 1,
+            "ci95": [
+              0.0,
+              3.0
+            ],
+            "valid_replicates": 10000
+          },
+          "severe_under_rate": {
+            "baseline": 0.25,
+            "candidate": 0.3333333333333333,
+            "delta": 0.08333333333333331,
+            "ci95": [
+              0.0,
+              0.25
+            ],
+            "valid_replicates": 10000
+          },
+          "dice_below_05_rate": {
+            "baseline": 0.25,
+            "candidate": 0.25,
+            "delta": 0.0,
+            "ci95": [
+              -0.25,
+              0.25
+            ],
+            "valid_replicates": 10000
+          },
+          "catastrophic_miss_rate": {
+            "baseline": 0.0,
+            "candidate": 0.0,
+            "delta": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "valid_replicates": 10000
+          },
+          "fp_lesions_per_case": {
+            "baseline": 0.5833333333333334,
+            "candidate": 0.8333333333333334,
+            "delta": 0.25,
+            "ci95": [
+              -0.16666666666666663,
+              0.6666666666666667
+            ],
+            "valid_replicates": 10000
+          },
+          "hd95_finite_mean_mm": {
+            "baseline": 18.48066546614125,
+            "candidate": 22.003913679123855,
+            "delta": 3.5232482129826046,
+            "ci95": [
+              -6.914583562804697,
+              14.281900738281834
+            ],
+            "valid_replicates": 10000
+          },
+          "hd95_infinite_rate": {
+            "baseline": 0.0,
+            "candidate": 0.0,
+            "delta": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "valid_replicates": 10000
+          }
+        }
+      }
+    },
+    "B0_100": {
+      "iterations": 10000,
+      "seed": 2022,
+      "resampling_unit": "case ID; identical sampled cases used for both models",
+      "overall": {
+        "mean_dice": {
+          "baseline": 0.7645259668788942,
+          "candidate": 0.759328807095997,
+          "delta": -0.005197159782897143,
+          "ci95": [
+            -0.043100180498230674,
+            0.01900244525784263
+          ],
+          "valid_replicates": 10000
+        },
+        "median_dice": {
+          "baseline": 0.8238805970149253,
+          "candidate": 0.8294013121687744,
+          "delta": 0.0055207151538491095,
+          "ci95": [
+            -0.016531865601777572,
+            0.025699363109145335
+          ],
+          "valid_replicates": 10000
+        },
+        "lesion_recall": {
+          "baseline": 0.5942350332594235,
+          "candidate": 0.6585365853658537,
+          "delta": 0.06430155210643018,
+          "ci95": [
+            0.03361203541819412,
+            0.09280791408460366
+          ],
+          "valid_replicates": 10000
+        },
+        "lesion_precision": {
+          "baseline": 0.7146666666666667,
+          "candidate": 0.6811926605504587,
+          "delta": -0.03347400611620799,
+          "ci95": [
+            -0.09706830855483538,
+            0.02510457347805882
+          ],
+          "valid_replicates": 10000
+        },
+        "volume_mae_ml": {
+          "baseline": 4.521207161261114,
+          "candidate": 4.844863632873935,
+          "delta": 0.3236564716128205,
+          "ci95": [
+            -0.5960560578027516,
+            1.5723698506592894
+          ],
+          "valid_replicates": 10000
+        },
+        "signed_volume_error_ml": {
+          "baseline": -1.9292142312690026,
+          "candidate": -2.7453347277261373,
+          "delta": -0.8161204964571347,
+          "ci95": [
+            -2.087269634523214,
+            0.08493008953986876
+          ],
+          "valid_replicates": 10000
+        },
+        "severe_under_count": {
+          "baseline": 8,
+          "candidate": 6,
+          "delta": -2,
+          "ci95": [
+            -6.0,
+            2.0
+          ],
+          "valid_replicates": 10000
+        },
+        "severe_under_rate": {
+          "baseline": 0.16,
+          "candidate": 0.12,
+          "delta": -0.04000000000000001,
+          "ci95": [
+            -0.12,
+            0.039999999999999994
+          ],
+          "valid_replicates": 10000
+        },
+        "dice_below_05_rate": {
+          "baseline": 0.08,
+          "candidate": 0.12,
+          "delta": 0.039999999999999994,
+          "ci95": [
+            0.0,
+            0.1
+          ],
+          "valid_replicates": 10000
+        },
+        "catastrophic_miss_rate": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_replicates": 10000
+        },
+        "fp_lesions_per_case": {
+          "baseline": 2.14,
+          "candidate": 2.78,
+          "delta": 0.6399999999999997,
+          "ci95": [
+            -0.06000000000000005,
+            1.46
+          ],
+          "valid_replicates": 10000
+        },
+        "hd95_finite_mean_mm": {
+          "baseline": 10.521758797984806,
+          "candidate": 10.970806303760778,
+          "delta": 0.4490475057759724,
+          "ci95": [
+            -2.370519163642783,
+            3.2463825758173956
+          ],
+          "valid_replicates": 10000
+        },
+        "hd95_infinite_rate": {
+          "baseline": 0.0,
+          "candidate": 0.02,
+          "delta": 0.02,
+          "ci95": [
+            0.0,
+            0.06
+          ],
+          "valid_replicates": 10000
+        }
+      },
+      "small_1_5_ml": {
+        "cases": 12,
+        "bootstrap": {
+          "mean_dice": {
+            "baseline": 0.6262440982382312,
+            "candidate": 0.6416453665559135,
+            "delta": 0.015401268317682293,
+            "ci95": [
+              0.004713791849484492,
+              0.028340838895246634
+            ],
+            "valid_replicates": 10000
+          },
+          "median_dice": {
+            "baseline": 0.7633060822958717,
+            "candidate": 0.7824492666264817,
+            "delta": 0.01914318433061002,
+            "ci95": [
+              0.00020408163265306367,
+              0.029616724738675937
+            ],
+            "valid_replicates": 10000
+          },
+          "lesion_recall": {
+            "baseline": 0.7333333333333333,
+            "candidate": 0.7666666666666667,
+            "delta": 0.03333333333333344,
+            "ci95": [
+              -0.07499999999999996,
+              0.12698412698412698
+            ],
+            "valid_replicates": 10000
+          },
+          "lesion_precision": {
+            "baseline": 0.8979591836734694,
+            "candidate": 0.8214285714285714,
+            "delta": -0.07653061224489799,
+            "ci95": [
+              -0.20518392326045035,
+              0.02051282051282055
+            ],
+            "valid_replicates": 10000
+          },
+          "volume_mae_ml": {
+            "baseline": 0.9831121409866785,
+            "candidate": 0.9896302782937981,
+            "delta": 0.006518137307119587,
+            "ci95": [
+              -0.10006916080240956,
+              0.12053306607205504
+            ],
+            "valid_replicates": 10000
+          },
+          "signed_volume_error_ml": {
+            "baseline": -0.8804454743200117,
+            "candidate": -0.749630278293798,
+            "delta": 0.13081519602621372,
+            "ci95": [
+              0.04880161457380755,
+              0.2175778468637923
+            ],
+            "valid_replicates": 10000
+          },
+          "severe_under_count": {
+            "baseline": 5,
+            "candidate": 4,
+            "delta": -1,
+            "ci95": [
+              -3.0,
+              0.0
+            ],
+            "valid_replicates": 10000
+          },
+          "severe_under_rate": {
+            "baseline": 0.4166666666666667,
+            "candidate": 0.3333333333333333,
+            "delta": -0.08333333333333337,
+            "ci95": [
+              -0.25000000000000006,
+              0.0
+            ],
+            "valid_replicates": 10000
+          },
+          "dice_below_05_rate": {
+            "baseline": 0.25,
+            "candidate": 0.25,
+            "delta": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "valid_replicates": 10000
+          },
+          "catastrophic_miss_rate": {
+            "baseline": 0.0,
+            "candidate": 0.0,
+            "delta": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "valid_replicates": 10000
+          },
+          "fp_lesions_per_case": {
+            "baseline": 0.4166666666666667,
+            "candidate": 0.8333333333333334,
+            "delta": 0.4166666666666667,
+            "ci95": [
+              -0.08333333333333326,
+              0.9166666666666667
+            ],
+            "valid_replicates": 10000
+          },
+          "hd95_finite_mean_mm": {
+            "baseline": 17.56206369261768,
+            "candidate": 22.003913679123855,
+            "delta": 4.441849986506174,
+            "ci95": [
+              -5.27681444819997,
+              14.225648714394996
+            ],
+            "valid_replicates": 10000
+          },
+          "hd95_infinite_rate": {
+            "baseline": 0.0,
+            "candidate": 0.0,
+            "delta": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "valid_replicates": 10000
+          }
+        }
+      }
+    }
+  },
+  "limitations": "Fold 0 only; single seed; controlled checkpoint continuation is not bitwise deterministic. The B0-100 comparison is contextual because there is no same-horizon B0-300 control.",
+  "automatic_followup_started": false
+}

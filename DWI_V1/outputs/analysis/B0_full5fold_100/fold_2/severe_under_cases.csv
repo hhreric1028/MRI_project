@@ -1,0 +1,4 @@
+﻿fold,case,gt_ml,pred_ml,pred_gt_ratio,dice,gt_lesion_count,pred_lesion_count,largest_gt_component_ml,largest_gt_component_coverage
+2,case_0049,4.88,2.232,0.45737704918032784,0.59392575928009,14,13,1.32,0.2
+2,case_0129,1.08,0.0,0.0,0.0,4,0,0.616,0.0
+2,case_0233,0.064,0.016,0.25,0.0,1,1,0.064,0.0

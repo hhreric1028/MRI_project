@@ -1,0 +1,78 @@
+{
+  "seed": 2022,
+  "general_cases": [
+    "case_0028",
+    "case_0171",
+    "case_0204",
+    "case_0238",
+    "case_0246"
+  ],
+  "small_1_5_ml_cases": [
+    "case_0090",
+    "case_0128",
+    "case_0137"
+  ],
+  "known_failure_cases": [
+    "case_0068",
+    "case_0182",
+    "case_0181",
+    "case_0140",
+    "case_0212"
+  ],
+  "selected_unique_cases": [
+    "case_0028",
+    "case_0171",
+    "case_0204",
+    "case_0238",
+    "case_0246",
+    "case_0090",
+    "case_0128",
+    "case_0137",
+    "case_0068",
+    "case_0182",
+    "case_0181",
+    "case_0140",
+    "case_0212"
+  ],
+  "selection_reason": {
+    "case_0028": [
+      "general"
+    ],
+    "case_0171": [
+      "general"
+    ],
+    "case_0204": [
+      "general"
+    ],
+    "case_0238": [
+      "general"
+    ],
+    "case_0246": [
+      "general"
+    ],
+    "case_0090": [
+      "1-5 mL"
+    ],
+    "case_0128": [
+      "1-5 mL"
+    ],
+    "case_0137": [
+      "1-5 mL"
+    ],
+    "case_0068": [
+      "known failure"
+    ],
+    "case_0182": [
+      "known failure"
+    ],
+    "case_0181": [
+      "known failure"
+    ],
+    "case_0140": [
+      "known failure"
+    ],
+    "case_0212": [
+      "known failure"
+    ]
+  }
+}

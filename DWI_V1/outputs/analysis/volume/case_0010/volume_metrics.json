@@ -1,0 +1,122 @@
+{
+  "case_id": "case_0010",
+  "case_type": "validation",
+  "prediction_path": "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\outputs\\inference\\Dataset001_ISLES2022_DWI\\predictions\\case_0010.nii.gz",
+  "ground_truth_path": "C:\\Users\\User\\Desktop\\MRI_project_v1\\DWI_V1\\datasets\\ISLES2022\\nnUNet_raw\\Dataset001_ISLES2022_DWI\\labelsTr\\case_0010.nii.gz",
+  "physical_space": {
+    "shape_match": true,
+    "spacing_match": true,
+    "affine_match": true,
+    "max_affine_absolute_difference": 3.725290298461914e-09,
+    "tolerance": {
+      "rtol": 1e-05,
+      "atol": 0.0001
+    }
+  },
+  "prediction": {
+    "shape": [
+      112,
+      112,
+      72
+    ],
+    "spacing_mm": [
+      2.0,
+      2.0,
+      2.0
+    ],
+    "affine": [
+      [
+        -1.9967691898345947,
+        0.06971853971481323,
+        0.08973541110754013,
+        101.81419372558594
+      ],
+      [
+        0.046659745275974274,
+        1.943092703819275,
+        -0.4713953733444214,
+        -88.59638977050781
+      ],
+      [
+        0.10361461341381073,
+        0.4685403108596802,
+        1.9415802955627441,
+        -13.199920654296875
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "datatype": "uint8",
+    "labels": [
+      0,
+      1
+    ],
+    "finite": true,
+    "lesion_voxels": 305,
+    "voxel_volume_mm3": 8.0,
+    "volume_mm3": 2440.0,
+    "volume_ml": 2.44
+  },
+  "ground_truth": {
+    "shape": [
+      112,
+      112,
+      72
+    ],
+    "spacing_mm": [
+      2.0,
+      2.0,
+      2.0
+    ],
+    "affine": [
+      [
+        -1.9967691898345947,
+        0.06971853971481323,
+        0.08973541110754013,
+        101.81419372558594
+      ],
+      [
+        0.046659741550683975,
+        1.943092703819275,
+        -0.4713953733444214,
+        -88.59638977050781
+      ],
+      [
+        0.10361461341381073,
+        0.4685403108596802,
+        1.9415802955627441,
+        -13.199920654296875
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "datatype": "uint16",
+    "labels": [
+      0,
+      1
+    ],
+    "finite": true,
+    "lesion_voxels": 421,
+    "voxel_volume_mm3": 8.0,
+    "volume_mm3": 3368.0,
+    "volume_ml": 3.368
+  },
+  "error": {
+    "absolute_mm3": 928.0,
+    "absolute_ml": 0.928,
+    "relative_percent": 27.553,
+    "signed_mm3": -928.0,
+    "signed_ml": -0.928,
+    "signed_percent": -27.553,
+    "interpretation": "Underestimated"
+  },
+  "status": "PASS"
+}
